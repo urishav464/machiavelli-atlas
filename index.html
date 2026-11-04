@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>אטלס הדיונים</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;800&family=Frank+Ruhl+Libre:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/* required styles */
+
+.leaflet-pane,
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-tile-container,
+.leaflet-pane > svg,
+.leaflet-pane > canvas,
+.leaflet-zoom-box,
+.leaflet-image-layer,
+.leaflet-layer {
+	position: absolute;
+	left: 0;
+	top: 0;
+	}
+.leaflet-container {
+	overflow: hidden;
+	}
+.leaflet-tile,
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	  -webkit-user-drag: none;
+	}
+/* Prevents IE11 from highlighting tiles in blue */
+.leaflet-tile::selection {
+	background: transparent;
+}
+/* Safari renders non-retina tile on retina better with this, but Chrome is worse */
+.leaflet-safari .leaflet-tile {
+	image-rendering: -webkit-optimize-contrast;
+	}
+/* hack that prevents hw layers "stretching" when loading new tiles */
+.leaflet-safari .leaflet-tile-container {
+	width: 1600px;
+	height: 1600px;
+	-webkit-transform-origin: 0 0;
+	}
+.leaflet-marker-icon,
+.leaflet-marker-shadow {
+	display: block;
+	}
+/* .leaflet-container svg: reset svg max-width decleration shipped in Joomla! (joomla.org) 3.x */
+/* .leaflet-container img: map is broken in FF if you have max-width: 100% on tiles */
+.leaflet-container .leaflet-overlay-pane svg {
+	max-width: none !important;
+	max-height: none !important;
+	}
+.leaflet-container .leaflet-marker-pane img,
+.leaflet-container .leaflet-shadow-pane img,
+.leaflet-container .leaflet-tile-pane img,
+.leaflet-container img.leaflet-image-layer,
+.leaflet-container .leaflet-tile {
+	max-width: none !important;
+	max-height: none !important;
+	width: auto;
+	padding: 0;
+	}
+
+.leaflet-container img.leaflet-tile {
+	/* See: https://bugs.chromium.org/p/chromium/issues/detail?id=600120 */
+	mix-blend-mode: plus-lighter;
+}
+
+.leaflet-container.leaflet-touch-zoom {
+	-ms-touch-action: pan-x pan-y;
+	touch-action: pan-x pan-y;
+	}
+.leaflet-container.leaflet-touch-drag {
+	-ms-touch-action: pinch-zoom;
+	/* Fallback for FF which doesn't support pinch-zoom */
+	touch-action: none;
+	touch-action: pinch-zoom;
+}
+.leaflet-container.leaflet-touch-drag.leaflet-touch-zoom {
+	-ms-touch-action: none;
+	touch-action: none;
+}
+.leaflet-container {
+	-webkit-tap-highlight-color: transparent;
+}
+.leaflet-container a {
+	-webkit-tap-highlight-color: rgba(51, 181, 229, 0.4);
+}
+.leaflet-tile {
+	filter: inherit;
+	visibility: hidden;
+	}
+.leaflet-tile-loaded {
+	visibility: inherit;
+	}
+.leaflet-zoom-box {
+	width: 0;
+	height: 0;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	z-index: 800;
+	}
+/* workaround for https://bugzilla.mozilla.org/show_bug.cgi?id=888319 */
+.leaflet-overlay-pane svg {
+	-moz-user-select: none;
+	}
+
+.leaflet-pane         { z-index: 400; }
+
+.leaflet-tile-pane    { z-index: 200; }
+.leaflet-overlay-pane { z-index: 400; }
+.leaflet-shadow-pane  { z-index: 500; }
+.leaflet-marker-pane  { z-index: 600; }
+.leaflet-tooltip-pane   { z-index: 650; }
+.leaflet-popup-pane   { z-index: 700; }
+
+.leaflet-map-pane canvas { z-index: 100; }
+.leaflet-map-pane svg    { z-index: 200; }
+
+.leaflet-vml-shape {
+	width: 1px;
+	height: 1px;
+	}
+.lvml {
+	behavior: url(#default#VML);
+	display: inline-block;
+	position: absolute;
+	}
+
+
+/* control positioning */
+
+.leaflet-control {
+	position: relative;
+	z-index: 800;
+	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
+	pointer-events: auto;
+	}
+.leaflet-top,
+.leaflet-bottom {
+	position: absolute;
+	z-index: 1000;
+	pointer-events: none;
+	}
+.leaflet-top {
+	top: 0;
+	}
+.leaflet-right {
+	right: 0;
+	}
+.leaflet-bottom {
+	bottom: 0;
+	}
+.leaflet-left {
+	left: 0;
+	}
+.leaflet-control {
+	float: left;
+	clear: both;
+	}
+.leaflet-right .leaflet-control {
+	float: right;
+	}
+.leaflet-top .leaflet-control {
+	margin-top: 10px;
+	}
+.leaflet-bottom .leaflet-control {
+	margin-bottom: 10px;
+	}
+.leaflet-left .leaflet-control {
+	margin-left: 10px;
+	}
+.leaflet-right .leaflet-control {
+	margin-right: 10px;
+	}
+
+
+/* zoom and fade animations */
+
+.leaflet-fade-anim .leaflet-popup {
+	opacity: 0;
+	-webkit-transition: opacity 0.2s linear;
+	   -moz-transition: opacity 0.2s linear;
+	        transition: opacity 0.2s linear;
+	}
+.leaflet-fade-anim .leaflet-map-pane .leaflet-popup {
+	opacity: 1;
+	}
+.leaflet-zoom-animated {
+	-webkit-transform-origin: 0 0;
+	    -ms-transform-origin: 0 0;
+	        transform-origin: 0 0;
+	}
+svg.leaflet-zoom-animated {
+	will-change: transform;
+}
+
+.leaflet-zoom-anim .leaflet-zoom-animated {
+	-webkit-transition: -webkit-transform 0.25s cubic-bezier(0,0,0.25,1);
+	   -moz-transition:    -moz-transform 0.25s cubic-bezier(0,0,0.25,1);
+	        transition:         transform 0.25s cubic-bezier(0,0,0.25,1);
+	}
+.leaflet-zoom-anim .leaflet-tile,
+.leaflet-pan-anim .leaflet-tile {
+	-webkit-transition: none;
+	   -moz-transition: none;
+	        transition: none;
+	}
+
+.leaflet-zoom-anim .leaflet-zoom-hide {
+	visibility: hidden;
+	}
+
+
+/* cursors */
+
+.leaflet-interactive {
+	cursor: pointer;
+	}
+.leaflet-grab {
+	cursor: -webkit-grab;
+	cursor:    -moz-grab;
+	cursor:         grab;
+	}
+.leaflet-crosshair,
+.leaflet-crosshair .leaflet-interactive {
+	cursor: crosshair;
+	}
+.leaflet-popup-pane,
+.leaflet-control {
+	cursor: auto;
+	}
+.leaflet-dragging .leaflet-grab,
+.leaflet-dragging .leaflet-grab .leaflet-interactive,
+.leaflet-dragging .leaflet-marker-draggable {
+	cursor: move;
+	cursor: -webkit-grabbing;
+	cursor:    -moz-grabbing;
+	cursor:         grabbing;
+	}
+
+/* marker & overlays interactivity */
+.leaflet-marker-icon,
+.leaflet-marker-shadow,
+.leaflet-image-layer,
+.leaflet-pane > svg path,
+.leaflet-tile-container {
+	pointer-events: none;
+	}
+
+.leaflet-marker-icon.leaflet-interactive,
+.leaflet-image-layer.leaflet-interactive,
+.leaflet-pane > svg path.leaflet-interactive,
+svg.leaflet-image-layer.leaflet-interactive path {
+	pointer-events: visiblePainted; /* IE 9-10 doesn't have auto */
+	pointer-events: auto;
+	}
+
+/* visual tweaks */
+
+.leaflet-container {
+	background: #ddd;
+	outline-offset: 1px;
+	}
+.leaflet-container a {
+	color: #0078A8;
+	}
+.leaflet-zoom-box {
+	border: 2px dotted #38f;
+	background: rgba(255,255,255,0.5);
+	}
+
+
+/* general typography */
+.leaflet-container {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-size: 0.75rem;
+	line-height: 1.5;
+	}
+
+
+/* general toolbar styles */
+
+.leaflet-bar {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	border-radius: 4px;
+	}
+.leaflet-bar a {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+	width: 26px;
+	height: 26px;
+	line-height: 26px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	}
+.leaflet-bar a,
+.leaflet-control-layers-toggle {
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	display: block;
+	}
+.leaflet-bar a:hover,
+.leaflet-bar a:focus {
+	background-color: #f4f4f4;
+	}
+.leaflet-bar a:first-child {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	}
+.leaflet-bar a:last-child {
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom: none;
+	}
+.leaflet-bar a.leaflet-disabled {
+	cursor: default;
+	background-color: #f4f4f4;
+	color: #bbb;
+	}
+
+.leaflet-touch .leaflet-bar a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	}
+.leaflet-touch .leaflet-bar a:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	}
+.leaflet-touch .leaflet-bar a:last-child {
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	}
+
+/* zoom control */
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+	}
+
+.leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out  {
+	font-size: 22px;
+	}
+
+
+/* layers control */
+
+.leaflet-control-layers {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+	background: #fff;
+	border-radius: 5px;
+	}
+.leaflet-control-layers-toggle {
+	background-image: url(images/layers.png);
+	width: 36px;
+	height: 36px;
+	}
+.leaflet-retina .leaflet-control-layers-toggle {
+	background-image: url(images/layers-2x.png);
+	background-size: 26px 26px;
+	}
+.leaflet-touch .leaflet-control-layers-toggle {
+	width: 44px;
+	height: 44px;
+	}
+.leaflet-control-layers .leaflet-control-layers-list,
+.leaflet-control-layers-expanded .leaflet-control-layers-toggle {
+	display: none;
+	}
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+	display: block;
+	position: relative;
+	}
+.leaflet-control-layers-expanded {
+	padding: 6px 10px 6px 6px;
+	color: #333;
+	background: #fff;
+	}
+.leaflet-control-layers-scrollbar {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding-right: 5px;
+	}
+.leaflet-control-layers-selector {
+	margin-top: 2px;
+	position: relative;
+	top: 1px;
+	}
+.leaflet-control-layers label {
+	display: block;
+	font-size: 13px;
+	font-size: 1.08333em;
+	}
+.leaflet-control-layers-separator {
+	height: 0;
+	border-top: 1px solid #ddd;
+	margin: 5px -10px 5px -6px;
+	}
+
+/* Default icon URLs */
+.leaflet-default-icon-path { /* used only in path-guessing heuristic, see L.Icon.Default */
+	background-image: url(images/marker-icon.png);
+	}
+
+
+/* attribution and scale controls */
+
+.leaflet-container .leaflet-control-attribution {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	}
+.leaflet-control-attribution,
+.leaflet-control-scale-line {
+	padding: 0 5px;
+	color: #333;
+	line-height: 1.4;
+	}
+.leaflet-control-attribution a {
+	text-decoration: none;
+	}
+.leaflet-control-attribution a:hover,
+.leaflet-control-attribution a:focus {
+	text-decoration: underline;
+	}
+.leaflet-attribution-flag {
+	display: inline !important;
+	vertical-align: baseline !important;
+	width: 1em;
+	height: 0.6669em;
+	}
+.leaflet-left .leaflet-control-scale {
+	margin-left: 5px;
+	}
+.leaflet-bottom .leaflet-control-scale {
+	margin-bottom: 5px;
+	}
+.leaflet-control-scale-line {
+	border: 2px solid #777;
+	border-top: none;
+	line-height: 1.1;
+	padding: 2px 5px 1px;
+	white-space: nowrap;
+	-moz-box-sizing: border-box;
+	     box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.8);
+	text-shadow: 1px 1px #fff;
+	}
+.leaflet-control-scale-line:not(:first-child) {
+	border-top: 2px solid #777;
+	border-bottom: none;
+	margin-top: -2px;
+	}
+.leaflet-control-scale-line:not(:first-child):not(:last-child) {
+	border-bottom: 2px solid #777;
+	}
+
+.leaflet-touch .leaflet-control-attribution,
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+	box-shadow: none;
+	}
+.leaflet-touch .leaflet-control-layers,
+.leaflet-touch .leaflet-bar {
+	border: 2px solid rgba(0,0,0,0.2);
+	background-clip: padding-box;
+	}
+
+
+/* popup */
+
+.leaflet-popup {
+	position: absolute;
+	text-align: center;
+	margin-bottom: 20px;
+	}
+.leaflet-popup-content-wrapper {
+	padding: 1px;
+	text-align: left;
+	border-radius: 12px;
+	}
+.leaflet-popup-content {
+	margin: 13px 24px 13px 20px;
+	line-height: 1.3;
+	font-size: 13px;
+	font-size: 1.08333em;
+	min-height: 1px;
+	}
+.leaflet-popup-content p {
+	margin: 17px 0;
+	margin: 1.3em 0;
+	}
+.leaflet-popup-tip-container {
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	left: 50%;
+	margin-top: -1px;
+	margin-left: -20px;
+	overflow: hidden;
+	pointer-events: none;
+	}
+.leaflet-popup-tip {
+	width: 17px;
+	height: 17px;
+	padding: 1px;
+
+	margin: -10px auto 0;
+	pointer-events: auto;
+
+	-webkit-transform: rotate(45deg);
+	   -moz-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+	}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+	background: white;
+	color: #333;
+	box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+	}
+.leaflet-container a.leaflet-popup-close-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	text-align: center;
+	width: 24px;
+	height: 24px;
+	font: 16px/24px Tahoma, Verdana, sans-serif;
+	color: #757575;
+	text-decoration: none;
+	background: transparent;
+	}
+.leaflet-container a.leaflet-popup-close-button:hover,
+.leaflet-container a.leaflet-popup-close-button:focus {
+	color: #585858;
+	}
+.leaflet-popup-scrolled {
+	overflow: auto;
+	}
+
+.leaflet-oldie .leaflet-popup-content-wrapper {
+	-ms-zoom: 1;
+	}
+.leaflet-oldie .leaflet-popup-tip {
+	width: 24px;
+	margin: 0 auto;
+
+	-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678)";
+	filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.70710678, M12=0.70710678, M21=-0.70710678, M22=0.70710678);
+	}
+
+.leaflet-oldie .leaflet-control-zoom,
+.leaflet-oldie .leaflet-control-layers,
+.leaflet-oldie .leaflet-popup-content-wrapper,
+.leaflet-oldie .leaflet-popup-tip {
+	border: 1px solid #999;
+	}
+
+
+/* div icon */
+
+.leaflet-div-icon {
+	background: #fff;
+	border: 1px solid #666;
+	}
+
+
+/* Tooltip */
+/* Base styles for the element that has a tooltip */
+.leaflet-tooltip {
+	position: absolute;
+	padding: 6px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	color: #222;
+	white-space: nowrap;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+	}
+.leaflet-tooltip.leaflet-interactive {
+	cursor: pointer;
+	pointer-events: auto;
+	}
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+	position: absolute;
+	pointer-events: none;
+	border: 6px solid transparent;
+	background: transparent;
+	content: "";
+	}
+
+/* Directions */
+
+.leaflet-tooltip-bottom {
+	margin-top: 6px;
+}
+.leaflet-tooltip-top {
+	margin-top: -6px;
+}
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-top:before {
+	left: 50%;
+	margin-left: -6px;
+	}
+.leaflet-tooltip-top:before {
+	bottom: 0;
+	margin-bottom: -12px;
+	border-top-color: #fff;
+	}
+.leaflet-tooltip-bottom:before {
+	top: 0;
+	margin-top: -12px;
+	margin-left: -6px;
+	border-bottom-color: #fff;
+	}
+.leaflet-tooltip-left {
+	margin-left: -6px;
+}
+.leaflet-tooltip-right {
+	margin-left: 6px;
+}
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+	top: 50%;
+	margin-top: -6px;
+	}
+.leaflet-tooltip-left:before {
+	right: 0;
+	margin-right: -12px;
+	border-left-color: #fff;
+	}
+.leaflet-tooltip-right:before {
+	left: 0;
+	margin-left: -12px;
+	border-right-color: #fff;
+	}
+
+/* Printing */
+
+@media print {
+	/* Prevent printers from removing background-images of controls. */
+	.leaflet-control {
+		-webkit-print-color-adjust: exact;
+		print-color-adjust: exact;
+		}
+	}
+
+</style>
+<style>
+:root{
+  /* Ein Prat: navy anchor, rare gold, parchment ground, sage hairlines */
+  --navy:#234377; --navy-deep:#182f56; --gold:#E4AC31; --paper:#F5EFE2; --card:#FFFDF8;
+  --ink:#1E2433; --ink-2:#4B5263; --line:#E0D6C0; --olive:#6E7448;
+  --s1:#234377; --s2:#9A3B1E; --s3:#8A5A0B; --s4:#3D6B2A;
+  --font-body:"Assistant","Segoe UI",Arial,sans-serif;
+  --font-quote:"Frank Ruhl Libre","David","Times New Roman",serif;
+  --r-sm:4px; --r-md:8px; --r-lg:14px;
+  --shadow:0 2px 10px rgba(35,67,119,.12);
+  /* layout: header, then the map pinned on top and the reading panel under it; side by side from 900px */
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+
+.top{position:sticky;top:0;z-index:1200;height:52px;background:var(--navy);color:#fff;display:flex;align-items:center;gap:10px;padding:0 12px}
+.top .menu{background:none;border:0;color:#fff;width:40px;height:40px;display:grid;place-items:center;border-radius:var(--r-md)}
+.top .menu span{display:block;width:20px;height:2px;background:#fff;box-shadow:0 6px 0 #fff,0 -6px 0 #fff}
+.brand{display:flex;flex-direction:column;line-height:1.15}
+.brand b{font-weight:800;font-size:17px}
+.brand small{font-size:12px;opacity:.85}
+.proto{margin-inline-start:auto;font-size:12px;border:1px solid var(--gold);color:var(--gold);padding:2px 10px;border-radius:999px;white-space:nowrap}
+
+.layout{display:flex;flex-direction:column}
+#mapwrap{order:-1;position:sticky;top:52px;z-index:500;height:52vh;min-height:280px;background:#1d3d70}
+#map{position:absolute;inset:0;direction:ltr;background:#1d3d70}
+.panel{padding:16px 16px 48px;max-width:720px;width:100%;margin:0 auto}
+@media (min-width:900px){
+  html,body{overflow:hidden}
+  .layout{display:grid;grid-template-columns:440px 1fr;height:calc(100% - 52px)}
+  #mapwrap{order:0;position:relative;top:0;height:100%}
+  .panel{height:100%;overflow:auto;max-width:none;border-inline-end:1px solid var(--line)}
+}
+
+.mapbtn{position:absolute;z-index:800;top:10px;right:10px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:600;color:var(--navy);box-shadow:var(--shadow)}
+.yearbadge{position:absolute;z-index:800;top:10px;left:10px;background:var(--navy);color:#fff;border-radius:999px;padding:4px 12px;font-size:14px;font-weight:600;font-variant-numeric:tabular-nums;box-shadow:var(--shadow)}
+.yearbadge[hidden]{display:none}
+
+.eyebrow{font-size:13px;color:var(--olive);font-weight:600;letter-spacing:.01em}
+h1{font-size:26px;font-weight:800;line-height:1.2;margin:2px 0 6px;color:var(--navy);text-wrap:balance}
+.fulltitle{font-family:var(--font-quote);font-size:16px;color:var(--ink-2);margin:0 0 8px}
+.oneline{margin:0 0 14px;max-width:65ch}
+
+.tabs{display:flex;gap:6px;background:#EAE2D0;padding:4px;border-radius:999px;margin:6px 0 16px}
+.tabs button{flex:1;border:0;background:none;padding:8px 6px;border-radius:999px;font-weight:600;font-size:15px;color:var(--ink-2)}
+.tabs button[aria-selected="true"]{background:var(--navy);color:#fff}
+
+.cards{display:flex;flex-direction:column;gap:10px}
+.storycard{display:flex;gap:12px;align-items:center;text-align:right;width:100%;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px;box-shadow:var(--shadow)}
+.num{flex:none;width:30px;height:30px;border-radius:50%;display:grid;place-items:center;color:#fff;font-weight:800;font-size:15px;background:var(--c)}
+.storycard .t{font-weight:800;font-size:16px;line-height:1.3}
+.storycard .sub{font-size:14px;color:var(--ink-2)}
+.storycard .yr{margin-inline-start:auto;font-size:13px;color:var(--olive);white-space:nowrap;font-variant-numeric:tabular-nums}
+
+.back{background:none;border:0;padding:4px 0;color:var(--navy);font-weight:600;font-size:15px}
+.storyhead{display:flex;align-items:center;gap:10px;margin:6px 0 10px}
+.storyhead h2{font-size:20px;margin:0;line-height:1.25;color:var(--ink)}
+.progress{display:flex;align-items:center;gap:6px;margin-bottom:10px;font-size:13px;color:var(--ink-2)}
+.dots{display:flex;gap:5px}
+.dots i{width:9px;height:9px;border-radius:50%;background:#D6CCB6;display:block}
+.dots i.on{background:var(--c)}
+.step{background:var(--card);border:1px solid var(--line);border-top:4px solid var(--c);border-radius:var(--r-lg);padding:14px 16px;box-shadow:var(--shadow)}
+.step .yr{display:inline-block;font-size:13px;font-weight:600;color:var(--c);font-variant-numeric:tabular-nums}
+.step h3{font-size:19px;margin:2px 0 8px;line-height:1.3}
+blockquote{margin:0 0 10px;padding:10px 14px;background:#F3ECDC;border-radius:var(--r-md);font-family:var(--font-quote);font-size:17px;line-height:1.55}
+blockquote cite{display:block;font-family:var(--font-body);font-style:normal;font-size:13px;color:var(--olive);margin-top:4px}
+.step p{margin:0 0 10px;max-width:65ch}
+.untold{border:1px dashed #CDBF9F;border-radius:var(--r-md);padding:10px 12px;margin-top:4px;font-size:15px}
+.untold b{display:block;font-size:13px;color:var(--olive)}
+.thread{display:inline-flex;gap:6px;align-items:center;font-size:13px;font-weight:600;border:1px solid var(--gold);background:#FBF3DF;color:#6A4A06;border-radius:999px;padding:2px 10px;margin:2px 0 8px}
+.nav{display:flex;justify-content:space-between;gap:10px;margin-top:12px}
+.nav button{flex:1;padding:10px 12px;border-radius:999px;border:1px solid var(--navy);background:var(--card);color:var(--navy);font-weight:700}
+.nav button.primary{background:var(--navy);color:#fff}
+.nav button[disabled]{opacity:.35;cursor:default}
+
+.group h2{font-size:15px;color:var(--olive);margin:16px 0 8px;font-weight:700}
+.person{background:var(--card);border:1px solid var(--line);border-inline-start:4px solid var(--c);border-radius:0 var(--r-lg) var(--r-lg) 0;padding:12px 14px;box-shadow:var(--shadow)}
+.person + .person{margin-top:10px}
+.phead{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.phead b{font-size:17px;font-weight:800}
+.phead .yrs{font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+.tag{margin-inline-start:auto;font-size:12px;font-weight:700;border-radius:999px;padding:1px 10px;background:#EFE6D2;color:var(--ink-2)}
+.tag.war{background:#E5EAF3;color:var(--navy)}
+.tag.peace{background:#EEF1E4;color:#3E4A22}
+.tag.weak{background:#F6E3DC;color:#7A2E17}
+.person .say{font-family:var(--font-quote);font-size:16px;margin:6px 0 4px}
+.person .say cite{font-family:var(--font-body);font-size:12px;color:var(--olive);font-style:normal}
+.person .nt{font-size:14.5px;color:var(--ink-2);margin:4px 0}
+.person .nt b{color:var(--ink);font-weight:700}
+.pfoot{display:flex;align-items:center;gap:8px;margin-top:6px;flex-wrap:wrap}
+.chip{font-size:12.5px;border:1px solid var(--line);border-radius:999px;padding:1px 9px;color:var(--ink-2);background:#FAF6EC}
+.onmap{margin-inline-start:auto;border:1px solid var(--navy);background:none;color:var(--navy);border-radius:999px;padding:3px 12px;font-size:13.5px;font-weight:700}
+
+.ladder{list-style:none;margin:0;padding:0;position:relative}
+.ladder::before{content:"";position:absolute;top:8px;bottom:8px;right:15px;width:2px;background:#D6CCB6}
+.rung{position:relative;padding-inline-start:44px;margin-bottom:14px}
+.rung .n{position:absolute;right:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--card);border:2px solid var(--navy);color:var(--navy);display:grid;place-items:center;font-weight:800;font-size:14px}
+.rung .box{background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:10px 12px;box-shadow:var(--shadow)}
+.role{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 9px;background:#E5EAF3;color:var(--navy);margin-inline-end:6px}
+.role.evid{background:#EEF1E4;color:#3E4A22}
+.role.cave{background:#F6E3DC;color:#7A2E17}
+.role.rule{background:#FBF0D2;color:#6A4A06}
+.rung .pg{font-size:12.5px;color:var(--olive)}
+.rung h3{font-size:16.5px;margin:4px 0 4px}
+.rung q{display:block;font-family:var(--font-quote);font-size:16px;quotes:none}
+.rung .go{margin-top:6px;border:0;background:none;color:var(--navy);font-weight:700;padding:0;font-size:14px}
+.question{border:2px solid var(--gold);background:#FFF9EA;border-radius:var(--r-lg);padding:14px 16px;margin-top:6px}
+.question b{display:block;color:#6A4A06;font-size:13px}
+.next{margin-top:12px;font-size:14px;color:var(--ink-2)}
+
+.drawer-back{position:fixed;inset:0;background:rgba(24,47,86,.45);z-index:1300;opacity:0;pointer-events:none;transition:opacity .2s}
+.drawer{position:fixed;top:0;bottom:0;right:0;width:min(300px,86vw);background:var(--paper);z-index:1400;transform:translateX(100%);transition:transform .25s ease-out;display:flex;flex-direction:column;box-shadow:-4px 0 18px rgba(0,0,0,.18)}
+body.drawer-open .drawer{transform:none}
+body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
+.drawer header{background:var(--navy);color:#fff;padding:14px 16px;font-weight:800}
+.drawer header small{display:block;font-weight:400;font-size:12px;opacity:.85}
+.drawer ol{list-style:none;margin:0;padding:8px;overflow:auto}
+.drawer li a{display:flex;gap:10px;align-items:center;padding:8px 10px;border-radius:var(--r-md);color:var(--ink-2);text-decoration:none;font-size:15px}
+.drawer li a .k{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#EAE2D0;font-weight:700;font-size:13px;flex:none}
+.drawer li a .soon{margin-inline-start:auto;font-size:11px;color:#9A9384}
+.drawer li a[aria-current="page"]{background:var(--card);color:var(--ink);font-weight:700;box-shadow:var(--shadow)}
+.drawer li a[aria-current="page"] .k{background:var(--gold);color:#412402}
+.drawer li a.home .k{background:var(--navy);color:#fff}
+@media (prefers-reduced-motion:reduce){.drawer,.drawer-back{transition:none}}
+
+/* map labels */
+.pinwrap{background:none;border:0}
+.pin{position:absolute;left:0;top:0;transition:opacity .3s}
+.pin b{position:absolute;left:-13px;top:-13px;width:26px;height:26px;border-radius:50%;background:var(--c);border:2px solid #fff;color:#fff;font:800 13px var(--font-body);display:grid;place-items:center;box-shadow:0 1px 6px rgba(0,0,0,.45)}
+.pin.minor b{left:-7px;top:-7px;width:14px;height:14px;font-size:0}
+.pin span{position:absolute;right:17px;top:-12px;white-space:nowrap;direction:rtl;font:800 14px var(--font-body);color:#1E2433;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 6px #fff}
+.pin.minor span{right:10px;top:-11px;font-size:13px}
+.pin.dim{opacity:.35}
+.pin.hide{display:none}
+.tlabel{position:absolute;left:0;top:14px;transform:translateX(-50%);white-space:nowrap;direction:rtl;font:700 12px var(--font-body);background:#FFF6DE;color:#6A4A06;border:1px solid var(--gold);border-radius:999px;padding:1px 8px;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.yrlabel{position:absolute;left:10px;top:-30px;white-space:nowrap;font:700 12px var(--font-body);color:#fff;background:var(--s3);border-radius:999px;padding:0 7px}
+.geo{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;direction:rtl;font:italic 500 15px var(--font-quote);letter-spacing:.02em;pointer-events:none}
+.geo.sea{color:#D7E4F5;text-shadow:0 0 4px rgba(10,30,70,.6)}
+.geo.land{color:#2B2F25;opacity:.75;text-shadow:0 0 3px rgba(255,255,255,.7)}
+.geo.realm{font:italic 600 15px var(--font-quote);color:#5B1F0C;text-shadow:0 0 3px #fff,0 0 6px #fff}
+.leaflet-container{font-family:var(--font-body)}
+.legend{position:absolute;z-index:800;bottom:24px;right:8px;max-width:58%;background:rgba(255,253,248,.93);border:1px solid var(--line);border-radius:var(--r-md);padding:6px 8px;font-size:12px;line-height:1.5;display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow)}
+.legend[hidden]{display:none}
+.legend span{display:flex;align-items:center;gap:6px}
+.lgitems{display:flex;flex-direction:column;gap:2px}
+.lgbtn{border:0;background:none;padding:0 0 2px;font-weight:700;font-size:12.5px;color:var(--navy);text-align:right}
+.lgbtn::after{content:" ▾"}
+.legend.closed .lgitems{display:none}
+.legend.closed .lgbtn{padding:0}
+.legend.closed .lgbtn::after{content:" ▸"}
+.legend .sw{display:inline-block;width:14px;height:10px;border-radius:2px;flex:none}
+.legend .ln{display:inline-block;width:18px;height:0;flex:none}
+.plabel{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;direction:rtl;font:italic 500 13.5px var(--font-quote);letter-spacing:.03em;color:#6B2A14;text-shadow:0 0 2px rgba(255,250,240,.95),0 0 4px rgba(255,250,240,.9),0 0 8px rgba(255,250,240,.7);pointer-events:none}
+.plabel.k-core{font:500 17px var(--font-quote);letter-spacing:.12em;color:#5E1F0B}
+.plabel.k-rival{font:500 15.5px var(--font-quote);letter-spacing:.1em;color:#1E2433}
+.plabel.k-ally{color:#6A4A06}.plabel.k-enemy{font-style:normal;font-weight:500;letter-spacing:.1em;color:#4E120A}.plabel.k-crack{color:#9B1B10;font-weight:500}
+.terr{transition:opacity .55s ease}
+.story-on .leaflet-tile-pane{filter:saturate(.72) brightness(1.04)}
+@media (prefers-reduced-motion:reduce){.terr{transition:none}}
+.sw-core{background:rgba(154,59,30,.35);border:1.5px solid #9A3B1E}
+.sw-enemy{background:rgba(110,26,16,.4);border:1.5px solid #6E1A10}
+.sw-rival{background:rgba(47,58,82,.4);border:1.5px solid #2F3A52}
+.sw-ally{background:rgba(201,151,31,.35);border:1.5px solid #C9971F}
+.sw-vassal{background:repeating-linear-gradient(135deg,rgba(154,59,30,.6) 0 2px,transparent 2px 5px);border:1px solid rgba(154,59,30,.6)}
+.sw-crack{background:repeating-linear-gradient(135deg,rgba(192,57,43,.75) 0 2px,transparent 2px 5px);border:1.5px solid #C0392B}
+.sw-gone{background:repeating-linear-gradient(135deg,rgba(107,107,107,.45) 0 2px,transparent 2px 5px);border:1px solid rgba(107,107,107,.4)}
+.llabel{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;direction:rtl;font:italic 600 13px var(--font-quote);color:var(--lc);text-shadow:0 0 2px #fff,0 0 4px #fff,0 0 7px rgba(255,255,255,.9);pointer-events:none}
+.ahd{position:absolute;left:0;top:0;width:0;height:0;border-top:7px solid transparent;border-bottom:7px solid transparent;border-left:13px solid #A11F12;transform-origin:50% 50%}
+.realm{border:1px solid var(--line);background:#FBF7EE;border-radius:var(--r-md);padding:8px 10px;margin:0 0 10px;font-size:14.5px}
+.realm > b{display:block;font-size:13px;color:var(--olive);margin-bottom:4px}
+.rrow{display:grid;grid-template-columns:78px 1fr;gap:8px;padding:3px 0;border-top:1px solid #EFE6D2}
+.rrow:first-of-type{border-top:0}
+.rk{font-weight:700;font-size:13px;display:flex;align-items:flex-start;gap:6px}
+.rk::before{content:"";width:9px;height:9px;border-radius:50%;margin-top:6px;flex:none;background:var(--c)}
+.r-vassal .rk::before{background:transparent;border:2px dashed var(--c)}
+.r-ally .rk::before{background:#E4AC31}
+.r-threat .rk::before{background:#A11F12}
+.r-lost .rk::before{background:#888}
+.pre{display:inline-block;font-size:13px;font-weight:700;color:var(--olive);border:1px dashed #CDBF9F;border-radius:999px;padding:1px 10px;margin-bottom:8px}
+.note{font-size:13px;color:var(--ink-2);margin:10px 0 0;border-top:1px solid var(--line);padding-top:8px}
+.story-on .geo.land{display:none}
+.leaflet-control-attribution{font-size:10px;direction:ltr}
+.leaflet-bar a{color:var(--navy)}
+</style>
+</head>
+<body>
+<header class="top">
+  <button class="menu" id="menuBtn" aria-label="פתיחת תפריט הפרקים" aria-controls="drawer" aria-expanded="false"><span></span></button>
+  <div class="brand"><b>אטלס הדיונים</b><small>מקיאוולי · ספר ראשון</small></div>
+  <span class="proto">דגם · פרק 19</span>
+</header>
+
+<div class="drawer-back" id="drawerBack"></div>
+<nav class="drawer" id="drawer" aria-label="פרקים">
+  <header>הפרקים<small>בדגם פתוח רק פרק 19</small></header>
+  <ol id="chapterList"></ol>
+</nav>
+
+<div class="layout">
+  <main class="panel" id="panel">
+    <div class="eyebrow">פרק 19 · עמ׳ 55–56</div>
+    <h1>המלך השלישי</h1>
+    <p class="fulltitle">"לאחר נסיך מצוין יכול נסיך חלש להשתמר; אבל אחרי נסיך חלש אי-אפשר לשמר שום ממלכה עם נסיך חלש נוסף"</p>
+    <p class="oneline">ממלכה יכולה לשרוד נסיך חלש אחד, אם לפניו היה נסיך חזק שהשאיר לו מדינה יציבה, אבל לא שני נסיכים חלשים ברצף.</p>
+    <div class="tabs" role="tablist" aria-label="חלקי הפרק">
+      <button role="tab" id="tab-stories" aria-controls="view" aria-selected="true" data-tab="stories">הסיפורים</button>
+      <button role="tab" id="tab-people" aria-controls="view" aria-selected="false" data-tab="people">הדמויות</button>
+      <button role="tab" id="tab-argument" aria-controls="view" aria-selected="false" data-tab="argument">הטיעון</button>
+    </div>
+    <section id="view" role="tabpanel" aria-live="polite"></section>
+  </main>
+  <div id="mapwrap">
+    <div id="map" aria-label="מפה"></div>
+    <button class="mapbtn" id="allBtn" type="button">כל הסיפורים</button>
+    <div class="yearbadge" id="yearBadge" hidden></div>
+    <div class="legend" id="legend" hidden></div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const PLACES = {
+  rome:   {ll:[41.892,12.486], n:'רומא', s:0, main:true},
+  alba:   {ll:[41.747,12.650], n:'אלבה לונגה', s:0},
+  ostia:  {ll:[41.756,12.292], n:'אוסטיה', s:0},
+  jer:    {ll:[31.778,35.235], n:'ירושלים', s:1, main:true},
+  shechem:{ll:[32.213,35.282], n:'שכם', s:1},
+  cpl:    {ll:[41.008,28.978], n:'קונסטנטינופול', s:2, main:true},
+  chald:  {ll:[39.140,43.910], n:'צ׳לדיראן', s:2},
+  dabiq:  {ll:[36.530,37.270], n:'מרג׳ דאביק', s:2},
+  cairo:  {ll:[30.044,31.236], n:'קהיר', s:2},
+  paris:  {ll:[48.857,2.352],  n:'פריז', s:3, main:true}
+};
+
+
+const R = {
+ saul:[[32.75,35.05],[32.78,35.55],[32.55,35.90],[32.00,35.88],[31.80,35.56],[31.45,35.32],[31.35,35.00],[31.70,34.98],[32.10,34.98],[32.45,35.00]],
+ david:[[33.30,35.62],[33.05,35.95],[32.70,36.08],[32.20,35.92],[31.80,35.85],[31.47,35.78],[31.47,35.58],[31.20,35.40],[30.95,35.10],[31.10,34.70],[31.45,34.88],[31.92,34.88],[32.30,34.85],[32.80,34.98],[33.05,35.20],[33.30,35.50]],
+ judah:[[31.92,34.95],[31.92,35.50],[31.75,35.48],[31.20,35.40],[30.95,35.10],[31.10,34.70],[31.45,34.88]],
+ israelN:[[33.30,35.62],[33.05,35.95],[32.70,36.08],[32.20,35.92],[31.80,35.85],[31.47,35.78],[31.47,35.58],[31.78,35.55],[31.92,35.50],[31.92,34.95],[32.30,34.85],[32.80,34.98],[33.05,35.20],[33.30,35.50]],
+ philistia:[[31.85,34.62],[31.80,34.86],[31.55,34.88],[31.25,34.55],[31.30,34.25],[31.55,34.42]],
+ moab:[[31.45,35.60],[31.47,36.10],[31.05,36.05],[31.05,35.55]],
+ edom:[[31.00,35.40],[31.00,35.85],[30.20,35.75],[29.55,35.05],[29.62,34.95],[30.40,35.15]],
+ ammon:[[32.15,35.97],[32.15,36.35],[31.75,36.35],[31.78,35.90]],
+ damascus:[[33.75,35.98],[33.80,36.70],[33.10,36.70],[33.08,36.02]],
+ zobah:[[34.60,36.05],[34.60,36.80],[33.85,36.75],[33.82,36.00]],
+ tyre:[[33.05,35.10],[34.40,35.62],[34.40,35.85],[33.30,35.48],[33.05,35.22]],
+ hamath:[[35.50,36.40],[35.50,37.10],[34.75,37.10],[34.75,36.40]]
+};
+const STORIES = [
+ {title:'רומא: ארבעה מלכים', sub:'רומולוס, נומה, טולוס, אנקוס', yr:'753–617 לפנה"ס', color:'var(--s1)', steps:[
+  {year:'753 לפנה"ס', title:'רומולוס: המייסד הלוחם', quote:'מלכה הראשון היה עז ביותר ולוחמני', page:'עמ׳ 55',
+   text:'מקיאוולי פותח בשלושת המלכים הראשונים של רומא, ואומר שהסדר שבו באו היה "פורטונה גדולה עד מאוד". הראשון בנה את העיר בכוח.',
+   thread:'רומולוס כמייסד שחייב להיות לבד: פרק 9',
+   map:{center:'rome', zoom:7, show:['rome'], tags:[['rome','גם בפרק 9']]}},
+  {year:'715–673 לפנה"ס', title:'נומה: איש השלום', quote:'השני שקט ודתי', page:'עמ׳ 55',
+   text:'נומה שלט "באמנות השלום". לפי מקיאוולי, זה היה אפשרי רק בזכות מה שרומולוס השאיר אחריו.',
+   thread:'בפרק 11 נומה "היה מגיע לדרגה הראשונה" (עמ׳ 36). כאן הוא הנסיך החלש.',
+   map:{center:'rome', zoom:7, show:['rome'], tags:[['rome','גם בפרק 11']]}},
+  {year:'673–642 לפנה"ס', title:'טולוס: שוב לוחם', quote:'שבעזותו שב ונטל את תהילתו של רומולוס', page:'עמ׳ 56',
+   text:'המלך השלישי החזיר את רומא למלחמה, לפני שהעיר "הייתה נעשית רכה וטרף לשכניה" (עמ׳ 55).',
+   untold:'לפי ליוויוס (א 29), טולוס החריב את אלבה לונגה והעביר את תושביה לרומא. ולפי ליוויוס (א 31), בסוף ימיו פנה לטקסים של נומה, ביצע אותם שלא כהלכה ונפגע מברק.',
+   map:{fit:['rome','alba'], maxZoom:9, show:['rome','alba'], route:['rome','alba']}},
+  {year:'642–617 לפנה"ס', title:'אנקוס: המלך שבחר', quote:'השכנים, השופטים כי הוא רך, ממעטים להעריכו', page:'עמ׳ 56',
+   text:'אנקוס, נכדו של נומה, יכול היה להיות שניהם. הוא ניסה קודם את דרך השלום, וכשראה שהשכנים מפרשים אותה כחולשה, החליט "להידמות לרומולוס ולא לנומה".',
+   untold:'לפי ליוויוס (א 32), בתחילת שלטונו חידש אנקוס את הטקסים של סבו, והלטינים פשטו על שטחי רומא. הוא גם קבע טקס דתי להכרזה על מלחמה. ולפי ליוויוס (א 33) ייסד את אוסטיה, בשפך הטיבר.',
+   map:{fit:['rome','alba','ostia'], maxZoom:9, show:['rome','alba','ostia'], route:['rome','ostia'], labels:[[[41.62,12.80],'ארץ הלטינים','realm']]}}
+ ]},
+ {title:'ממלכת ישראל: מה דוד בנה ומה נשאר', sub:'לפני דוד, דוד, שלמה, רחבעם', yr:'המאה ה-10 לפנה"ס', color:'var(--s2)',
+  note:'המפה משרטטת את התיאור המקראי, שעליו מקיאוולי נשען. היקף הממלכה בימי דוד ושלמה שנוי במחלוקת בין חוקרים, והגבולות כאן משוערים.', steps:[
+  {year:'בערך 1010 לפנה"ס', title:'לפני דוד: הממלכה של שאול',
+   text:'מקיאוולי פותח בדוד. כדי לראות מה דוד בנה, צריך לראות ממה הוא התחיל: ממלכה קטנה של שבטי ההר והגלעד, והפלשתים חזקים ממנה. שאול נופל בקרב מולם בהר הגלבוע.',
+   realm:[['hold','בשליטה','שבטי ההר והגלעד, בערך'],['threat','איום','הפלשתים, מהחוף ועד עמק יזרעאל. שאול ובניו נופלים בגלבוע (שמואל א לא)']],
+   map:{bounds:[[30.9,34.0],[33.3,36.4]], show:[], ovl:'ovl/isr-0.webp', tl:[[32.12,35.45,'ממלכת שאול','core'],[31.55,34.52,'פלשתים','enemy']], lg:['core','enemy'],
+    lines:[{k:'war', lbl:'קרב הגלבוע', la:.3, pts:[[31.75,34.75],[32.45,35.42]]}],
+    pins:[[32.45,35.42,'הגלבוע']]}},
+  {year:'בערך 1000–970 לפנה"ס', title:'דוד: הלוחם', quote:'שלאחר שניצח והיכה את כל שכניו, השאיר לשלמה בנו ממלכה שלווה', page:'עמ׳ 55',
+   text:'דוד כובש את ירושלים ועושה אותה לבירה, מכניע את הפלשתים, ומשעבד את העמים מסביב: מואב, אדום, עמון וארם. בדמשק ובאדום הוא מושיב "נציבים", חיל מצב. מלך צור ומלך חמת מבקשים את קרבתו.',
+   realm:[['hold','בשליטה','ישראל ויהודה, "מדן ועד באר שבע" (שמואל ב ג 10)'],['vassal','משועבדים','פלשתים, מואב, אדום, עמון, ארם (שמואל ב ח; יב)'],['ally','ידידים','חירם מלך צור, תֹּעִי מלך חמת (שמואל ב ה 11; ח 9–10)']],
+   map:{bounds:[[29.5,34.0],[35.6,37.2]], show:['jer'], ovl:'ovl/isr-1.webp', tl:[[32.62,35.22,'ישראל ויהודה','core'],[31.58,34.50,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום','vassal'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'ארם דמשק','vassal'],[34.20,36.40,'ארם צובה','vassal'],[33.62,35.47,'צור','ally'],[35.12,36.75,'חמת','ally']], lg:['core','vassal','ally']}},
+  {year:'בערך 970–930 לפנה"ס', title:'שלמה: מחזיק בבריתות', quote:'שאותה היה יכול לשמר באמנות השלום ולא במלחמה', page:'עמ׳ 55',
+   text:'שלמה מקבל את כל מה שאביו כבש, ומחזיק אותו בלי מלחמות גדולות, בבריתות ובמסחר. הוא נושא את בת פרעה ומקבל את גזר כנדוניה, כורת ברית עם חירם מלך צור, ושולח צי מעציון גבר לאופיר. אבל בשולי הממלכה כבר מתחילים סדקים.',
+   untold:'שלמה הוא שבנה את המקדש. לפי דברי הימים א כב, דוד לא הורשה לבנות אותו, כי "דם לרב שפכת". שטראוס מעיר שמקיאוולי "נמנע מלומר" זאת. ועוד דבר: הסדקים באדום ובדמשק, שעל המפה, מסבכים את התמונה של "ממלכה שלווה".',
+   realm:[['hold','בשליטה','"מן הנהר ארץ פלשתים ועד גבול מצרים" (מלכים א ה 1)'],['ally','בריתות','מצרים, בנישואין עם בת פרעה (מלכים א ג 1; ט 16); צור, "ויכרתו ברית שניהם" (מלכים א ה 26)'],['threat','סדקים','הדד האדומי באדום, רזון בדמשק, ירבעם בורח למצרים (מלכים א יא)']],
+   map:{bounds:[[28.5,32.3],[35.0,37.2]], show:['jer'], ovl:'ovl/isr-2.webp', tl:[[32.62,35.22,'ממלכת שלמה','core'],[31.58,34.50,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום: הדד מורד','crack'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'דמשק: רזון','crack'],[34.20,36.40,'צובה','vassal'],[33.62,35.47,'צור','ally']], lg:['core','vassal','crack','ally'],
+    lines:[{k:'ally', lbl:'ברית עם חירם', la:.72, pts:[[31.78,35.23],[33.27,35.20]]},
+           {k:'ally', lbl:'נישואין עם בת פרעה', la:.62, pts:[[31.78,35.23],[30.95,32.45]]},
+           {k:'trade', lbl:'צי לאופיר', la:.5, pts:[[29.55,34.95],[28.75,34.72]]},
+           {k:'flight', lbl:'ירבעם בורח', la:.6, pts:[[32.15,35.15],[31.15,32.55]]}],
+    pins:[[31.86,34.92,'גזר'],[29.55,34.95,'עציון גבר'],[30.95,32.45,'מצרים']]}},
+  {year:'בערך 930–925 לפנה"ס', title:'רחבעם: שישית מהממלכה', quote:'נשאר בקושי יורש של שישית מהממלכה', page:'עמ׳ 55',
+   text:'רחבעם בא לשכם, ועשרת השבטים ממליכים את ירבעם. נשארים לו יהודה ובנימין, שניים מתוך שנים-עשר. ובשנה החמישית שלו עולה על ירושלים שישק מלך מצרים, אותו שישק שאצלו מצא ירבעם מקלט, ולוקח את אוצרות המקדש.',
+   untold:'לפי מלכים א יב, רחבעם דחה את עצת הזקנים ושמע לצעירים: "אבי יסר אתכם בשוטים ואני איסר אתכם בעקרבים". אצל מקיאוולי הוא נכשל כי היה חלש. בתנ"ך הוא נכשל כי היה קשוח מדי.',
+   realm:[['hold','בשליטה','יהודה ובנימין (מלכים א יב 21)'],['threat','אויבים','ממלכת ישראל של ירבעם: "ומלחמה הייתה בין רחבעם ובין ירבעם כל הימים" (מלכים א יד 30). שישק מלך מצרים (מלכים א יד 25–26)'],['lost','אבד','עשרת השבטים, כל העמים המשועבדים, אוצרות המקדש']],
+   map:{bounds:[[30.7,32.3],[33.4,36.4]], show:['jer','shechem'], ovl:'ovl/isr-3.webp', tl:[[32.95,35.62,'ממלכת ישראל · ירבעם','rival'],[31.33,35.05,'יהודה','core']], lg:['core','rival','gone'],
+    lines:[{k:'war', lbl:'שישק', la:.5, pts:[[30.95,32.45],[31.50,34.47],[31.86,34.92],[31.78,35.23]]},
+           {k:'war2', lbl:'כתובת שושנק', la:.8, pts:[[31.86,34.92],[32.58,35.18]]}],
+    pins:[[33.25,35.65,'דן'],[32.58,35.18,'מגידו'],[30.95,32.45,'מצרים']]}}
+ ]},
+ {title:'העות׳מאנים: סב, בן ונכד', sub:'מוחמד השני, ביאזיד השני, סלים הראשון', yr:'1451–1520', color:'var(--s3)', steps:[
+  {year:'1451–1481', title:'מוחמד: הכובש', quote:'שכמו דוד הכה את אויביו והשאיר לו ממלכה יציבה', page:'עמ׳ 56',
+   text:'הדוגמה השלישית קרובה לימי מקיאוולי, ובנויה שוב באותה תבנית.',
+   untold:'מוחמד השני כבש את קונסטנטינופול ב-1453 ושם קץ לאימפריה הביזנטית.',
+   map:{center:'cpl', zoom:6, show:['cpl']}},
+  {year:'1481–1512', title:'ביאזיד: איש השלום', quote:'שהיה אוהב שלום יותר מאשר מלחמה', page:'עמ׳ 56',
+   text:'ביאזיד נהנה מיגיעות אביו, כמו שלמה. השאלה היא מה יקרה בדור הבא.',
+   untold:'ביאזיד השני הוא השולטן שקלט בממלכתו את יהודי ספרד שגורשו ב-1492.',
+   map:{center:'cpl', zoom:6, show:['cpl']}},
+  {year:'1512–1520', title:'סלים: "האדון הנוכחי"', quote:'נראה שהלה נועד לעלות על תהילת סבו', page:'עמ׳ 56',
+   text:'מקיאוולי כותב על שליט שעוד חי, ומנבא לו גדולה. על המפה: המסע של סלים מזרחה ודרומה, עד מצרים.',
+   untold:'ב-1512 אילץ סלים את אביו לוותר על הכס, והוציא להורג את אחיו ואת בניהם.',
+   thread:'הממלוכים שסלים חיסל במצרים הופיעו כבר בפרק 1 (עמ׳ 7).',
+   map:{fit:['cpl','chald','dabiq','cairo'], maxZoom:6, show:['cpl','chald','dabiq','cairo'], route:['cpl','chald','dabiq','cairo'], years:{chald:'1514', dabiq:'1516', cairo:'1517'}, tags:[['cairo','הממלוכים · פרק 1']]}}
+ ]},
+ {title:'צרפת: היוצא מן הכלל', sub:'ממלכה שהסדרים מחזיקים', yr:'בימי מקיאוולי', color:'var(--s4)', steps:[
+  {year:'בימי מקיאוולי', title:'הסדרים העתיקים', quote:'אלא אם כן היא כמו ממלכת צרפת, שסדריה העתיקים משמרים אותה', page:'עמ׳ 56',
+   text:'ממלכה רגילה לא שורדת שני נסיכים חלשים ברצף. צרפת כן, כי היא נשענת על הסדרים ולא על האיש שבראשה.',
+   thread:'בפרק 16 צרפת "חיה בביטחון אך ורק מפני שמלכיה מחויבים לאינסוף חוקים" (עמ׳ 49).',
+   map:{center:'paris', zoom:5.5, show:['paris'], tags:[['paris','גם בפרק 16']]}}
+ ]}
+];
+
+const PEOPLE = [
+ {g:'רומא', s:0, list:[
+  {n:'רומולוס', y:'753–716 לפנה"ס, לפי המסורת', tag:['לוחם','war'], say:'מלכה הראשון היה עז ביותר ולוחמני', p:'עמ׳ 55', also:'1, 2, 9, 10, 11, 18', at:[0,0]},
+  {n:'נומה פומפיליוס', y:'715–673 לפנה"ס, לפי המסורת', tag:['שליו','peace'], say:'השני שקט ודתי', p:'עמ׳ 55', nt:'<b>בפרק 11:</b> "דווקא נומה הוא שהיה מגיע לדרגה הראשונה" (עמ׳ 36).', also:'1, 11', at:[0,1]},
+  {n:'טולוס הוסטיליוס', y:'673–642 לפנה"ס, לפי המסורת', tag:['לוחם','war'], say:'שבעזותו שב ונטל את תהילתו של רומולוס', p:'עמ׳ 56', nt:'<b>מה לא מסופר:</b> לפי ליוויוס (א 31) מת מברק, אחרי שביצע שלא כהלכה את הטקסים של נומה.', also:'21', at:[0,2]},
+  {n:'אנקוס מרקיוס', y:'642–617 לפנה"ס, לפי המסורת', tag:['בחר במלחמה',''], say:'השכנים, השופטים כי הוא רך, ממעטים להעריכו', p:'עמ׳ 56', nt:'<b>מה לא מסופר:</b> לפי ליוויוס (א 32) חידש את הטקסים של סבו נומה, וקבע טקס דתי להכרזה על מלחמה.', also:'', at:[0,3]}
+ ]},
+ {g:'ממלכת ישראל', s:1, list:[
+  {n:'דוד', y:'המאה ה-10 לפנה"ס', tag:['לוחם','war'], say:'היה מצטיין בלחימה, בדעת, בכושר שיפוט', p:'עמ׳ 55', nt:'<b>מה לא מסופר:</b> לא הורשה לבנות את המקדש, כי "דם לרב שפכת" (דברי הימים א כב).', also:'', at:[1,1]},
+  {n:'שלמה', y:'המאה ה-10 לפנה"ס', tag:['שליו','peace'], say:'היה יכול ליהנות בהצלחה מהמידה הטובה של אביו', p:'עמ׳ 55', nt:'<b>מה לא מסופר:</b> הוא שבנה את המקדש.', also:'', at:[1,2]},
+  {n:'רחבעם', y:'המאה ה-10 לפנה"ס', tag:['חלש','weak'], say:'שלא דמה לסבו מבחינת המידה הטובה, ואף לא לאביו מבחינת פורטונה', p:'עמ׳ 55', nt:'<b>מה לא מסופר:</b> לפי מלכים א יב נכשל דווקא מקשיחות כלפי העם.', also:'', at:[1,3]},
+  {n:'ירבעם בן נבט', y:'המאה ה-10 לפנה"ס', tag:['מורד','weak'], nt:'<b>לא מופיע אצל מקיאוולי.</b> ברח לשישק בימי שלמה (מלכים א יא 40), והומלך על עשרת השבטים (מלכים א יב 20).', also:'', at:[1,3]},
+  {n:'שישק מלך מצרים', y:'שושנק הראשון', tag:['פולש','war'], nt:'<b>לא מופיע אצל מקיאוולי.</b> נתן מקלט לירבעם, ועלה על ירושלים בשנה החמישית לרחבעם (מלכים א יד 25–26).', also:'', at:[1,3]}
+ ]},
+ {g:'העות׳מאנים', s:2, list:[
+  {n:'מוחמד השני "הכובש"', y:'שלט 1451–1481', tag:['לוחם','war'], say:'הכה את אויביו והשאיר לו ממלכה יציבה', p:'עמ׳ 56', nt:'<b>מה לא מסופר:</b> כבש את קונסטנטינופול ב-1453.', also:'', at:[2,0]},
+  {n:'ביאזיד השני', y:'שלט 1481–1512', tag:['שליו','peace'], say:'שהיה אוהב שלום יותר מאשר מלחמה', p:'עמ׳ 56', nt:'<b>מה לא מסופר:</b> קלט את יהודי ספרד ב-1492, והודח בידי בנו ב-1512.', also:'', at:[2,1]},
+  {n:'סלים הראשון', y:'שלט 1512–1520', tag:['לוחם','war'], say:'נראה שהלה נועד לעלות על תהילת סבו', p:'עמ׳ 56', nt:'<b>מה לא מסופר:</b> אילץ את אביו לוותר על הכס, והוציא להורג את אחיו.', also:'1', at:[2,2]}
+ ]}
+];
+
+const LADDER = [
+ {role:['פתיחה',''], pg:'עמ׳ 55', h:'שלושה מלכים בסדר הנכון', q:'נפלה בחלקה של רומא פורטונה גדולה עד מאוד', at:[0,0]},
+ {role:['נימוק',''], pg:'עמ׳ 55', h:'למה היה צריך לוחם שלישי', q:'שאם לא כן העיר הזאת הייתה נעשית רכה וטרף לשכניה'},
+ {role:['הכלל','rule'], pg:'עמ׳ 55', h:'נסיך חלש אחד שורד, שניים לא', q:'יורש שאינו בעל מידה טובה רבה כל כך כמו הראשון יכול לשמר את המדינה בגלל המידה הטובה של זה שהנהיג אותה קודם'},
+ {role:['ראיה','evid'], pg:'עמ׳ 55', h:'דוד, שלמה, רחבעם', q:'נשאר בקושי יורש של שישית מהממלכה', at:[1,1]},
+ {role:['ראיה','evid'], pg:'עמ׳ 55–56', h:'מוחמד, ביאזיד, סלים', q:'נראה שהלה נועד לעלות על תהילת סבו', at:[2,0]},
+ {role:['הסתייגות','cave'], pg:'עמ׳ 56', h:'צרפת, והגדרת החולשה', q:'ונסיכים חלשים הם אלה אשר אינם מתבססים על המלחמה', at:[3,0]},
+ {role:['חזרה לרומא',''], pg:'עמ׳ 56', h:'אנקוס בוחר', q:'צריך לפנות למלחמה ולהידמות לרומולוס ולא לנומה', at:[0,3]},
+ {role:['הלקח','rule'], pg:'עמ׳ 56', h:'להיות נומה או רומולוס', q:'מי שיהיה דומה לנומה יחזיק בשלטון או לא יחזיק בו לפי איך שימשלו בו הזמנים ופורטונה'},
+ {role:['מסקנה',''], pg:'עמ׳ 56', h:'הסכנה שבמלוכה', q:'נשקפו לה מהם סכנות של הרס, כשהייתה בשליטתו של מלך חלש או מרושע'}
+];
+
+const CHAPTERS = ['הקדמה','כיצד נוצרו ערים','סוגי הרפובליקות','יצירת הטריבונים','השסע עשה את רומא חופשית','שומרי החירות','האם אפשר לבטל את האיבות','האישומים','הדיבות','להיות יחיד','מייסדים ועריצים','על הדת של הרומאים','הדת והכנסייה הרומית','הדת בשירות הסנאט','התרנגולות הקדושות','הסמניטים','בני ברוטוס','העם המושחת','שלטון חופשי בעיר מושחתת','המלך השלישי','אינסוף נסיכים','צבא משלך'];
+
+const GEO = [
+ [[36.2,17.2],'הים התיכון','sea',3,7],[[43.3,34.2],'הים השחור','sea',3,7],[[38.6,25.1],'הים האגאי','sea',5,8],[[42.9,16.2],'הים האדריאטי','sea',5,8],[[39.2,12.2],'הים הטירני','sea',6,9],
+ [[42.6,13.4],'איטליה','land',4,6.5],[[39.4,22.0],'יוון','land',4,6.5],[[39.0,32.8],'אנטוליה','land',4,6.5],[[28.4,30.0],'מצרים','land',4,6.5],[[46.6,2.8],'צרפת','land',4,6.5],[[40.2,-3.8],'ספרד','land',4,6.5],[[33.6,40.5],'סוריה','land',4.5,6.5],[[31.2,35.6],'ארץ ישראל','land',5,6.6]
+];
+
+/* ---------- map ---------- */
+const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+const map = L.map('map',{zoomControl:false, zoomSnap:0.25, zoomDelta:0.5, minZoom:3, maxZoom:10,
+  maxBounds:L.latLngBounds([22,-14],[56,55]), maxBoundsViscosity:0.9, worldCopyJump:false});
+L.control.zoom({position:'bottomleft', zoomInTitle:'הגדלה', zoomOutTitle:'הקטנה'}).addTo(map);
+map.attributionControl.setPrefix(false);
+L.tileLayer('t/{z}/{x}/{y}.jpg',{tileSize:512, zoomOffset:-1, minZoom:3, maxZoom:10, maxNativeZoom:8,
+  bounds:L.latLngBounds([26.6,-6.9],[51.9,47.9]), keepBuffer:4,
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
+  attribution:'תבליט וקרקעית הים: NASA Blue Marble · FreeTiler'}).addTo(map);
+
+const markers = {};
+Object.entries(PLACES).forEach(([id,p])=>{
+  const c = STORIES[p.s].color;
+  const html = p.main
+    ? `<div class="pin" data-id="${id}" style="--c:${c}"><b>${p.s+1}</b><span>${p.n}</span></div>`
+    : `<div class="pin minor" data-id="${id}" style="--c:${c}"><b></b><span>${p.n}</span></div>`;
+  const m = L.marker(p.ll,{icon:L.divIcon({className:'pinwrap', html, iconSize:[0,0]}), keyboard:false, title:p.n, riseOnHover:true}).addTo(map);
+  m.on('click',()=>{ const s=p.s; const steps=STORIES[s].steps; let k=steps.findIndex(st=>(st.map.show||[]).includes(id)); openStory(s, Math.max(0,k)); });
+  markers[id]=m;
+});
+const geoLayer = L.layerGroup().addTo(map);
+const geoMarkers = GEO.map(([ll,t,cls,zmin,zmax])=>({m:L.marker(ll,{icon:L.divIcon({className:'pinwrap', html:`<div class="geo ${cls}">${t}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}), zmin, zmax}));
+function updateGeo(){ const z=map.getZoom(); geoMarkers.forEach(g=>{ const on=z>=g.zmin && z<=g.zmax; if(on && !geoLayer.hasLayer(g.m)) geoLayer.addLayer(g.m); if(!on && geoLayer.hasLayer(g.m)) geoLayer.removeLayer(g.m); }); }
+map.on('zoomend',updateGeo);
+
+const overlay = L.layerGroup().addTo(map);
+map.createPane('terr'); map.getPane('terr').style.zIndex = 350;
+const OVB = L.latLngBounds([28.8,31.5],[35.9,37.8]);
+let curOvl = null, curOvlUrl = null;
+function setOverlay(url){
+  if(url===curOvlUrl) return;
+  const old = curOvl; curOvlUrl = url; curOvl = null;
+  if(old){ old.getElement() && (old.getElement().style.opacity = 0); setTimeout(()=>map.removeLayer(old), 600); }
+  if(!url) return;
+  const o = L.imageOverlay(url, OVB, {pane:'terr', interactive:false, className:'terr'}).addTo(map);
+  const el = o.getElement(); el.style.opacity = 0;
+  const show = ()=>requestAnimationFrame(()=>{ el.style.opacity = 1; });
+  if(el.complete) show(); else el.addEventListener('load', show, {once:true});
+  curOvl = o;
+}
+const pinEl = id => markers[id].getElement() && markers[id].getElement().querySelector('.pin');
+
+function overviewBounds(){ return L.latLngBounds(['paris','rome','cpl','jer','cairo'].map(i=>PLACES[i].ll)); }
+function fly(fn){ if(reduce){ fn(false); } else { fn(true); } }
+
+function applyMap(){
+  overlay.clearLayers(); setLegend([]);
+  setOverlay(state.story===null ? null : (STORIES[state.story].steps[state.step].map.ovl || null));
+  document.getElementById('map').classList.toggle('story-on', state.story!==null);
+  const badge = document.getElementById('yearBadge');
+  if(state.story===null){
+    Object.entries(PLACES).forEach(([id,p])=>{ const el=pinEl(id); if(!el) return; el.classList.toggle('hide', !p.main); el.classList.remove('dim'); });
+    badge.hidden = true;
+    fly(a=>map.flyToBounds(overviewBounds(),{paddingTopLeft:[80,30], paddingBottomRight:[24,30], duration:a?1.0:0, animate:a}));
+    return;
+  }
+  const st = STORIES[state.story].steps[state.step], mp = st.map, color = getComputedStyle(document.documentElement).getPropertyValue(STORIES[state.story].color.slice(4,-1)).trim();
+  Object.entries(PLACES).forEach(([id,p])=>{ const el=pinEl(id); if(!el) return;
+    const shown = (mp.show||[]).includes(id);
+    el.classList.toggle('hide', !shown && !p.main);
+    el.classList.toggle('dim', !shown && p.main);
+  });
+  if(mp.route){
+    const pts = mp.route.map(i=>PLACES[i].ll);
+    L.polyline(pts,{color, weight:3.5, opacity:.95, dashArray:'7 7', interactive:false}).addTo(overlay);
+  }
+  if(mp.years){ Object.entries(mp.years).forEach(([id,y])=>L.marker(PLACES[id].ll,{icon:L.divIcon({className:'pinwrap', html:`<div class="yrlabel">${y}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay)); }
+  (mp.tags||[]).forEach(([id,t])=>L.marker(PLACES[id].ll,{icon:L.divIcon({className:'pinwrap', html:`<div class="tlabel">${t}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay));
+  drawRealm(mp, color);
+  (mp.labels||[]).forEach(([ll,t,cls])=>L.marker(ll,{icon:L.divIcon({className:'pinwrap', html:`<div class="geo ${cls}">${t}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay));
+  badge.hidden = false; badge.textContent = st.year;
+  if(mp.bounds){ fly(a=>map.flyToBounds(L.latLngBounds(mp.bounds),{padding:[8,8], duration:a?1.3:0, animate:a})); }
+  else if(mp.fit){ const b=L.latLngBounds(mp.fit.map(i=>PLACES[i].ll)); fly(a=>map.flyToBounds(b,{paddingTopLeft:[120,56], paddingBottomRight:[40,56], maxZoom:mp.maxZoom||8, duration:a?1.2:0, animate:a})); }
+  else { fly(a=>map.flyTo(PLACES[mp.center].ll, mp.zoom, {duration:a?1.2:0, animate:a})); }
+}
+
+const KIND = {
+  core:{fill:null, fo:.32, w:2, dash:null, lbl:'הממלכה'},
+  vassal:{fill:null, fo:.12, w:1.5, dash:'5 4', lbl:'משועבד או תחת חיל מצב'},
+  ally:{fill:'#E4AC31', stroke:'#B07F12', fo:.25, w:1.5, dash:null, lbl:'בעל ברית'},
+  enemy:{fill:'#7A1F14', stroke:'#7A1F14', fo:.28, w:1.5, dash:null, lbl:'אויב'},
+  rival:{fill:'#3B4458', stroke:'#2B3242', fo:.32, w:2, dash:null, lbl:'ממלכה יריבה'},
+  crack:{fill:'#C0392B', stroke:'#C0392B', fo:.14, w:2.5, dash:'2 4', lbl:'יוצא משליטה'},
+  gone:{fill:'#888', stroke:'#666', fo:.06, w:1.2, dash:'3 5', lbl:'היה בשליטת דוד'}
+};
+const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'}, trade:{c:'#183F7A', dash:'2 6', w:2.5, arrow:true, lbl:'מסחר'},
+  flight:{c:'#3B4458', dash:'1 6', w:2.5, arrow:true, lbl:'בריחה'}, war:{c:'#A11F12', dash:null, w:3, arrow:true, lbl:'מסע מלחמה'}, war2:{c:'#A11F12', dash:'6 6', w:2.5, arrow:true, lbl:''} };
+function arrowHead(a,b,c){ const pa=map.project(a,6), pb=map.project(b,6); const ang=Math.atan2(pb.y-pa.y,pb.x-pa.x)*180/Math.PI;
+  return L.marker(b,{icon:L.divIcon({className:'pinwrap', html:`<div class="ahd" style="transform:translate(-50%,-50%) rotate(${ang}deg);border-left-color:${c}"></div>`, iconSize:[0,0]}), interactive:false, keyboard:false}); }
+function drawRealm(mp, color){
+  const used=new Set();
+  (mp.lg||[]).forEach(k=>used.add('p:'+k));
+  (mp.tl||[]).forEach(([la,lo,t,k])=>L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="plabel k-${k}">${t}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay));
+  (mp.polys||[]).forEach(pg=>{ const k=KIND[pg.k]; used.add('p:'+pg.k);
+    L.polygon(pg.pts,{color:k.stroke||color, weight:k.w, dashArray:k.dash, fillColor:k.fill||color, fillOpacity:k.fo, interactive:false}).addTo(overlay);
+    if(pg.lbl) L.marker(pg.at,{icon:L.divIcon({className:'pinwrap', html:`<div class="plabel k-${pg.k}">${pg.lbl}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay); });
+  (mp.lines||[]).forEach(ln=>{ const k=LINE[ln.k]; if(k.lbl) used.add('l:'+ln.k);
+    L.polyline(ln.pts,{color:k.c, weight:k.w, dashArray:k.dash, opacity:.95, interactive:false}).addTo(overlay);
+    if(k.arrow){ const n=ln.pts.length; arrowHead(ln.pts[n-2],ln.pts[n-1],k.c).addTo(overlay); }
+    if(ln.lbl){ const f=ln.la==null?.5:ln.la; const m=[ln.pts[0][0]+(ln.pts[1][0]-ln.pts[0][0])*f, ln.pts[0][1]+(ln.pts[1][1]-ln.pts[0][1])*f];
+      L.marker(m,{icon:L.divIcon({className:'pinwrap', html:`<div class="llabel" style="--lc:${k.c}">${ln.lbl}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay); } });
+  (mp.pins||[]).forEach(([la,lo,n])=>L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor" style="--c:#2B3242"><b></b><span>${n}</span></div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay));
+  const items=[]; used.forEach(u=>{ const [t,k]=u.split(':'); if(t==='p') items.push(`<span><i class="sw sw-${k}"></i>${KIND[k].lbl}</span>`);
+    else items.push(`<span><i class="ln" style="border-top:3px ${LINE[k].dash?'dashed':'solid'} ${LINE[k].c}"></i>${LINE[k].lbl}</span>`); });
+  setLegend(items);
+}
+let legendOpen = window.matchMedia('(min-width:900px)').matches;
+function setLegend(items){ const el=document.getElementById('legend'); if(!items.length){ el.hidden=true; el.innerHTML=''; return; } el.hidden=false;
+  el.classList.toggle('closed', !legendOpen);
+  el.innerHTML=`<button type="button" class="lgbtn" aria-expanded="${legendOpen}">מקרא</button><div class="lgitems">${items.join('')}</div>`; }
+document.getElementById('legend').addEventListener('click',e=>{ if(!e.target.closest('.lgbtn')) return; legendOpen=!legendOpen; const el=document.getElementById('legend'); el.classList.toggle('closed',!legendOpen); e.target.setAttribute('aria-expanded',String(legendOpen)); });
+
+/* ---------- panel ---------- */
+const state = {tab:'stories', story:null, step:0};
+const view = document.getElementById('view');
+const esc = s => String(s);
+
+function renderStories(){
+  if(state.story===null){
+    view.innerHTML = `<p style="margin:0 0 10px;color:var(--ink-2)">ארבעה סיפורים מהפרק, כולם על המפה. בחרו סיפור כדי ללכת בו צעד אחר צעד.</p>
+    <div class="cards">${STORIES.map((s,i)=>`
+      <button class="storycard" data-open="${i}" style="--c:${s.color}">
+        <span class="num">${i+1}</span>
+        <span><span class="t">${s.title}</span><br><span class="sub">${s.sub}</span></span>
+        <span class="yr">${s.yr}</span>
+      </button>`).join('')}</div>`;
+    return;
+  }
+  const s = STORIES[state.story], st = s.steps[state.step], last = state.step===s.steps.length-1, lastStory = state.story===STORIES.length-1;
+  view.innerHTML = `
+    <button class="back" data-back>→ כל הסיפורים</button>
+    <div class="storyhead" style="--c:${s.color}"><span class="num">${state.story+1}</span><h2>${s.title}</h2></div>
+    <div class="progress" style="--c:${s.color}"><span>צעד ${state.step+1} מתוך ${s.steps.length}</span><span class="dots">${s.steps.map((_,i)=>`<i class="${i<=state.step?'on':''}"></i>`).join('')}</span></div>
+    <article class="step" style="--c:${s.color}">
+      <span class="yr">${st.year}</span>
+      <h3>${st.title}</h3>
+      ${st.quote?`<blockquote>"${st.quote}"<cite>${st.page}</cite></blockquote>`:`<div class="pre">רקע: מה היה לפני</div>`}
+      <p>${st.text}</p>
+      ${st.realm?`<div class="realm"><b>מצב הממלכה</b>${st.realm.map(([k,l,t])=>`<div class="rrow r-${k}"><span class="rk">${l}</span><span>${t}</span></div>`).join('')}</div>`:''}
+      ${st.thread?`<div class="thread">חוט לפרק אחר · ${st.thread}</div>`:''}
+      ${st.untold?`<div class="untold"><b>מה מקיאוולי לא מספר</b>${st.untold}</div>`:''}
+      ${s.note?`<p class="note">${s.note}</p>`:''}
+    </article>
+    <div class="nav">
+      <button data-prev ${state.step===0?'disabled':''}>הקודם</button>
+      <button class="primary" data-next>${last ? (lastStory?'חזרה לכל הסיפורים':'לסיפור הבא') : 'הצעד הבא'}</button>
+    </div>`;
+}
+function renderPeople(){
+  view.innerHTML = PEOPLE.map(g=>`<div class="group"><h2>${g.g}</h2>${g.list.map((p,i)=>`
+    <div class="person" style="--c:${STORIES[g.s].color}">
+      <div class="phead"><b>${p.n}</b><span class="yrs">${p.y}</span><span class="tag ${p.tag[1]}">${p.tag[0]}</span></div>
+      ${p.say?`<div class="say">"${p.say}" <cite>${p.p}</cite></div>`:''}
+      ${p.nt?`<div class="nt">${p.nt}</div>`:''}
+      <div class="pfoot">${p.also?`<span class="chip">מופיע גם בפרקים ${p.also}</span>`:''}<button class="onmap" data-goto="${p.at.join(',')}">במפה</button></div>
+    </div>`).join('')}</div>`).join('');
+}
+function renderArgument(){
+  view.innerHTML = `<p style="margin:0 0 12px;color:var(--ink-2)">שלד הטיעון של הפרק, שלב אחר שלב. שלב שמסומן בו "לסיפור במפה" מוביל לדוגמה שעליה הוא נשען.</p>
+  <ol class="ladder">${LADDER.map((r,i)=>`
+    <li class="rung"><span class="n">${i+1}</span><div class="box">
+      <span class="role ${r.role[1]}">${r.role[0]}</span><span class="pg">${r.pg}</span>
+      <h3>${r.h}</h3><q>"${r.q}"</q>
+      ${r.at?`<button class="go" data-goto="${r.at.join(',')}">לסיפור במפה ←</button>`:''}
+    </div></li>`).join('')}</ol>
+  <div class="question"><b>שאלה לחברותא</b>אנקוס רצה שלום, והשכנים ראו בזה חולשה. האם אפשר לרצות שלום בלי להיראות חלש? ואיך זה מתיישב עם ההגדרה של מקיאוולי לנסיך חלש (עמ׳ 56)?</div>
+  <p class="next">ממשיך בפרק 20: הרפובליקה כפתרון לבעיית הירושה.</p>`;
+}
+function render(){
+  document.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-selected', String(b.dataset.tab===state.tab)));
+  if(state.tab==='stories') renderStories(); else if(state.tab==='people') renderPeople(); else renderArgument();
+}
+function scrollToPanel(){
+  const panel=document.getElementById('panel');
+  if(window.matchMedia('(min-width:900px)').matches){ panel.scrollTo({top:document.querySelector('.tabs').offsetTop-12, behavior:reduce?'auto':'smooth'}); }
+  else { const y = document.querySelector('.tabs').getBoundingClientRect().top + window.scrollY - (52 + document.getElementById('mapwrap').offsetHeight) - 8; window.scrollTo({top:Math.max(0,y), behavior:reduce?'auto':'smooth'}); }
+}
+function openStory(s,k){ state.tab='stories'; state.story=s; state.step=k||0; render(); applyMap(); scrollToPanel(); }
+
+document.querySelector('.tabs').addEventListener('click',e=>{ const b=e.target.closest('button[data-tab]'); if(!b) return; state.tab=b.dataset.tab; render(); });
+view.addEventListener('click',e=>{
+  const t=e.target.closest('button'); if(!t) return;
+  if(t.dataset.open!==undefined){ openStory(+t.dataset.open,0); return; }
+  if(t.hasAttribute('data-back')){ state.story=null; render(); applyMap(); return; }
+  if(t.hasAttribute('data-prev')){ if(state.step>0){ state.step--; render(); applyMap(); } return; }
+  if(t.hasAttribute('data-next')){ const s=STORIES[state.story]; if(state.step<s.steps.length-1){ state.step++; } else if(state.story<STORIES.length-1){ state.story++; state.step=0; } else { state.story=null; } render(); applyMap(); scrollToPanel(); return; }
+  if(t.dataset.goto){ const [s,k]=t.dataset.goto.split(',').map(Number); openStory(s,k); }
+});
+document.getElementById('allBtn').addEventListener('click',()=>{ state.story=null; if(state.tab!=='stories'){ state.tab='stories'; } render(); applyMap(); });
+
+/* drawer */
+const list = document.getElementById('chapterList');
+list.innerHTML = `<li><a href="#" class="home" aria-disabled="true"><span class="k">⌂</span>עמוד הבית<span class="soon">בקרוב</span></a></li>` +
+  CHAPTERS.map((t,i)=>`<li><a href="#" ${i===19?'aria-current="page"':'aria-disabled="true"'}><span class="k">${i===0?'ה':i}</span>${t}${i===19?'':'<span class="soon">בקרוב</span>'}</a></li>`).join('');
+const menuBtn=document.getElementById('menuBtn');
+function setDrawer(o){ document.body.classList.toggle('drawer-open',o); menuBtn.setAttribute('aria-expanded',String(o)); }
+menuBtn.addEventListener('click',()=>setDrawer(!document.body.classList.contains('drawer-open')));
+document.getElementById('drawerBack').addEventListener('click',()=>setDrawer(false));
+list.addEventListener('click',e=>{ const a=e.target.closest('a'); if(!a) return; e.preventDefault(); if(a.getAttribute('aria-current')) setDrawer(false); });
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') setDrawer(false); });
+
+render();
+map.fitBounds(overviewBounds(),{paddingTopLeft:[80,30], paddingBottomRight:[24,30]});
+applyMap(); updateGeo();
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>
