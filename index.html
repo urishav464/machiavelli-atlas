@@ -821,7 +821,7 @@ body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
 .geo.realm{font:italic 600 15px var(--font-quote);color:#5B1F0C;text-shadow:0 0 3px #fff,0 0 6px #fff}
 .leaflet-container{font-family:var(--font-body)}
 .sizebtn{position:absolute;z-index:800;bottom:24px;left:56px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600;color:var(--navy);box-shadow:var(--shadow)}
-.infocard{position:absolute;z-index:1100;left:8px;right:8px;bottom:8px;max-height:58%;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px 10px;box-shadow:0 6px 24px rgba(24,47,86,.28);direction:rtl}
+.infocard{position:absolute;z-index:1100;left:8px;right:8px;bottom:8px;max-height:72%;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px 10px;box-shadow:0 6px 24px rgba(24,47,86,.28);direction:rtl}
 .infocard[hidden]{display:none}
 @media (min-width:900px){.infocard{left:auto;width:360px;right:12px;bottom:28px}}
 .infocard h3{margin:2px 0 4px;font-size:17px;color:var(--navy)}
@@ -830,6 +830,7 @@ body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
 .ic-role{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 9px;background:#EFE6D2;color:var(--ink-2)}
 .ic-x{position:absolute;left:8px;top:6px;width:32px;height:32px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-2)}
 .pin.tap span{text-decoration:underline dotted 1px;text-underline-offset:3px}
+.llabel.tapl{pointer-events:auto;cursor:pointer;text-decoration:underline dotted 1px;text-underline-offset:3px}
 .tip{font-size:13px;color:var(--ink-2);margin:-4px 0 10px}
 .sw-neutral{background:rgba(92,84,70,.15);border:1px solid rgba(92,84,70,.6)}
 .legend{position:absolute;z-index:800;bottom:24px;right:8px;max-width:58%;background:rgba(255,253,248,.93);border:1px solid var(--line);border-radius:var(--r-md);padding:6px 8px;font-size:12px;line-height:1.5;display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow)}
@@ -971,8 +972,9 @@ const STORIES = [
     tl:[[32.12,35.45,'ממלכת שאול','core'],[31.62,34.55,'פלשתים','enemy'],[31.26,35.80,'מואב','neutral'],[31.95,36.17,'עמון','neutral']],
     lg:['core','enemy','neutral'],
     ents:{saul:'core',philistia:'enemy',moab:'neutral',ammon:'neutral',edom:'neutral',damascus:'neutral',zobah:'neutral',tyre:'neutral',hamath:'neutral',egypt:'neutral'},
-    lines:[{k:'war', lbl:'קרב הגלבוע', la:.3, pts:[[31.75,34.75],[32.45,35.42]]}],
-    pins:[[32.45,35.42,'הגלבוע','gilboa']]}},
+    lines:[{k:'war', lbl:'מסע הפלשתים', la:.22, pts:[[31.80,34.66],[32.105,34.93],[32.45,35.01],[32.56,35.13],[32.607,35.331]],
+      info:['הפלשתים עולים לגלבוע','הפלשתים מקבצים את מחניהם באפק, עולים לעמק יזרעאל וחונים בשונם. שאול וכל ישראל חונים בגלבוע, ובקרב נופלים שאול ושלושת בניו. המקרא לא מתאר את הדרך מאפק ליזרעאל; על המפה היא עוברת במעבר ואדי ערה, המעבר הטבעי משפלת החוף לעמק.','שמואל א כח 4; כט 1, 11; לא 1–6']}],
+    pins:[[32.45,35.42,'הגלבוע','gilboa'],[32.105,34.93,'אפק','aphek'],[32.607,35.331,'שונם','shunem']]}},
   {year:'בערך 1000–970 לפנה"ס', title:'דוד: הלוחם', quote:'שלאחר שניצח והיכה את כל שכניו, השאיר לשלמה בנו ממלכה שלווה', page:'עמ׳ 55',
    text:'דוד כובש את ירושלים ועושה אותה לבירה, מכניע את הפלשתים, ומשעבד את העמים מסביב: מואב, אדום, עמון וארם. בדמשק ובאדום הוא מושיב "נציבים", חיל מצב. מלך צור ומלך חמת מבקשים את קרבתו.',
    realm:[['hold','בשליטה','ישראל ויהודה, "מדן ועד באר שבע" (שמואל ב ג 10)'],['vassal','משועבדים','פלשתים, מואב, אדום, עמון, ארם (שמואל ב ח; יב)'],['ally','ידידים','חירם מלך צור, תֹּעִי מלך חמת (שמואל ב ה 11; ח 9–10)']],
@@ -984,16 +986,20 @@ const STORIES = [
    text:'שלמה מקבל את כל מה שאביו כבש, ומחזיק אותו בלי מלחמות גדולות, בבריתות ובמסחר. הוא נושא את בת פרעה ומקבל את גזר כנדוניה, כורת ברית עם חירם מלך צור, ושולח צי מעציון גבר לאופיר. אבל בשולי הממלכה כבר מתחילים סדקים.',
    untold:'שלמה הוא שבנה את המקדש. לפי דברי הימים א כב, דוד לא הורשה לבנות אותו, כי "דם לרב שפכת". שטראוס מעיר שמקיאוולי "נמנע מלומר" זאת. ועוד דבר: הסדקים באדום ובדמשק, שעל המפה, מסבכים את התמונה של "ממלכה שלווה".',
    realm:[['hold','בשליטה','"מן הנהר ארץ פלשתים ועד גבול מצרים" (מלכים א ה 1)'],['ally','בריתות','מצרים, בנישואין עם בת פרעה (מלכים א ג 1; ט 16); צור, "ויכרתו ברית שניהם" (מלכים א ה 26)'],['threat','סדקים','הדד האדומי באדום, רזון בדמשק, ירבעם בורח למצרים (מלכים א יא)']],
-   map:{bounds:[[28.7,30.9],[35.0,37.2]], show:['jer'], ovl:'ovl/isr-2.webp',
-    tl:[[32.62,35.22,'ממלכת שלמה','core'],[31.62,34.55,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום: הדד מורד','crack'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'דמשק: רזון','crack'],[34.20,36.40,'צובה','vassal'],[33.62,35.47,'צור','ally'],[30.35,30.95,'מצרים','ally']],
+   map:{bounds:[[27.9,30.9],[35.0,37.2]], show:['jer'], ovl:'ovl/isr-2.webp',
+    tl:[[32.62,35.22,'ממלכת שלמה','core'],[31.62,34.55,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום: הדד','crack'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'דמשק: רזון','crack'],[34.20,36.40,'צובה','vassal'],[33.62,35.47,'צור','ally'],[30.35,30.95,'מצרים','ally']],
     lg:['core','vassal','crack','ally','neutral'],
     ents:{david:'core',philistia:'vassal',moab:'vassal',edom:'crack',ammon:'vassal',damascus:'crack',zobah:'vassal',tyre:'ally',hamath:'neutral',egypt:'ally'},
     say:{egypt:['פרעה נותן את בתו לשלמה, ואת גזר כנדוניה. אבל מצרים גם נותנת מקלט לשני אויבי שלמה: הדד האדומי וירבעם.','מלכים א ג 1; ט 16; יא 17–22, 40']},
-    lines:[{k:'ally', lbl:'ברית עם חירם', la:.72, pts:[[31.78,35.23],[33.27,35.20]]},
-           {k:'ally', lbl:'נישואין עם בת פרעה', la:.55, pts:[[31.78,35.23],[30.97,31.88]]},
-           {k:'trade', lbl:'צי לאופיר', la:.5, pts:[[29.55,34.95],[28.75,34.72]]},
-           {k:'flight', lbl:'ירבעם בורח', la:.62, pts:[[32.15,35.15],[31.02,31.95]]}],
-    pins:[[31.86,34.92,'גזר','gezer'],[29.55,34.95,'עציון גבר','etzion'],[30.97,31.88,'צוען','tanis']]}},
+    lines:[{k:'trade', lbl:'ארזים מצור', la:.42, pts:[[33.27,35.19],[33.00,34.98],[32.60,34.82],[32.20,34.71],[32.055,34.75],[31.95,34.90],[31.886,35.126],[31.847,35.185],[31.80,35.215],[31.778,35.235]],
+      info:['הברית עם חירם: ארזים בים','חירם מלך צור ושלמה כורתים ברית. חירם שולח ארזים וברושים מהלבנון, קשורים כדוברות על פני הים, ושלמה משלם בחיטה ובשמן. לפי דברי הימים, העצים הגיעו לנמל יפו. הדרך מיפו לירושלים לא מתוארת; על המפה היא עולה במעלה בית חורון.','מלכים א ה 15–26; דברי הימים ב ב 15']},
+           {k:'ally', arc:true, bend:.3, lbl:'נישואין עם בת פרעה', la:.72, pts:[[31.78,35.23],[30.97,31.88]],
+      info:['נישואין עם בת פרעה','שלמה מתחתן עם בת פרעה, וכך נכנס לברית עם מצרים. פרעה, שאינו נקרא בשמו, כובש את גזר, שורף אותה ונותן אותה לבתו כנדוניה.','מלכים א ג 1; ט 16']},
+           {k:'trade', lbl:'צי לאופיר', la:.4, pts:[[29.53,34.97],[29.30,34.92],[28.90,34.78],[28.50,34.62],[28.05,34.48]],
+      info:['הצי לאופיר','שלמה בונה אניות בעציון גבר, על חוף ים סוף ליד אילת, וחירם שולח מלחים מנוסים. הצי מביא זהב מאופיר. איפה הייתה אופיר, לא ידוע: הוצעו חוף ערב, מזרח אפריקה והודו.','מלכים א ט 26–28; י 11']},
+           {k:'flight', lbl:'ירבעם בורח למצרים', la:.78, pts:[[32.03,35.08],[31.88,34.86],[31.62,34.58],[31.50,34.46],[31.29,34.25],[31.13,33.80],[31.05,33.10],[31.03,32.55],[30.97,31.88]],
+      info:['ירבעם בורח למצרים','אחיה השילוני מנבא לירבעם, אחד מאנשי שלמה, שימלוך על עשרה שבטים. שלמה מבקש להמיתו, וירבעם בורח אל שישק מלך מצרים ונשאר שם עד מות שלמה. המקרא לא מתאר את הדרך; על המפה היא עוברת בדרך החוף, הדרך הראשית למצרים.','מלכים א יא 26–40']}],
+    pins:[[31.86,34.92,'גזר','gezer'],[32.055,34.75,'יפו','jaffa'],[29.55,34.95,'עציון גבר','etzion'],[30.97,31.88,'צוען','tanis']]}},
   {year:'בערך 930–925 לפנה"ס', title:'רחבעם: שישית מהממלכה', quote:'נשאר בקושי יורש של שישית מהממלכה', page:'עמ׳ 55',
    text:'רחבעם בא לשכם, ועשרת השבטים ממליכים את ירבעם. נשארים לו יהודה ובנימין, שניים מתוך שנים-עשר. ובשנה החמישית שלו עולה על ירושלים שישק מלך מצרים, אותו שישק שאצלו מצא ירבעם מקלט, ולוקח את אוצרות המקדש.',
    untold:'לפי מלכים א יב, רחבעם דחה את עצת הזקנים ושמע לצעירים: "אבי יסר אתכם בשוטים ואני איסר אתכם בעקרבים". אצל מקיאוולי הוא נכשל כי היה חלש. בתנ"ך הוא נכשל כי היה קשוח מדי.',
@@ -1002,9 +1008,11 @@ const STORIES = [
     tl:[[32.95,35.62,'ממלכת ישראל · ירבעם','rival'],[31.33,35.05,'יהודה','core'],[30.55,31.05,'מצרים · שישק','enemy']],
     lg:['core','rival','enemy','gone','neutral'],
     ents:{judah:'core',israelN:'rival',egypt:'enemy',philistia:'gone',moab:'gone',edom:'gone',ammon:'gone',damascus:'gone',zobah:'gone',tyre:'neutral',hamath:'neutral'},
-    say:{egypt:['שישק, שושנק הראשון, מייסד שושלת חדשה ומאחד את מצרים. בשנה החמישית לרחבעם הוא עולה על ירושלים ולוקח את אוצרות המקדש והארמון.','מלכים א יד 25–26']},
-    lines:[{k:'war', lbl:'שישק', la:.5, pts:[[30.97,31.88],[31.50,34.47],[31.86,34.92],[31.78,35.23]]},
-           {k:'war2', lbl:'כתובת שושנק', la:.8, pts:[[31.86,34.92],[32.58,35.18]]}],
+    say:{egypt:['שישק, שלפי רוב החוקרים הוא שושנק הראשון, מייסד השושלת ה-22, שאיחד מחדש את מצרים. בשנה החמישית לרחבעם הוא עולה על ירושלים ולוקח את אוצרות המקדש והארמון.','מלכים א יד 25–26']},
+    lines:[{k:'war', lbl:'שישק עולה על ירושלים', la:.3, pts:[[30.97,31.88],[31.03,32.55],[31.05,33.10],[31.13,33.80],[31.29,34.25],[31.50,34.46],[31.75,34.75],[31.86,34.92],[31.886,35.126],[31.847,35.185],[31.80,35.215],[31.778,35.235]],
+      info:['שישק עולה על ירושלים','בשנה החמישית לרחבעם עולה שישק מלך מצרים על ירושלים, ולוקח את אוצרות בית ה׳ ובית המלך, ובהם מגני הזהב ששלמה עשה. המקרא לא מתאר את הדרך. על המפה היא עוברת בדרך החוף ואז עולה דרך גזר, איילון, בית חורון וגבעון, מקומות שמופיעים ברשימת הניצחון שלו בכרנך.','מלכים א יד 25–26']},
+           {k:'war2', tag:'עדות מחוץ לתנ״ך', lbl:'כתובת שושנק', la:.4, lo:[-46,0], pts:[[31.86,34.92],[32.10,34.93],[32.40,34.97],[32.49,35.03],[32.585,35.185]],
+      info:['כתובת שושנק','במקדש אמון בכרנך שבמצרים, ליד "שער בובסטיס", חרות תבליט ניצחון של שושנק הראשון, ובו רשימה של יותר מ-150 שמות מקומות בארץ ובנגב שהוא מתהדר שהכה. ביניהם מקומות בממלכת ישראל של ירבעם, כמו מגידו. במגידו עצמה נמצא ב-1926 שבר ממצבת ניצחון שלו, אבל בשפך עפר ולא בשכבה מתוארכת. ירושלים לא מזוהה בחלקים ששרדו מהרשימה, וחלקים ממנה פגומים, ולכן החוקרים חלוקים על מהלך המסע. זה מקור מחוץ לתנ"ך שמספר את אותו אירוע מהצד המצרי.','תבליט שושנק הראשון, כרנך; שבר המצבה ממגידו']}],
     pins:[[33.25,35.65,'דן','dan'],[32.58,35.18,'מגידו','megiddo'],[30.97,31.88,'צוען','tanis']]}}
  ]},
  {title:'העות׳מאנים: סב, בן ונכד', sub:'מוחמד השני, ביאזיד השני, סלים הראשון', yr:'1451–1520', color:'var(--s3)', steps:[
@@ -1069,16 +1077,16 @@ const ENT = {
  saul:{n:'ממלכת שאול', d:'הממלכה הראשונה של שבטי ישראל, בעיקר בהר ובגלעד. שאול נלחם בפלשתים כל ימיו, ונפל מולם בגלבוע. הגבולות משוערים מאוד.', src:'שמואל א יג–לא'},
  david:{n:'ישראל ויהודה', d:'הממלכה המאוחדת: כל שבטי ישראל, "מדן ועד באר שבע", ובירתה ירושלים.', src:'שמואל ב ג 10; ה 6–9'},
  judah:{n:'ממלכת יהודה', d:'מה שנשאר לבית דוד אחרי הפילוג: שבט יהודה ושבט בנימין, ובירתה ירושלים.', src:'מלכים א יב 21'},
- israelN:{n:'ממלכת ישראל', d:'עשרת השבטים שהמליכו את ירבעם. בירתה הראשונה שכם, ואחר כך תרצה. ירבעם הקים מקדשים בבית אל ובדן.', src:'מלכים א יב 20–29; יד 17'},
+ israelN:{n:'ממלכת ישראל', d:'עשרת השבטים שהמליכו את ירבעם. ירבעם בנה את שכם וישב בה, ובסוף ימיו ביתו היה בתרצה. הוא הקים מקדשים בבית אל ובדן.', src:'מלכים א יב 20–29; יד 17'},
  philistia:{n:'פלשתים', d:'חמש ערים בשפלת החוף: עזה, אשקלון, אשדוד, עקרון וגת. בימי שאול חזקים מישראל, ודוד הכניע אותם.', src:'שמואל א ו 17; שמואל ב ח 1'},
- moab:{n:'מואב', d:'ממלכה ממזרח לים המלח, בין נחל ארנון לנחל זרד. דוד היכה אותם, "ותהי מואב לדוד לעבדים נושאי מנחה".', src:'שמואל ב ח 2'},
- edom:{n:'אדום', d:'מדרום לים המלח ועד מפרץ אילת. דוד שם בה נציבים. בימי שלמה חזר הדד האדומי ממצרים, "ויהי שטן לשלמה".', src:'שמואל ב ח 14; מלכים א יא 14–22'},
+ moab:{n:'מואב', d:'ממלכה ממזרח לים המלח. הלב שלה בין נחל ארנון לנחל זרד, ובתקופות מסוימות שלטה גם במישור שמצפון לארנון. דוד היכה אותם, "ותהי מואב לדוד לעבדים נשאי מנחה".', src:'שמואל ב ח 2'},
+ edom:{n:'אדום', d:'ממזרח לערבה, מדרום-מזרח לים המלח ועד מפרץ אילת. דוד שם בה נציבים. הדד, נסיך אדומי שברח למצרים בילדותו, מבקש מפרעה אחרי מות דוד לחזור לארצו, והמקרא קורא לו "שטן לשלמה".', src:'שמואל ב ח 14; מלכים א יא 14–22, 25'},
  ammon:{n:'עמון', d:'ממלכה ממזרח לגלעד, ובירתה רבת בני עמון, עמאן של היום. דוד כבש את רבה.', src:'שמואל ב יב 26–31'},
  damascus:{n:'ארם דמשק', d:'ממלכה ארמית סביב דמשק. דוד שם בה נציבים. בימי שלמה תפס רזון את דמשק, "ויהי שטן לישראל כל ימי שלמה".', src:'שמואל ב ח 5–6; מלכים א יא 23–25'},
- zobah:{n:'ארם צובה', d:'ממלכה ארמית בבקעת הלבנון ומצפון לה. דוד היכה את הדדעזר מלכה.', src:'שמואל ב ח 3–4'},
+ zobah:{n:'ארם צובה', d:'ממלכה ארמית בבקעת הלבנון ומצפון-מזרח לה. דוד היכה את הדדעזר מלכה.', src:'שמואל ב ח 3–4'},
  tyre:{n:'צור', d:'עיר הנמל הפיניקית. חירם מלך צור שלח לדוד ארזים ובנאים, וכרת ברית עם שלמה.', src:'שמואל ב ה 11; מלכים א ה 15–26'},
  hamath:{n:'חמת', d:'ממלכה בעמק האורונטס, בסוריה של היום. תֹּעִי מלך חמת שלח לדוד מתנות אחרי שהיכה את הדדעזר.', src:'שמואל ב ח 9–10'},
- egypt:{n:'מצרים', d:'מצרים של התקופה הזאת חלשה ומפוצלת, ובירת הפרעונים בדלתא, בצוען. הגבולות משוערים.', src:''}
+ egypt:{n:'מצרים', d:'עד אמצע המאה ה-10 לפנה"ס מצרים חלשה ומפוצלת: השושלת ה-21 מולכת מצוען שבדלתא, וכוהני אמון שולטים בתבאי בדרום. בסוף ימי שלמה מאחד אותה מחדש שושנק הראשון, שישק של המקרא. הגבולות משוערים.', src:'מחקר: תקופת הביניים השלישית במצרים'}
 };
 const ROLE = {core:'הממלכה', vassal:'משועבד', ally:'בעל ברית', enemy:'אויב', rival:'ממלכה יריבה', crack:'יוצא משליטה', gone:'יצא משליטה', neutral:'עצמאי'};
 const PINFO = {
@@ -1088,9 +1096,12 @@ const PINFO = {
  jer:{n:'ירושלים', d:'עיר יבוסית שדוד כבש ועשה לבירה. שלמה בנה בה את המקדש. אחרי הפילוג נשארה בירת יהודה, ושישק לקח ממנה את אוצרות המקדש והארמון.', src:'שמואל ב ה 6–9; מלכים א ו; יד 26'},
  shechem:{n:'שכם', d:'כאן התכנסו כל ישראל להמליך את רחבעם, וכאן נקרעה הממלכה. ירבעם בנה את העיר ועשה אותה לבירתו הראשונה. היום: תל בלאטה, בשכם.', src:'מלכים א יב 1–25'},
  gilboa:{n:'הר הגלבוע', d:'כאן נפלו שאול ובניו בקרב מול הפלשתים.', src:'שמואל א לא 1–6'},
+ aphek:{n:'אפק', d:'אפק שבשרון, ליד ראש העין של היום. כאן קיבצו הפלשתים את מחניהם לפני הקרב בגלבוע.', src:'שמואל א כט 1'},
+ shunem:{n:'שונם', d:'כפר בעמק יזרעאל, למרגלות גבעת המורה. כאן חנו הפלשתים מול מחנה שאול בגלבוע.', src:'שמואל א כח 4'},
+ jaffa:{n:'יפו', d:'הנמל שעליו מספר דברי הימים: לכאן הגיעו בים עצי הארזים של חירם, ומכאן עלו לירושלים.', src:'דברי הימים ב ב 15'},
  gezer:{n:'גזר', d:'עיר כנענית שפרעה כבש ושרף, ונתן לבתו, אשת שלמה, כנדוניה. שלמה ביצר אותה.', src:'מלכים א ט 15–17'},
  etzion:{n:'עציון גבר', d:'נמל על חוף ים סוף, ליד אילת, שממנו יצא הצי של שלמה וחירם לאופיר. מיקומו המדויק שנוי במחלוקת.', src:'מלכים א ט 26–28'},
- tanis:{n:'צוען (טניס)', d:'בירת מצרים בדלתא המזרחית בימי השושלת ה-21, ואחת מבירות השושלת ה-22, של שישק.', src:''},
+ tanis:{n:'צוען (טניס)', d:'בירת מצרים בדלתא המזרחית בימי השושלת ה-21. גם מלכי השושלת ה-22, שושלתו של שישק שמוצאה בבובסטיס, ישבו ונקברו בה.', src:'מחקר: תקופת הביניים השלישית במצרים'},
  dan:{n:'דן', d:'העיר הצפונית של הממלכה ("מדן ועד באר שבע"). ירבעם הציב בה עגל זהב.', src:'מלכים א יב 29'},
  megiddo:{n:'מגידו', d:'עיר מבצר בעמק יזרעאל, ששלמה ביצר. בחפירות נמצא בה שבר מכתובת הניצחון של שושנק הראשון.', src:'מלכים א ט 15'},
  cpl:{n:'קונסטנטינופול', d:'בירת האימפריה הביזנטית. מוחמד השני כבש אותה ב-1453 ועשה אותה לבירתו.', src:''},
@@ -1196,6 +1207,9 @@ const KIND = {
 };
 const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'}, trade:{c:'#183F7A', dash:'2 6', w:2.5, arrow:true, lbl:'מסחר'},
   flight:{c:'#3B4458', dash:'1 6', w:2.5, arrow:true, lbl:'בריחה'}, war:{c:'#A11F12', dash:null, w:3, arrow:true, lbl:'מסע מלחמה'}, war2:{c:'#A11F12', dash:'6 6', w:2.5, arrow:true, lbl:''} };
+function smoothPts(pts, it=3){ if(pts.length<3) return pts; let p=pts; for(let r=0;r<it;r++){ const o=[p[0]]; for(let i=0;i<p.length-1;i++){ const a=p[i], b=p[i+1]; o.push([.75*a[0]+.25*b[0], .75*a[1]+.25*b[1]], [.25*a[0]+.75*b[0], .25*a[1]+.75*b[1]]); } o.push(p[p.length-1]); p=o; } return p; }
+function arcPts(a,b,bend){ const m=[(a[0]+b[0])/2,(a[1]+b[1])/2], d=[b[0]-a[0], b[1]-a[1]], c=[m[0]-d[1]*bend, m[1]+d[0]*bend], o=[]; for(let i=0;i<=32;i++){ const t=i/32, u=1-t; o.push([u*u*a[0]+2*u*t*c[0]+t*t*b[0], u*u*a[1]+2*u*t*c[1]+t*t*b[1]]); } return o; }
+function alongPath(P,f){ const seg=[]; let tot=0; for(let i=1;i<P.length;i++){ const d=Math.hypot(P[i][0]-P[i-1][0],P[i][1]-P[i-1][1]); seg.push(d); tot+=d; } let t=tot*f; for(let i=0;i<seg.length;i++){ if(t<=seg[i]){ const r=seg[i]?t/seg[i]:0; return [P[i][0]+(P[i+1][0]-P[i][0])*r, P[i][1]+(P[i+1][1]-P[i][1])*r]; } t-=seg[i]; } return P[P.length-1]; }
 function arrowHead(a,b,c){ const pa=map.project(a,6), pb=map.project(b,6); const ang=Math.atan2(pb.y-pa.y,pb.x-pa.x)*180/Math.PI;
   return L.marker(b,{icon:L.divIcon({className:'pinwrap', html:`<div class="ahd" style="transform:translate(-50%,-50%) rotate(${ang}deg);border-left-color:${c}"></div>`, iconSize:[0,0]}), interactive:false, keyboard:false}); }
 function drawRealm(mp, color){
@@ -1206,10 +1220,14 @@ function drawRealm(mp, color){
     L.polygon(pg.pts,{color:k.stroke||color, weight:k.w, dashArray:k.dash, fillColor:k.fill||color, fillOpacity:k.fo, interactive:false}).addTo(overlay);
     if(pg.lbl) L.marker(pg.at,{icon:L.divIcon({className:'pinwrap', html:`<div class="plabel k-${pg.k}">${pg.lbl}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay); });
   (mp.lines||[]).forEach(ln=>{ const k=LINE[ln.k]; if(k.lbl) used.add('l:'+ln.k);
-    L.polyline(ln.pts,{color:k.c, weight:k.w, dashArray:k.dash, opacity:.95, interactive:false}).addTo(overlay);
-    if(k.arrow){ const n=ln.pts.length; arrowHead(ln.pts[n-2],ln.pts[n-1],k.c).addTo(overlay); }
-    if(ln.lbl){ const f=ln.la==null?.5:ln.la; const m=[ln.pts[0][0]+(ln.pts[1][0]-ln.pts[0][0])*f, ln.pts[0][1]+(ln.pts[1][1]-ln.pts[0][1])*f];
-      L.marker(m,{icon:L.divIcon({className:'pinwrap', html:`<div class="llabel" style="--lc:${k.c}">${ln.lbl}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay); } });
+    const P = ln.arc ? arcPts(ln.pts[0], ln.pts[ln.pts.length-1], ln.bend||.18) : smoothPts(ln.pts);
+    L.polyline(P,{color:k.c, weight:k.w, dashArray:k.dash, opacity:.95, interactive:false, lineCap:'round', lineJoin:'round'}).addTo(overlay);
+    if(k.arrow){ const n=P.length; arrowHead(P[n-2],P[n-1],k.c).addTo(overlay); }
+    const open = ev=>{ L.DomEvent.stopPropagation(ev); showInfo(ln.info[0], ln.tag||k.lbl||'מסע מלחמה', ln.info[1], ln.info[2]); };
+    if(ln.info){ L.polyline(P,{weight:26, opacity:0, interactive:true}).addTo(overlay).on('click', open); }
+    if(ln.lbl){ const m=alongPath(P, ln.la==null?.5:ln.la);
+      const lm=L.marker(m,{icon:L.divIcon({className:'pinwrap', html:`<div class="llabel${ln.info?' tapl':''}" style="--lc:${k.c}${ln.lo?`;margin-left:${ln.lo[0]}px;margin-top:${ln.lo[1]}px`:''}">${ln.lbl}</div>`, iconSize:[0,0]}), interactive:!!ln.info, keyboard:false}).addTo(overlay);
+      if(ln.info) lm.on('click', open); } });
   (mp.pins||[]).forEach(([la,lo,n,id])=>{ const m=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor tap" style="--c:#2B3242"><b></b><span>${n}</span></div>`, iconSize:[0,0]}), keyboard:false}).addTo(overlay); if(id) m.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); });
   const items=[]; used.forEach(u=>{ const [t,k]=u.split(':'); if(t==='p') items.push(`<span><i class="sw sw-${k}"></i>${KIND[k].lbl}</span>`);
     else items.push(`<span><i class="ln" style="border-top:3px ${LINE[k].dash?'dashed':'solid'} ${LINE[k].c}"></i>${LINE[k].lbl}</span>`); });
