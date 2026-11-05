@@ -687,6 +687,7 @@ svg.leaflet-image-layer.leaflet-interactive path {
 }
 *{box-sizing:border-box}
 html,body{height:100%;margin:0}
+body{overflow:hidden}
 body{background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.6}
 button{font:inherit;color:inherit;cursor:pointer}
 :focus-visible{outline:2px solid var(--gold);outline-offset:2px}
@@ -699,15 +700,17 @@ button{font:inherit;color:inherit;cursor:pointer}
 .brand small{font-size:12px;opacity:.85}
 .proto{margin-inline-start:auto;font-size:12px;border:1px solid var(--gold);color:var(--gold);padding:2px 10px;border-radius:999px;white-space:nowrap}
 
-.layout{display:flex;flex-direction:column}
-#mapwrap{order:-1;position:sticky;top:52px;z-index:500;height:52vh;min-height:280px;background:#1d3d70}
+.layout{display:flex;flex-direction:column;height:calc(100% - 52px)}
+#mapwrap{order:-1;position:relative;flex:0 0 50%;min-height:220px;background:#1d3d70;transition:flex-basis .3s ease}
+#mapwrap.big{flex-basis:80%}
 #map{position:absolute;inset:0;direction:ltr;background:#1d3d70}
-.panel{padding:16px 16px 48px;max-width:720px;width:100%;margin:0 auto}
+.panel{position:relative;flex:1;min-height:0;overflow:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain;padding:16px max(16px, calc((100% - 720px) / 2)) 48px;width:100%}
 @media (min-width:900px){
   html,body{overflow:hidden}
   .layout{display:grid;grid-template-columns:440px 1fr;height:calc(100% - 52px)}
-  #mapwrap{order:0;position:relative;top:0;height:100%}
-  .panel{height:100%;overflow:auto;max-width:none;border-inline-end:1px solid var(--line)}
+  #mapwrap{order:0;height:100%;flex:none}
+  .sizebtn{display:none}
+  .panel{height:100%;padding:16px;border-inline-end:1px solid var(--line)}
 }
 
 .mapbtn{position:absolute;z-index:800;top:10px;right:10px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:14px;font-weight:600;color:var(--navy);box-shadow:var(--shadow)}
@@ -817,6 +820,18 @@ body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
 .geo.land{color:#2B2F25;opacity:.75;text-shadow:0 0 3px rgba(255,255,255,.7)}
 .geo.realm{font:italic 600 15px var(--font-quote);color:#5B1F0C;text-shadow:0 0 3px #fff,0 0 6px #fff}
 .leaflet-container{font-family:var(--font-body)}
+.sizebtn{position:absolute;z-index:800;bottom:24px;left:56px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;font-weight:600;color:var(--navy);box-shadow:var(--shadow)}
+.infocard{position:absolute;z-index:1100;left:8px;right:8px;bottom:8px;max-height:58%;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:12px 14px 10px;box-shadow:0 6px 24px rgba(24,47,86,.28);direction:rtl}
+.infocard[hidden]{display:none}
+@media (min-width:900px){.infocard{left:auto;width:360px;right:12px;bottom:28px}}
+.infocard h3{margin:2px 0 4px;font-size:17px;color:var(--navy)}
+.infocard p{margin:0 0 6px;font-size:15px;line-height:1.55}
+.infocard cite{display:block;font-style:normal;font-size:12.5px;color:var(--olive)}
+.ic-role{display:inline-block;font-size:12px;font-weight:700;border-radius:999px;padding:0 9px;background:#EFE6D2;color:var(--ink-2)}
+.ic-x{position:absolute;left:8px;top:6px;width:32px;height:32px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-2)}
+.pin.tap span{text-decoration:underline dotted 1px;text-underline-offset:3px}
+.tip{font-size:13px;color:var(--ink-2);margin:-4px 0 10px}
+.sw-neutral{background:rgba(92,84,70,.15);border:1px solid rgba(92,84,70,.6)}
 .legend{position:absolute;z-index:800;bottom:24px;right:8px;max-width:58%;background:rgba(255,253,248,.93);border:1px solid var(--line);border-radius:var(--r-md);padding:6px 8px;font-size:12px;line-height:1.5;display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow)}
 .legend[hidden]{display:none}
 .legend span{display:flex;align-items:center;gap:6px}
@@ -831,7 +846,7 @@ body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
 .plabel{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;direction:rtl;font:italic 500 13.5px var(--font-quote);letter-spacing:.03em;color:#6B2A14;text-shadow:0 0 2px rgba(255,250,240,.95),0 0 4px rgba(255,250,240,.9),0 0 8px rgba(255,250,240,.7);pointer-events:none}
 .plabel.k-core{font:500 17px var(--font-quote);letter-spacing:.12em;color:#5E1F0B}
 .plabel.k-rival{font:500 15.5px var(--font-quote);letter-spacing:.1em;color:#1E2433}
-.plabel.k-ally{color:#6A4A06}.plabel.k-enemy{font-style:normal;font-weight:500;letter-spacing:.1em;color:#4E120A}.plabel.k-crack{color:#9B1B10;font-weight:500}
+.plabel.k-neutral{color:#4A4436}.plabel.k-gone{color:#5F5E5A}.plabel.k-ally{color:#6A4A06}.plabel.k-enemy{font-style:normal;font-weight:500;letter-spacing:.1em;color:#4E120A}.plabel.k-crack{color:#9B1B10;font-weight:500}
 .terr{transition:opacity .55s ease}
 .story-on .leaflet-tile-pane{filter:saturate(.72) brightness(1.04)}
 @media (prefers-reduced-motion:reduce){.terr{transition:none}}
@@ -890,6 +905,8 @@ body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
   <div id="mapwrap">
     <div id="map" aria-label="מפה"></div>
     <button class="mapbtn" id="allBtn" type="button">כל הסיפורים</button>
+    <button class="sizebtn" id="sizeBtn" type="button" aria-pressed="false">הגדלת המפה</button>
+    <div class="infocard" id="infocard" hidden></div>
     <div class="yearbadge" id="yearBadge" hidden></div>
     <div class="legend" id="legend" hidden></div>
   </div>
@@ -949,31 +966,45 @@ const STORIES = [
   {year:'בערך 1010 לפנה"ס', title:'לפני דוד: הממלכה של שאול',
    text:'מקיאוולי פותח בדוד. כדי לראות מה דוד בנה, צריך לראות ממה הוא התחיל: ממלכה קטנה של שבטי ההר והגלעד, והפלשתים חזקים ממנה. שאול נופל בקרב מולם בהר הגלבוע.',
    realm:[['hold','בשליטה','שבטי ההר והגלעד, בערך'],['threat','איום','הפלשתים, מהחוף ועד עמק יזרעאל. שאול ובניו נופלים בגלבוע (שמואל א לא)']],
-   map:{bounds:[[30.9,34.0],[33.3,36.4]], show:[], ovl:'ovl/isr-0.webp', tl:[[32.12,35.45,'ממלכת שאול','core'],[31.55,34.52,'פלשתים','enemy']], lg:['core','enemy'],
+   map:{bounds:[[30.9,34.0],[33.3,36.4]], show:[], ovl:'ovl/isr-0.webp',
+    tl:[[32.12,35.45,'ממלכת שאול','core'],[31.62,34.55,'פלשתים','enemy'],[31.26,35.80,'מואב','neutral'],[31.95,36.17,'עמון','neutral']],
+    lg:['core','enemy','neutral'],
+    ents:{saul:'core',philistia:'enemy',moab:'neutral',ammon:'neutral',edom:'neutral',damascus:'neutral',zobah:'neutral',tyre:'neutral',hamath:'neutral',egypt:'neutral'},
     lines:[{k:'war', lbl:'קרב הגלבוע', la:.3, pts:[[31.75,34.75],[32.45,35.42]]}],
-    pins:[[32.45,35.42,'הגלבוע']]}},
+    pins:[[32.45,35.42,'הגלבוע','gilboa']]}},
   {year:'בערך 1000–970 לפנה"ס', title:'דוד: הלוחם', quote:'שלאחר שניצח והיכה את כל שכניו, השאיר לשלמה בנו ממלכה שלווה', page:'עמ׳ 55',
    text:'דוד כובש את ירושלים ועושה אותה לבירה, מכניע את הפלשתים, ומשעבד את העמים מסביב: מואב, אדום, עמון וארם. בדמשק ובאדום הוא מושיב "נציבים", חיל מצב. מלך צור ומלך חמת מבקשים את קרבתו.',
    realm:[['hold','בשליטה','ישראל ויהודה, "מדן ועד באר שבע" (שמואל ב ג 10)'],['vassal','משועבדים','פלשתים, מואב, אדום, עמון, ארם (שמואל ב ח; יב)'],['ally','ידידים','חירם מלך צור, תֹּעִי מלך חמת (שמואל ב ה 11; ח 9–10)']],
-   map:{bounds:[[29.5,34.0],[35.6,37.2]], show:['jer'], ovl:'ovl/isr-1.webp', tl:[[32.62,35.22,'ישראל ויהודה','core'],[31.58,34.50,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום','vassal'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'ארם דמשק','vassal'],[34.20,36.40,'ארם צובה','vassal'],[33.62,35.47,'צור','ally'],[35.12,36.75,'חמת','ally']], lg:['core','vassal','ally']}},
+   map:{bounds:[[29.5,34.0],[35.6,37.2]], show:['jer'], ovl:'ovl/isr-1.webp',
+    tl:[[32.62,35.22,'ישראל ויהודה','core'],[31.62,34.55,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום','vassal'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'ארם דמשק','vassal'],[34.20,36.40,'ארם צובה','vassal'],[33.62,35.47,'צור','ally'],[35.12,36.75,'חמת','ally']],
+    lg:['core','vassal','ally','neutral'],
+    ents:{david:'core',philistia:'vassal',moab:'vassal',edom:'vassal',ammon:'vassal',damascus:'vassal',zobah:'vassal',tyre:'ally',hamath:'ally',egypt:'neutral'}}},
   {year:'בערך 970–930 לפנה"ס', title:'שלמה: מחזיק בבריתות', quote:'שאותה היה יכול לשמר באמנות השלום ולא במלחמה', page:'עמ׳ 55',
    text:'שלמה מקבל את כל מה שאביו כבש, ומחזיק אותו בלי מלחמות גדולות, בבריתות ובמסחר. הוא נושא את בת פרעה ומקבל את גזר כנדוניה, כורת ברית עם חירם מלך צור, ושולח צי מעציון גבר לאופיר. אבל בשולי הממלכה כבר מתחילים סדקים.',
    untold:'שלמה הוא שבנה את המקדש. לפי דברי הימים א כב, דוד לא הורשה לבנות אותו, כי "דם לרב שפכת". שטראוס מעיר שמקיאוולי "נמנע מלומר" זאת. ועוד דבר: הסדקים באדום ובדמשק, שעל המפה, מסבכים את התמונה של "ממלכה שלווה".',
    realm:[['hold','בשליטה','"מן הנהר ארץ פלשתים ועד גבול מצרים" (מלכים א ה 1)'],['ally','בריתות','מצרים, בנישואין עם בת פרעה (מלכים א ג 1; ט 16); צור, "ויכרתו ברית שניהם" (מלכים א ה 26)'],['threat','סדקים','הדד האדומי באדום, רזון בדמשק, ירבעם בורח למצרים (מלכים א יא)']],
-   map:{bounds:[[28.5,32.3],[35.0,37.2]], show:['jer'], ovl:'ovl/isr-2.webp', tl:[[32.62,35.22,'ממלכת שלמה','core'],[31.58,34.50,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום: הדד מורד','crack'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'דמשק: רזון','crack'],[34.20,36.40,'צובה','vassal'],[33.62,35.47,'צור','ally']], lg:['core','vassal','crack','ally'],
+   map:{bounds:[[28.7,30.9],[35.0,37.2]], show:['jer'], ovl:'ovl/isr-2.webp',
+    tl:[[32.62,35.22,'ממלכת שלמה','core'],[31.62,34.55,'פלשתים','vassal'],[31.26,35.80,'מואב','vassal'],[30.45,35.45,'אדום: הדד מורד','crack'],[31.95,36.17,'עמון','vassal'],[33.43,36.36,'דמשק: רזון','crack'],[34.20,36.40,'צובה','vassal'],[33.62,35.47,'צור','ally'],[30.35,30.95,'מצרים','ally']],
+    lg:['core','vassal','crack','ally','neutral'],
+    ents:{david:'core',philistia:'vassal',moab:'vassal',edom:'crack',ammon:'vassal',damascus:'crack',zobah:'vassal',tyre:'ally',hamath:'neutral',egypt:'ally'},
+    say:{egypt:['פרעה נותן את בתו לשלמה, ואת גזר כנדוניה. אבל מצרים גם נותנת מקלט לשני אויבי שלמה: הדד האדומי וירבעם.','מלכים א ג 1; ט 16; יא 17–22, 40']},
     lines:[{k:'ally', lbl:'ברית עם חירם', la:.72, pts:[[31.78,35.23],[33.27,35.20]]},
-           {k:'ally', lbl:'נישואין עם בת פרעה', la:.62, pts:[[31.78,35.23],[30.95,32.45]]},
+           {k:'ally', lbl:'נישואין עם בת פרעה', la:.55, pts:[[31.78,35.23],[30.97,31.88]]},
            {k:'trade', lbl:'צי לאופיר', la:.5, pts:[[29.55,34.95],[28.75,34.72]]},
-           {k:'flight', lbl:'ירבעם בורח', la:.6, pts:[[32.15,35.15],[31.15,32.55]]}],
-    pins:[[31.86,34.92,'גזר'],[29.55,34.95,'עציון גבר'],[30.95,32.45,'מצרים']]}},
+           {k:'flight', lbl:'ירבעם בורח', la:.62, pts:[[32.15,35.15],[31.02,31.95]]}],
+    pins:[[31.86,34.92,'גזר','gezer'],[29.55,34.95,'עציון גבר','etzion'],[30.97,31.88,'צוען','tanis']]}},
   {year:'בערך 930–925 לפנה"ס', title:'רחבעם: שישית מהממלכה', quote:'נשאר בקושי יורש של שישית מהממלכה', page:'עמ׳ 55',
    text:'רחבעם בא לשכם, ועשרת השבטים ממליכים את ירבעם. נשארים לו יהודה ובנימין, שניים מתוך שנים-עשר. ובשנה החמישית שלו עולה על ירושלים שישק מלך מצרים, אותו שישק שאצלו מצא ירבעם מקלט, ולוקח את אוצרות המקדש.',
    untold:'לפי מלכים א יב, רחבעם דחה את עצת הזקנים ושמע לצעירים: "אבי יסר אתכם בשוטים ואני איסר אתכם בעקרבים". אצל מקיאוולי הוא נכשל כי היה חלש. בתנ"ך הוא נכשל כי היה קשוח מדי.',
    realm:[['hold','בשליטה','יהודה ובנימין (מלכים א יב 21)'],['threat','אויבים','ממלכת ישראל של ירבעם: "ומלחמה הייתה בין רחבעם ובין ירבעם כל הימים" (מלכים א יד 30). שישק מלך מצרים (מלכים א יד 25–26)'],['lost','אבד','עשרת השבטים, כל העמים המשועבדים, אוצרות המקדש']],
-   map:{bounds:[[30.7,32.3],[33.4,36.4]], show:['jer','shechem'], ovl:'ovl/isr-3.webp', tl:[[32.95,35.62,'ממלכת ישראל · ירבעם','rival'],[31.33,35.05,'יהודה','core']], lg:['core','rival','gone'],
-    lines:[{k:'war', lbl:'שישק', la:.5, pts:[[30.95,32.45],[31.50,34.47],[31.86,34.92],[31.78,35.23]]},
+   map:{bounds:[[30.4,31.3],[33.4,36.4]], show:['jer','shechem'], ovl:'ovl/isr-3.webp',
+    tl:[[32.95,35.62,'ממלכת ישראל · ירבעם','rival'],[31.33,35.05,'יהודה','core'],[30.55,31.05,'מצרים · שישק','enemy']],
+    lg:['core','rival','enemy','gone','neutral'],
+    ents:{judah:'core',israelN:'rival',egypt:'enemy',philistia:'gone',moab:'gone',edom:'gone',ammon:'gone',damascus:'gone',zobah:'gone',tyre:'neutral',hamath:'neutral'},
+    say:{egypt:['שישק, שושנק הראשון, מייסד שושלת חדשה ומאחד את מצרים. בשנה החמישית לרחבעם הוא עולה על ירושלים ולוקח את אוצרות המקדש והארמון.','מלכים א יד 25–26']},
+    lines:[{k:'war', lbl:'שישק', la:.5, pts:[[30.97,31.88],[31.50,34.47],[31.86,34.92],[31.78,35.23]]},
            {k:'war2', lbl:'כתובת שושנק', la:.8, pts:[[31.86,34.92],[32.58,35.18]]}],
-    pins:[[33.25,35.65,'דן'],[32.58,35.18,'מגידו'],[30.95,32.45,'מצרים']]}}
+    pins:[[33.25,35.65,'דן','dan'],[32.58,35.18,'מגידו','megiddo'],[30.97,31.88,'צוען','tanis']]}}
  ]},
  {title:'העות׳מאנים: סב, בן ונכד', sub:'מוחמד השני, ביאזיד השני, סלים הראשון', yr:'1451–1520', color:'var(--s3)', steps:[
   {year:'1451–1481', title:'מוחמד: הכובש', quote:'שכמו דוד הכה את אויביו והשאיר לו ממלכה יציבה', page:'עמ׳ 56',
@@ -1031,6 +1062,43 @@ const LADDER = [
  {role:['מסקנה',''], pg:'עמ׳ 56', h:'הסכנה שבמלוכה', q:'נשקפו לה מהם סכנות של הרס, כשהייתה בשליטתו של מלך חלש או מרושע'}
 ];
 
+
+const GEOM = {"saul":[[[32.766,35.332],[32.731,35.612],[32.625,35.786],[32.445,35.877],[32.163,35.879],[31.97,35.798],[31.766,35.551],[31.731,35.477],[31.598,35.409],[31.519,35.338],[31.419,35.196],[31.389,35.077],[31.444,35.007],[31.625,34.985],[32.197,34.986],[32.609,35.027],[32.674,35.058],[32.721,35.119],[32.766,35.332]]],"david":[[[33.203,35.811],[33.107,35.927],[32.989,36.008],[32.849,36.056],[32.717,36.067],[32.54,36.045],[31.571,35.81],[31.489,35.728],[31.465,35.571],[31.538,35.555],[31.753,35.586],[31.756,35.507],[31.615,35.408],[31.436,35.394],[31.345,35.406],[31.324,35.432],[31.25,35.419],[31.21,35.359],[31.144,35.386],[31.048,35.325],[30.973,35.233],[30.945,35.13],[30.99,34.856],[31.056,34.757],[31.147,34.729],[31.47,34.855],[31.741,34.874],[31.858,34.813],[31.917,34.689],[32.281,34.838],[32.834,34.956],[32.827,35.028],[32.906,35.08],[32.979,35.076],[33.297,35.52],[33.303,35.615],[33.203,35.811]]],"judah":[[[31.92,35.241],[31.872,35.414],[31.757,35.513],[31.615,35.408],[31.514,35.393],[31.327,35.415],[31.368,35.51],[31.306,35.504],[31.31,35.524],[31.332,35.548],[31.402,35.556],[31.345,35.55],[31.304,35.544],[31.196,35.516],[31.252,35.421],[31.235,35.37],[31.176,35.364],[31.113,35.393],[31.087,35.459],[31.021,35.392],[30.964,35.263],[30.944,35.067],[30.99,34.856],[31.056,34.757],[31.147,34.729],[31.445,34.848],[31.777,34.896],[31.881,35.0],[31.92,35.241]]],"philistia":[[[31.89,34.678],[31.824,34.806],[31.741,34.876],[31.626,34.887],[31.512,34.839],[31.403,34.733],[31.327,34.594],[31.3,34.433],[31.327,34.283],[31.356,34.255],[31.578,34.479],[31.89,34.678]]],"moab":[[[31.47,35.795],[31.445,35.957],[31.38,36.051],[31.273,36.077],[31.158,36.038],[31.084,35.94],[31.055,35.82],[31.055,35.632],[31.096,35.497],[31.11,35.518],[31.139,35.504],[31.189,35.526],[31.25,35.424],[31.322,35.441],[31.368,35.51],[31.306,35.504],[31.323,35.54],[31.437,35.565],[31.47,35.795]]],"edom":[[[31.05,35.63],[31.0,35.745],[30.831,35.814],[30.546,35.806],[30.292,35.735],[30.099,35.634],[29.916,35.493],[29.593,35.164],[29.474,35.004],[29.621,34.996],[29.955,35.056],[30.745,35.272],[30.882,35.339],[30.979,35.421],[31.035,35.518],[31.05,35.63]]],"ammon":[[[32.15,36.172],[32.127,36.268],[32.064,36.328],[31.963,36.35],[31.854,36.332],[31.798,36.287],[31.769,36.213],[31.787,36.019],[31.874,35.936],[32.018,35.95],[32.12,36.031],[32.15,36.172]]],"damascus":[[[33.777,36.362],[33.76,36.514],[33.673,36.641],[33.551,36.692],[33.349,36.692],[33.221,36.644],[33.137,36.554],[33.095,36.421],[33.095,36.261],[33.138,36.136],[33.225,36.051],[33.355,36.006],[33.512,36.003],[33.636,36.046],[33.704,36.11],[33.76,36.236],[33.777,36.362]]],"zobah":[[[34.55,36.422],[34.509,36.597],[34.4,36.698],[34.222,36.727],[34.029,36.684],[33.92,36.6],[33.851,36.473],[33.823,36.258],[33.855,36.117],[33.936,36.029],[34.03,35.998],[34.152,35.997],[34.321,36.036],[34.418,36.09],[34.488,36.165],[34.532,36.261],[34.55,36.422]]],"tyre":[[[34.407,35.793],[34.295,35.834],[34.115,35.815],[33.8,35.713],[33.477,35.573],[33.252,35.429],[33.003,35.151],[32.961,35.074],[33.101,35.1],[33.225,35.205],[33.28,35.188],[33.312,35.225],[33.458,35.271],[33.514,35.349],[33.711,35.438],[33.824,35.481],[33.902,35.47],[33.91,35.572],[33.993,35.614],[33.999,35.641],[34.201,35.627],[34.311,35.665],[34.317,35.706],[34.39,35.751],[34.407,35.793]]],"egypt":[[[31.061,32.559],[30.876,32.496],[30.682,32.342],[30.578,32.214],[30.31,31.777],[30.185,31.627],[30.071,31.532],[29.877,31.44],[29.486,31.365],[29.155,31.264],[28.902,31.161],[28.749,31.067],[28.65,30.962],[28.61,30.876],[28.603,30.757],[28.629,30.695],[28.682,30.664],[28.793,30.673],[29.126,30.819],[29.296,30.85],[29.393,30.819],[29.498,30.677],[29.584,30.622],[29.667,30.62],[29.842,30.675],[29.991,30.644],[30.159,30.534],[30.341,30.356],[30.571,30.085],[30.817,29.731],[31.0,29.578],[31.148,29.782],[31.154,29.838],[31.19,29.885],[31.196,29.864],[31.214,29.877],[31.203,29.898],[31.333,30.07],[31.305,30.067],[31.286,30.095],[31.271,30.173],[31.237,30.14],[31.217,30.165],[31.238,30.207],[31.22,30.22],[31.265,30.269],[31.238,30.289],[31.271,30.303],[31.278,30.288],[31.278,30.179],[31.351,30.313],[31.421,30.348],[31.498,30.344],[31.46,30.365],[31.443,30.399],[31.462,30.371],[31.509,30.362],[31.463,30.456],[31.464,30.536],[31.587,30.974],[31.402,30.543],[31.389,30.627],[31.422,30.675],[31.388,30.734],[31.446,30.799],[31.419,30.892],[31.457,30.94],[31.437,30.981],[31.518,31.029],[31.493,31.119],[31.512,31.111],[31.517,31.13],[31.54,31.111],[31.584,30.978],[31.608,31.097],[31.58,31.221],[31.443,31.557],[31.482,31.748],[31.525,31.838],[31.536,31.874],[31.535,31.913],[31.521,31.945],[31.4,32.025],[31.295,32.2],[31.395,31.995],[31.437,31.968],[31.438,31.994],[31.532,31.889],[31.498,31.845],[31.498,31.865],[31.429,31.879],[31.465,31.842],[31.443,31.824],[31.443,31.858],[31.416,31.879],[31.409,31.83],[31.395,31.845],[31.368,31.828],[31.354,31.858],[31.36,31.797],[31.276,31.773],[31.278,31.821],[31.224,31.886],[31.252,31.906],[31.217,31.893],[31.211,31.927],[31.187,31.926],[31.23,31.987],[31.217,32.037],[31.15,32.037],[31.128,32.016],[31.142,32.05],[31.107,32.07],[31.086,32.044],[31.053,32.12],[31.066,32.132],[31.093,32.098],[31.08,32.146],[31.125,32.184],[31.105,32.234],[31.137,32.283],[31.17,32.262],[31.17,32.29],[31.265,32.283],[31.295,32.207],[31.281,32.3],[31.217,32.401],[31.061,32.559]]],"hamath":[[[35.55,36.775],[35.517,36.944],[35.43,37.062],[35.291,37.131],[35.049,37.147],[34.883,37.103],[34.77,37.009],[34.71,36.866],[34.703,36.678],[34.75,36.522],[34.849,36.416],[35.002,36.359],[35.201,36.353],[35.367,36.397],[35.457,36.463],[35.53,36.594],[35.55,36.775]]],"israelN":[[[33.189,35.833],[33.089,35.943],[32.989,36.008],[32.849,36.056],[32.717,36.067],[32.54,36.045],[31.555,35.802],[31.483,35.712],[31.465,35.571],[31.564,35.558],[31.538,35.555],[31.701,35.578],[31.731,35.588],[31.753,35.586],[31.757,35.513],[31.872,35.414],[31.917,35.281],[31.914,35.122],[31.869,34.976],[31.799,34.907],[31.689,34.88],[31.842,34.828],[31.917,34.689],[32.281,34.838],[32.834,34.956],[32.827,35.028],[32.906,35.08],[32.979,35.076],[33.206,35.369],[33.301,35.53],[33.298,35.628],[33.189,35.833]]]};
+const ENT = {
+ saul:{n:'ממלכת שאול', d:'הממלכה הראשונה של שבטי ישראל, בעיקר בהר ובגלעד. שאול נלחם בפלשתים כל ימיו, ונפל מולם בגלבוע. הגבולות משוערים מאוד.', src:'שמואל א יג–לא'},
+ david:{n:'ישראל ויהודה', d:'הממלכה המאוחדת: כל שבטי ישראל, "מדן ועד באר שבע", ובירתה ירושלים.', src:'שמואל ב ג 10; ה 6–9'},
+ judah:{n:'ממלכת יהודה', d:'מה שנשאר לבית דוד אחרי הפילוג: שבט יהודה ושבט בנימין, ובירתה ירושלים.', src:'מלכים א יב 21'},
+ israelN:{n:'ממלכת ישראל', d:'עשרת השבטים שהמליכו את ירבעם. בירתה הראשונה שכם, ואחר כך תרצה. ירבעם הקים מקדשים בבית אל ובדן.', src:'מלכים א יב 20–29; יד 17'},
+ philistia:{n:'פלשתים', d:'חמש ערים בשפלת החוף: עזה, אשקלון, אשדוד, עקרון וגת. בימי שאול חזקים מישראל, ודוד הכניע אותם.', src:'שמואל א ו 17; שמואל ב ח 1'},
+ moab:{n:'מואב', d:'ממלכה ממזרח לים המלח, בין נחל ארנון לנחל זרד. דוד היכה אותם, "ותהי מואב לדוד לעבדים נושאי מנחה".', src:'שמואל ב ח 2'},
+ edom:{n:'אדום', d:'מדרום לים המלח ועד מפרץ אילת. דוד שם בה נציבים. בימי שלמה חזר הדד האדומי ממצרים, "ויהי שטן לשלמה".', src:'שמואל ב ח 14; מלכים א יא 14–22'},
+ ammon:{n:'עמון', d:'ממלכה ממזרח לגלעד, ובירתה רבת בני עמון, עמאן של היום. דוד כבש את רבה.', src:'שמואל ב יב 26–31'},
+ damascus:{n:'ארם דמשק', d:'ממלכה ארמית סביב דמשק. דוד שם בה נציבים. בימי שלמה תפס רזון את דמשק, "ויהי שטן לישראל כל ימי שלמה".', src:'שמואל ב ח 5–6; מלכים א יא 23–25'},
+ zobah:{n:'ארם צובה', d:'ממלכה ארמית בבקעת הלבנון ומצפון לה. דוד היכה את הדדעזר מלכה.', src:'שמואל ב ח 3–4'},
+ tyre:{n:'צור', d:'עיר הנמל הפיניקית. חירם מלך צור שלח לדוד ארזים ובנאים, וכרת ברית עם שלמה.', src:'שמואל ב ה 11; מלכים א ה 15–26'},
+ hamath:{n:'חמת', d:'ממלכה בעמק האורונטס, בסוריה של היום. תֹּעִי מלך חמת שלח לדוד מתנות אחרי שהיכה את הדדעזר.', src:'שמואל ב ח 9–10'},
+ egypt:{n:'מצרים', d:'מצרים של התקופה הזאת חלשה ומפוצלת, ובירת הפרעונים בדלתא, בצוען. הגבולות משוערים.', src:''}
+};
+const ROLE = {core:'הממלכה', vassal:'משועבד', ally:'בעל ברית', enemy:'אויב', rival:'ממלכה יריבה', crack:'יוצא משליטה', gone:'יצא משליטה', neutral:'עצמאי'};
+const PINFO = {
+ rome:{n:'רומא', d:'העיר שרומולוס ייסד, לפי המסורת ב-753 לפנה"ס, על גבעת הפלטינוס.', src:'ליוויוס א 7'},
+ alba:{n:'אלבה לונגה', d:'עיר האם של רומא לפי המסורת, על הגבעות האלבניות. טולוס החריב אותה והעביר את תושביה לרומא.', src:'ליוויוס א 29'},
+ ostia:{n:'אוסטיה', d:'עיר הנמל בשפך הטיבר. לפי המסורת ייסד אותה אנקוס.', src:'ליוויוס א 33'},
+ jer:{n:'ירושלים', d:'עיר יבוסית שדוד כבש ועשה לבירה. שלמה בנה בה את המקדש. אחרי הפילוג נשארה בירת יהודה, ושישק לקח ממנה את אוצרות המקדש והארמון.', src:'שמואל ב ה 6–9; מלכים א ו; יד 26'},
+ shechem:{n:'שכם', d:'כאן התכנסו כל ישראל להמליך את רחבעם, וכאן נקרעה הממלכה. ירבעם בנה את העיר ועשה אותה לבירתו הראשונה. היום: תל בלאטה, בשכם.', src:'מלכים א יב 1–25'},
+ gilboa:{n:'הר הגלבוע', d:'כאן נפלו שאול ובניו בקרב מול הפלשתים.', src:'שמואל א לא 1–6'},
+ gezer:{n:'גזר', d:'עיר כנענית שפרעה כבש ושרף, ונתן לבתו, אשת שלמה, כנדוניה. שלמה ביצר אותה.', src:'מלכים א ט 15–17'},
+ etzion:{n:'עציון גבר', d:'נמל על חוף ים סוף, ליד אילת, שממנו יצא הצי של שלמה וחירם לאופיר. מיקומו המדויק שנוי במחלוקת.', src:'מלכים א ט 26–28'},
+ tanis:{n:'צוען (טניס)', d:'בירת מצרים בדלתא המזרחית בימי השושלת ה-21, ואחת מבירות השושלת ה-22, של שישק.', src:''},
+ dan:{n:'דן', d:'העיר הצפונית של הממלכה ("מדן ועד באר שבע"). ירבעם הציב בה עגל זהב.', src:'מלכים א יב 29'},
+ megiddo:{n:'מגידו', d:'עיר מבצר בעמק יזרעאל, ששלמה ביצר. בחפירות נמצא בה שבר מכתובת הניצחון של שושנק הראשון.', src:'מלכים א ט 15'},
+ cpl:{n:'קונסטנטינופול', d:'בירת האימפריה הביזנטית. מוחמד השני כבש אותה ב-1453 ועשה אותה לבירתו.', src:''},
+ chald:{n:'צ׳לדיראן', d:'כאן ניצח סלים את השאה הספווידי איסמעיל ב-1514.', src:''},
+ dabiq:{n:'מרג׳ דאביק', d:'כאן, מצפון לחלב, ניצח סלים את הממלוכים ב-1516, והשולטן הממלוכי נפל בקרב.', src:''},
+ cairo:{n:'קהיר', d:'בירת הממלוכים. סלים נכנס אליה ב-1517, אחרי הניצחון בקרב רידאניה.', src:''},
+ paris:{n:'פריז', d:'בירת ממלכת צרפת. מקיאוולי נשלח כמה פעמים כשליח פירנצה לחצר מלך צרפת.', src:''}
+};
+
 const CHAPTERS = ['הקדמה','כיצד נוצרו ערים','סוגי הרפובליקות','יצירת הטריבונים','השסע עשה את רומא חופשית','שומרי החירות','האם אפשר לבטל את האיבות','האישומים','הדיבות','להיות יחיד','מייסדים ועריצים','על הדת של הרומאים','הדת והכנסייה הרומית','הדת בשירות הסנאט','התרנגולות הקדושות','הסמניטים','בני ברוטוס','העם המושחת','שלטון חופשי בעיר מושחתת','המלך השלישי','אינסוף נסיכים','צבא משלך'];
 
 const GEO = [
@@ -1056,7 +1124,7 @@ Object.entries(PLACES).forEach(([id,p])=>{
     ? `<div class="pin" data-id="${id}" style="--c:${c}"><b>${p.s+1}</b><span>${p.n}</span></div>`
     : `<div class="pin minor" data-id="${id}" style="--c:${c}"><b></b><span>${p.n}</span></div>`;
   const m = L.marker(p.ll,{icon:L.divIcon({className:'pinwrap', html, iconSize:[0,0]}), keyboard:false, title:p.n, riseOnHover:true}).addTo(map);
-  m.on('click',()=>{ const s=p.s; const steps=STORIES[s].steps; let k=steps.findIndex(st=>(st.map.show||[]).includes(id)); openStory(s, Math.max(0,k)); });
+  m.on('click',ev=>{ L.DomEvent.stopPropagation(ev); if(state.story!==null && state.story===p.s){ placeInfo(id); return; } const s=p.s; const steps=STORIES[s].steps; let k=steps.findIndex(st=>(st.map.show||[]).includes(id)); openStory(s, Math.max(0,k)); });
   markers[id]=m;
 });
 const geoLayer = L.layerGroup().addTo(map);
@@ -1066,7 +1134,7 @@ map.on('zoomend',updateGeo);
 
 const overlay = L.layerGroup().addTo(map);
 map.createPane('terr'); map.getPane('terr').style.zIndex = 350;
-const OVB = L.latLngBounds([28.8,31.5],[35.9,37.8]);
+const OVB = L.latLngBounds([28.8,29.6],[35.9,37.8]);
 let curOvl = null, curOvlUrl = null;
 function setOverlay(url){
   if(url===curOvlUrl) return;
@@ -1085,7 +1153,7 @@ function overviewBounds(){ return L.latLngBounds(['paris','rome','cpl','jer','ca
 function fly(fn){ if(reduce){ fn(false); } else { fn(true); } }
 
 function applyMap(){
-  overlay.clearLayers(); setLegend([]);
+  overlay.clearLayers(); setLegend([]); hideInfo();
   setOverlay(state.story===null ? null : (STORIES[state.story].steps[state.step].map.ovl || null));
   document.getElementById('map').classList.toggle('story-on', state.story!==null);
   const badge = document.getElementById('yearBadge');
@@ -1117,6 +1185,7 @@ function applyMap(){
 
 const KIND = {
   core:{fill:null, fo:.32, w:2, dash:null, lbl:'הממלכה'},
+  neutral:{fill:'#5C5446', stroke:'#5C5446', fo:.1, w:1, dash:null, lbl:'ממלכה עצמאית'},
   vassal:{fill:null, fo:.12, w:1.5, dash:'5 4', lbl:'משועבד או תחת חיל מצב'},
   ally:{fill:'#E4AC31', stroke:'#B07F12', fo:.25, w:1.5, dash:null, lbl:'בעל ברית'},
   enemy:{fill:'#7A1F14', stroke:'#7A1F14', fo:.28, w:1.5, dash:null, lbl:'אויב'},
@@ -1140,7 +1209,7 @@ function drawRealm(mp, color){
     if(k.arrow){ const n=ln.pts.length; arrowHead(ln.pts[n-2],ln.pts[n-1],k.c).addTo(overlay); }
     if(ln.lbl){ const f=ln.la==null?.5:ln.la; const m=[ln.pts[0][0]+(ln.pts[1][0]-ln.pts[0][0])*f, ln.pts[0][1]+(ln.pts[1][1]-ln.pts[0][1])*f];
       L.marker(m,{icon:L.divIcon({className:'pinwrap', html:`<div class="llabel" style="--lc:${k.c}">${ln.lbl}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay); } });
-  (mp.pins||[]).forEach(([la,lo,n])=>L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor" style="--c:#2B3242"><b></b><span>${n}</span></div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay));
+  (mp.pins||[]).forEach(([la,lo,n,id])=>{ const m=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor tap" style="--c:#2B3242"><b></b><span>${n}</span></div>`, iconSize:[0,0]}), keyboard:false}).addTo(overlay); if(id) m.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); });
   const items=[]; used.forEach(u=>{ const [t,k]=u.split(':'); if(t==='p') items.push(`<span><i class="sw sw-${k}"></i>${KIND[k].lbl}</span>`);
     else items.push(`<span><i class="ln" style="border-top:3px ${LINE[k].dash?'dashed':'solid'} ${LINE[k].c}"></i>${LINE[k].lbl}</span>`); });
   setLegend(items);
@@ -1150,6 +1219,28 @@ function setLegend(items){ const el=document.getElementById('legend'); if(!items
   el.classList.toggle('closed', !legendOpen);
   el.innerHTML=`<button type="button" class="lgbtn" aria-expanded="${legendOpen}">מקרא</button><div class="lgitems">${items.join('')}</div>`; }
 document.getElementById('legend').addEventListener('click',e=>{ if(!e.target.closest('.lgbtn')) return; legendOpen=!legendOpen; const el=document.getElementById('legend'); el.classList.toggle('closed',!legendOpen); e.target.setAttribute('aria-expanded',String(legendOpen)); });
+
+function polyArea(r){ let a=0; for(let i=0,j=r.length-1;i<r.length;j=i++) a+=(r[j][1]+r[i][1])*(r[j][0]-r[i][0]); return Math.abs(a/2); }
+function inRing(lat,lon,r){ let c=false; for(let i=0,j=r.length-1;i<r.length;j=i++){ const [yi,xi]=r[i],[yj,xj]=r[j]; if(((yi>lat)!==(yj>lat)) && (lon < (xj-xi)*(lat-yi)/(yj-yi)+xi)) c=!c; } return c; }
+const card = document.getElementById('infocard');
+function showInfo(title, role, text, src){
+  card.innerHTML = `<button type="button" class="ic-x" aria-label="סגירה">×</button>${role?`<span class="ic-role">${role}</span>`:''}<h3>${title}</h3><p>${text}</p>${src?`<cite>${src}</cite>`:''}`;
+  card.hidden = false;
+}
+function hideInfo(){ card.hidden = true; }
+card.addEventListener('click', e=>{ if(e.target.closest('.ic-x')) hideInfo(); });
+function placeInfo(id){ const p=PINFO[id]; if(p) showInfo(p.n, 'מקום', p.d, p.src); }
+map.on('click', e=>{
+  if(state.story===null){ hideInfo(); return; }
+  const mp = STORIES[state.story].steps[state.step].map; const ents = mp.ents||{};
+  const hits = Object.keys(ents).filter(id=>GEOM[id] && GEOM[id].some(r=>inRing(e.latlng.lat,e.latlng.lng,r)))
+    .sort((a,b)=>Math.min(...GEOM[a].map(polyArea)) - Math.min(...GEOM[b].map(polyArea)));
+  if(!hits.length){ hideInfo(); return; }
+  const id = hits[0], E = ENT[id], role = ents[id], o = (mp.say||{})[id];
+  let text = o ? o[0] : E.d, src = o ? o[1] : E.src;
+  if(role==='gone') text += ' בימי רחבעם כבר אינה בשליטת בית דוד.';
+  showInfo(E.n, ROLE[role], text, src);
+});
 
 /* ---------- panel ---------- */
 const state = {tab:'stories', story:null, step:0};
@@ -1171,6 +1262,7 @@ function renderStories(){
   view.innerHTML = `
     <button class="back" data-back>→ כל הסיפורים</button>
     <div class="storyhead" style="--c:${s.color}"><span class="num">${state.story+1}</span><h2>${s.title}</h2></div>
+    ${st.map.ents?`<p class="tip">אפשר להקיש על כל ארץ או מקום במפה ולקרוא עליו.</p>`:''}
     <div class="progress" style="--c:${s.color}"><span>צעד ${state.step+1} מתוך ${s.steps.length}</span><span class="dots">${s.steps.map((_,i)=>`<i class="${i<=state.step?'on':''}"></i>`).join('')}</span></div>
     <article class="step" style="--c:${s.color}">
       <span class="yr">${st.year}</span>
@@ -1213,8 +1305,7 @@ function render(){
 }
 function scrollToPanel(){
   const panel=document.getElementById('panel');
-  if(window.matchMedia('(min-width:900px)').matches){ panel.scrollTo({top:document.querySelector('.tabs').offsetTop-12, behavior:reduce?'auto':'smooth'}); }
-  else { const y = document.querySelector('.tabs').getBoundingClientRect().top + window.scrollY - (52 + document.getElementById('mapwrap').offsetHeight) - 8; window.scrollTo({top:Math.max(0,y), behavior:reduce?'auto':'smooth'}); }
+  panel.scrollTo({top:Math.max(0,document.querySelector('.tabs').offsetTop-8), behavior:reduce?'auto':'smooth'});
 }
 function openStory(s,k){ state.tab='stories'; state.story=s; state.step=k||0; render(); applyMap(); scrollToPanel(); }
 
@@ -1227,6 +1318,7 @@ view.addEventListener('click',e=>{
   if(t.hasAttribute('data-next')){ const s=STORIES[state.story]; if(state.step<s.steps.length-1){ state.step++; } else if(state.story<STORIES.length-1){ state.story++; state.step=0; } else { state.story=null; } render(); applyMap(); scrollToPanel(); return; }
   if(t.dataset.goto){ const [s,k]=t.dataset.goto.split(',').map(Number); openStory(s,k); }
 });
+document.getElementById('sizeBtn').addEventListener('click',e=>{ const w=document.getElementById('mapwrap'); const big=!w.classList.contains('big'); w.classList.toggle('big',big); e.target.textContent=big?'הקטנת המפה':'הגדלת המפה'; e.target.setAttribute('aria-pressed',String(big)); setTimeout(()=>map.invalidateSize({pan:false}),320); });
 document.getElementById('allBtn').addEventListener('click',()=>{ state.story=null; if(state.tab!=='stories'){ state.tab='stories'; } render(); applyMap(); });
 
 /* drawer */
