@@ -19,6 +19,8 @@ const { chromium } = require('playwright');
       await p.screenshot({ path: `${out}/s${story}-step${i}-line${k}.png` });
       await p.click('.ic-x').catch(() => {});
     }
+    const prog = await p.$eval('.progress span', e => e.textContent).catch(() => '');
+    const m = prog.match(/(\d+)\D+(\d+)/); if (m && +m[1] >= +m[2]) break;   // last step of this story
     const n = await p.$('[data-next]'); if (!n) break; await n.click(); await p.waitForTimeout(2600);
   }
   console.log('errors:', JSON.stringify(errs)); await b.close();

@@ -20,12 +20,21 @@ EDGE = {'core': (24, 50, 92), 'trad': (35, 67, 119), 'vassal': (35, 67, 119), 'a
         'rival': (140, 40, 30), 'crack': (200, 80, 30), 'gone': (90, 90, 90), 'razed': (90, 90, 90)}
 HATCHED = {'trad', 'vassal', 'crack', 'gone', 'razed'}
 def merc(lat): return (1 - math.asinh(math.tan(math.radians(lat))) / math.pi) / 2
+STY['gain'] = ((86, 128, 196), .38); EDGE['gain'] = (35, 67, 119)   # conquered during this reign (lighter navy)
+STY['pu'] = ((35, 67, 119), .22); EDGE['pu'] = (35, 67, 119); HATCHED.add('pu')   # tied to the crown by marriage (personal union), navy hatch
+STY['disp'] = ((150, 120, 60), .14); EDGE['disp'] = (120, 95, 45); HATCHED.add('disp')   # disputed between two rulers
 class Frame:
-    """bbox = (lon0, lon1, lat0, lat1). Land mask from an SRTM tile (sea = void) and optional ASTER WBD lakes."""
-    def __init__(self, bbox, dem, wbd=None, W=1600, SS=2):
-        self.BB, self.W, self.SS = bbox, W, SS
+    """bbox = (lon0, lon1, lat0, lat1). Land mask from an SRTM tile (sea = void) and optional ASTER WBD lakes,
+    or, for large regions, land=<shapely geometry> (e.g. Natural Earth 50m land, see land_from_ne())."""
+    def __init__(self, bbox, dem=None, wbd=None, W=1600, SS=2, land=None, alpha=None):
+        """alpha: per-role fill opacity override, e.g. {'core': .30} for large regions seen at zoom 4-6, where the
+        default navy reads as sea on the satellite base map."""
+        self.BB, self.W, self.SS, self.alpha = bbox, W, SS, (alpha or {})
         self.mx0, self.mx1 = (bbox[0] + 180) / 360, (bbox[1] + 180) / 360; self.my0, self.my1 = merc(bbox[3]), merc(bbox[2])
         self.H = int(round(W * (self.my1 - self.my0) / (self.mx1 - self.mx0)))
+        self.yy, self.xx = np.mgrid[0:self.H * SS, 0:W * SS]
+        if land is not None:
+            self.land = self.rast(land); return
         tfw = [float(x) for x in open(os.path.splitext(dem)[0] + '.tfw').read().split()]
         res = tfw[0]; X0 = tfw[4] - res / 2; Y0 = tfw[5] + res / 2
         d = tifffile.imread(dem)
@@ -45,7 +54,6 @@ class Frame:
                 v[m] = a[((la0 - LA[m]) * 3600).astype(int).clip(0, 3600), ((LO[m] - lo0) * 3600).astype(int).clip(0, 3600)]
                 land &= ~(v == 3)
         self.land = ndi.binary_opening(land, iterations=1).astype(np.float32)
-        self.yy, self.xx = np.mgrid[0:self.H * SS, 0:W * SS]
     def px(self, lon, lat):
         return ((lon + 180) / 360 - self.mx0) / (self.mx1 - self.mx0) * self.W * self.SS, (merc(lat) - self.my0) / (self.my1 - self.my0) * self.H * self.SS
     def rast(self, geom):
@@ -71,9 +79,9 @@ class Frame:
             m = self.rast(g) * self.land
             if soft >= 15: m = ndi.gaussian_filter(m, soft * SS) * self.land * (1 - held)
             elif soft: m = ndi.gaussian_filter(m, soft * SS) * self.land
-            col, al = STY[role]
+            col, al = STY[role]; al = self.alpha.get(role, al)
             if role in HATCHED:
-                over(col, m * al); over(EDGE[role], m * self.hatch(12 if role in ('trad', 'vassal') else 9, 1 if role in ('trad', 'vassal') else -1) * 0.55)
+                over(col, m * al); over(EDGE[role], m * self.hatch(12 if role in ('trad', 'vassal', 'pu') else 9, 1 if role in ('trad', 'vassal', 'pu') else -1) * 0.55)
                 if crisp: over(EDGE[role], self.edgeband((m > 0.5).astype(np.float32), 1.6) * 0.85)
             else:
                 over(col, m * al)
@@ -118,3 +126,29 @@ def along(river_latlon, lat_hi, lat_lo, km, side):
     """Strip of width km along the river between two latitudes, on one bank."""
     seg = [(p[1], p[0]) for p in river_latlon if lat_lo <= p[0] <= lat_hi]
     return LineString(seg).buffer(km / (111.32 * math.cos(math.radians(seg[0][1]))), cap_style=2).intersection(side)
+
+def land_from_ne(bbox, scale='50m'):
+    """Natural Earth land (GitHub mirror, cached) clipped to bbox, as one shapely geometry."""
+    from shapely.geometry import shape
+    C = os.path.join(os.environ.get('ATLAS_CACHE', os.path.expanduser('~/.atlas-cache')), 'ne'); os.makedirs(C, exist_ok=True)
+    f = os.path.join(C, f'ne_{scale}_land.geojson')
+    if not os.path.exists(f):
+        import urllib.request
+        urllib.request.urlretrieve(f'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_{scale}_land.geojson', f)
+    B = box(bbox[0] - 1, bbox[2] - 1, bbox[1] + 1, bbox[3] + 1)
+    return unary_union([shape(x['geometry']).buffer(0).intersection(B) for x in json.load(open(f))['features'] if shape(x['geometry']).intersects(B)])
+def ne_admin1(adm0_a3):
+    """Natural Earth 10m admin-1 units of one country (e.g. 'FRA' -> French départements), as {name: geometry}.
+    Modern units are only building blocks: subtract/add them to approximate an old border, never present them as one."""
+    from shapely.geometry import shape
+    C = os.path.join(os.environ.get('ATLAS_CACHE', os.path.expanduser('~/.atlas-cache')), 'ne'); os.makedirs(C, exist_ok=True)
+    f = os.path.join(C, 'ne_10m_admin_1_states_provinces.geojson')
+    if not os.path.exists(f):
+        import urllib.request
+        urllib.request.urlretrieve('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces.geojson', f)
+    return {x['properties']['name']: shape(x['geometry']).buffer(0) for x in json.load(open(f))['features'] if x['properties'].get('adm0_a3') == adm0_a3}
+def island(land, lon, lat):
+    """The land polygon containing a point (an island such as Crete, Lesbos, Rhodes)."""
+    for p in getattr(land, 'geoms', [land]):
+        if p.contains(Point(lon, lat)): return p
+    return Point(lon, lat).buffer(0.08)
