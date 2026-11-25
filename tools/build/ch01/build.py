@@ -37,7 +37,7 @@ LADDER = [
  {'role':['השאלה','rule'], 'pg':'עמ׳ 7', 'h':'מקום עקר או מקום פורה', 'q':'"porsi in luogo fertile, quando quella fertilità con le leggi infra i debiti termini si ristringa": מקום פורה, כשהחוקים מגבילים את הפוריות בגבולות הראויים', 'tr':True, 'at':[3,1]},
  {'role':['ראיה','evid'], 'pg':'עמ׳ 7', 'h':'מצרים והממלוכים', 'q':'הסדר של הממלוכים ושל צבאם, לפני שחוסלו בידי סלים התורכי הגדול', 'at':[3,3]},
  {'role':['ראיה','evid'], 'pg':'עמ׳ 7–8', 'h':'אלכסנדר עוזב את אתוס', 'q':'"domandandolo Alessandro di quello che quelli abitatori viverebbero": אלכסנדר שאל ממה יחיו התושבים', 'tr':True, 'at':[1,0]},
- {'role':['חזרה לרומא',''], 'pg':'עמ׳ 8', 'h':'ורומא?', 'q':'"la vedrà avere principio libero, sanza dependere da alcuno": יראה שהייתה לה ראשית חופשית, בלי תלות באיש', 'tr':True, 'at':[2,3]},
+ {'role':['חזרה לרומא',''], 'pg':'עמ׳ 8', 'h':'ורומא?', 'q':'"la vedrà avere principio libero, sanza dependere da alcuno": יראה שהייתה לה ראשית חופשית, בלי תלות באיש', 'tr':True, 'at':[2,4]},
 ]
 J = lambda o: json.dumps(o, ensure_ascii=False, separators=(',', ':'))
 H = {'n':1, 'eyebrow':'ספר ראשון, פרק 1 · עמ׳ 5–8', 'title':'כיצד נוצרו ערים',
