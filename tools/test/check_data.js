@@ -20,6 +20,7 @@ for (const n of S.AVAIL) {
     Object.entries(m.ents || {}).forEach(([id, r]) => { if (!D.ENT[id]) miss.push(['ENT', si, k, id]); if (!D.GEOM[id]) miss.push(['GEOM', si, k, id]); if (!S.ROLE[r]) miss.push(['ROLE', r]); });
     Object.keys(m.say || {}).forEach(id => { if (!(m.ents || {})[id]) miss.push(['say-not-in-ents', si, k, id]); });
     (m.pins || []).forEach(p => { if (p[3] && !D.PINFO[p[3]]) miss.push(['PINFO', si, k, p[3]]); });
+    (m.zones || []).forEach(z => { if (z[4] && !D.PINFO[z[4]]) miss.push(['PINFO', si, k, z[4]]); });
     (m.lines || []).forEach(l => { if (!S.LINE[l.k]) miss.push(['LINE', l.k]); if (!l.info) miss.push(['line-without-card', si, k, l.lbl || '']); });
     (m.lg || []).forEach(x => { if (!S.KIND[x]) miss.push(['KIND', x]); });
     (m.show || []).forEach(id => { if (!D.PLACES[id]) miss.push(['PLACE', id]); });

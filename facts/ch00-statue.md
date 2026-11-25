@@ -1,6 +1,6 @@
 # תיק עובדות: הסיפור "שבר הפסל" (אטלס הדיונים, ההקדמה לספר הראשון)
 
-**סטטוס:** טיוטה של החוקר (25.11.2026). עוד לא עברה בדיקה עצמאית. שום טענה לא נכנסת למפה לפני הבדיקה.
+**סטטוס:** עבר בדיקה עצמאית (25.11.2026), בשני חלקים: 71 מאומתות, 20 מאומתות עם תיקון ניסוח קל, 12 תוקנו, 2 לא אומתו ולא נכנסות לאתר (45, ו-48 שהיא טענה שלילית). העמודים והנוסח של שלם לא ניתנים לבדיקה כאן (האיטלקית שלידם אומתה בשני עדי נוסח). שני דוחות הבודקים בנספח.
 
 כל שורה היא טענה שתופיע על המפה או בכרטיס מידע.
 
@@ -208,3 +208,403 @@
 - לא אימתתי את שם הכותב של המכתב הראשון (קזווקיה או "Casaveteri").
 - אתרים שלא נפתחו: digitalsculpture.org (לולאת הפניה); catalogo.museivaticani.va, researchgate.net ו-philpapers.org (שגיאה באתר); caareviews.org (חסום ל-robots); שלושה דפים ב-brunelleschi.imss.fi.it (CasinoMediceoSanMarco, PalazzoVecchio, MuseoSanMarco) נחסמו כי בקשת ההרשאה לא נענתה בזמן; dokumen.pub (תרגום מנספילד וטרקוב והספר של מנספילד) לא היה זמין.
 - [לא אומת] מסמך אנונימי ברשת ("La censura di Machiavelli", we.riseup.net) טוען שבמהדורת בלאדו (1531) הוחלפה המילה "religione" ב"educazione" בהקדמה. לא מצאתי לזה מקור מחקרי, ולכן זה לא בתיק.
+
+## תיקונים לפי הבדיקה (הגרסה שנכנסת למפה)
+
+- **3:** הרשימה ממשיכה: "ed altri che si sono per la loro patria affaticati" ("ואחרים שעמלו למען מולדתם").
+- **6:** לא "איש לא פונה", אלא "non si truova principe né republica che agli esempli delli antiqui ricorra" ("לא נמצא נסיך או רפובליקה שפונים לדוגמאות הקדמונים").
+- **7:** "בארצות ובערים נוצריות **רבות**" ("a molte provincie e città cristiane").
+- **22:** [היסק], לא [מחקר]. המשותף לשני הטקסטים הוא רק "gran prezzo", והפעלים הפוכים (מקיאוולי: "comperato"; וזארי: "venduto"). וזארי כותב "un fanciullo di marmo", לא "קופידון". "כמעט מילה במילה" נמחק. זה צירוף רגיל לקנייה ולמכירה של עתיקות, לא רמז לפסל אחד.
+- **23:** המכתב לא מתוארך ("lettera senza data", Calenne ו-Serangeli). פראנדי: "il giorno 14 o invece il 13". בכרטיס: "14 בינואר (לפי רוב החוקרים; יש שאומרים 13)".
+- **24:** השם "Filippo Casavecchia" מבוסס ב-Calenne ו-Serangeli, *Studi Romani* 61 (2013). הנמען: "Francesco di Pietro Vittori". הפייסבוק יוצא מהתיק. שזה קזווקיה **חברו של מקיאוולי** נשאר [היסק]: אף מקור לא אומר זאת, ו-DBI ו-EM לא מזכירים אותו ברומא ב-1506. לכן באתר: "פיליפו קזווקיה, פלורנטיני", בלי "חברו של מקיאוולי".
+- **26:** ההערה בלטינית, בדף 290v: "reperta est Ro: Anno Virginej partus .1506. .iiii. Jdus Januarij" (iiii Idus = 10 בינואר). רקיה היה "giurista al servizio della magistratura capitolina e della Camera Apostolica". הפרסום המחקרי: Calenne ו-Serangeli, 2013. הארכיון: Archivio Storico Innocenzo III della Diocesi di Velletri-Segni.
+- **29:** הכתובת: "Via Mecenate 35" (Archeo 299, ינואר 2010; "35 A" ופרטי Il Messaggero לא אומתו). המנזר רשום היום בוויה אנג׳לו פוליציאנו 38, באותו גוש. תיאור הגוש (פוליציאנו, מצ׳נטה, מרולנה, קרלו בוטה) הוא של וארנר, אצל הויבר.
+- **32:** האפיפיור אמר את הדברים ל"palafreniere" (סייס). מיכלאנג׳לו "si trovava continuamente in casa" ("היה תמיד בביתנו"), כי ג׳וליאנו "l'aveva fatto venire, e gli aveva allogata la sepoltura del Papa" ("הביא אותו ומסר לו את קבר האפיפיור"). "התאכסן" נמחק.
+- **36:** Eric R. Varner (לא Werner), *Golden Excess* (Brill, 2025), עמ' 394–399: הקבוצה הוצגה בגני מאקנס בימי נירון.
+- **44:** "scriptores", ברבים: המשרה לדה פרדיס ולבנו. "1,500 דוקט" הוא ניסוח של פראנדי, לא ציטוט מהצו. ההפניה: "פראנדי", בלי מספר הערה (Müntz 1886, עמ' 44).
+- **46:** הכתובת ממשיכה "fere respirans simulacrum immortalitatem meruit". תרגום חופשי: "לפליצ׳ה דה פרדיס, שזכה לאלמוות בזכות מעלותיו ובזכות מציאת הפסל האלוהי של לאוקון, שאתה רואה בוותיקן כמעט נושם". הכתובת מזכירה גם את בנו פדריקו; 1529.
+- **54, 93:** [מחלוקת] גם עצם המציאה של אפולו על הוימינליס שנוי במחלוקת: הוותיקן כותב "colle Viminale"; ויקיפדיה האנגלית (כמצביע) כותבת "seems to have been discovered in 1489 in the present Anzio", או "perhaps at Grottaferrata". הולכים לפי הוותיקן (המוסד המחזיק), עם סימן שאלה ו"המקורות חלוקים".
+- **55:** [מחקר], לא [מחלוקת]: שרה (Sara) מגיסטר, לא "סילביה". בראון, JWCI 49 (1986), עמ' 235–238: הפסל עמד בגן של הקרדינל בסנטי אפוסטולי, לא בסן פייטרו אין וינקולי. כריסטיאן: "remained at Santi Apostoli until October 1508". הכותרת "nei palazzi ai Santi Apostoli" לא אומתה, ולא מצוטטת.
+- **56:** אייאקס הוא "the most favored current hypothesis", לא זיהוי ודאי.
+- **57:** המשפט על 1433 שייך לכתב פאולו אונדרצה, לפי היומנים של צ׳יריאקו מאנקונה, ולא לאוצר ספינולה.
+- **58 (תוספת):** לפי Vatican News, לפני כן הטורסו היה באוסף של הקרדינל ג׳וליאנו דלה רובֶרה.
+- **62:** "כנראה מסוף המאה ה-1 לספירה".
+- **65:** הכתיב הלטיני: palazzo Socci.
+- **66:** "לאחוות האורגים" (Compagnia dei Tessitori).
+- **73:** עמ' 41–83. המחקר החדש, "a partire da Caroline Elam (1992)", "ha confermato indubbiamente l'esistenza" של בית הספר. הספק של שסטל וגומבריך הוא העמדה הישנה. התגית [מחלוקת] נשארת רק במובן ההיסטוריוגרפי.
+- **79:** וזארי 1568 מביא את הסכומים בלשון "Altri dicono" ("יש אומרים"). ג׳וביו: "per alium", כלומר דרך מתווך.
+- **80:** תחילת הבנייה של הקנצ׳לריה: 1485 (Turismo Roma) או 1489 (ויקיפדיה). המקורות חלוקים.
+- **82:** הצירוף "nella casa de' Galli, dirimpetto al palazzo di San Giorgio" הוא מוזארי **1550** (מסמך 27), לא 1568. "פסל חדש עמד בין עתיקות" הוא [היסק].
+- **83:** "הוכרז כאפיפיור ב-11 במרץ 1513" (נבחר ב-9 במרץ, לפי ויקיפדיה).
+- **85:** **רק ב-10 באוקטובר 1531** נמצא להעתק סידור קבוע, בנישה בגן המדיצ׳י. אחר כך עבר דרך הקזינו של סן מרקו, והגיע לאופיצי בסוף המאה ה-17.
+- **88:** הכסף **לא** עבר דרך מיכלאנג׳לו. בונאקורסי שלח אותו "per Michelagnolo scultore", אבל מיכלאנג׳לו "era tornato indietro per buona cagione", והכסף הוחזר. EM: היחסים "si riducono... a un episodio di rilievo minimo". זה המגע המתועד **היחיד** ביניהם, לא "אחד המעטים".
+- **89:** "הצניע", לא "העלים" ("a conscious strategy"). המחבר, הכרך והעמודים לא אומתו.
+- **101:** בזום 8 פיקסל בפירנצה הוא כ-440 מטר, ולכן 1.1 ק"מ הם כ-2.5 פיקסלים. ובכל מקרה: לפירנצה יש עכשיו אריחי תבליט מפורטים (`tf/`, זום 9–12), ולכן אפשר לסמן שם נקודות נפרדות (ראו הכרעה 8 המעודכנת).
+- **103:** "מכבד את ביתו" הוא [היסק] (הקבלה ל-"onorarne la sua casa"). מונטורסולי השלים את הפסלים ב-1532–1533, לפי רצונו של קלמנס השביעי ("che volle il restauro").
+- **104:** ברטולדו הוא השומר. "guida e capo" של הצעירים רק אצל וזארי 1568.
+- **105:** פרנסואה הראשון לא קיבל רק הבטחה: ב-1540 שלח את פרימטיצ׳ו לקחת תבניות ברומא, וב-1542 הייתה בפונטנבלו יציקת ברונזה של לאוקון (Getty). ההעתק של בנדינלי, שנועד לו, נשאר בפירנצה, והיום הוא באופיצי. מקיאוולי הודח ב-7 בנובמבר 1512.
+
+### הכרעות מעודכנות אחרי הבדיקה
+- **הכרעה 7 (אפולו):** הוימינליס עם סימן שאלה ו"המקורות חלוקים" (אנציו? גרוטפרטה?). הכרטיס מוסיף שעד אוקטובר 1508 עמד הפסל בגן של הקרדינל בסנטי אפוסטולי (בראון; כריסטיאן). סנטי אפוסטולי לא מקבל נקודה נפרדת, כי ארמון קולונה צמוד אליו (כ-100 מטר); הוא נזכר בכרטיס של הטורסו ושל אפולו.
+- **הכרעה 8 (פירנצה):** מאז שנבנו אריחי התבליט של פירנצה (`tf/`), צעד 3 נפתח על פירנצה המפורטת, עם שלוש נקודות נפרדות: ארמון מדיצ׳י, גן סן מרקו וארמון הסיניוריה (טענות 97–99). רומא (הקנצ׳לריה) נשארת בצעד 3 כקשת מסוג `trade` מהגן, עם ההערה "הדרך לא מתועדת".
+- **הכרעה 11 (הכותב):** "פיליפו קזווקיה, פלורנטיני, במכתב לא מתוארך לפרנצ׳סקו ווטורי". לא "חברו של מקיאוולי" (היסק בלבד).
+- **מגע מקיאוולי–מיכלאנג׳לו (טענה 88):** נכנס לקטע "מה מקיאוולי לא מספר" של צעד 4, בגרסה המתוקנת: מגע יחיד, שולי, שבו הכסף בכלל לא הגיע ליעדו.
+- **ספרלונגה ורודוס (טענה 37):** רק בכרטיס של לאוקון, לא כנקודות. הן מחוץ לתחום הצעד, והן לא חלק מהטיעון.
+
+---
+
+# נספח א: דוח הבודק העצמאי, טענות 1–52
+
+# בדיקה עצמאית: "שבר הפסל" (ההקדמה לספר הראשון), טענות 1–52
+
+**הבודק:** בודק עצמאי (חלק א). הבודק לא ראה את הטיוטה, את הנימוקים, את `index.html` או קבצים אחרים ב-`facts/` וב-`.check/`. הוא קרא רק את קובץ הטענות `.check/ch00-statue-claims.md`.
+**תאריך:** 25.11.2026.
+**התחום:** טענות 1 עד 52. טענות 53 ואילך שייכות לבודק אחר.
+
+---
+
+## 1. סיכום
+
+| הכרעה | מספר טענות | הטענות |
+|---|---|---|
+| אומת | 38 | 1, 2, 4, 5, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 25, 27, 28, 30, 31, 33, 34, 35, 37, 38, 39, 40, 41, 42, 43, 47, 49, 50, 51, 52 |
+| אומת, צריך תיקון קל | 9 | 3, 6, 7, 23, 26, 32, 36, 44, 46 |
+| דורש תיקון | 1 | 22 |
+| אומת חלקית | 2 | 24, 29 |
+| לא אומת | 1 | 45 (התיק עצמו כבר מסמן אותה ככזו, והיא לא נכנסת למפה) |
+| לא ניתן לבדיקה כאן | 1 | 48 (טענה שלילית) |
+
+**בנוסף:** בטענות 1–11 העמודים במהדורת שלם, והנוסח העברי של שלם בטענות 1, 7 ו-9, הם **לא ניתנים לבדיקה כאן**. בדקתי שהאיטלקית שמצוטטת לידם מופיעה בדיוק כך בשני עדי נוסח (ויקיטקסט דרך GitHub ו-Liber Liber).
+
+### התיקונים, בלשון המקור
+
+**טענה 3 (תיקון קל).** הרשימה של מקיאוולי ממשיכה, והתיק קוטע אותה. המקור: "dai re, capitani, cittadini, latori di leggi, ed altri che si sono per la loro patria affaticati". נוסח מוצע: של "re, capitani, cittadini, latori di leggi, ed altri che si sono per la loro patria affaticati" (מלכים, מצביאים, אזרחים, מחוקקים, ואחרים שעמלו למען מולדתם).
+
+**טענה 6 (תיקון קל).** "איש לא פונה" רחב מדי. המקור: "non si truova principe né republica che agli esempli delli antiqui ricorra". נוסח מוצע: אבל בשישה תחומים "לא נמצא נסיך או רפובליקה" שפונים לדוגמאות של הקדמונים.
+
+**טענה 7 (תיקון קל).** חסרה המילה "רבות". המקור: "a molte provincie e città cristiane". נוסח מוצע: "בטלה שאפתנית" שפגעה "בארצות ובערים נוצריות רבות".
+
+**טענה 22 (דורש תיקון).** שלוש בעיות:
+- (א) התגית [מחקר] שגויה. כריסטיאן לא משווה את וזארי למקיאוולי. זו השוואה של החוקר, ולכן התגית צריכה להיות [היסק].
+- (ב) "כמעט מילה במילה" מוגזם. המשותף לשני הטקסטים הוא רק "gran prezzo". הפעלים הפוכים: אצל מקיאוולי "comperato" (נקנה), ואצל וזארי "venduto" (נמכר).
+- (ג) במסמך 27 וזארי לא כותב "קופידון". הוא כותב "un fanciullo di marmo" ("ילד של שיש").
+
+וזארי כתב ב-1550, כשלושים שנה אחרי מקיאוולי, ולכן אי אפשר להסיק ממנו "לשון השוק של התקופה" יותר מאשר צירוף מקובל. נוסח מוצע: "[היסק] הצירוף 'gran prezzo' מופיע גם אצל וזארי (1550), על 'un fanciullo di marmo' של מיכלאנג׳לו (הקופידון) שנמכר כעתיק: 'onde cavatosi e tenuto per antico, fu venduto gran prezzo' (כריסטיאן, נספח 2, מסמך 27). זה צירוף רגיל לקנייה ולמכירה של עתיקות, ולא רמז לפסל אחד."
+
+**טענה 23 (תיקון קל).** שלוש תוספות:
+- המכתב עצמו לא מתוארך. Calenne ו-Serangeli כותבים "la lettera senza data del fiorentino Filippo Casavecchia", והחודש נקבע לפי התוכן.
+- פראנדי מביא אפשרות נוספת: "se fu, come si crede dai più, il giorno 14 o invece il 13". הוא קורא ליום רביעי "questione del tutto secondaria".
+- מומלץ לכתוב בכרטיס: "14 בינואר (לפי רוב החוקרים; פראנדי מזכיר גם את ה-13)".
+
+**טענה 24 (אומת חלקית).** את דף הפייסבוק לא פתחתי, ואת הציטוט ממנו לא אימתתי. לעומת זאת, את השם אפשר לבסס על מקור מחקרי: Luca Calenne ו-Alfredo Serangeli, "Una nuova datazione per il ritrovamento del Laocoonte da un incunabolo conservato a Segni", *Studi Romani* 61 (2013). הם קוראים לכותב "il fiorentino Filippo Casavecchia", ומדווחים שכתב אל "Francesco di Pietro Vittori" שפסל נמצא ב-14 בחודש, ביום רביעי, בכרם.
+
+נוסח מוצע: להחליף את הפייסבוק במקור הזה. ההנחה שזה אותו קזווקיה, חברו של מקיאוולי, נשארת [היסק]. אף מקור שקראתי לא אומר זאת. ערך DBI (מלנימה, 1978, כרך 21) וערך EM (לפרי, 2014) לא מזכירים את לאוקון או שהייה ברומא ב-1506. DBI מתאר שהיות ברומא רק בשנים שאחרי 1509. החלק על DBI אומת: "Philippo Casavecchia l'ha visto", במכתב של 10 בדצמבר 1513, וחברות קרובה ("forti vincoli di amicizia").
+
+**טענה 26 (תיקון קל).** ארבעה תיקונים:
+- (א) "il 10 gennaio del 1506" הוא הניסוח של העיתונאית, לא של ההערה. ההערה בשוליים, בדף 290v, כתובה בלטינית: "reperta est Ro: Anno Virginej partus .1506. .iiii. Jdus Januarij". בדקתי: iiii Idus Januarii הוא 10 בינואר (האידוס של ינואר הם ב-13).
+- (ב) רקיה היה "giurista al servizio della magistratura capitolina e della Camera Apostolica", כלומר לא רק בשירות הקאמרה.
+- (ג) הפרסום המחקרי המקורי הוא Calenne ו-Serangeli, *Studi Romani* 61 (2013). הכתבה מ-2016 מדווחת על הצגה בוותיקן.
+- (ד) שם הארכיון: "Archivio Storico Innocenzo III della Diocesi di Velletri-Segni".
+
+**טענה 29 (אומת חלקית).** את ההעתק של Il Messaggero לא הצלחתי לפתוח, ולכן "30.11.2009" ו-"Via Mecenate 35 A" לא אומתו. מה כן נמצא:
+- בלוג שמצטט את Archeo 299 (ינואר 2010) מזכיר את "Via Mecenate 35" (בלי A), את "the Sisters of St. Joseph of Cluny" ואת "Collegio dei notai capitolini".
+- ויקיפדיה האנגלית מתארכת את המחקר של וולפה ופריזי ל-2010.
+- הכתובת של מוסד האחיות היום היא "Via Angelo Poliziano 38", וזה מתאים לגוש.
+- החלק של הויבר אומת: "mit Sicherheit nicht im Gebäude 54 I. entdeckt", "augusteischen Domus 55a-d", ושהצעת וולפה ופריזי "irrtümlich".
+- הגוש "bounded by the Via Poliziano, Via Mecenate, Via Merulana, and Via Carlo Botta" הוא ציטוט של וארנר (Varner) אצל הויבר, לא ניסוח של הויבר עצמה.
+
+נוסח מוצע: לציין את מקור הגוש (וארנר, אצל הויבר), ולסמן את פרטי Il Messaggero "לא אומת".
+
+**טענה 32 (תיקון קל).** הנימוק בעניין מיכלאנג׳לו מעוות, ו"התאכסן" לא כתוב במקור. המקור (פראנדי, וגם ההודעה לעיתונות): מיכלאנג׳לו "si trovava continuamente in casa", כי "mio padre l'aveva fatto venire, e gli aveva allogata la sepoltura del Papa". נוסח מוצע: ג׳וליאנו לקח איתו את מיכלאנג׳לו, ש"היה תמיד בביתנו", כי ג׳וליאנו "הביא אותו" לרומא ו"מסר לו את (הזמנת) קבר האפיפיור". פרט נוסף: האפיפיור אמר את הדברים ל-"palafreniere" (סייס), לפי ההודעה לעיתונות.
+
+**טענה 36 (תיקון קל).** השם הוא Varner ולא Werner: אריק ר. וארנר (Eric R. Varner), *Golden Excess: Art and the Aesthetics of the Incredible in Neronian Rome* (Brill, 2025), עמ' 394–399. לפי הציטוט אצל הויבר, וארנר מציע "a Neronian date for the statuary group's display in the gardens of Maecenas", כלומר תיארוך של **ההצגה** בגנים לימי נירון. הויבר עצמה מסכמת שהוא מתארך לימי נירון את הקבוצה ואת הצגתה. נוסח מוצע: "וארנר (2025) מציע שהקבוצה הוצגה בגני מאקנס בימי נירון".
+
+**טענה 44 (תיקון קל).** שלושה תיקונים:
+- (א) בטקסט של פראנדי כתוב "scriptores archivi Romanae Curiae", בלשון רבים. המשרה ניתנה לדה פרדיס **ולבנו**.
+- (ב) "un'indennità di 1500 ducati in caso di mancanza" הוא הניסוח האיטלקי של פראנדי, לא לשון הצו הלטיני. לכן לא כדאי להציג אותו כציטוט מהמסמך.
+- (ג) מספר ההערה: בקריאה שלי הצו של ליאו העשירי (7 בנובמבר 1517) מופיע בהערה **1** של פראנדי, שמצטט את Müntz, *Les antiquités de la ville de Rome* (1886), עמ' 44. לא מצאתי אותו בהערה 7. המספור בקריאה שלי לא חד-משמעי, ולכן מומלץ לכתוב "פראנדי" בלי מספר הערה, או לבדוק מול ה-PDF.
+
+**טענה 46 (תיקון קל).** הציטוט מדויק, אבל נקטע לפני הפועל, ולכן התרגום חסר. לפי פראנדי (שמעתיק מפורצ׳לה, כרך 1, עמ' 164), הכתובת ממשיכה: "...quod in Vaticano cernis fere respiran[s] simulacr[um] imortalitatem meruit". ה-OCR משובש, ופראנדי מסמן שם (sic). תרגום מוצע: "לפליצ׳ה דה פרדיס, שזכה לאלמוות בזכות מעלותיו ובזכות מציאת הפסל האלוהי של לאוקון, שאתה רואה בוותיקן כמעט נושם". הכתובת מזכירה גם את בנו פדריקו, והתאריך MDXXVIIII (1529) אומת.
+
+**טענה 45 (לא אומת).** לא פתחתי את הפייסבוק. ב-PDF של פראנדי המספר "600" לא מופיע. זה תואם את מה שהתיק כותב: הטענה לא נכנסת למפה.
+
+### הערות שלא מחייבות שינוי
+- **טענה 16:** דיוניסיוס 1.48.2 (ביוונית, `tlg0081`) מזכיר את הטרגדיה "לאוקון" של סופוקלס ("ἐν Λαοκόωντι δράματι") ואת האותות סביב בני לאוקון. הוא לא מזכיר את הפסל. אין כאן מקבילה לסיפור הפסל, אבל כדאי לדעת אם מישהו ישאל.
+- **טענה 17:** הלטינית זהה למהדורת מייהוף (36.37 מתחיל ב-"Nec deinde"). "de consilii sententia" הוא מילולית "לפי החלטת העצה". "בעצה אחת" תואם את התרגום של בוסטוק ורילי ("made in concert").
+- **טענה 35:** "almeno otto pezzi" כתוב ב-EAA. ויקיפדיה האנגלית כותבת "at least seven interlocking pieces". אם הכרטיס מביא מספר, כדאי לייחס אותו ל-EAA.
+- **מחוץ לתחום שלי (לידיעת הבודק השני):** בטענה 82, המשפט "nella casa de' Galli, dirimpetto al palazzo di San Giorgio, un Bacco di marmo" מופיע בנספח של כריסטיאן כמסמך 27, כלומר וזארי **1550**, ולא 1568.
+
+---
+
+## 2. שיטה ומגבלות
+
+### מה נפתח בפועל
+- **מקיאוולי באיטלקית:** הורדתי את ה-JSON של ויקיטקסט (מהדורה 3685765) מ-GitHub, וקראתי את כל ההקדמה. השוויתי חמישה צירופים מול ה-PDF של Liber Liber (מהדורת מרטלי) דרך WebFetch, והם זהים, כולל "antiqua statua".
+- **פליניוס:** קראתי בעצמי את ה-XML הלטיני של Perseus (`phi0978.phi001.perseus-lat2.xml`). אימתתי את גבול הסעיף 36.37 לפי ה-milestone. קראתי גם את התרגום ואת ההערה של בוסטוק ורילי (`perseus-eng1`).
+- **דיוניסיוס, פלוטרכוס וליוויוס:** חיפשתי "לאוקון" בקבצים המקומיים. מצאתי רק את דיוניסיוס 1.48.2.
+- **פליאדס:** בדקתי בעצמי כל מזהה ב-`pleiades-places.csv`. הקואורדינטות ורמת הדיוק תואמות לתיק בכל המקרים. הצלבתי עם Turismo Roma:
+  - הסטה סאלה בפליאדס רחוקות 65 מטר מהנקודה של Turismo Roma (הכניסה, Via delle Terme di Traiano 5b).
+  - האודיטוריום של מאקנס בפליאדס רחוק 46 מטר מהנקודה של Turismo Roma.
+  - הצלבתי גם עם GeoNames (`cities.json`): ספלונקאי רחוקה 1.7 ק"מ ממרכז העיירה ספרלונגה (המערה נמצאת על החוף, מחוץ לעיירה), ורודוס רחוקה 1.0 ק"מ.
+- **חישובים:**
+  - מרחק בנוסחת haversine: בין הסטה סאלה לאודיטוריום בפליאדס יש 216 מטר.
+  - יום בשבוע לפי מספר היום היוליאני (בדיקת שפיות: 4 באוקטובר 1582 יוליאני יוצא יום חמישי). 14 בינואר 1506 יוצא יום רביעי, 10 בינואר 1506 יוצא יום שבת, ו-13 בינואר 1506 יוצא יום שלישי.
+- **אתרים שנפתחו ב-WebFetch** (כולם עלו קודם בתוצאות חיפוש): פראנדי (PDF ב-INASA), EAA, EM על מיכלאנג׳לו ועל קזווקיה, DBI על קזווקיה, ההודעה לעיתונות של הוותיקן (2006), שלושה דפי מוזיאוני הוותיקן (לאוקון, החצר המתומנת, אפולו), דף הטורסו, Vatican News (2024), נספח 2 של כריסטיאן ב-census.de, פלומבו, הולמן (OAPEN), הויבר, Il Giornale dell'Arte, הדף על Calenne ו-Serangeli ב-auditorium.info, National Geographic, Artibus et Historiae, Britannica (שלושה דפים), ויקיפדיה (ארבעה דפים), Turismo Roma, ospitalitareligiosa ובלוג villasperanza.
+
+### מגבלות
+- **WebFetch עובר דרך מודל ביניים** שמגביל ציטוטים ארוכים. הציטוטים מפראנדי מגיעים מ-OCR משובש. כל ציטוט קצר שאומת נבדק מול ניסוח מפורש שהמודל החזיר, אבל מספרי ההערות אצל פראנדי (טענה 44) לא חד-משמעיים.
+- **לא נפתח:**
+  - דף הפייסבוק (טענות 24 ו-45). הוא לא עלה בחיפוש.
+  - ההעתק של Il Messaggero ב-wordpress (טענה 29). שלושה חיפושים ממוקדים לא העלו אותו.
+  - Digital Sculpture Project. יש שם לולאת הפניות בין https ל-http.
+  - הורדה ישירה של ה-PDF של פראנדי. הפרוקסי חוסם (403).
+- **מיקום הגוש בטענה 30:** אין לי גישה לנתוני רחובות (OSM). לכן לא מיקמתי את הגוש של ויה מצ׳נטה, ויה מרולנה, ויה פוליציאנו וויה קרלו בוטה על המפה. ויקיפדיה האנגלית כותבת שהמציאה הייתה "slightly to the east of the southern end of the Sette Sale", וזה מתיישב עם "ביניהן או לידן", אבל זו לא בדיקה גיאומטרית.
+- **מהדורת שלם העברית לא זמינה.** כל העמודים והנוסחים העבריים המסומנים "שלם" לא ניתנים לבדיקה כאן.
+
+---
+
+## 3. טבלה
+
+| # | הכרעה | מה לא בסדר | המקור שנבדק בפועל |
+|---|---|---|---|
+| 1 | אומת | האיטלקית מדויקת ("molte volte" כלול בהקשר). עמ' 3 והנוסח "שבר של פסל עתיק" בשלם: לא ניתן לבדיקה כאן. "coloro che di quella arte si dilettono" הוא מילולית "אלה שמתענגים על אותה אמנות". פלומבו (הערה 7) מפרש אותם כאמנים, ולכן "אמנים" סביר. | [ויקיטקסט דרך GitHub](https://raw.githubusercontent.com/awatson1978/discourses-on-rome/main/corpus/raw/discorsi_it/1_proemio.json); [Liber Liber](https://linux.studenti.polito.it/static_resources/liberliber/biblioteca/m/machiavelli/discorsi_sopra_la_prima_deca_di_tito_livio/pdf/discor_p.pdf) |
+| 2 | אומת | הציטוט מדויק. הערה 7 בפלומבו: "si riferisce agli artisti, come il pronome quegli subito dopo". ההערה כנראה מוצמדת ל-"coloro", אבל היא אומרת במפורש שגם "quegli" הם האמנים. | [ויקיטקסט](https://raw.githubusercontent.com/awatson1978/discourses-on-rome/main/corpus/raw/discorsi_it/1_proemio.json); [פלומבו](https://www.palumboeditore.it/portals/0/webooks/lcd/v1/t11_on_line_v1.pdf) |
+| 3 | תיקון קל | הרשימה נקטעה. במקור יש גם "ed altri che si sono per la loro patria affaticati" (ראו בסיכום). | ויקיטקסט; Liber Liber ("latori di leggi") |
+| 4 | אומת | "non ci è rimasto alcun segno" ו-"non me ne maravigli e dolga" מדויקים. | ויקיטקסט |
+| 5 | אומת | שני הציטוטים מדויקים. עמ' 4: לא ניתן לבדיקה כאן. | ויקיטקסט |
+| 6 | תיקון קל | ספרתי שישה צירופים, ו"שישה" נכון. אבל "איש לא פונה" רחב מדי. במקור: "non si truova principe né republica che agli esempli delli antiqui ricorra". | ויקיטקסט |
+| 7 | תיקון קל | הציטוטים מדויקים, אבל חסר "molte" ("ארצות וערים נוצריות **רבות**"). הנוסח העברי של שלם: לא ניתן לבדיקה כאן. | ויקיטקסט; Liber Liber; פלומבו, הערה 17 ("a molte città e territori cristiani") |
+| 8 | אומת | "non tanto da la debolezza ... o da quel male ... quanto dal non avere vera cognizione delle storie". הקריאה התחבירית נכונה. | ויקיטקסט; Liber Liber |
+| 9 | אומת | האיטלקית מדויקת. הנושא הוא "infiniti che le leggono" ("אינספור קוראים"). הנוסח של שלם: לא ניתן לבדיקה כאן. | ויקיטקסט |
+| 10 | אומת | שני הציטוטים מדויקים, וממשיכים "da quello che gli erono antiquamente". | ויקיטקסט |
+| 11 | אומת | מדויק. פלומבו, הערה 20: "intercetti" = "sottratti". | ויקיטקסט; פלומבו |
+| 12 | אומת | פלומבו, הערה 20: מתוך 142 ספרים שרדו 35. הספרים 41–45 הם "lacunosi" ו"scoperti solo nel 1527". ההקבלה לשבר מסומנת נכון כהיסק. | [פלומבו](https://www.palumboeditore.it/portals/0/webooks/lcd/v1/t11_on_line_v1.pdf) |
+| 13 | אומת | "modi ed ordini nuovi" ו-"cercare acque e terre incognite" מדויקים ("non altrimenti periculoso... che"). | ויקיטקסט |
+| 14 | אומת | "Documento di una sottile polemica (certo, non personale) è invece il paragrafo iniziale del proemio ai Discorsi, dove si rileva il contrasto fra l'oblio dell'antica virtù civile romana e il culto tributato persino a «un frammento d'una antica statua»". | [EM, מיכלאנג׳לו](https://www.treccani.it/enciclopedia/michelangelo-buonarroti_(Enciclopedia-machiavelliana)/) |
+| 15 | אומת | "del tutto occasionali e incidentali sono, allo stato attuale della documentazione". | EM, מיכלאנג׳לו |
+| 16 | אומת | נכון לגבי הסיפור. הערה: דיוניסיוס 1.48.2 מזכיר את "לאוקון" של סופוקלס, אבל לא את הפסל. | `tlg0081.tlg001.perseus-grc2.xml` (מקומי); `phi0914` ו-`tlg0007` (מקומי, בלי תוצאות) |
+| 17 | אומת | הלטינית זהה מילה במילה, וסעיף 37 מתחיל ב-"Nec deinde". "de consilii sententia": ראו הערה בסיכום. | `phi0978.phi001.perseus-lat2.xml`, 36.37 (מקומי); `perseus-eng1` |
+| 18 | אומת | ויקיפדיה האיטלקית: "dal 1513 al 1519", ו-1519 היא שנת מותו של "uno dei due dedicatari". ויקיפדיה האנגלית: "Rucellai had died in 1519". Britannica נותנת במקום אחד 1513–21 ובמקום אחר 1517, כלומר התיארוך לא אחיד. | [it.wikipedia](https://it.wikipedia.org/wiki/Discorsi_sopra_la_prima_Deca_di_Tito_Livio); [en.wikipedia](https://en.wikipedia.org/wiki/Discourses_on_Livy); [Britannica](https://www.britannica.com/topic/Discourses-on-the-First-Ten-Books-of-Livy) |
+| 19 | אומת | Britannica: 1531, "published posthumously". ויקיפדיה האיטלקית: "a opera del tipografo fiorentino Bernardo Giunti". | Britannica; it.wikipedia |
+| 20 | אומת | פלומבו: הערה 6 רק מנסחת מחדש ("sia stato comperato a gran prezzo"), והערה 7 מזהה את האמנים. הולמן, עמ' 18: "a typical mode of a contemporary Florentine's appreciation", בלי זיהוי של פסל. EM: בלי זיהוי. את החיפוש השלילי אי אפשר להוכיח, וגם בחיפושים שלי לא עלה זיהוי. | פלומבו; [הולמן, OAPEN](https://library.oapen.org/bitstream/20.500.12657/26113/1/1003974.pdf); EM |
+| 21 | אומת | Vatican News: "found nearly intact underground in a vineyard in 1506", ו-"the right arm was notably absent". מוזיאוני הוותיקן על הטורסו: "a fragment of a statue found in Rome at the end of the 15th century". | [Vatican News 2024](https://www.vaticannews.va/en/vatican-city/news/2024-05/segreti-musei-vaticani-braccio-laocoonte-ludwig-pollak-nogara.print.html); [Torso](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-delle-muse/torso-del-belvedere.html) |
+| 22 | דורש תיקון | הציטוט של וזארי מדויק ("onde cavatosi e tenuto per antico, fu venduto gran prezzo", מסמך 27). אבל: התגית צריכה להיות [היסק] ולא [מחקר]; "כמעט מילה במילה" מוגזם (רק "gran prezzo" משותף); ובמסמך 27 כתוב "un fanciullo di marmo" ולא "קופידון". | [כריסטיאן, נספח 2](https://www.census.de/riario-galli-bacchus/italiano/appendice-ii/) |
+| 23 | תיקון קל | פראנדי: "se fu, come si crede dai più, il giorno 14 o invece il 13", ו"Casaveteri che è il primo narratore". הערה 1: "Filippo Casaveteri scrisse a Francesco Vettori, nel gennaio del 1506". Calenne ו-Serangeli: "lettera senza data". צריך להוסיף שהמכתב לא מתוארך ושיש אפשרות של ה-13. | [פראנדי](https://inasaroma.org/patrimonio/wp-content/uploads/2021/04/05-A-PRANDI-La-fortuna-del-Laocoonte-02.pdf); [Calenne ו-Serangeli](https://www.auditorium.info/luca-calenne-alfredo-serangeli-una-nuova-datazione-per-il-ritrovamento-del-laocoonte-da-un-incunabolo-conservato-a-segni/studi-romani/) |
+| 24 | אומת חלקית | הפייסבוק לא נפתח. השם "Filippo Casavecchia" מבוסס ב-Studi Romani (2013). החלק על DBI אומת. הזיהוי עם חבר מקיאוולי נשאר היסק. | Calenne ו-Serangeli; [DBI](https://www.treccani.it/enciclopedia/filippo-casavecchia_(Dizionario-Biografico)/); [EM, קזווקיה](https://www.treccani.it/enciclopedia/filippo-da-casavecchia_(Enciclopedia-machiavelliana)/) |
+| 25 | אומת | חישבתי בעצמי: מספר היום היוליאני 2271138, יום רביעי. | חישוב (ראו בשיטה) |
+| 26 | תיקון קל | הכתבה: "Angelo Recchia aveva appuntato la data del rinvenimento della scultura: il 10 gennaio del 1506", "giurista al servizio della magistratura capitolina e della Camera Apostolica", "stampato a Venezia nel 1491", 2 בנובמבר 2016. הויבר מצטטת את ספינולה (2024), עמ' 407–409. 10 בינואר הוא יום שבת (אומת). את הנוסח הלטיני, את הקפיטול ואת פרסום 2013 צריך להוסיף. | [Il Giornale dell'Arte](https://www.ilgiornaledellarte.com/Articolo/quando-fu-scoperto-il-laocoonte-); Calenne ו-Serangeli; [הויבר](https://fortvna-research.org/FORTVNA/FP4/Laokoon_Datierung_Fundort_Maecenas.html) |
+| 27 | אומת | ההודעה לעיתונות: "la vigna di Felice de Fredis, sul sito delle c.d. Sette Sale", על האופיוס. אצל סנגאלו עצמו: "in una vigna presso a S. Maria Maggiore". הדף של מוזיאוני הוותיקן: "sull'Esquilino". EAA: "in località detta Le Sette Sale sull'Esquilino". פראנדי: "località del Colle Oppio detta «Le Capocce»", "i ruderi delle Terme di Tito". פליאדס 91325207: "the southern spur of Rome's Esquiline Hill". | [הודעה לעיתונות](https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2006/02/14/0077.pdf); [Musei Vaticani](https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/laocoonte.html); [EAA](https://www.treccani.it/enciclopedia/laocoonte_(Enciclopedia-dell'-Arte-Antica)/); פראנדי; פליאדס (מקומי) |
+| 28 | אומת | הויבר: "datiert auf den 31. Januar 1506", ו-"in loco dicto Le Capoce". גם פראנדי, בהערה 1, מצטט את סבדינו עם "in loco dicto le Capoce". | הויבר; פראנדי |
+| 29 | אומת חלקית | Il Messaggero לא נפתח. "35 A" לא אומת (בבלוג כתוב "Via Mecenate 35"). הגוש הוא ציטוט של וארנר. החלק של הויבר אומת. | הויבר; [בלוג villasperanza (Archeo 299)](https://villasperanza.blogspot.com/2013/03/laocoonte-vaticano_29.html?m=1); [ospitalitareligiosa](https://ospitalitareligiosa.it/en/structures/ad/san-giuseppe-di-cluny,1650); [en.wikipedia](https://en.wikipedia.org/wiki/Laoco%C3%B6n_and_His_Sons) |
+| 30 | אומת | שלושת המזהים והדיוק תואמים לפליאדס. המרחק 216 מטר. הצלבה עם Turismo Roma: 65 מטר (סטה סאלה) ו-46 מטר (אודיטוריום). שימו לב: לגני מאקנס (rough) יש כמעט אותה נקודה כמו לאודיטוריום. את מיקום הגוש לא בדקתי גיאומטרית (ראו במגבלות). | פליאדס (מקומי); [Turismo Roma, סטה סאלה](https://turismoroma.it/en/places/sette-sale-seven-halls); [Turismo Roma, אודיטוריום](https://turismoroma.it/en/node/1109) |
+| 31 | אומת | פראנדי ו-EAA: "questo è Laocoonte di cui fa menzione Plinio", מפי ג׳וליאנו, לפי בנו פרנצ׳סקו. גם National Geographic מביא את זה. | פראנדי; EAA; [NatGeo](https://www.nationalgeographic.com/history/history-magazine/article/laocoon-and-his-sons-michelangelo) |
+| 32 | תיקון קל | הציטוט מדויק: "Il Papa comandò a un palafreniere: va, e dì a Giuliano da Sangallo, che subito li vada a vedere". אבל הנימוק לנוכחות של מיכלאנג׳לו מעוות (ראו בסיכום). | הודעה לעיתונות; פראנדי |
+| 33 | אומת | "il 28 febbraio 1567", "mons. Spedalengo". 1567 פחות 1506 הוא 61. פרנצ׳סקו נולד ב-1494 (Britannica), כלומר היה בן 11 או 12, ולכן "זיכרון ילדות" מבוסס. | פראנדי; [Britannica](https://britannica.com/biography/Francesco-da-Sangallo) |
+| 34 | אומת | "Si fece crescere la buca per poterlo tirar fuori". | פראנדי |
+| 35 | אומת | EAA: "composto di almeno otto pezzi", מול "ex uno lapide". ויקיפדיה כותבת "at least seven" (ראו הערה). | EAA; en.wikipedia |
+| 36 | תיקון קל | מוזיאוני הוותיקן: הציטוט מדויק. הויבר: "Maecenas (oder Octavian?) zwischen 38 und 30 v. Chr.". EAA, בחתימת F. Magi: "al II sec. a. C.", "sicuramente una scultura originale greca ellenistica". השם הוא Varner ולא Werner, והתיארוך שלו הוא של ההצגה. | Musei Vaticani; הויבר; EAA |
+| 37 | אומת | EAA: הכתובת "reca i nomi degli stessi artisti rodî menzionati da Plinio". פליאדס 433127 ("associated with the nearby Villa Tiberii") ו-590030 תואמים. GeoNames: 1.7 ק"מ ו-1.0 ק"מ. | EAA; פליאדס; GeoNames (מקומי) |
+| 38 | אומת | התקציר: "probably a modern forgery by Michelangelo" (מס' 52, כרך XXVI, 2005). מונטויה, 15.7.2021: "Critics say that huge logistical and financial obstacles make such a scheme improbable", "Columbia University art historian". "רוב החוקרים" נתמך במשפט "Most historians accept that the sculpture is either the direct product..." | [Artibus et Historiae](https://artibusethistoriae.org/chapter527.html); NatGeo |
+| 39 | אומת | הויבר: "im Haus des Imperators (im Sinn von General) Titus", ו"die domus Titi imperatoris mit den Horti des Maecenas identifiziert werden kann". בוסטוק ורילי: "The spot, too, where it was found was actually part of the palace of Titus". פליאדס 855441498: rough, באותה נקודה כמו Oppius Mons. | הויבר; `perseus-eng1` (מקומי); פליאדס |
+| 40 | אומת | EAA: "sembra essere stata una piccola replica del L., scavata in Roma", בקרקע של "cardinale di S. Pietro in Vincoli, il futuro Giulio II". E. Paribeni הציע "un gruppo simile a quello dei Satiri combattenti del Museo Capitolino". ("א. פריבני" = E. Paribeni.) | EAA |
+| 41 | אומת | פראנדי: "intervenne la volontà del Papa, che volle la statua per sè", ו-"quella del Cavalcanti, inviata il 14 febbraio a Piero Guicciardini", ו"il 14 febbraio era già in Belvedere". ההודעה לעיתונות: "il 14 febbraio il Laocoonte faceva già bella mostra di sé nel Belvedere". | פראנדי; הודעה לעיתונות |
+| 42 | אומת | "(che fu stipulato il 23 marzo)". | פראנדי |
+| 43 | אומת | הכתב של ריאריו (הערה 6 אצל פראנדי): "gabelle porte Celimontane sive Sancti Johannis", ו-"Federico nato tuo". אין סכום שנתי. | פראנדי |
+| 44 | תיקון קל | "scriptores" ברבים (לו ולבנו). 1,500 הדוקט הם ניסוח של פראנדי. מספר ההערה (7) לא אומת, ובקריאה שלי זו הערה 1. | פראנדי |
+| 45 | לא אומת | הפייסבוק לא נפתח. אצל פראנדי "600" לא מופיע. תואם להחלטת התיק להשאיר את הטענה מחוץ למפה. | פראנדי |
+| 46 | תיקון קל | הציטוט נכון אבל קטוע לפני "fere respiran[s] simulacr[um] imortalitatem meruit". המקור: פורצ׳לה, כרך 1, עמ' 164, לפי פראנדי. 1529 אומת. | פראנדי |
+| 47 | אומת | "an officer of the Apostolic Chamber at the time of Pope Julius II". | Vatican News 2024 |
+| 48 | לא ניתן לבדיקה כאן | טענה שלילית. גם במקורות שקראתי (פראנדי, ההודעה לעיתונות, EAA) לא מצאתי תיאור של ההובלה. מתאים לכלל 3: אין קו על המפה. | פראנדי; הודעה לעיתונות; EAA |
+| 49 | אומת | ויקיפדיה: "Innocent VIII began construction of the Villa Belvedere ... in 1484", ו-"Designed by Donato Bramante from 1505 onward". Britannica: "the Belvedere villa of Innocent VIII", בלי תאריכים. | [en.wikipedia](https://en.wikipedia.org/wiki/Cortile_del_Belvedere); [Britannica](https://www.britannica.com/place/Belvedere-villa) |
+| 50 | אומת | שלושת הציטוטים מדויקים. | [Cortile Ottagono](https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/cortile-ottagono.html) |
+| 51 | אומת | הודעה לעיתונות לרגל "V Centenario dei Musei Vaticani": "quel primo nucleo collezionistico che Papa Giulio II formò nel cosiddetto Cortile delle Statue del Belvedere". השנה 1506 עולה ממאה השנים החמישית ומסיפור לאוקון, ולא נאמרת כ"שנת הלידה". "קושר" מדויק. | הודעה לעיתונות |
+| 52 | אומת | שלושת הציטוטים מדויקים, כולל "subito" ו-"colle Viminale". הדף לא אומר איפה החזיק אותו הקרדינל. | [Apollo del Belvedere](https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/apollo-del-belvedere.html) |
+
+---
+
+# נספח ב: דוח הבודק העצמאי, טענות 53–105
+
+# בדיקה עצמאית: "שבר הפסל" (ההקדמה), טענות 53–105
+
+**בודק:** בודק עצמאי ב'. ראיתי רק את קובץ הטענות (`.check/ch00-statue-claims.md`), בלי טיוטות ובלי נימוקים. טענות 1–52 נבדקות אצל בודק אחר, ולא בדקתי אותן.
+**תאריך:** 25.11.2026
+
+---
+
+## 1. סיכום
+
+**53 טענות נבדקו (53–105):**
+- **מאומת:** 33
+- **מאומת, ומומלץ לדייק בניסוח:** 11 (56, 62, 65, 66, 79, 80, 83, 89, 101, 103, 104)
+- **דורש תיקון:** 9 (54, 55, 57, 73, 82, 85, 88, 93, 105)
+- **לא אומת:** 0 טענות שלמות. כמה פרטים בתוך טענות לא אומתו, והם מסומנים בטבלה (שם המחבר בטענה 89, הכותרת של ספר מגיסטר בטענה 55, דף KHI בטענה 73).
+
+### תיקונים מחייבים (נוסח מוצע)
+
+**54.** "[מיקום לא ידוע; מחלוקת] לפי מוזיאוני הוותיקן, אפולו נמצא ברומא, 'tra le rovine di un'antica domus sul colle Viminale'. הבית עצמו לא זוהה. ויקיפדיה האנגלית (כמצביע) כותבת שהוא 'seems to have been discovered in 1489 in the present Anzio', ו'perhaps at Grottaferrata'. נקודת הייחוס היחידה לגרסת הוותיקן היא הגבעה (פליאדס 755385623: ‏41.89952, 12.49394). על המפה: אזור מקווקו עם סימן שאלה, והכרטיס אומר 'המקורות חלוקים'."
+
+**55.** "[מחקר] איפה החזיק הקרדינל את אפולו לפני 1508? דף הוותיקן לא אומר. דבורה בראון, 'The Apollo Belvedere and the Garden of Giuliano della Rovere at SS. Apostoli', Journal of the Warburg and Courtauld Institutes 49 (1986), עמ' 235–238 (הפרטים לפי ויקיפדיה האנגלית), הראתה שהפסל עמד בגן של הקרדינל בסנטי אפוסטולי, ולא בסן פייטרו אין וינקולי, כפי שחשבו קודם. קתלין כריסטיאן, בביקורת על ספרה של **שרה (Sara) מגיסטר** על האוסף הראשון של הקרדינל, כותבת: 'the Apollo Belvedere remained at Santi Apostoli until October 1508' (caa.reviews). [מחקר; המאמר והספר עצמם לא נקראו]"
+- שלושה דברים משתנים כאן. השם הוא **Sara** ולא "סילביה". התגית [מחלוקת] מטעה, כי המקורות שנמצאו מסכימים זה עם זה. והכותרת "nei palazzi ai Santi Apostoli" לא אומתה, ולכן לא כדאי לצטט אותה.
+
+**57.** מחליפים את "לפי האוצר ג׳נדומניקו ספינולה" ב: "בכתבה של פאולו אונדרצה, שמסתמכת על היומנים של צ׳יריאקו מאנקונה". המשפט על 1433 הוא חלק מהסיפור של הכתב. הוא לא ציטוט של ספינולה.
+
+**73.** "...קרוליין אילם, 'Lorenzo de' Medici's Sculpture Garden', Mitteilungen des Kunsthistorischen Institutes in Florenz 36 (1992), **עמ' 41–83**. כך בשתי ביבליוגרפיות של הוצאת קיימברידג׳; בתיק נכתב 41–84. לפי ויקיפדיה האיטלקית, המחקר החדש, 'a partire da Caroline Elam (1992)', מצא תיעוד רחב, ש'ha confermato indubbiamente l'esistenza' של בית הספר. כלומר, הספק של שסטל ושל גומבריך הוא העמדה הישנה."
+
+**82.** "**וזארי (1550)**: מיכלאנג׳לו עשה 'nella casa de' Galli, dirimpetto al palazzo di San Giorgio, un Bacco di marmo' (כריסטיאן, **מסמך 27**). במהדורת 1568 (מסמך 34) הצירוף הזה לא מופיע." את המשפט האחרון, "פסל חדש עמד בין עתיקות, בבית של אספן", מסמנים [היסק].
+
+**85.** מחליפים את "עד 10 באוקטובר 1531 הוצב בנישה בגן המדיצ׳י" ב: "**רק ב-10 באוקטובר 1531** נמצא לו סידור קבוע, בנישה בגן המדיצ׳י ('a definitive arrangement... was not found until 10 October 1531'). אחר כך עבר דרך הקזינו של סן מרקו, והגיע לאופיצי בסוף המאה ה-17."
+
+**88.** "EM (2014): היחסים המתועדים בין מקיאוולי למיכלאנג׳לו 'si riducono... a un episodio di rilievo minimo' ('מצטמצמים לאפיזודה אחת, חסרת חשיבות כמעט'). בשליחות של 1506 לחצר האפיפיור, שנדדה במרכז איטליה, ביקש מקיאוולי מהסיניוריה כסף לשליחים הרכובים ('staffette'). ביאג׳ו בונאקורסי שלח את הכסף 'per Michelagnolo scultore' (ביד מיכלאנג׳לו הפסל). אבל מיכלאנג׳לו 'era tornato indietro per buona cagione' (חזר על עקבותיו מסיבה טובה), והכסף הוחזר לבונאקורסי. לפי EM, 'הסיבה הטובה' היא המתיחות בין מיכלאנג׳לו ליוליוס השני באותם חודשים." שני דברים לא נכונים בנוסח המקורי: הכסף **לא** עבר דרך מיכלאנג׳לו, וזה המגע המתועד **היחיד** ביניהם, לא "אחד המעטים".
+
+**93.** מוסיפים: "...הבית עצמו [מיקום לא ידוע]; ועצם המציאה על הוימינליס [מחלוקת], ראו טענה 54."
+
+**105.** "...אחר כך: פרנסואה הראשון, שרצה את המקור וקיבל רק הבטחה. ההעתק של בנדינלי, שנועד לו, נשאר בארמון מדיצ׳י, והיום הוא באופיצי. **רק ב-1542** קיבל פרנסואה לפונטנבלו יציקת ברונזה של לאוקון, לפי תבניות שפרימטיצ׳ו לקח ברומא בשליחותו (Getty; ויקיפדיה)." המשפט "קיבל הבטחה בלבד" נכון לשנים 1515–1524, אבל לא נכון בטווח הארוך.
+
+### דיוקי ניסוח מומלצים (הטענה עצמה נכונה)
+
+- **56:** "ומזוהה עם אייאקס" → "ולפי ההשערה המועדפת היום מזוהה עם אייאקס בן טלמון".
+- **62:** "מסוף המאה ה-1 לספירה" → "כנראה מסוף המאה ה-1 לספירה" ("Probably dated to the end of the 1st century AD").
+- **65:** אם השם נכתב באותיות לטיניות, הכתיב בוויקיפדיה האיטלקית הוא "palazzo **Socci**". בעברית "סוצ׳י" נכון.
+- **66:** "לאגודת האורגים" → "לאחוות האורגים (Compagnia dei Tessitori)". זו אחווה (compagnia), לא גילדה (arte).
+- **79:** מוסיפים שוזארי ב-1568 מביא את שני הסכומים בלשון "Altri dicono" ("יש אומרים"). אצל ג׳וביו כתוב גם "per alium" (דרך אדם אחר), כלומר נמכר לריאריו בתיווך.
+- **80:** מוסיפים: "ויקיפדיה האנגלית: 'built 1489–1513'. המקורות חלוקים על שנת תחילת הבנייה, 1485 או 1489."
+- **83:** "נבחר ב-11 במרץ 1513" נכון לפי בריטניקה ולפי האנציקלופדיה הקתולית. ויקיפדיה האנגלית כותבת שנבחר ב-9 במרץ, ושההכרזה הייתה "two days later". כדאי לכתוב "הוכרז כאפיפיור ב-11 במרץ 1513".
+- **89:** "העלים" → "הצניע". התקציר מדבר על שתיקה שהייתה "a conscious strategy", כדי להמעיט בהשראה הרומית. שם המחבר לא הופיע גם בשני הדפים שאני פתחתי.
+- **101:** "נופלים כמעט על אותו פיקסל" → "נופלים בטווח של 2–3 פיקסלים". בזום 8, בקו הרוחב של פירנצה, פיקסל הוא כ-440 מטר, ולכן 1.1 ק"מ הם כ-2.5 פיקסלים. ברומא, 4.0–4.1 ק"מ הם כ-70 פיקסלים בזום 11 וכ-140 בזום 12.
+- **103:** את "שמכבד את 'ביתו', כלומר את ארמון האפיפיור" מסמנים [היסק], כי זו הקבלה ל-"onorarne la sua casa", לא קביעה של מקור. ואת "קלמנס השביעי ומונטורסולי, שהשלימו" כותבים: "מונטורסולי, שהשלים את הפסלים ב-1532–1533 לפי רצונו של קלמנס השביעי ('che volle il restauro', פראנדי)".
+- **104:** "ברטולדו, השומר והמורה" → "ברטולדו, השומר. לפי וזארי (1568), הוא היה גם 'guida e capo' של הצעירים, וזה בדיוק מה ששסטל פקפק בו (טענה 73)". במהדורת 1550 ואצל קונדיווי ברטולדו לא מופיע בתפקיד הזה.
+
+---
+
+## 2. שיטה ומגבלות
+
+**קבצים מקומיים:**
+- `~/.atlas-cache/src/pleiades-places.csv`: קראתי ישירות את המזהים 755385623, 65898660, 866548110, 88500321, 423025, 413138, 399141643, 91325207, 855441498 ו-103808101.
+- `~/.atlas-cache/src/cities.json` (GeoNames): רומא ופירנצה.
+- המרחקים חושבו בנוסחת haversine (R=6371 ק"מ), והכיוונים חושבו כ-bearing.
+- גודל הפיקסל חושב לפי 156543·cos(lat)/2^z.
+
+**GitHub (raw):** הנוסח של דיונים א 27 מוויקיטקסט (מהדורה 3685724), דרך `awatson1978/discourses-on-rome/corpus/raw/discorsi_it/1_27.json`.
+
+**מקורות שנפתחו ב-WebFetch** (כולם כתובות שעלו בחיפוש):
+- מוזיאוני הוותיקן: אפולו (it), הטורסו (en).
+- Vatican News: 2021 (רגיל ו-print), 2024 (print).
+- האקדמיה המלכותית.
+- Turismo Roma: ארמון קולונה, פסקווינו, הקנצ׳לריה, ארצ׳לי.
+- ויקיפדיה האנגלית: פסקווינו, הקנצ׳לריה, ארמון קולונה, חצר הבלוודרה, אפולו בלוודרה, ליאו העשירי, ארמון מדיצ׳י-ריקרדי, ארמון וקיו, פרימטיצ׳ו, הקזינו של סן מרקו.
+- ויקיפדיה האיטלקית: Giardino di San Marco.
+- פראנדי (PDF ב-INASA).
+- EAA ו-EM ב-Treccani.
+- המדיאטקה של ארמון מדיצ׳י-ריקרדי: הגן, יהודית, דוד, הפסלים העתיקים.
+- ויקיטקסט, קונדיווי, "Versione critica".
+- census.de, כריסטיאן, נספח 2. הדף נשאל ארבע פעמים, על מסמכים 10, 24, 27, 31, 32 ו-34.
+- המטרופוליטן 2017.
+- Museo Galileo: ארמון מדיצ׳י, הקזינו מדיצ׳או.
+- Fordham: palazzomedici.
+- אופיצי: לאוקון של בנדינלי.
+- בריטניקה: ליאו העשירי. New Advent.
+- Gutenberg: וילארי, כרך 3, epub.
+- Cambridge: המאמר ב-RQ (cambridge.org ו-core-prod). הביבליוגרפיה של *Vasari's Words*. המאמר "Michelangelo's Slaves and the Gift of Liberty".
+- m.caareviews.org/reviews/644.
+- Torrossa: מגיסטר.
+- ANSA 2024.
+- בלוג villasperanza, שמעתיק את ויקיפדיה ולכן לא נספר כמקור עצמאי.
+- penelope.uchicago.
+- GeoNames 8299698 ו-6697948.
+- פליאדס (jazkarta): המיקום ב-OSM של החומה הסרוויאנית ב"ויה מצ׳נטה 35A".
+- אתרי צבירה לקואורדינטות: Wanderlog, vici.org, aroundus, Sygic, Audiala, italia.it.
+- ospitalitareligiosa.it.
+- I Tatti ו-OUP blog: הדחת מקיאוולי.
+
+**מה נחסם או לא נפתח:**
+- PhilPapers (BROTAB): שגיאת לקוח.
+- caareviews.org/reviews/644: חסום ב-robots. השתמשתי בגרסת m.caareviews.org.
+- Fordham item/16: חסום ב-robots.
+- דף KHI של אילם: הכתובת לא עלתה באף חיפוש, ולכן לא נפתחה.
+- ה-PDF של Liber Liber לפרק 27: לא נפתח. הציטוט אומת מול ויקיטקסט.
+- קואורדינטות של ויה פוליציאנו ושל ויה מצ׳נטה: לא מצאתי מקור גיאוקוד. השתמשתי בנקודת OSM של החומה ב"ויה מצ׳נטה 35A", דרך פליאדס.
+
+**מגבלה:** WebFetch מעביר את הטקסט דרך מודל ביניים, ומגביל ציטוטים ל-125 תווים. ציטוטים שהיה בהם ספק (התאריך "9 ottobre del 1495", "Socci", מי אמר את המשפט על 1433, המהדורה של "dirimpetto", "Si riducono... a un episodio") נבדקו בשאלה חוזרת וממוקדת. לא פתחתי שום קובץ אחר ב-`facts/` או ב-`.check/`, ולא את `index.html` או את `ch/`.
+
+---
+
+## 3. טבלה
+
+| # | הכרעה | מה לא בסדר | המקור שנבדק בפועל |
+|---|---|---|---|
+| 53 | מאומת | אין בעיה. הדף כותב "copia romana" מתחילת המאה ה-2 לספירה, של מקור ברונזה "eseguito in Grecia intorno al 330 a.C.", "probabilmente dall'ateniese Leochares". | [Musei Vaticani, Apollo](https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/apollo-del-belvedere.html) |
+| 54 | **דורש תיקון** | הקואורדינטות נכונות (פליאדס 755385623, 41.8995278, 12.4939438, precise). אבל גם עצם המציאה על הוימינליס שנוי במחלוקת. ויקיפדיה האנגלית: "seems to have been discovered in 1489 in the present Anzio", "perhaps at Grottaferrata". ANSA 2024 כותבת רק "discovered in Rome in 1489". הכרטיס צריך "המקורות חלוקים", והנקודה צריכה סימן שאלה. | פליאדס CSV; [Wikipedia](https://en.wikipedia.org/wiki/Apollo_Belvedere); [ANSA](https://ansa.it/amp/english/news/2024/10/15/restored-apollo-belvedere-returns-to-vatican-museums_a3301d46-528f-4e1d-b9a3-36c63246ab33.html); דף הוותיקן |
+| 55 | **דורש תיקון** | השם הוא **Sara** מגיסטר, לא "סילביה". כך בביקורת וכך ב-Torrossa, שם מופיע "La collezione di antichità del cardinale Giuliano della Rovere: anteprima di studio", Xenia Antiqua IX, 2000. הכותרת "nei palazzi ai Santi Apostoli" לא אומתה. התגית [מחלוקת] מיותרת: כריסטיאן כותבת "remained at Santi Apostoli until October 1508", ובראון (JWCI 49, 1986, עמ' 235–238, לפי ויקיפדיה) הראתה שהפסל היה בגן בסנטי אפוסטולי, ולא בסן פייטרו אין וינקולי. הערה צדדית: penelope.uchicago כותב שהפסל הוצב בבלוודרה כבר ב-1503, וזה סותר את 1508. | [m.caareviews](https://m.caareviews.org/reviews/644); [Torrossa](https://www.torrossa.com/fr/authors/magister-sara.html); [Wikipedia](https://en.wikipedia.org/wiki/Apollo_Belvedere); [penelope](https://penelope.uchicago.edu/encyclopaedia_romana/miscellanea/museums/apollo.html). PhilPapers נחסם. |
+| 56 | מאומת, לדייק | כל הפרטים נכונים: "a fragment of a statue found in Rome at the end of the 15th century", אפולוניוס האתונאי, המאה ה-1 לפנה"ס, "between 1530 and 1536". אבל אייאקס הוא "the most favored current hypothesis", לא זיהוי ודאי. | [Musei Vaticani, Torso](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-delle-muse/torso-del-belvedere.html) |
+| 57 | **דורש תיקון** | הציטוט של האקדמיה המלכותית נכון. גם "as of 1433 it was housed in the Colonna Palace on the Quirinale Hill" נכון, אבל המשפט שייך לסיפור של הכתב פאולו אונדרצה, לפי "the journals of... Cyriacus of Ancona". הוא לא של ספינולה, שמצוטט בכתבה רק על המתח הסטטי ועל התיירים. | [RA](https://www.royalacademy.org.uk/art-artists/work-of-art/cast-of-belvedere-torso); [Vatican News 2021](https://vaticannews.va/en/vatican-city/news/2021-04/michelangelo-belvedere-torso-secrets-vatican-museums-video.html); [print](https://www.vaticannews.va/en/vatican-city/news/2021-04/michelangelo-belvedere-torso-secrets-vatican-museums-video.print.html) |
+| 58 | מאומת | שלוש הגרסאות מדויקות. האקדמיה המלכותית: "possible... sold on to... Andrea Bregno", ו-"the next reference... statue court of the Belvedere". Vatican News: "Around 1503 after his election". הוותיקן: 1530–1536. פרט נוסף מ-Vatican News: לפני כן הטורסו היה באוסף של הקרדינל ג׳וליאנו דלה רובֶרה. | כנ"ל |
+| 59 | מאומת | "disciple of the Torso" ו-"It is said that he rejected the Pope's proposal..." מופיעים בלי ייחוס לדובר. באקדמיה המלכותית: "famously refused to restore". | כנ"ל |
+| 60 | מאומת | הציטוט מדויק: "It served as a model for many of Michelangelo's figures in the Sistine Chapel", כולל הסיבילות, הנביאים וישו הקם לתחייה. | [RA](https://www.royalacademy.org.uk/art-artists/work-of-art/cast-of-belvedere-torso) |
+| 61 | מאומת | הכתובת (Piazza dei Santi Apostoli 53–66), הנקודה (41.897748, 12.483014) והמשפט "began in the 14th century at the behest of the Colonna family" כולם נכונים. הנקודה רחוקה **100 מ'** מהנקודה בוויקיפדיה (41.897636, 12.484214) ו-163 מ' מהנקודה השנייה של Turismo Roma (Via della Pilotta 17). התגית [משוער] מתאימה. | [Turismo Roma](https://turismoroma.it/en/places/palazzo-colonna); [Wikipedia](https://en.wikipedia.org/wiki/Palazzo_Colonna) |
+| 62 | מאומת, לדייק | הפרטים נכונים: "found in 1501... Cardinal Oliviero Carafa", מנלאוס ופטרוקלוס. אבל המקור כותב "Probably dated to the end of the 1st century AD". הנקודה רחוקה **10 מ'** מהנקודה בוויקיפדיה (41.897722, 12.472306). | [Turismo Roma](https://www.turismoroma.it/en/places/pasquino); [Wikipedia](https://en.wikipedia.org/wiki/Pasquino) |
+| 63 | מאומת | פראנדי כותב שהשחזור היה "sulla fine del 1532, o, com'è più credibile, nei primi mesi del '33", ושהזרוע "teso/disteso verso l'alto". הוא גם כותב "La violazione, gradita a Michelangelo, autorizzata da Clemente VII", ו-"Clemente VII... che volle il restauro". פראנדי קורא למונטורסולי "uno scultore caro a Michelangelo". את המילה "pupil" כותב Vatican News 2024. לגבי אפולו, הוותיקן כותב "tra il 1532 e il 1533... Montorsoli". הערה: ב-EAA השחזור מתוארך ל"metà del sec. XVI". | [פראנדי](https://inasaroma.org/patrimonio/wp-content/uploads/2021/04/05-A-PRANDI-La-fortuna-del-Laocoonte-02.pdf); [VN 2024](https://www.vaticannews.va/en/vatican-city/news/2024-05/segreti-musei-vaticani-braccio-laocoonte-ludwig-pollak-nogara.print.html); דף אפולו |
+| 64 | מאומת | הכול נכון: "workshop of a stonecutter on Via delle Sette Sale", "from the excavations on the nearby Via Labicana", "in a letter from 1903" לבודה, "In 1906... donate", "in 1957–59... Filippo Magi, who removed all the non-original integrations". EAA כותבת "la scoperta del braccio Pollak nel 1906". | [VN 2024](https://www.vaticannews.va/en/vatican-city/news/2024-05/segreti-musei-vaticani-braccio-laocoonte-ludwig-pollak-nogara.print.html); [EAA](https://www.treccani.it/enciclopedia/laocoonte_(Enciclopedia-dell'-Arte-Antica)/) |
+| 65 | מאומת, לדייק | שני הציטוטים מדויקים. המדיאטקה: "via Larga (oggi via Cavour) all'angolo con l'odierna via degli Arazzieri verso San Marco". ויקיפדיה: "tra le attuali via Cavour e via San Gallo, grosso modo tra i siti del Casino Mediceo e di palazzo Socci". הכתיב הלטיני הוא Socci. | [Mediateca](https://mediateca.palazzomediciriccardi.it/works_and_environment/il-giardino-di-san-marco-o-delle-sculture/); [it.wikipedia](https://it.wikipedia.org/wiki/Giardino_di_San_Marco) |
+| 66 | מאומת, לדייק | כל הפרטים נכונים: "Almeno parte del terreno era stato comprato da Cosimo il Vecchio", "nel 1455 ne aveva ceduto una porzione alla Compagnia dei Tessitori", 1472–1475 לורנצו, ו-"Orto di Clarice". ויקיפדיה: קלריצ׳ה קנתה מ"frati domenicani osservanti di San Marco" "attorno al 1475". רק המונח: Compagnia היא אחווה, לא "אגודה". | כנ"ל |
+| 67 | מאומת | הציטוט מהמדיאטקה מדויק. וזארי 1550, מסמך 27: "Era il giardino tutto pieno d'anticaglie e di eccellenti cose molto adorno". קונדיווי: "avea di varie statue antiche e de figure ornato". | Mediateca; [census.de](https://www.census.de/riario-galli-bacchus/italiano/appendice-ii/); [ויקיטקסט](https://it.wikisource.org/wiki/Vita_di_Michelagnolo_Buonarroti_B/Vita_di_Michelagnolo_Buonarroti_-_Versione_critica) |
+| 68 | מאומת | המדיאטקה כותבת "già allievo e collaboratore di Donatello" ו-"ebbe il compito di organizzare tale ambiente e di custodirlo". במטרופוליטן: "curated by Bertoldo di Giovanni, a student of Donatello's". | Mediateca; [Met](https://www.metmuseum.org/exhibitions/listings/2017/michelangelo/exhibition-galleries) |
+| 69 | מאומת | קונדיווי: "fu dal Granacci menato al Giardin de Medici a San Marco". במטרופוליטן: "probably around 1490–91". | ויקיטקסט; Met |
+| 70 | מאומת | שלושת הציטוטים מדויקים מילה במילה. | ויקיטקסט |
+| 71 | מאומת | "pigliarselo in casa" ו-"vi stette fin alla morte di lui, che fu nel novanta due, intorno a due anni" מדויקים. | ויקיטקסט |
+| 72 | מאומת | שני הציטוטים נמצאים במסמך 27 (וזארי 1550). ההערה על ה"אמן המודרני" היא פרשנות, אבל סבירה. | census.de |
+| 73 | **דורש תיקון** | הציטוטים על שסטל ("non documentata al di fuori del testo del Vasari") ועל גומבריך נכונים. שתי בעיות. (א) העמודים הם **41–83** בשתי ביבליוגרפיות של קיימברידג׳, לא 41–84. (ב) הטענה משמיטה שלפי אותה ויקיפדיה, המחקר החדש, "a partire da Caroline Elam (1992)", "ha confermato indubbiamente l'esistenza" של בית הספר. דף KHI לא נפתח, כי הכתובת לא עלתה בחיפוש. | [it.wikipedia](https://it.wikipedia.org/wiki/Giardino_di_San_Marco); [Vasari's Words, ביבליוגרפיה](https://www.cambridge.org/core/books/abs/vasaris-words/bibliography/8D10557A135FC3DEC2BAC24796059BB6); [RQ, Michelangelo's Slaves](https://www.cambridge.org/core/journals/renaissance-quarterly/article/michelangelos-slaves-and-the-gift-of-liberty/AB6C79E7171C354DFAE21BA49274FB72) |
+| 74 | מאומת | Museo Galileo: "to the project of Michelozzo di Bartolomeo at the order of Cosimo the Elder", ו-"embellished by ancient and modern sculptures". Fordham: "Most of these items were small engraved gems dating back to Hellenistic Greece, bowls, coins, small marble statues and vases". | [Museo Galileo](https://brunelleschi.imss.fi.it/itineraries/place/PalazzoMediciRiccardi.html); [Fordham](https://michelangelo.ace.fordham.edu/exhibits/show/michelangelosyouth/palazzomedici) |
+| 75 | מאומת | המדיאטקה כותבת "Piero il Fatuo", ו-"in vista dell'arrivo di Carlo VIII re di Francia". בנובמבר 1495 נמכר "a Giovanni Bentivoglio, signore di Bologna e amico dei Medici". | Mediateca, הגן |
+| 76 | מאומת | הכול מאומת: "nella delibera del 9 ottobre del 1495"; "posta sulla Ringhiera... a sinistra del portale"; "Il 21 dicembre la Giuditta veniva così scoperta"; כתובת חדשה "exemplum sal. pub. cives pos. mccccxcv"; ודוד "nel dicembre del 1495... nel cortile". Museo Galileo כותב שיהודית "was moved to Piazza della Signoria in 1494". | [Giuditta](https://mediateca.palazzomediciriccardi.it/works_and_environment/giuditta/); [David](https://mediateca.palazzomediciriccardi.it/works_and_environment/david/); Museo Galileo |
+| 77 | מאומת | הציטוט מקונדיווי מדויק. | ויקיטקסט |
+| 78 | מאומת | "Il Cardinale di San Giorgio lo comprò per antico, ducati ducento". מי שלקח את הכסף כתב לפירנצה שישלמו למיכלאנג׳לו "ducati trenta". | ויקיטקסט |
+| 79 | מאומת, לדייק | כל הציטוטים מדויקים: מסמך 27 ("Baldessarre del Milanese"... "onde cavatosi e tenuto per antico, fu venduto gran prezzo"); מסמך 34 ("ducati dugento", "scudi trenta"); מסמך 32 (ורקי, "dugento fiorin d'oro venduto"); מסמך 24 (ג׳וביו, "insigni pretio per alium Riario Cardinali vendidisset"). אבל אצל וזארי 1568 שני הסכומים באים בלשון "Altri dicono", ואצל ג׳וביו המכירה הייתה "per alium". | census.de |
+| 80 | מאומת, לדייק | Turismo Roma: "built for Cardinal Raffaele Riario, nephew of Pope Sixtus IV", "began in 1485". הנקודה רחוקה **50 מ'** מהנקודה בוויקיפדיה (41.8966861, 12.4715222). אבל ויקיפדיה כותבת "built 1489–1513". | [Turismo Roma](https://turismoroma.it/en/places/palazzo-della-cancelleria); [Wikipedia](https://en.wikipedia.org/wiki/Palazzo_della_Cancelleria) |
+| 81 | מאומת | מסמך 10 (2 ביולי 1496): "e che e' banbino lui l'avea chonperato e era suo". במטרופוליטן: "encounter with the monuments of ancient Rome between 1496 and 1500". | census.de; Met |
+| 82 | **דורש תיקון** | הצירוף "nella casa de' Galli, dirimpetto al palazzo di San Giorgio, un Bacco di marmo" לקוח מ**וזארי 1550** (מסמך 27). במסמך 34 (וזארי 1568) הוא לא מופיע, ושם כתוב רק "un Bacco di palmi dieci". הציטוט מאלדרובנדי (מסמך 31, עמ' 172) מדויק. המשפט האחרון הוא היסק. | census.de (שתי שאלות ממוקדות) |
+| 83 | מאומת, לדייק | בריטניקה כותבת "on March 11", "December 1, 1521", "second son of Lorenzo the Magnificent", ושב-1512 "supervised the reestablishment of Medici control". New Advent נותן את אותם תאריכים. ויקיפדיה האנגלית: "elected pope on 9 March 1513, and this was proclaimed two days later". | [Britannica](https://www.britannica.com/biography/Leo-X); [New Advent](https://www.newadvent.org/cathen/09162a.htm); [Wikipedia](https://en.wikipedia.org/wiki/Leo_X) |
+| 84 | מאומת (היסק) | ההיסק סביר ונובע מטענה 83. | כנ"ל |
+| 85 | **דורש תיקון** | כל הפרטים נכונים, חוץ מאחד: "a definitive arrangement for the group within a niche in the Medici garden was not found until 10 October 1531". כלומר, רק בתאריך הזה נמצא לו מקום קבוע, ולא "עד" התאריך הזה. האופיצי גם מוסיף שההעתק עבר דרך הקזינו של סן מרקו, "finally to the Uffizi at the end of the 17th century". | [Uffizi](https://www.uffizi.it/en/artworks/laocoon-bandinelli) |
+| 86 | מאומת | וילארי, כרך 3, ספר שני, פרק 6 ("convegno di Bologna"): "Chiese d'avere in dono il gruppo del Laocoonte", "promise, con la intenzione però di dare invece una copia. La ordinò infatti a Baccio Bandinelli". | [Gutenberg 61706](https://www.gutenberg.org/ebooks/61706.epub.noimages) |
+| 87 | מאומת | הציטוט זהה בוויקיטקסט, פרק 27, מהדורה 3685724: "Papa Iulio secondo, andando nel 1505 a Bologna, per cacciare di quello stato la casa de' Bentivogli". את Liber Liber לא פתחתי. השנה 1505 היא של מקיאוולי. | GitHub `awatson1978/discourses-on-rome`, `1_27.json` |
+| 88 | **דורש תיקון** | הטענה מעוותת את המקור. EM: "Si riducono in effetti a un episodio di rilievo minimo". הכסף נשלח "per Michelagnolo scultore", אבל "per uno suo omo mi furono riportati", כי מיכלאנג׳לו "era tornato indietro per buona cagione". הכסף לא עבר דרכו, וזה המגע **היחיד** המתועד ביניהם. הכסף נועד ל-"staffette" (שליחים רכובים). | [EM, Treccani](https://www.treccani.it/enciclopedia/michelangelo-buonarroti_(Enciclopedia-machiavelliana)/) (שתי שאלות) |
+| 89 | מאומת, לדייק | הצירוף "a cultural climate extremely hostile to the ancient Roman model" מופיע בתקציר. התקציר מתאר את השתיקה על רומא כ-"conscious strategy", כדי להמעיט בהשראה האמיתית של המיליציה. גם בשני הדפים שפתחתי לא מופיעים המחבר, הכרך והעמודים, ולכן הם לא אומתו. | [Cambridge](https://www.cambridge.org/core/journals/renaissance-quarterly/article/perche-non-si-usa-allegare-i-romani-machiavelli-and-the-florentine-militia-of-1506/53A864BCF2221F3A5C66318DEB33BF11); [core-prod](https://core-prod.cambridgecore.org/core/journals/renaissance-quarterly/article/perche-non-si-usa-allegare-i-romani-machiavelli-and-the-florentine-militia-of-1506/53A864BCF2221F3A5C66318DEB33BF11) |
+| 90 | מאומת | הנקודות בפליאדס זהות לרשום. סטה סאלה ואודיטוריום רחוקים זה מזה 216 מ'. המרכז המוצע רחוק 105 מ' מסטה סאלה ו-110 מ' מהאודיטוריום, ולכן רדיוס של 200 מ' מכסה את שתיהן. נקודת OSM של החומה הסרוויאנית ב"ויה מצ׳נטה 35A" (פליאדס, מקום 103808101, 41.8927917, 12.5005369), באותה כתובת של המנזר מטענה 29, רחוקה **58 מ'** מהמרכז. כלומר, היא בתוך האזור. המנזר רשום היום בוויה אנג׳לו פוליציאנו 38, באותו גוש. | פליאדס CSV; [פליאדס/OSM](https://pleiades.jazkarta.com/places/103808101/osm-location-of-mura-serviane-a-via-mecenate-35a); [ospitalitareligiosa](https://ospitalitareligiosa.it/en/structures/ad/san-giuseppe-di-cluny,1650) |
+| 91 | מאומת | נקודת Wanderlog זהה לרשום. היא רחוקה **10 מ'** מנקודת vici.org למוזיאוני הוותיקן (41.906483, 12.454885) ו-**19 מ'** מנקודת aroundus לפיו-קלמנטינו (41.90655, 12.45458). המרכז של חצר הבלוודרה אומת בוויקיפדיה (41.90417, 12.45472) ובסיגיק (41°54'14.582", 12°27'16.982", כלומר 41.90405, 12.45472). הנקודה רחוקה מהם 254 מ' ו-267 מ', בכיוון 181°, כלומר צפונה. הטענה "כ-250 מ' צפונה" נכונה. מ"Vatican City" בפליאדס היא רחוקה 389 מ'. כל המקורות הם אתרי צבירה, ולכן התגית [משוער] במקומה. | [Wanderlog](https://wanderlog.com/place/details/1247157/octagonal-courtyard); [vici](https://vici.org/vici/18287); [aroundus](https://aroundus.com/p/5919595-museo-pio-clementino); [Wikipedia](https://en.wikipedia.org/wiki/Cortile_del_Belvedere); [Sygic](https://travel.sygic.com/en/poi/cortile-del-belvedere-poi:6065603) |
+| 92 | מאומת | הנקודה זהה לנקודה של Turismo Roma, ורחוקה **65 מ'** מהנקודה של italia.it (41.8939988, 12.4832329). | [Turismo Roma](https://turismoroma.it/en/places/basilica-santa-maria-aracoeli); [italia.it](https://www.italia.it/it/lazio/roma/chiese-luoghi-di-culto/basilica-di-santa-maria-in-ara-coeli) |
+| 93 | **דורש תיקון** | הקואורדינטות נכונות. צריך להוסיף את המחלוקת על מקום המציאה, כמו בטענה 54. | כמו 54 |
+| 94 | מאומת | כמו טענה 61: 100 מ' מוויקיפדיה. התגית [משוער] מתאימה. | כמו 61 |
+| 95 | מאומת | פסקווינו רחוק 10 מ' מוויקיפדיה. הקנצ׳לריה רחוקה 50 מ' מוויקיפדיה. | כמו 62 ו-80 |
+| 96 | מאומת | GeoNames ופליאדס זהים לרשום. הערה: שתי הנקודות רחוקות זו מזו 1.64 ק"מ. הנקודה של GeoNames נמצאת כ-2.3 ק"מ מזרחית לארצ׳לי ולקפיטול, ולכן אין להשתמש בה כמרכז העיר העתיקה. | cities.json; פליאדס CSV |
+| 97 | מאומת | GeoNames 8299698 זהה לרשום (SBLDG). Museo Galileo כותב "43.7751 - 11.2553". הנקודות רחוקות 50 מ' ו-59 מ' מהנקודה בוויקיפדיה (43.77528, 11.2559889). | [GeoNames](https://www.geonames.org/8299698); Museo Galileo; [Wikipedia](https://en.wikipedia.org/wiki/Palazzo_Medici_Riccardi) |
+| 98 | מאומת | הנקודה של Audiala זהה לרשום. היא רחוקה **39 מ'** מהנקודה של Museo Galileo לקזינו מדיצ׳או (43.7788, 11.2589, Via Cavour 57). התגית [משוער] נכונה, כי הגן השתרע "tra i siti del Casino Mediceo e di palazzo Socci". | [Audiala](https://audiala.com/en/italy/florence/casino-mediceo-di-san-marco); [Museo Galileo](https://brunelleschi.imss.fi.it/itineraries/place/CasinoMediceoSanMarco.html) |
+| 99 | מאומת | GeoNames 6697948 זהה לרשום (SPAL). הנקודה רחוקה **4 מ'** מהנקודה בוויקיפדיה (43.7694, 11.2561). | [GeoNames](https://www.geonames.org/6697948/palazzo-vecchio.html); [Wikipedia](https://en.wikipedia.org/wiki/Palazzo_Vecchio) |
+| 100 | מאומת | שני הערכים זהים לרשום. הערה: הנקודה של GeoNames רחוקה 1.35 ק"מ צפון-מערבית לארמון וקיו. הנקודה של פליאדס (Florentia) רחוקה ממנו 55 מ', והיא עדיפה לתווית "פירנצה". | cities.json; פליאדס CSV |
+| 101 | מאומת, לדייק | פירנצה נמצאת ב-43.77°, כלומר מחוץ לתחום 41.42–42.42. המרחק הגדול בין שלוש הנקודות בפירנצה הוא 1,100 מ' (סן מרקו–סיניוריה). בזום 8 פיקסל הוא כ-441 מ', ולכן 1.1 ק"מ הם כ-2.5 פיקסלים, ולא "אותו פיקסל". ברומא המרחק ממקום המציאה לחצר המתומנת הוא 4.0–4.1 ק"מ. זה כ-70 פיקסלים בזום 11 (57 מ' לפיקסל) וכ-140 בזום 12. | חישוב |
+| 102 | מאומת | פראנדי: "la ridda delle offerte in denaro tra i liberalissimi aspiranti a possederla", בלי שמות, והאפיפיור "volle la statua per sè". | פראנדי |
+| 103 | מאומת, לדייק | "מכבד את ביתו" הוא היסק, כי זו הקבלה למקיאוולי, ולכן צריך תגית [היסק]. קלמנס השביעי לא "השלים". הוא "volle il restauro" ו-"autorizzata". קולונה וברניו מופיעים אצל האקדמיה המלכותית ("possible"). | פראנדי; RA |
+| 104 | מאומת, לדייק | "המורה" נשען רק על וזארי 1568, מסמך 34: "per guida e per capo il sopradetto Bertoldo". במסמך 27 ואצל קונדיווי ברטולדו לא מופיע בתפקיד הזה. שאר השחקנים מאומתים: ההחרמה (9.10.1495), ושרשרת הקופידון. | census.de; Mediateca |
+| 105 | **דורש תיקון** | "קיבל הבטחה בלבד" לא נכון בטווח הארוך. Getty מתעד את "Laocoön and His Sons" של פרימטיצ׳ו מ-1542, בטירת פונטנבלו. ויקיפדיה: פרנסואה שלח את פרימטיצ׳ו ב-1540 "to take casts of the best Roman sculptures in the papal collections, some of which were cast in bronze". ההעתק של בנדינלי נמצא היום באופיצי. "מחוץ לשלטון" אומת: מקיאוולי הודח ב-7 בנובמבר 1512 (OUP), ולפי I Tatti עם חזרת המדיצ׳י בספטמבר 1512. "never returned to Florence's government". | [Getty](https://www.getty.edu/publications/bronze-guidelines/visual-atlas/119/); [Wikipedia](https://en.wikipedia.org/wiki/Francesco_Primaticcio); [Uffizi](https://www.uffizi.it/en/artworks/laocoon-bandinelli); [OUP](https://blog.oup.com/2011/11/machiavelli/); [I Tatti](https://itatti.harvard.edu/news/banishment-and-arrest-niccol%C3%B2-machiavelli) |
+
+---
+
+## מקורות (קישורים)
+
+- [Musei Vaticani: Apollo](https://www.museivaticani.va/content/museivaticani/it/collezioni/musei/museo-pio-clementino/Cortile-Ottagono/apollo-del-belvedere.html)
+- [Musei Vaticani: Torso](https://www.museivaticani.va/content/museivaticani/en/collezioni/musei/museo-pio-clementino/sala-delle-muse/torso-del-belvedere.html)
+- [Royal Academy](https://www.royalacademy.org.uk/art-artists/work-of-art/cast-of-belvedere-torso)
+- [Vatican News 2021](https://vaticannews.va/en/vatican-city/news/2021-04/michelangelo-belvedere-torso-secrets-vatican-museums-video.html)
+- [Vatican News 2024](https://www.vaticannews.va/en/vatican-city/news/2024-05/segreti-musei-vaticani-braccio-laocoonte-ludwig-pollak-nogara.print.html)
+- [פראנדי](https://inasaroma.org/patrimonio/wp-content/uploads/2021/04/05-A-PRANDI-La-fortuna-del-Laocoonte-02.pdf)
+- [EAA](https://www.treccani.it/enciclopedia/laocoonte_(Enciclopedia-dell'-Arte-Antica)/)
+- [EM](https://www.treccani.it/enciclopedia/michelangelo-buonarroti_(Enciclopedia-machiavelliana)/)
+- [Mediateca: הגן](https://mediateca.palazzomediciriccardi.it/works_and_environment/il-giardino-di-san-marco-o-delle-sculture/)
+- [it.wikipedia: Giardino di San Marco](https://it.wikipedia.org/wiki/Giardino_di_San_Marco)
+- [census.de, נספח 2](https://www.census.de/riario-galli-bacchus/italiano/appendice-ii/)
+- [קונדיווי, ויקיטקסט](https://it.wikisource.org/wiki/Vita_di_Michelagnolo_Buonarroti_B/Vita_di_Michelagnolo_Buonarroti_-_Versione_critica)
+- [Met 2017](https://www.metmuseum.org/exhibitions/listings/2017/michelangelo/exhibition-galleries)
+- [Uffizi](https://www.uffizi.it/en/artworks/laocoon-bandinelli)
+- [Britannica: Leo X](https://www.britannica.com/biography/Leo-X)
+- [וילארי, כרך 3](https://www.gutenberg.org/ebooks/61706.epub.noimages)
+- [m.caareviews](https://m.caareviews.org/reviews/644)
+- [Getty: פרימטיצ׳ו](https://www.getty.edu/publications/bronze-guidelines/visual-atlas/119/)
