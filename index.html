@@ -931,7 +931,8 @@ const ROLE = {core:'הממלכה', vassal:'משועבד', ally:'בעל ברית'
 /* ---------- chapters: data files ch/NN.js call ATLAS.add(n, {...}) ---------- */
 const CH = {};
 const ATLAS = {add:(n, d)=>{ CH[n] = d; }};
-const AVAIL = [19];          // chapters that have a data file
+const DRAFT = [0];           // chapters still being built: visible only with ?draft in the address
+const AVAIL = [19].concat(/[?&]draft/.test(location.search) ? DRAFT : []);   // chapters that have a data file
 const DEFAULT_CH = 19;
 let C = null, PLACES = {}, STORIES = [], PEOPLE = [], LADDER = [], GEOM = {}, ENT = {}, PINFO = {};
 
@@ -1062,7 +1063,9 @@ const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'
   raid:{c:'#A11F12', dash:null, w:3, arrow:true, lbl:'פשיטת אויב'}, raid2:{c:'#A11F12', dash:'7 6', w:2.8, arrow:true, lbl:'מסע אויב, דרך משוערת'},
   move:{c:'#4A4436', dash:'1 6', w:3, arrow:true, lbl:'העברת תושבים'},
   ow:{c:'#1C3A6E', dash:null, w:3, arrow:true, lbl:'מסע עות׳מאני: התחנות מתועדות'}, ow2:{c:'#1C3A6E', dash:'7 6', w:2.8, arrow:true, lbl:'מסע עות׳מאני, דרך משוערת'},
-  journey:{c:'#3D6B2A', dash:'2 7', w:3.2, arrow:true, lbl:'השליחות של 1500, דרך משוערת'} };
+  journey:{c:'#3D6B2A', dash:'2 7', w:3.2, arrow:true, lbl:'השליחות של 1500, דרך משוערת'},
+  voyage:{c:'#1F5C70', dash:'7 6', w:2.8, arrow:true, lbl:'מסע בים, הקו משוער'},
+  news:{c:'#8A5A0B', dash:'2 6', w:2.6, arrow:true, lbl:'מכתב או ידיעה (קשר, לא דרך)'} };
 function smoothPts(pts, it=3){ if(pts.length<3) return pts; let p=pts; for(let r=0;r<it;r++){ const o=[p[0]]; for(let i=0;i<p.length-1;i++){ const a=p[i], b=p[i+1]; o.push([.75*a[0]+.25*b[0], .75*a[1]+.25*b[1]], [.25*a[0]+.75*b[0], .25*a[1]+.75*b[1]]); } o.push(p[p.length-1]); p=o; } return p; }
 function arcPts(a,b,bend){ const m=[(a[0]+b[0])/2,(a[1]+b[1])/2], d=[b[0]-a[0], b[1]-a[1]], c=[m[0]-d[1]*bend, m[1]+d[0]*bend], o=[]; for(let i=0;i<=32;i++){ const t=i/32, u=1-t; o.push([u*u*a[0]+2*u*t*c[0]+t*t*b[0], u*u*a[1]+2*u*t*c[1]+t*t*b[1]]); } return o; }
 function alongPath(P,f){ const seg=[]; let tot=0; for(let i=1;i<P.length;i++){ const d=Math.hypot(P[i][0]-P[i-1][0],P[i][1]-P[i-1][1]); seg.push(d); tot+=d; } let t=tot*f; for(let i=0;i<seg.length;i++){ if(t<=seg[i]){ const r=seg[i]?t/seg[i]:0; return [P[i][0]+(P[i+1][0]-P[i][0])*r, P[i][1]+(P[i+1][1]-P[i][1])*r]; } t-=seg[i]; } return P[P.length-1]; }

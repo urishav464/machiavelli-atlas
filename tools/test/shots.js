@@ -8,7 +8,7 @@ const { chromium } = require('playwright');
   const b = await chromium.launch();
   const p = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 1, isMobile: true, hasTouch: true });
   const errs = []; p.on('pageerror', e => errs.push(e.message)); p.on('console', m => { if (m.type() === 'error' && !/ERR_TUNNEL|fonts/.test(m.text())) errs.push(m.text()); });
-  await p.goto('http://localhost:8765/test.html#ch-' + chap); await p.waitForTimeout(1200);
+  await p.goto('http://localhost:8765/test.html?draft#ch-' + chap); await p.waitForTimeout(1200);
   await p.click(`[data-open="${story}"]`); await p.waitForTimeout(2600);
   for (let i = 0; i < 12; i++) {
     await p.screenshot({ path: `${out}/s${story}-step${i}.png` });

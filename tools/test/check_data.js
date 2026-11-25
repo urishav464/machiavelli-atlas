@@ -8,7 +8,7 @@ if (i < 0) throw new Error('page script not found');
 const src = html.slice(i + 8, j);
 const head = src.slice(0, src.indexOf('/* ---------- map ---------- */'));
 const k0 = src.indexOf('const KIND = {'), k1 = src.indexOf('function smoothPts');
-const S = new Function(head + src.slice(k0, k1) + ';return {CH,ATLAS,AVAIL,ROLE,KIND,LINE,CHAPTERS};')();
+const S = new Function('location', head + src.slice(k0, k1) + ';return {CH,ATLAS,AVAIL,ROLE,KIND,LINE,CHAPTERS};')({search:'?draft'});
 let bad = 0;
 for (const n of S.AVAIL) {
   const f = path.join(root, 'ch', String(n).padStart(2, '0') + '.js');

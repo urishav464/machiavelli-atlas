@@ -1,6 +1,6 @@
 # תיק עובדות: הסיפור "ימים ויבשות לא-נודעים" (אטלס הדיונים, ההקדמה לספר הראשון)
 
-**סטטוס:** טיוטה של החוקר (25.11.2026). עוד לא עברה בדיקה עצמאית. שום טענה לא נכנסת למפה לפני הבדיקה.
+**סטטוס:** עבר בדיקה עצמאית (25.11.2026), בשני חלקים: 98 מאומתות, 22 מאומתות עם תיקון ניסוח קל, 17 תוקנו, 4 לא אומתו ולא נכנסות למפה (21, 27, 42 בחלקו, 45), 3 לא ניתנות לבדיקה כאן (נוסח שלם; תואם לאיטלקית). שני דוחות הבודקים בנספח.
 
 כל שורה היא טענה שתופיע על המפה או בכרטיס מידע.
 
@@ -243,3 +243,396 @@ GeoNames = הקובץ `~/.atlas-cache/src/cities.json`. פליאדס מכסה ר
 - מי שלט באיים הקנריים ובאיים האזוריים ב-1492, והעמים של חוף ברזיל.
 - את המיקום של לה נבידד, של מפרץ החיצים ושל סנטה מריה באיים האזוריים.
 - את השמות לאורך חוף ברזיל ב-1501–1502 במקור טוב יותר מויקיפדיה.
+
+## תיקונים לפי הבדיקה (הגרסה שנכנסת למפה)
+
+- **2, 8:** המשפט משווה שתי סכנות: "trovare" (למצוא) סדרים, ו"cercare" (לחפש) מים וארצות. "לחקות" לא כתוב במשפט המטרה; החיקוי עולה במשפט שלפניו.
+- **13:** הטיוטה בכתב ידו היא גם העד השלם היחיד בכתב יד.
+- **18–20:** פורמיזאנו: "più paravespucciani che pseudovespucciani". המכתבים האישיים שרדו בהעתקים (קודקס ואליינטי, ריקרדיאנה), לא בכתב ידו. ההערה של מרקהם על העמימות מתייחסת לשני המכתבים המודפסים.
+- **21, 27:** הציטוט משטראוס והביטוי "קולומבוס החדש" לא אומתו. לא נכנסים לאתר.
+- **41:** בריטניקה: סן סלבדור "is generally preferred", לא העדפה שלה.
+- **42, 45:** רשימת האיים אומתה. "10 איים ו-23 מסלולים" וממצאי קונספשן לא אומתו; לא נכנסים לאתר.
+- **43:** השם סן סלבדור נקבע בחוק של פרלמנט בהאמה, מס׳ 27 משנת 1926 (בתוקף מ-6 במאי 1926); יש מקורות שנותנים 1925.
+- **49:** השם "La Isla Española" ניתן ביומן ב-9 בדצמבר; 6 בדצמבר הוא ההגעה לפוארטו דה סן ניקולאו.
+- **60:** הקו של 1493: 100 ליגות מערבית ל"כל אחד מהאיים האזוריים או מאיי כף ורדה".
+- **62:** וספוצ׳י נולד ב-9 במרץ 1454 (DBI); EADA: 1452 (או 1454).
+- **65:** "uomo di negozi", "factotum di fiducia"; "הענף הצעיר" לא במקור.
+- **69:** פורמיזאנו: "forse il 10" (מאי); 14 במאי הוא התאריך של Mundus Novus; המכתב לסודריני: 10 במרץ 1501. העצירה בגורה מיוחסת ל-Mundus Novus ולמכתב האישי השני.
+- **70:** 7 באוגוסט הוא התאריך של Mundus Novus, ו-17 באוגוסט של המכתב לסודריני (מרקהם, הערה 121).
+- **73:** לאורך החוף: 32 מעלות לפי וספוצ׳י (מרקהם: בעצם בערך 26). 50 ו-52 המעלות הן הפלגה בלב ים, אחרי שעזבו את החוף. על המפה: החוף עד בערך 25–26 מעלות דרום.
+- **74:** ל-Mundus Novus אין תאריך חזרה. 7 בספטמבר 1502: המכתב לסודריני (וויקיפדיה בשם מוריסון); 22 ביולי: פורמיזאנו.
+- **77:** Mundus Novus הוא תרגום לטיני של מכתב איטלקי שאבד. פורמיזאנו מציע בזהירות שאאוגסבורג 1504 היא המהדורה הראשונה.
+- **80:** את הנוסח האיטלקי של "דודי" לא הצלחנו לפתוח; בתרגומים האנגליים המילה חסרה.
+- **83:** "הגונפלוניירה לכל החיים" (לא "ראש הממשלה"); הזיהוי של הנמען הוא "with much probability".
+- **100:** יום המעצר שנוי במחלוקת (12 או 19 בפברואר 1513); על המפה: "פברואר 1513". "שש משיכות" רק ב-EM; על המפה: "עונה בחבל".
+- **116:** הכיוון מפירנצה לבית: דרום-דרום-מערב, כ-11.4 ק"מ.
+- **132–133:** מפרץ החיצים: משוער, שנוי במחלוקת (מפרץ סמאנה או מפרץ רינקון). לה נבידד: המועמד הסביר הוא En Bas Saline, כ-12 ק"מ מזרחית לקאפ-האיטיין (המוזיאון של פלורידה).
+- **134:** המדינה של הסיפור היא קסטיליה; האיים הקנריים שלה ("las islas de Canaria de Vuestras Altezas"). "הכתר מימן את רוב המסע" נמחק.
+- **136:** סודריני עומד בראש פירנצה מ-22 בספטמבר 1502.
+- **139:** היומן נותן כיוון ומרחק גם בקטע מפאלוס לאיים הקנריים (3, 4 ו-6 באוגוסט).
+
+### הכרעות נוספות של הבנייה
+- גיל מקיאוולי לא מופיע באתר (שנת הלידה לא נבדקה בתיק הזה).
+- "הנסיך": האתר אומר רק שבמכתב מדצמבר 1513 הוא מספר שחיבר אותו (טענה 103), בלי לקבוע איפה.
+- הסיפור בלי שכבת שטחים: קסטיליה, פורטוגל והלוקאים מופיעים רק כתוויות. הגבולות של 1492 לא נבדקו.
+
+---
+
+# נספח א: דוח הבודק העצמאי, טענות 1–72
+
+# בדיקה עצמאית: "ימים ויבשות לא-נודעים" (ההקדמה), טענות 1 עד 72
+
+**הבודק:** בודק עצמאי א (25.11.2026). קיבלתי רק את קובץ הטענות (`.check/ch00-explorers-claims.md`). לא ראיתי טיוטה, נימוקים, `index.html` או `ch/`. טענות 73 ואילך נבדקות בידי בודק אחר.
+
+---
+
+## 1. סיכום
+
+**ספירה (72 טענות):**
+
+| הכרעה | מספר | טענות |
+|---|---|---|
+| אומת | 49 | 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 16, 17, 22, 23, 24, 25, 26, 28, 29, 30, 31, 33, 34, 35, 36, 37, 38, 39, 40, 44, 47, 48, 50, 51, 52, 53, 55, 56, 57, 58, 59, 61, 63, 64, 66, 67, 68, 71, 72 |
+| אומת, עם תיקון קל (העובדה נכונה, צריך לתקן ניסוח, השלמה או ייחוס) | 11 | 8, 13, 15, 18, 19, 20, 32, 41, 46, 54, 65 |
+| דורש תיקון (תאריך, ייחוס או נתון שגוי) | 6 | 43, 49, 60, 62, 69, 70 |
+| אומת בחלקו (חלק אחד אומת, חלק אחר לא) | 2 | 27, 42 |
+| לא אומת | 2 | 21, 45 |
+| לא ניתן לבדיקה כאן (נוסח שלם) | 2 | 1, 2 |
+
+### התיקונים, בלשון התיק
+
+**דורש תיקון:**
+
+- **43.** במקום "האי ואטלינג קיבל רשמית את השם סן סלבדור ב-1925 (ויקיפדיה, שם). לפי Dumene (1988) זה קרה ב-1926": "האי ואטלינג קיבל רשמית את השם סן סלבדור בחוק של הפרלמנט של בהאמה (Cat Island and San Salvador or Watlings Island Names Act, Act No. 27 of 1926). השינוי נכנס לתוקף ב-6 במאי 1926 (ויקיפדיה, San Salvador Island, הערות 5 ו-33). ויקיפדיה, Guanahani, נותנת 1925." את Dumene לא הצלחתי לפתוח. את החוק עצמו לא ראיתי, רק את ההפניה אליו.
+- **49.** במקום "ב-6 בדצמבר קרא לאי 'La Isla Española'": "ב-6 בדצמבר הגיע להיספניולה, ונכנס לנמל שקרא לו Puerto de San Nicolao (יומן, 6 בדצמבר). את השם נתן ביומן ב-9 בדצמבר: 'puso nombre a la dicha isla la Isla Española'. בריטניקה מצמידה את מתן השם ל-6 בדצמבר." שאר הטענה אומת. אפשר להוסיף שהמספר 39 מופיע גם ביומן, ב-2 בינואר: "treinta y nueve hombres con la fortaleza".
+- **60.** במקום "קו 'מקוטב לקוטב, 100 ליגות מערבית לאיי כף ורדה'": "ב-1493 הוציא האפיפיור אלכסנדר השישי בולות, אחרי שפרננדו ואיזבלה ביקשו את תמיכתו. הבולה Inter caetera קבעה קו מקוטב לקוטב, '100 ליגות מערבית לכל אחד מהאיים של האזוריים או של כף ורדה' (ויקיפדיה, Treaty of Tordesillas). בריטניקה מקצרת: '100 ליגות מערבית לאיי כף ורדה'." **חשוב למפה:** קו שנמדד מהאזוריים יוצא במקום אחר מקו שנמדד מכף ורדה. אם משרטטים את הקו של 1493, צריך לסמן אותו כמשוער.
+- **62.** במקום "מקורות ישנים יותר נותנים 1451 (למשל EADA)": "יש מקורות שנותנים שנה אחרת. EADA, למשל, כותבת בכותרת הערך 1451, ובגוף הערך 'born on March 9, 1452 (or 1454)'." EADA היא אתר מודרני, ולא "מקור ישן".
+- **69.** הייחוס לפורמיזאנו שגוי. במקום "(Formisano: 14 במאי; ויקיפדיה, גונסאלו קואליו: 10 במאי)": "פורמיזאנו כותב שוספוצ׳י הפליג מליסבון במאי 1501, 'באותו חודש (אולי ב-10)' (in quello stesso mese (forse il 10)). את 14 במאי הוא מביא כתאריך של Mundus Novus ('la cui partenza è ora fissata al 14 maggio'). גם בתרגום של מרקהם ל-Mundus Novus כתוב 'on the 14th of May 1501'. ויקיפדיה (גונסאלו קואליו) כותבת 10 במאי. במכתב לסודריני, בתרגום מרקהם, כתוב '10th of March 1501'." את העצירה בגורה מייחס פורמיזאנו ל-Mundus Novus ולמכתב האישי השני: "si accredita una sosta presso il Capo Verde, precisamente nell'attuale isola di Gorée (baia di Dakar)". ויקיפדיה (קואליו) מזכירה את Bezeguiche רק במסע של 1503–1504, ולכן היא לא מקור לגורה ב-1501. מרקהם מזהה את Beze quiche עם גורה (הערה 109).
+- **70.** ההבדל בין 7 ל-17 באוגוסט הוא בין שני המכתבים המודפסים, ולא בין פורמיזאנו לוויקיפדיה. במקום הטענה: "ההגעה לחוף ברזיל: ב-Mundus Novus, '7th August 1501' (Markham, תרגום). במכתב לסודריני, '17th of August' (Markham, תרגום; הערה 121: '17th of August in the other letter'). פורמיזאנו מביא את 7 באוגוסט בסיכום שלו ל-Mundus Novus. מרקהם, מבוא: 'reaching the coast on the 7th or 17th of August, in 5° S. latitude'. ויקיפדיה (קואליו): 17 באוגוסט, 'at about 5° S'."
+
+**תיקון קל:**
+
+- **2** (בנוסף לכך שהציטוט עצמו לא ניתן לבדיקה): המסגרת "מקיאוולי מחפש 'אופנים וסדרים חדשים', כמו מי שמחפש..." לא תואמת את המשפט. מקיאוולי משווה בין שתי סכנות, ולא בין שני חיפושים. הצעה: "מקיאוולי משווה את הסכנה שבמציאת 'אופנים וסדרים חדשים' לסכנה שבחיפוש 'ימים ויבשות לא-נודעות'." באיטלקית כתוב trovare ("למצוא") על האופנים והסדרים, ו-cercare ("לחפש") על המים והארצות.
+- **8.** המילים "ולחקות אותה" לא נמצאות במשפט המטרה. הצעה: "...כדי ש'מי שיקראו את ביאוריי יוכלו להפיק מהם ביתר קלות את התועלת שלשמה יש לבקש את ידיעת ההיסטוריה' (a ciò che coloro che leggeranno queste mia declarazioni, possino più facilmente trarne quella utilità per la quale si debbe cercare la cognizione delle istorie; תרגום חופשי). את החיקוי הוא מזכיר משפט קודם: הוא רוצה 'להוציא את בני האדם מהטעות הזאת' (trarre li uomini di questo errore), כלומר מהדעה שהחיקוי 'לא רק קשה אלא בלתי אפשרי'."
+- **13.** להשלים את הציטוט: "בנוסח מוקדם ורחב יותר מזה שנמסר בדפוסים ובכתב היד השלם היחיד" (rispetto a quella trasmessa dalle stampe e dall'unico testimone manoscritto completo). ההפניה בערך היא "BNCF, CM I 74", ו"חצי גיליון" הוא "un mezzo foglio che reca il proemio al primo libro". הערך של ששו לא נפתח, והאימות נשען על Cutinelli-Rendina בלבד.
+- **15.** "במרחק שתי העתקות" לא מדויק. אצל אייף: "At best, the manuscript is at two removes from the original: a digest of a copy of the original". כלומר: "לכל היותר במרחק שתי דרגות מהמקור: תקציר של העתק של המקור".
+- **18.** עמדת פורמיזאנו מורכבת יותר. הצעה: "...פורמיזאנו כותב שההסבר של מניאגי מתנגש בעדויות הפילולוגיות. לדעתו המכתבים הם 'תוצאה של זיוף שנעשה מתוך אוסף רחב יותר של מכתבים אישיים' [מזה שהגיע אלינו], וייתכן שלוספוצ׳י עצמו היה חלק בדבר. לכן הם 'יותר פארה-וספוצ׳יים מאשר פסאודו-וספוצ׳יים' (più paravespucciani che pseudovespucciani)."
+- **19.** "בכתב יד" עלול להיקרא "בכתב ידו". פורמיזאנו כותב שהמכתבים נמצאים "soprattutto nella Riccardiana, dove sono trasmesse dal celebre codice Vaglienti", כלומר בהעתקים. הצעה: "שלושה מכתבים אישיים של וספוצ׳י ללורנצו די פיירפרנצ׳סקו נשמרו בהעתקים בכתב יד בספריות בפירנצה, בעיקר בקודקס ואליינטי שבספרייה הריקרדיאנה. הם התגלו מחדש באמצע המאה ה-18..."
+- **20.** צריך לומר על אילו מכתבים מדובר, כי טענה 19 שלפניה עוסקת במכתבים האישיים. הצעה: "קלמנטס מרקהם (1894), שתרגם לאנגלית את שני המכתבים המודפסים (המכתב לסודריני והמכתב למדיצ׳י, Mundus Novus), כתב שמה שהרשים 'כמעט את כל החוקרים שבדקו אותם' הוא 'העמימות יוצאת הדופן' שלהם (extraordinary vagueness)..."
+- **32.** הציטוט נקטע לפני "por mandado del Almirante". הצעה: "...y Martín Alonso quedóse en aquella costa de gran Canaria por mandado del Almirante" (...ומרטין אלונסו נשאר בחוף גראן קנריה, בפקודת האדמירל).
+- **41.** בריטניקה לא כותבת שהיא מעדיפה. היא כותבת שהאי "is generally preferred". הצעה: "לפי בריטניקה, האי סן סלבדור (ואטלינג) באיי בהאמה 'מועדף בדרך כלל' על פני האיים האחרים באיי בהאמה ובאיי טרקס וקייקוס."
+- **46.** במקור הופמן "helped supervise the excavation". הצעה: "צ׳רלס הופמן (אוניברסיטת צפון אריזונה) עזר לפקח על החפירה, ומרווין סמית (אוניברסיטת פלורידה) תארך..."
+- **54.** בוויקיפדיה כתוב "the authenticity of which has been a matter of disagreement among scholars". לכן צריך לכתוב "האותנטיות" (אם המכתב אמיתי), ולא "האמינות". על וינייו: לפי האנציקלופדיה הקתולית (New Advent), וינייו "attempted to prove" שההתכתבות מזויפת, בספר La lettre et la carte de Toscanelli (פריז 1901). את הגרסה האנגלית מ-1902 לא הצלחתי לפתוח.
+- **65.** הצירופים הנכונים אצל פורמיזאנו הם "uomo di negozi" ו"un factotum di fiducia". "הענף הצעיר" לא כתוב אצלו. הוא כותב שלורנצו וג׳ובאני אימצו את השם "פופולאני" "per distinguersi dal ramo di Piero de' Medici". על ברארדי: "i Popolani affidarono la gestione del loro banco sivigliano", והוא "morì improvvisamente il 15 dicembre 1495". אפשר להוסיף את התאריך.
+
+**לא אומת (לא להכניס למפה עד שיאומת):**
+
+- **21.** הציטוט משטראוס ועמ' 34. העותק ב-archive.org לא נגיש מכאן. קובץ ה-PDF ב-USP הפנה לדף התחברות. חיפוש בקוד ב-GitHub נכשל.
+- **45.** קונספשן איילנד, כלי החרס וסטיבן מיצ׳ל. הטענה נשענת רק על Dumene (1988), והמאמר לא עלה בחמישה חיפושים. גם מקור אחר לא נמצא.
+- **42** (בחלקו): הנתון "כ-10 איים וכ-23 מסלולים" (Dumene) לא אומת. רשימת האיים אומתה.
+- **27** (בחלקו): אומת שמאטיי מייחסת לשטראוס את הביטוי (עמ' 277, בלי עמוד אצל שטראוס). הביטוי עצמו אצל שטראוס לא אומת, כפי שהתיק עצמו מסמן.
+
+---
+
+## 2. שיטה ומגבלות
+
+**נוסח איטלקי.** הורדתי מחדש, מ-GitHub, את שלושת הקבצים שבתיק:
+- `awatson1978/discourses-on-rome/.../1_proemio.json` (ויקיטקסט, revid 3685765).
+- `solforged/classics-reader/.../1-1.txt` ו-`0-1.txt`.
+
+הנוסח בשני המאגרים זהה. כעד שני ובלתי תלוי פתחתי את ה-PDF של Liber Liber, שמבוסס על מרטלי (Sansoni, פירנצה 1971). המשפט הפותח, המשפט האחרון ומשפט ההקדשה זהים בו. חיפשתי בשני הטקסטים, ההקדמה ומכתב ההקדשה, את המחרוזות Spagn, Portog, India, Indie, Colomb, Vespucc, Americ, mondo, nuov, Castigl, Genov, navig, scopr ועוד (טענה 9). "mondo" מופיע רק ב-"condotto el mondo" וב-"cose del mondo".
+
+**יומן קולומבוס.** פתחתי שני נוסחים:
+- [biblioteca-antologica, Los cuatro viajes del almirante](https://www.biblioteca-antologica.org/es/wp-content/uploads/2018/03/COLÓN-Cristobal-Los-cuatro-viajes-del-almirante-1.pdf), כל הטקסט (432 אלף תווים, בארבעה חלקים). העורך לא מצוין שם.
+- [UAB, קטע מ-Varela 1992](https://ddd.uab.cat/pub/1611/19882963n1/19882963n1a5/diario.pdf). בקובץ יש רק את 11 באוקטובר.
+
+**מחקר ומקורות שנפתחו בפועל:**
+- Ife, מבוא, ב-ems.kcl.ac.uk.
+- בריטניקה: The first voyage, Summary, Tordesillas.
+- Treccani: DBI על אמריגו וספוצ׳י (Formisano), DBI על ג׳ורג׳ו אנטוניו וספוצ׳י (Baldi Bellini), DBI על דאטי, EM, הערך Autografi.
+- Mattei 2021, וגם Najemy 2009 (core.ac.uk) כמקור בלתי תלוי לטענות 9 ו-10.
+- Lodone, ARO 2018/2, ב-PDF.
+- Markham 1894, טקסט מלא מ-GitHub (`legobridge/copyshield-llm`, PG36924).
+- ויקיפדיה: Guanahani, San Salvador Island, Columbus's letter, Toscanelli, Treaty of Tordesillas, Gonçalo Coelho.
+- Judge, Proceedings 1992.
+- Beads, ו-Deagan ו-Cruxent (British Academy).
+- Avalon, ISTC, New Advent.
+- Greenlee 1945 (The Americas).
+- Yale OYC, ו-EADA.
+
+**נחסם או לא נפתח:**
+- Dumene 1988 (USNI): לא עלה בחמישה חיפושים שונים. לפי ההנחיה לא פתחתי כתובת שלא עלתה בחיפוש.
+- שטראוס, Thoughts on Machiavelli: אין גישה ל-archive.org. ה-PDF ב-USP הפנה ל-Moodle. ב-`gh search code` הטוקן לא תקף.
+- וינייו 1902 (archive.org): בקשת ההרשאה לא נענתה בזמן.
+- EM, הערך של ששו "Discorsi": לא עלה בחיפוש.
+- Treccani ישירות ב-curl: נחסם (403). כל ערכי Treccani נקראו רק דרך WebFetch.
+- התמליל ב-openmedia.yale.edu, שבתיק: לא נפתח. את הציטוט אימתתי ב-oyc.yale.edu/node/1611, הרצאה 10, פרק 2.
+- מהדורת שלם העברית: לא זמינה.
+
+**הסתייגות על הכלי:** WebFetch מחזיר טקסט דרך מודל מסכם. ביקשתי בכל פעם ציטוט מילולי. במקומות שבהם הכלי ציין שהוא מסכם ולא מצטט, כתבתי זאת. בתיקיית העבודה כבר היו קבצים מהורדה קודמת. לא השתמשתי בהם, אלא הורדתי עותקים חדשים והשוויתי.
+
+**קואורדינטות:** בטענות 1 עד 72 אין קואורדינטות (הן בטענה 115 ואילך).
+
+---
+
+## 3. טבלה
+
+| # | הכרעה | מה לא בסדר | המקור שנבדק בפועל |
+|---|---|---|---|
+| 1 | לא ניתן לבדיקה כאן | הנוסח העברי והעמוד לא נבדקו. התוכן תואם את האיטלקית: "sia sempre suto ... periculoso trovare modi ed ordini nuovi". | ויקיטקסט ב-[awatson1978](https://raw.githubusercontent.com/awatson1978/discourses-on-rome/main/corpus/raw/discorsi_it/1_proemio.json); [Liber Liber/מרטלי](https://linux.studenti.polito.it/static_resources/liberliber/biblioteca/m/machiavelli/discorsi_sopra_la_prima_deca_di_tito_livio/pdf/discor_p.pdf) |
+| 2 | לא ניתן לבדיקה כאן | הנוסח העברי לא נבדק. "acque e terre incognite" תואם. המסגרת "מחפש ... כמו מי שמחפש" לא תואמת: המשפט משווה בין סכנות, ובאיטלקית trovare ולא cercare. ראו התיקון בסיכום. "לא-נודעים" או "לא-נודעות" צריך לבדוק בספר. | שם |
+| 3 | אומת | המשפט זהה מילה במילה בשני העדים. התרגום החופשי נאמן. | שם, וגם [solforged 1-1](https://raw.githubusercontent.com/solforged/classics-reader/main/corpora/machiavelli/data/discorsi/text/1-1.txt) |
+| 4 | אומת | הקריאה נכונה. הסיבה ("per la invida natura", "più pronti a biasimare") מוצמדת לסכנה שבאופנים ובסדרים. סיבה לסכנה שבחיפוש ארצות לא ניתנת. | שם |
+| 5 | אומת | "acque" נכון. שהבחירה ב"ימים" היא של שלם, לא ניתן לבדוק כאן. | שם |
+| 6 | אומת | זהה. "sanza alcuno respetto" אפשר לתרגם גם "בלי שום התחשבות". | שם |
+| 7 | אומת | זהה, וזה המשפט האחרון של ההקדמה. "portarlo" מתייחס ל"questo peso", ולכן "[את המשא]" נכון. עמ' 4 לא ניתן לבדיקה. | שם; Liber Liber |
+| 8 | תיקון קל | "ולחקות אותה" לא נמצא במשפט המטרה. החיקוי מופיע בהקשר הקודם ("trarre li uomini di questo errore"). ראו הסיכום. | שם |
+| 9 | אומת | חיפשתי במחרוזות בשני הטקסטים, ואין שם של מגלה, הודו, עולם חדש, ספרד או פורטוגל. מקור בלתי תלוי: Najemy, עמ' 127: "wrote nothing about the epoch-making discoveries", והמשפט בהקדמה הוא "His one apparent, indirect reference to the voyages". | הטקסטים לעיל; [Najemy 2009](https://core.ac.uk/download/141654354.pdf) |
+| 10 | אומת | הציטוט בעמ' 277. הערה: כתב העת לא עקבי. בעמוד הראשון "Nº 17 (1). Mayo 2020", בכותרות 2021, וב"Cómo citar" כתוב "17 (2)" עם שם מחבר שגוי ("Ighina, D."). | [Mattei](https://revistas.unne.edu.ar/index.php/nit/article/download/5357/5052) |
+| 11 | אומת | הכותרת "a Zanobi Buondelmonti e Cosimo Rucellai" והציטוט זהים בשני העדים. העמוד לא ניתן לבדיקה. | [solforged 0-1](https://raw.githubusercontent.com/solforged/classics-reader/main/corpora/machiavelli/data/discorsi/text/0-1.txt); Liber Liber |
+| 12 | אומת | זהה. | solforged 0-1 |
+| 13 | תיקון קל | "mezzo foglio che reca il proemio al primo libro" ו-"CM I 74" אומתו. חסר ההמשך: "e dall'unico testimone manoscritto completo". על המשפט הפותח בטיוטה הערך לא אומר כלום. ששו לא נפתח. | [EM, Autografi](https://www.treccani.it/enciclopedia/autografi_(Enciclopedia-machiavelliana)/) |
+| 14 | אומת | הערה מתודולוגית, ונכונה. | – |
+| 15 | תיקון קל | "not been seen since 1504" ו"the only copy ... disappeared" אומתו. "two removes" פירושו "a digest of a copy of the original", ולא "שתי העתקות". | [Ife](https://www.ems.kcl.ac.uk/content/pub/b001.html) |
+| 16 | אומת | "3 August 1492 to 15 March 1493", "about 20%", "All the entries from 11-24 October" (אייף: "ostensibly the Admiral's own words"). | Ife |
+| 17 | אומת | "discovered it ... in the library of the Duque del Infantado", 1790. את ויקיפדיה לא פתחתי. | Ife |
+| 18 | תיקון קל | הציטוט מדויק. עמדת פורמיזאנו מורכבת יותר מ"דוחה את הזיוף המלא": "più paravespucciani che pseudovespucciani". | [DBI, Vespucci](https://www.treccani.it/enciclopedia/amerigo-vespucci_(Dizionario-Biografico)/) |
+| 19 | תיקון קל | "tre lettere", "fino alla metà del XVIII secolo" ו"Siviglia 18 (o 28) luglio 1500" אומתו. המכתבים הם העתקים (קודקס ואליינטי, ריקרדיאנה), ולא בכתב ידו. | שם |
+| 20 | תיקון קל | הציטוט מדויק ("extraordinary vagueness. Not a single name of a commander ... not half-a-dozen names of places"). הוא מתייחס לשני המכתבים המודפסים, ולא לאישיים. העוינות ניכרת ("this wonderful beef contractor"). | [Markham, טקסט](https://raw.githubusercontent.com/legobridge/copyshield-llm/main/data/text/PG36924_text.txt) |
+| 21 | לא אומת | לא הצלחתי לפתוח את הטקסט של שטראוס (archive.org חסום; ב-USP דף התחברות; gh לא מורשה). | ניסיתי: חיפוש של הציטוט המדויק, edisciplinas.usp.br, philarchive ZHAACI-3 (אין בו הציטוט) |
+| 22 | אומת | Mattei, עמ' 278: "la frase 'buscar aguas y tierras ignotas' alude a los escritos de Américo Vespucci", עם הפניה ל-(Tommasini, 1883-1991 [sic], p. 477). השם מאוית "Tommansini". טומאזיני עצמו לא נבדק, כפי שהטענה מציינת. | Mattei |
+| 23 | אומת | לודונה: "una diretta conoscenza da parte di Machiavelli" של "lettere dal Nuovo Mondo del mercante Simone Verde e di Amerigo Vespucci". מאטיי, עמ' 278, מנסחת זאת כהשערה. | [Lodone, ARO](https://aro-isig.fbk.eu/issues/2018/2/sguardo-macchiavelli-michele-lodone/pdf/); Mattei |
+| 24 | אומת | "vede un possibile ipotesto", "entrare per una via", "anche se resta l'impressione che possa trattarsi di un luogo comune". במקור "luogo comune", ולא "commonplace". | Lodone |
+| 25 | אומת | עמ' 281: "Solo Sandro Landi (2017) ha llamado la atención de la presencia gravitante de América en los escritos de Maquiavelo". זו הערכה של מאטיי. | Mattei |
+| 26 | אומת | "he compares himself to Christopher Columbus" ו-"What Columbus had done for geography, Machiavelli claims he will do for politics". את הקישור ב-openmedia לא פתחתי. כדאי להחליף אותו בקישור שאומת. | [Yale OYC, הרצאה 10](https://oyc.yale.edu/node/1611); [תרגום TÜBA](https://acikders.tuba.gov.tr/file.php/109/Lectures/PDF/Ders10.pdf) |
+| 27 | אומת בחלקו | מאטיי, עמ' 277: "Leo Strauss (1978) ha escrito que Maquiavelo parece ser el nuevo Cristóbal Colón de la filosofía política", בלי עמוד. אצל שטראוס עצמו לא אומת. | Mattei |
+| 28 | אומת | "(born between Aug. 26 and Oct. 31?, 1451, Genoa—died May 20, 1506, Valladolid, Spain)". | [Britannica summary](https://WWW.Britannica.com/summary/Christopher-Columbus) |
+| 29 | אומת | "Consortia put together by a royal treasury official and composed mainly of Genoese and Florentine bankers in Sevilla (Seville) provided at least 1,140,000 maravedis". | [Britannica, first voyage](https://www.britannica.com/biography/Christopher-Columbus/The-first-voyage) |
+| 30 | אומת | "fitted out at Palos, on the Tinto River". | שם |
+| 31 | אומת | "Partimos viernes 3 días de agosto de 1492 años de la barra de Saltes a las ocho horas." | biblioteca-antologica |
+| 32 | תיקון קל | מדויק עד "gran Canaria". חסר "por mandado del Almirante". "[פינסון, עם הפינטה]" נכון: ביומן, 6 באוגוסט, "la carabela Pinta, donde iba Martín Alonso Pinzón". | שם |
+| 33 | אומת | בריטניקה: "After nearly a month in the Canaries". אייף: "The main omissions are the period 9 August to 6 September". הערה: לפי אייף "the intervening period is summarized". | Britannica; Ife |
+| 34 | אומת | ציטוט מדויק. בריטניקה: "set out from San Sebastián de la Gomera on September 6". | biblioteca-antologica; Britannica |
+| 35 | אומת | ב-Varela, 11 באוקטובר: "Después del sol puesto, navegó a su primer camino al Güeste". זו חזרה לכיוון המקורי אחרי המעבר למערב-דרום-מערב. עדות ישירה יותר: יומן, 8 בספטמבר: "tomó su vía y camino al Oueste". כדאי להוסיף אותה. | [UAB](https://ddd.uab.cat/pub/1611/19882963n1/19882963n1a5/diario.pdf); biblioteca-antologica |
+| 36 | אומת | "Anduvo aquel día diez y nueve leguas, y acordó contar menos de las que andaba..." (9 בספטמבר). | biblioteca-antologica |
+| 37 | אומת | "acordó dejar el camino del Oueste y poner la proa hacia Ouesudueste" (7 באוקטובר). | שם |
+| 38 | אומת | ציטוט מדויק. בריטניקה: "land was sighted from the Pinta". ביומן: "Esta tierra vido primero un marinero que se decía Rodrigo de Triana". | שם; Britannica; UAB |
+| 39 | אומת | "llegaron a una isleta de los Lucayos, que se llamaba en lengua de indios Guanahani". | שם |
+| 40 | אומת | ציטוט מדויק. "los Indios la llaman Guanahaní". הערה: באתר מופיע "[isla Watling]" בסוגריים, וזו תוספת של העורך. אסור לצטט את זה כדברי קולומבוס. המהדורה מבוססת על Jane 1930. | [uv.es](https://www.uv.es/~fores/TxTCristobalColon.html) |
+| 41 | תיקון קל | "hotly disputed" אומת. "בריטניקה מעדיפה" צריך להיות "is generally preferred". | Britannica |
+| 42 | אומת בחלקו | הרשימה בוויקיפדיה תואמת: מוניוס 1793, בכר 1856, מרדוק 1884, מוריסון 1942, פוקס 1880, ג׳אדג׳ 1986, פלנה 1974 ו-1994, נבארטה 1825, אירווינג 1828, ורנהאגן 1864, גולד 1943, ורהוג 1947. הנתון "10 איים ו-23 מסלולים" (Dumene) לא אומת. | [Wikipedia, Guanahani](https://en.wikipedia.org/wiki/Guanahani) |
+| 43 | דורש תיקון | ויקיפדיה עצמה (San Salvador Island) מביאה את החוק Act No. 27 of 1926, שנכנס לתוקף ב-6 במאי 1926. Dumene לא אומת. ראו הסיכום. | [Wikipedia, San Salvador Island](https://en.wikipedia.org/wiki/San_Salvador_Island); Guanahani |
+| 44 | אומת | ויקיפדיה: Fox 1880 ו-Judge 1986 (National Geographic, נובמבר 1986, כרך 170, גיליון 5). ג׳אדג׳ עצמו, ב-1992, תומך בסמאנה קיי ומייחס את הזיהוי לפוקס, ונראה שהוא נותן שנה אחרת (1881). Dumene לא נדרש. | Wikipedia; [Judge 1992](https://www.usni.org/magazines/proceedings/1992-02/landfall-samana-cay) |
+| 45 | לא אומת | Dumene לא נפתח. בדף של Keegan במוזיאון פלורידה ובכתבה של ה-Crimson מ-1985 אין כלי חרס בקונספשן ואין מיצ׳ל. | [Florida Museum](https://www.floridamuseum.ufl.edu/caribarch/columbus.htm); [Crimson](https://www.thecrimson.com/article/1985/10/15/columbus-landing-debated-palmost-400-years) |
+| 46 | תיקון קל | "about eight inches", 1490–1560, "It looks very possible that they were his", ו-NYT 15.9.1983 עמ' A12 אומתו. אבל הופמן "helped supervise". סמית מאוניברסיטת פלורידה. ההסתייגות בסוף נכונה. | [Beads](https://journals.uoregon.edu/beads/article/download/6482/8322/12693) |
+| 47 | אומת | עמ' 76: "the only stratigraphically documented post-contact Lucayan site excavated so far has been the Long Bay site on San Salvador" (Hoffman 1986). המאמר: "From Contact to Criollos", עמ' 67–104. | [British Academy](https://www.thebritishacademy.ac.uk/documents/3996/81p067.pdf) |
+| 48 | אומת | מרדן "applied currents to the first half of the voyage (but not the second half)". | Wikipedia, Guanahani |
+| 49 | דורש תיקון | השם "Isla Española" ניתן ביומן ב-9 בדצמבר, ולא ב-6. קובה ב-28 באוקטובר, 25 בדצמבר, החוף הצפוני, 39 איש ו-13 בינואר אומתו. | biblioteca-antologica (5, 6, 9 בדצמבר; 2 ו-13 בינואר); Britannica |
+| 50 | אומת | "Partió antes del día tres horas del golfo que llamó el Golfo de las Flechas". באותה רשומה מופיע גם "Puerto de las Flechas". | biblioteca-antologica |
+| 51 | אומת | 18 בפברואר: "supieron cómo era la isla de Santa María, una de las de los Azores". בריטניקה: "driven to seek harbour" שם. | שם; Britannica |
+| 52 | אומת | "vino a pasar a Rastelo dentro del río de Lisboa" (4 במרץ). | biblioteca-antologica |
+| 53 | אומת | ציטוט מדויק. זו הרשומה האחרונה ביומן. | שם |
+| 54 | תיקון קל | 1397–1482, 1474, פרננדו מרטינש והעתק לקולומבוס אומתו. "authenticity", ולא "אמינות". New Advent: מכתב מ-25 ביוני 1474, ועותק בכתב ידו של קולומבוס בביבליוטקה קולומבינה. וינייו: La lettre et la carte de Toscanelli, פריז 1901. את הספר מ-1902 לא פתחתי. | [Wikipedia, Toscanelli](https://en.wikipedia.org/wiki/Paolo_dal_Pozzo_Toscanelli); [New Advent](https://www.newadvent.org/cathen/14786a.htm) |
+| 55 | אומת | 15 בפברואר 1493, "on the Canary Islands", בעצם ליד האזוריים. 14 במרץ בדפוס ו-4 במרץ ב-Libro Copiador. גם ב-uv.es כתוב "Fecha a 4 días de marzo". | [Wikipedia, Columbus's letter](https://en.wikipedia.org/wiki/Columbus%27s_letter_on_the_first_voyage); uv.es |
+| 56 | אומת | "probably in late March or early April 1493". | שם |
+| 57 | אומת | הושלם ב-29 באפריל 1493; Plannck, "c. May 1493". | שם |
+| 58 | אומת | DBI: "Lettera delle isole nuovamente trovate", "E. Silber", 15 ביוני 1493, ומהדורה פלורנטינית ב-26 באוקטובר 1493. האוטבה רימה לא מוזכרת ב-DBI בהקשר הזה, אבל ויקיפדיה ו-ISTC מאשרות ("An adaptation in ottava rima"). | [DBI, Dati](https://www.treccani.it/enciclopedia/giuliano-dati_(Dizionario-Biografico)/); [ISTC](https://data.cerl.org/istc/id00045950); Wikipedia |
+| 59 | אומת | "some 3,000 copies ... half of them in Italy". הערכה. | Wikipedia |
+| 60 | דורש תיקון | הציטוט מבריטניקה נכון, אבל חסר: הקו נמדד "west of any of the islands of the Azores or the Cape Verde Islands". זה משנה את מיקום הקו במפה. | [Britannica, Tordesillas](https://www.britannica.com/event/Treaty-of-Tordesillas); [Wikipedia, Treaty of Tordesillas](https://en.wikipedia.org/wiki/Treaty_of_Tordesillas) |
+| 61 | אומת | 7 ביוני 1494, "three hundred and seventy leagues west of the Cape Verde Islands". ממזרח למלך פורטוגל, ממערב ל"King and Queen of Castile, Leon, etc." | [Avalon](https://avalon.law.yale.edu/15th_century/mod001.asp) |
+| 62 | דורש תיקון | פורמיזאנו אומת: "Nacque a Firenze il 9 marzo 1454 da Nastagio ... notaio". ב-EADA, בגוף הערך, "March 9, 1452 (or 1454)". 1451 מופיע רק בכותרת. | DBI; [EADA](https://eada.lib.umd.edu/author-entries/vespucci-amerigo) |
+| 63 | אומת | "l'umanista della famiglia" (פורמיזאנו). ב-DBI על ג׳ורג׳ו אנטוניו: נולד ב-22.4.1434 ומת ב-17.4.1514; קנוניקוס מנובמבר 1482; קיבל את הגלימה הדומיניקנית ב-5 ביוני 1497 בסן מרקו ("il 5 giugno 1497 ricevette formalmente l'abito"). סבונרולה מוזכר כ"spirituale effervescenza" שמשכה אנשי תרבות למסדר, וג׳ורג׳ו אנטוניו לא שותף לכל רעיונותיו. | DBI, Vespucci; [DBI, Giorgio Antonio](https://www.treccani.it/enciclopedia/giorgio-antonio-vespucci_(Dizionario-Biografico)/) |
+| 64 | אומת | "Pietro e Giovan Vittorio Soderini". באותה רשימה מופיעים גם לורנצו וג׳ובאני די פיירפרנצ׳סקו. | DBI, Giorgio Antonio |
+| 65 | תיקון קל | המילים במקור: "uomo di negozi", "factotum di fiducia". "ענף צעיר" לא כתוב שם. ברארדי מת ב-15.12.1495. "a quarantadue anni" אומת. | DBI, Vespucci |
+| 66 | אומת | "two by order of the Catholic King Ferdinand ... towards the west, the other two by order of the powerful King Manoel of Portugal, towards the south". הערה: במשפט הזה כתוב "המלך הקתולי", ולא "מלך קסטיליה" (וראו הערה 59 של מרקהם). | Markham |
+| 67 | אומת | "resta avvolto nel mistero". המטרה של התאריך המוקדם, לפי פורמיזאנו: "perché Colombo perda il primato di aver riconosciuto per primo la continentalità delle terre scoperte". | DBI, Vespucci |
+| 68 | אומת | "tra il 18 maggio 1499 e il 18 (o 28) luglio 1500"; "come pilota (astronomo e cartografo)"; "non fu mai comandante di navi". | שם |
+| 69 | דורש תיקון | פורמיזאנו כותב "forse il 10". 14 במאי הוא התאריך של Mundus Novus. גורה מיוחסת ל-Mundus Novus ולמכתב האישי השני. ויקיפדיה לא מזכירה את גורה ב-1501. מרקהם, המכתב לסודריני: "10th of March 1501". ראו הסיכום. | DBI; [Wikipedia, Gonçalo Coelho](https://en.wikipedia.org/wiki/Gon%C3%A7alo_Coelho); Markham |
+| 70 | דורש תיקון | 7 באוגוסט הוא Mundus Novus, ו-17 באוגוסט הוא המכתב לסודריני. המחלוקת היא בין שני המכתבים. | Markham (מבוא, תרגום, הערה 121); DBI; Wikipedia |
+| 71 | אומת | מרקהם: "He does not mention the name of the commander". המחלוקת מתועדת: Greenlee 1945 כותב "The greater number of chroniclers affirm, with little exactitude, that it was Gonçalo Coelho", ומזכיר גם את אנדרה גונסאלבש, נונו מנואל וכריסטובאו ז׳אקש. כדאי להוסיף את המקור הזה. | Markham; [Greenlee, The Americas 2:1](https://cambridge.org/core/journals/americas/article/captaincy-of-the-second-portuguese-voyage-to-brazil-15011502/07EA40BDD537B3A904D1A44A14A14ACE) |
+| 72 | אומת | "Guanabara Bay (23° S) on New Year's Day 1502, naming it 'Rio de Janeiro'"; "two degrees further south (reaching modern Cananéia), before leaving Brazil on 13 February 1502". יש רק מקור משני, כפי שהטענה מסמנת. | Wikipedia, Gonçalo Coelho |
+
+
+---
+
+# נספח ב: דוח הבודק העצמאי, טענות 73–144
+
+# בדיקה עצמאית: "ימים ויבשות לא-נודעים" (ההקדמה לספר הראשון), טענות 73–144
+
+**הבודק:** בודק עצמאי ב'. ראיתי רק את קובץ הטענות (`.check/ch00-explorers-claims.md`). לא ראיתי טיוטות, נימוקים, `index.html` או `ch/`. טענות 1–72 נבדקות בידי בודק אחר.
+**תאריך:** 25.11.2026
+
+---
+
+## 1. סיכום
+
+נבדקו 72 טענות (73–144).
+
+| הכרעה | מספר טענות | הטענות |
+|---|---|---|
+| מאומת | 49 | 75, 76, 79, 84, 85, 86, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 99, 101, 102, 103, 104, 105, 106, 107, 110, 111, 113, 114, 115, 117, 118, 119, 120, 121, 122, 123, 124, 126, 127, 128, 129, 130, 131, 137, 138, 141, 142, 143, 144 |
+| מאומת, עם תיקון קל בניסוח | 11 | 78, 81, 82, 91, 98, 108, 109, 112, 116, 135, 140 |
+| דורש תיקון | 11 | 73, 74, 77, 80, 83, 100, 132, 133, 134, 136, 139 |
+| לא ניתן לבדיקה כאן (בחלקו) | 1 | 125 (רומא) |
+
+### טענות שדורשות תיקון, והנוסח המתוקן
+
+**73 (עד היכן הגיעו דרומה). עיוות של המקורות, וזה משנה את המפה.** קטע רידולפי לא נותן מספר מתחרה (32 מעלות). לפי פורמיזאנו הוא מסביר ש-50 מעלות הן הפלגה בלב ים, שהתחילה מ-32 מעלות שאליהן הגיעו לאורך החוף. גם במכתב לסודריני 52 מעלות הן בלב ים, אחרי שעזבו את היבשה ב-15 בפברואר. לאורך החוף המכתב נותן 32 מעלות, ומרקהם מעיר שבעצם מדובר ב-26 מעלות. נוסח מתוקן:
+> "עד היכן הגיעו דרומה: לפי המכתבים, לאורך החוף הגיעו עד כ-32 מעלות דרום (המכתב לסודריני, וגם 'קטע רידולפי' לפי Formisano). מרקהם מעיר שבעצם מדובר ב-26 מעלות. משם, לפי וספוצ׳י, הפליגו דרומה בלב ים, עד 50 מעלות לפי המכתב האישי השלישי ו-Mundus Novus (Formisano), ועד 52 מעלות לפי המכתב לסודריני (Markham, תרגום המכתב). המספרים הם טענות של וספוצ׳י, והמכתבים לא מסכימים זה עם זה. [מחלוקת]"
+
+**למפה:** קו החוף של המסע לא יורד מתחת לכ-25–26 מעלות דרום (קננאיה, טענה 72). את 50 או 52 המעלות אין לצייר כחוף.
+
+**74 (החזרה לליסבון).** ב-Mundus Novus אין תאריך חזרה (בתרגום מרקהם). רק המכתב לסודריני נותן 7 בספטמבר. נוסח מתוקן:
+> "החזרה לליסבון: 22 ביולי 1502 לפי פורמיזאנו; 7 בספטמבר 1502 לפי המכתב לסודריני (Markham, תרגום המכתב; גם ויקיפדיה, 'Gonçalo Coelho', בשם Morison 1974). ב-Mundus Novus אין תאריך חזרה. [מחלוקת]"
+
+**77 (Mundus Novus).** יש כאן שתי בעיות. (א) המכתב נכתב באיטלקית. מה שנשאר הוא תרגום לטיני, והמקור האיטלקי אבד (Formisano: "traduzione latina di un originale perduto"; Markham: "The original Italian text is lost"). (ב) פורמיזאנו לא קובע שמהדורת אאוגסבורג 1504 היא הראשונה. הוא כותב "se questa è la stessa che fu stampata ad Augsburg nel 1504". נוסח מתוקן:
+> "Mundus Novus: תרגום לטיני של מכתב איטלקי שאבד, ללורנצו די פיירפרנצ׳סקו. המכתב נשלח מליסבון (Formisano). לפי מרקהם הוא נכתב במרץ או באפריל 1503. שתי המהדורות הראשונות הן בלי מקום ותאריך, ומהדורת אאוגסבורג 1504 היא השלישית. פורמיזאנו מציע בזהירות שהמהדורה הראשונה היא אולי זו של אאוגסבורג 1504. [מקור; מחלוקת על המהדורה הראשונה]"
+
+**80 (פתיחת המכתב לסודריני).** המילה "דודי" מופיעה בטענה בתוך הציטוט, אבל בתרגום של מרקהם (ובתרגום אנגלי נוסף, Fordham) כתוב רק "the venerable religious friar of St. Mark, Friar Giorgio Antonio Vespucci". בציטוט אין "my uncle". נוסח מתוקן:
+> "...אצל 'הנזיר הנכבד של סן מרקו, פרה ג׳ורג׳ו אנטוניו וספוצ׳י' (Markham 1894, תרגום; תרגום חופשי לעברית). שהוא היה דודו של אמריגו ידוע ממקורות אחרים (Formisano; Markham, מבוא; טענה 63), לא מהמשפט הזה."
+
+את הנוסח האיטלקי לא הצלחתי לפתוח (ראו "שיטה ומגבלות").
+
+**83 (היסק).** "ראש הממשלה" הוא מונח אנכרוניסטי. גם הזיהוי של הנמען לא ודאי (מרקהם: "supposed, with much probability"). נוסח מתוקן:
+> "מכאן: המכתב לסודריני מתוארך 4 בספטמבר 1504. הנמען שלו מזוהה (בשני כתבי יד ואצל רמוסיו) עם פיירו סודריני, הגונפלוניירה לכל החיים של פירנצה, שמקיאוולי היה עוזרו הנאמן ביותר. אין לנו שום עדות שמקיאוולי קרא את המכתב. [היסק]"
+
+**100 (המעצר בפברואר 1513).** (א) היום שנוי במחלוקת. הכרוז שקרא לתפוס את מקיאוולי הוכרז ב-19 בפברואר 1513: את המסמך המקורי מצא סטיבן מילנר (I Tatti, הרווארד), וגם La Nazione מוסר כך. לפי La Nazione השומרים לא מצאו אותו בבית, והוא הסגיר את עצמו אחר כך. זה לא מתיישב עם 12 בפברואר כיום המעצר. (ב) "ne ebbe sei tratti" מופיע רק ב-EM ולא ב-DBI. (ג) בעברית צריך "שש משיכות". נוסח מתוקן:
+> "בפברואר 1513 נעצר בחשד שהשתתף בקשר הרפובליקני של אגוסטינו קאפוני ופייטרו פאולו בוסקולי, ועונה בחבל: 'קיבל שש משיכות' (ne ebbe sei tratti; Inglese, EM). Inglese (EM ו-DBI) נותן ליום המעצר את 12 בפברואר, אבל הכרוז שקרא לתפוס אותו הוכרז ב-19 בפברואר 1513 (מילנר, לפי I Tatti; La Nazione). [מחקר; מחלוקת על היום]"
+
+**במפה:** "פברואר 1513", בלי יום.
+
+**132 (מפרץ החיצים).** יש זיהויים מוצעים, ולכן התגית צריכה להיות "משוער, מחלוקת" ולא "מיקום לא ידוע". נוסח מתוקן:
+> "מפרץ החיצים (Golfo de las Flechas): בצפון-מזרח היספניולה, בחצי האי סמאנה (הרפובליקה הדומיניקנית של היום). אירווינג ומוריסון זיהו אותו עם מפרץ סמאנה. פוסון (The Log of Christopher Columbus, 1987) זיהה אותו עם מפרץ רינקון הקטן, צפונית למפרץ סמאנה. ויקיפדיה: 'the debate still rages on'. [משוער; מחלוקת]"
+
+**במפה:** אזור מקווקו עם סימן שאלה על חצי האי סמאנה, ולא נקודה. לבדיקה: העיר סמאנה ב-GeoNames היא 19.20404, ‎-69.33407.
+
+**133 (לה נבידד).** אפשר להשלים את הטענה ממקור מחקרי. נוסח מתוקן:
+> "לה נבידד: לפי מוזיאון פלורידה (קתלין דיגן), המועמד הסביר ביותר הוא האתר אן בה סלין (En Bas Saline), 'about one kilometer from the village of Limonade Bord de Mer', 'about 12 kilometers east of present day Cap Haitian', בחוף הצפוני-מזרחי של האיטי. המקום לא הוכח. [משוער]"
+
+**אזהרה:** הקואורדינטה בויקיפדיה (19°41′26″N 72°00′57″W, "near Caracol") נמצאת לפי חישובי כ-20.6 ק"מ מזרח-דרום-מזרח לקאפ-האיטיין (GeoNames ‏19.75938, ‎-72.19815). זה לא מתאים ל-"12 ק"מ מזרחית". אין להשתמש בה בלי בדיקה בתיק `-geo`.
+
+**134 (השכנים בצעד 1).** (א) "הכתר מממן את רוב המסע" אינו נתמך. בריטניקה כותבת רק שקונסורציונים של בנקאים גנואזים ופלורנטינים נתנו "at least 1,140,000 maravedis", ושקולומבוס עצמו "supplied more than a third of the sum contributed by the king and queen". היא לא אומרת מי מימן את רובו. (ב) "קסטיליה ואראגון הן המדינה של הסיפור": בהסכם טורדסיאס השטחים ממערב לקו שייכים ל-"the said King and Queen of Castile, Leon, etc." (Avalon). (ג) את השאלה "השליטה באיים הקנריים: לא נבדק" אפשר לסגור חלקית מהיומן עצמו. בפרולוג כתוב "las islas de Canaria de Vuestras Altezas". נוסח מתוקן:
+> "צעד 1 (1492–1493): המדינה של הסיפור היא כתר קסטיליה. השטחים ממערב לקו טורדסיאס שייכים ל'מלך ולמלכה של קסטיליה, לאון וכו׳' (Avalon). פרננדו ואיזבל הם גם מלכי אראגון (שם). המימון: קונסורציונים של בנקאים גנואזים ופלורנטינים בסביליה נתנו לפחות 1,140,000 מרבדי, וקולומבוס נתן יותר משליש מהסכום של המלכים (בריטניקה). האיים הקנריים: 'איי קנריה של הוד מעלתכם' (יומן, פרולוג), כלומר בידי המלכים. פורטוגל: הממלכה היריבה באוקיינוס (טענות 52, 61). הלוקאים: עם עצמאי (טענה 39). האיים האזוריים: [לא נבדק]."
+
+**136 (השכנים בצעד 3).** "פירנצה, הרפובליקה של סודריני" לא נכון לכל הצעד (1499–1504). סודריני נבחר רק ב-22 בספטמבר 1502 (טענה 81). נוסח מתוקן:
+> "פירנצה: הרפובליקה הפלורנטינית. מ-22 בספטמבר 1502 עומד בראשה סודריני, הגונפלוניירה לכל החיים (טענה 81)."
+
+**139 (פאלוס עד לה גומרה).** היומן כן מתאר את הדרך, בכיוון ובמרחק, כמו בחציית האוקיינוס. נוסח מתוקן:
+> "פאלוס עד לה גומרה (אוגוסט 1492): היומן נותן כיוון ומרחק לימים הראשונים. ב-3 באוגוסט: 'hacia el Sur sesenta millas, que son quince leguas; después al Sudueste y al Sur cuarta del Sudueste, que era el camino para las Canarias'. ב-4 באוגוסט: 'al Sudueste cuarta del Sur'. ב-6 באוגוסט: 'veintinueve leguas'. הקו עצמו משוער. [המקור מתאר כיוון; הקו משוער]"
+
+### תיקונים קלים בניסוח (העובדה עצמה אומתה)
+
+- **78:** אומת בשני תרגומים אנגליים בלתי תלויים: Markham 1894 ו-Northup 1916 ("we may rightly call a new world"). את הנוסח הלטיני לא פתחתי, ולכן צריך לכתוב "בתרגום אנגלי". אין לכתוב שזה נבדק בלטינית.
+- **81:** "המשתף פעולה הקרוב ביותר" צריך להיות "המשתף פעולה הנאמן ביותר" (il più fidato collaboratore).
+- **82:** להוסיף: "מ-14 ביולי 1498 גם 'קנצלר' (cancelliere) של העשרה". EM מתאר את העשרה כ-"ufficio straordinario deputato alla gestione delle operazioni di guerra".
+- **91:** "במפה של 1513" צריך להיות "במפה במהדורת תלמי של 1513" (UMN: "1513 Ptolemy edition").
+- **98:** "ב-2005 מצא" צריך להיות "פרסם ב-2005". שנת המציאה לא נמסרת. הספר: Epistulae ad familiares של קיקרו, בולוניה 1477 (Heidelberg, Ruperto Carola).
+- **108 (ששו):** "18 הפרקים הראשונים, או לפחות החומר שלהם (se non i primi diciotto capitoli..., la loro materia), קדמו ל'נסיך'". הכתיבה מיד אחרי הפיטורים מוצגת אצלו כאפשרות ("potrebbe").
+- **109:** DBI כותב "Il più stringente riferimento cronologico interno", כלומר "ההפניה הכרונולוגית הפנימית המדויקת ביותר". המילה "המאוחר" אינה במקור. מקיאוולי עצמו (ב 10) כותב: "pochi giorni sono, il Papa ed i Fiorentini insieme non arebbono avuta difficultà in vincere Francesco Maria... nella guerra di Urbino". כלומר הוא מדבר על מלחמת אורבינו נגד פרנצ׳סקו מריה. את הקישור לספטמבר 1517 עושה Inglese.
+- **112:** "שניהם הוכרזו מורדים" צריך להיות "נקראו להתייצב, אחרת יוכרזו מורדים (ribelli), ועל ראשם הוכרז פרס".
+- **116:** "כ-2.6 ק"מ דרומית" צריך להיות "כ-2.7 ק"מ דרום-דרום-מערב". "כ-11 ק"מ דרומית-מערבית" צריך להיות "כ-11.4 ק"מ דרום-דרום-מערב (כיוון 200°)".
+- **135:** "המהדורה השנייה של דאטי" צריך להיות "מהדורה פלורנטינית של דאטי (26 באוקטובר 1493)". DBI לא קורא לה "השנייה".
+- **140:** להוסיף: "ובערב 11 באוקטובר, אחרי השקיעה, חזר ל'דרכו הראשונה, מערבה' (Después del sol puesto, navegó a su primer camino al Güeste)". כלומר הקטע האחרון לפני הנחיתה הוא מערבה.
+
+---
+
+## 2. שיטה ומגבלות
+
+**מקורות שנפתחו בפועל:**
+- **Markham 1894** (The Letters of Amerigo Vespucci): הטקסט המלא, הורד מ-GitHub ([legobridge/copyshield-llm](https://raw.githubusercontent.com/legobridge/copyshield-llm/main/data/text/PG36924_text.txt)), וחיפשתי בו ישירות. בדקתי את המבוא, את המכתב לסודריני, את Mundus Novus ואת ההערות 22, 58, 115, 117, 118 ו-124.
+- **Treccani** (דרך WebFetch): Formisano, "Vespucci, Amerigo" (DBI). ב-EM: Klein, "Cancelleria"; Inglese, "Vita e opere"; Sasso, "Discorsi" (בשני חלקים); Comanducci, "Orti Oricellari"; Marcelli, "Rucellai, Cosimo"; "Buondelmonti, Zanobi"; Severi, "Soderini". ב-DBI גם: Inglese, "Machiavelli"; Tripodi, "Vespucci" (המשפחה); Curcio ו-Farenga, "Dati". שימו לב: WebFetch מחזיר ציטוטים של עד 125 תווים וסיכומים של מודל, ולכן כל ציטוט בדוח קצר.
+- **מקורות נוספים:** Rubinstein (PDF, Warwick); Nederman (SEP); Mansfield ו-Tarcov (PDF, archive.org, ia802802, נפתח); Heidelberg (הודעה 2008, ו-Ruperto Carola); monalisa.org; ויקיפדיה (Agostino Vespucci, Gonçalo Coelho, House of Machiavelli, Sant'Andrea in Percussina, Samana Cay, Cockburn Town, La Navidad, Bay of Arrows, Pilot Major of Spain, 1513 conclave); LOC 2003 ו-2008; UMN Bell Library; EADA; Britannica (Cabral, The first voyage, piloto mayor, Leo X, Giuliano de' Medici); History Today (קברל); Avalon (טורדסיאס); Florida Museum (En Bas Saline); I Tatti ו-La Nazione (הכרוז מ-19.2.1513); Museo Galileo (אורטי אוריצ׳לארי).
+- **היומן של קולומבוס בספרדית:** [biblioteca-antologica](https://www.biblioteca-antologica.org/es/wp-content/uploads/2018/03/COL%C3%93N-Cristobal-Los-cuatro-viajes-del-almirante-1.pdf) (לרשומות 3–9 באוגוסט ולפרולוג), ו-[UAB](https://ddd.uab.cat/pub/1611/19882963n1/19882963n1a5/diario.pdf) (לרשומה של 11 באוקטובר).
+- **מקיאוולי, דיונים ב 10, באיטלקית:** ויקיטקסט (מהדורה 3685768), דרך [awatson1978/discourses-on-rome](https://raw.githubusercontent.com/awatson1978/discourses-on-rome/main/corpus/raw/discorsi_it/2_10.json).
+- **קואורדינטות:** `~/.atlas-cache/src/cities.json` (GeoNames) ו-`pleiades-places.csv` (דרך `tools/sources/pleiades.py`). את המרחקים חישבתי בנוסחת haversine (R=6371 ק"מ), ואת הכיוונים כ-bearing התחלתי.
+
+**מה נחסם או לא נבדק:**
+- **הנוסח האיטלקי של המכתב לסודריני:** archive.org, ‏letteradiamerigo00vesp. ההפניה הובילה ל-dn760107.eu.archive.org, וההרשאה לא נענתה בזמן. ניסיתי גם את ויקיטקסט האיטלקית (Autore:Amerigo Vespucci), וקיבלתי url_not_found. לכן לא אומת אם יש בנוסח האיטלקי "mio zio" (טענה 80).
+- **הנוסח הלטיני של Mundus Novus:** לא נפתח (טענה 78). נמצא קישור ל-archive.org, אבל לא ניסיתי אותו בגלל החסימה הקודמת.
+- **visitportugal.com:** חסום בבדיקת בוטים.
+- **ההפניה של רומא ב"קובץ הקיים באתר" (טענה 125):** אסור לי לקרוא את `index.html`, ולכן היא לא נבדקה.
+
+**הערות אגב על טענות שאינן בתחום שלי (לא בדקתי אותן, ולא נותנות הכרעה):**
+- **טענה 62:** EADA נותן "born on March 9, 1452 (or 1454)", ולא 1451.
+- **טענה 69:** בתרגום של מרקהם למכתב לסודריני היציאה מליסבון היא "10th of March 1501". ב-Mundus Novus היא "14th of May", ובהערה 118 של מרקהם: "10th of March in the other letter".
+
+לבודק של טענות 1–72.
+
+---
+
+## 3. טבלה
+
+| # | הכרעה | מה לא בסדר | המקור שנבדק בפועל |
+|---|---|---|---|
+| 73 | דורש תיקון | קטע רידולפי לא נותן "32 מעלות" כמספר מתחרה. לפי פורמיזאנו הוא מסביר ש-50 המעלות הן הפלגה בלב ים, מ-32 מעלות שאליהן הגיעו לאורך החוף. במכתב לסודריני: לאורך החוף "the South Pole rises above the horizon 32°" (מרקהם בהערה 115: "Lat. 26°, not 32°"), ואחרי שעזבו את היבשה ב-15 בפברואר, בלב ים, "52°". ב-Mundus Novus: לאורך החוף "50°", ואחר כך "17° 30'" מהחוג האנטארקטי (מרקהם: "preposterous"). אסור לצייר את 50 או 52 המעלות כחוף. | [Formisano, DBI](https://www.treccani.it/enciclopedia/amerigo-vespucci_(Dizionario-Biografico)/); [Markham 1894](https://raw.githubusercontent.com/legobridge/copyshield-llm/main/data/text/PG36924_text.txt) (מבוא; המכתב לסודריני; Mundus Novus; הערות 115, 117, 124); [ויקיפדיה, Gonçalo Coelho](https://en.wikipedia.org/wiki/Gon%C3%A7alo_Coelho) ("52°... still a matter of controversy") |
+| 74 | דורש תיקון | פורמיזאנו: "rientro a Lisbona il 22 luglio 1502" (מאומת). 7 בספטמבר 1502 מופיע במכתב לסודריני ("arrived at that port of Lisbon on the 7th of September 1502"), אבל לא ב-Mundus Novus. בוויקיפדיה התאריך מגובה ב-Morison 1974. | Formisano; Markham (המכתב לסודריני; Mundus Novus, שבו אין תאריך חזרה); [ויקיפדיה, Gonçalo Coelho](https://en.wikipedia.org/wiki/Gon%C3%A7alo_Coelho) |
+| 75 | מאומת | בריטניקה: "set out from Lisbon on March 9, 1500", ‏"on April 22 Cabral sighted the land", ‏"took formal possession of the country". History Today מאשר את 22 באפריל ואת היעד, הודו. | [Britannica](https://www.britannica.com/print/article/87709); [History Today](https://www.historytoday.com/node/50122) |
+| 76 | מאומת | "la tradizione data tra il 10 maggio 1503 e l'8 giugno 1504"; ‏"manca la prova documentaria che Vespucci vi abbia realmente partecipato". | Formisano, DBI |
+| 77 | דורש תיקון | Mundus Novus הוא "traduzione latina di un originale perduto", ולא מכתב שנכתב בלטינית. פורמיזאנו לא קובע שאאוגסבורג היא המהדורה הראשונה ("se questa è la stessa che fu stampata ad Augsburg nel 1504"). מרקהם: שתי מהדורות בלי מקום ותאריך, ואאוגסבורג 1504 היא "the third". "spedita da Lisbona" מאומת. | Formisano; Markham, מבוא |
+| 78 | מאומת, תיקון קל | הציטוט נכון בתרגום מרקהם. Northup 1916 מתרגם באופן דומה: "we may rightly call a new world". הלטינית לא נבדקה, ולכן צריך לכתוב "בתרגום אנגלי". | Markham; [Encyclopedia Virginia (Northup)](https://encyclopediavirginia.org/primary-documents/mundus-novus-1503/) |
+| 79 | מאומת | "datata Lisbona 4 settembre 1504"; "un ignoto «Magnifico Signore»", שמזוהה עם סודריני בשני כתבי יד ואצל רמוסיו; "se non proprio in quello stesso anno subito dopo". אצל מרקהם: "Given in Lisbon, September 4th, 1504". ב-EADA: "in about 1505". | Formisano; Markham; [EADA](https://eada.lib.umd.edu/author-entries/vespucci-amerigo/) |
+| 80 | דורש תיקון | המילה "דודי" נמצאת בתוך הציטוט, אבל לא בתרגום. מרקהם: "the venerable religious friar of St. Mark, Friar Giorgio Antonio Vespucci". גם בתרגום של Fordham אין "my uncle". חלק הנמען מאומת: "constantly occupied in the high councils and affairs touching the lofty Republic". הנוסח האיטלקי לא נבדק (נחסם). | Markham (שורות הפתיחה של המכתב); [Fordham, Halsall](https://origin-rh.web.fordham.edu/halsall/mod/1497vespucci-america.asp) |
+| 81 | מאומת, תיקון קל | "Nato a Firenze nel 1452"; "il 22 settembre 1502 S. venne eletto gonfaloniere a vita"; "il 31 agosto... fino a Siena"; "morì il 13 giugno 1522" (ברומא). בניסוח: "il più fidato collaboratore" הוא "הנאמן ביותר", לא "הקרוב ביותר". | [Severi, EM](https://www.treccani.it/enciclopedia/piero-di-tommaso-soderini_(Enciclopedia-machiavelliana)/) |
+| 82 | מאומת, תיקון קל | "Il 19 giugno del 1498 M. fu inserito ufficialmente a Palazzo", בראש הקנצלריה השנייה. מ-14 ביולי (1498) "cancelliere dei Dieci di Libertà e pace (o di Balìa), ufficio straordinario deputato alla gestione delle operazioni di guerra". מומלץ להוסיף את התאריך. | [Klein, EM](https://www.treccani.it/enciclopedia/cancelleria-della-repubblica-fiorentina_(Enciclopedia-machiavelliana)/) |
+| 83 | דורש תיקון (ניסוח) | "ראש הממשלה" הוא מונח אנכרוניסטי, וצריך "הגונפלוניירה לכל החיים". זיהוי הנמען הוא "supposed, with much probability" (מרקהם), ולא ודאי. עצם ההיסק סביר, ומסומן נכון כהיסק. | Formisano; Markham; Severi |
+| 84 | מאומת | "a French translation was sent to Renè, Duke of Lorraine"; "A copy, in French, was sent to René II, Duke of Lorraine". (מקור אחד) | Markham, מבוא |
+| 85 | מאומת | "Il 22 marzo 1508 il re nominò quattro piloti reali e un piloto mayor, quest'ultimo nella persona di Amerigo"; "morì a Siviglia il 22 febbraio 1512". ה-Pilot Major הוא "official of the Casa de Contratación" (ויקיפדיה). בריטניקה: "piloto mayor... in Sevilla (1508–12)". | Formisano; [ויקיפדיה](https://en.wikipedia.org/wiki/Pilot_Major_of_Spain); [Britannica](https://www.britannica.com/topic/piloto-mayor) |
+| 86 | מאומת | "venne pubblicato il 25 aprile 1507 a Saint-Dié-des-Vosges"; "il giorno in cui l'America è stata tenuta a battesimo"; "Amerige(n), quasi Americi terra(m) sive America(m)". | Formisano |
+| 87 | מאומת | "the seminal cartographic text by Waldseemüller and Matthias Ringmann". | [LOC 2008](https://loc.gov/loc/lcib/08012/naming.html) |
+| 88 | מאומת | "The French copy was translated into Latin, and published at St. Dié in April 1507, in the Cosmographiæ Introductio". EADA: "published as part of Waldseemuller's Cosmographiae Introductio". | Markham; EADA |
+| 89 | מאומת | הכותרת; "spring 1507"; "12 separate sheets, each 18-by-24-inches"; "A reported 1,000 copies"; עותק יחיד; וולפג; 10 מיליון דולר; הסכם ביוני 2001; המימון הושלם במאי 2003. | [LOC 2003](https://www.loc.gov/loc/lcib/0309/maps.html) |
+| 90 | מאומת | הכיתוב: "can be seen in continent on the lower leftmost panel". UMN: "restricted the name to the southern continent". | LOC 2003; [UMN Bell](https://apps.lib.umn.edu/bell/map/WALD/AMER/late.html) |
+| 91 | מאומת, תיקון קל | נכון. אבל המפה של 1513 היא מפה ב-"1513 Ptolemy edition". | UMN Bell |
+| 92 | מאומת | "dal 1° dicembre 1494"; "solo dal 1498 ebbe importanti incarichi"; "i coadiutori"; "informatori di quanto avveniva in cancelleria quando egli era fuori in missione". | Klein, EM |
+| 93 | מאומת | "si chiamava Agostino di Matteo di Giovanni Nettucci"; "affiliazione (presumibilmente nel 1493) al potente lignaggio"; "BMLF, ms. Strozzi, 54, c. 71"; "Klein 2013, pp. 265-76". | Klein, EM |
+| 94 | מאומת | monalisa.org: "his cousin, Amerigo Vespucci". בוויקיפדיה האנגלית, בתיבת המידע: "Relatives: Amerigo Vespucci (cousin)", בלי הערת מקור. בערך של Tripodi על המשפחה אין "Agostino". אצל Formisano השם מופיע רק בתוך "Sant'Agostino" (כף). | [monalisa.org](https://monalisa.org/?p=302); [ויקיפדיה](https://en.wikipedia.org/wiki/Agostino_Vespucci); [Tripodi, DBI](https://www.treccani.it/enciclopedia/vespucci_(Dizionario-Biografico)/); Formisano |
+| 95 | מאומת | "alcune, divertenti, lettere al Segretario"; "preceduto da un'epistola di Agostino Vespucci 'ai Fiorentini'"; "dato alle stampe solo nel febbraio 1506". | [Inglese, EM](https://www.treccani.it/enciclopedia/vita-e-opere_(Enciclopedia-machiavelliana)/) |
+| 96 | מאומת | "cursitandi avidus («avido di correre qua e là») al suo collega e sottoposto Agostino Vespucci". | [Sasso, EM](https://www.treccani.it/enciclopedia/discorsi-sopra-la-prima-deca-di-tito-livio_(Enciclopedia-machiavelliana)/) |
+| 97 | מאומת | "il 2 gennaio 1517 fu rimosso dalla cancelleria". | Klein, EM |
+| 98 | מאומת, תיקון קל | שלכטר מצא את ההערה בזמן קטלוג האינקונבולים, ו"bereits im Jahr 2005... publiziert". שנת המציאה לא נמסרת. הספר: "Ciceros 'Epistulae ad familiares'... 1477 in Bologna". אוקטובר 1503 וליזה דל ג׳וקונדו מאומתים. | [Heidelberg 2008](https://uni-heidelberg.de/press/news/press552e.html); [Ruperto Carola](https://www.uni-heidelberg.de/presse/ruca/ruca08-3/mona.html) |
+| 99 | מאומת | "Il 7 novembre 1512 M. fu cassato dall'ufficio; il 10, condannato a un anno di confino entro il dominio fiorentino; il 17 gli fu proibito di entrare in Palazzo per un anno". אותו נוסח גם ב-DBI. | Inglese, EM; [Inglese, DBI](https://www.treccani.it/enciclopedia/niccolo-machiavelli_(Dizionario-Biografico)/) |
+| 100 | דורש תיקון | ב-EM: "il 12 febbraio 1513 fu arrestato e sottoposto al tormento della fune: ne ebbe sei tratti". ב-DBI אין "sei tratti". הכרוז לתפיסתו הוכרז "on 19th February 1513" (מילנר). לפי La Nazione הוא הסגיר את עצמו אחרי הכרוז, ושהה 22 יום בברג׳לו. לכן היום שנוי במחלוקת. בעברית: "שש משיכות". | Inglese, EM ו-DBI; [I Tatti](https://itatti.harvard.edu/news/banishment-and-arrest-niccol%C3%B2-machiavelli); [La Nazione](https://www.lanazione.it/firenze/19-febbraio-1513-machiavelli-arrestato-e-torturato-cosera-successo-f43c2d11) |
+| 101 | מאומת | "dopo pochi giorni, uscì... grazie all'amnistia seguita all'elezione di Giovanni de' Medici, papa Leone X, l'11 marzo 1513". את 11 במרץ מאשרים בריטניקה וויקיפדיה ("elected unanimously in the Scrutiny on the morning of 11 March"). | Inglese, EM; [Britannica](https://www.britannica.com/biography/Leo-X); [ויקיפדיה](https://en.wikipedia.org/wiki/1513_conclave) |
+| 102 | מאומת | "si ritirò allora nel podere dell'Albergaccio, a Sant'Andrea in Percussina". המילה במקור היא "podere", כלומר משק או חווה. | Inglese, EM |
+| 103 | מאומת | "lettera del 10 dicembre 1513": "ho [...] composto uno opusculo de principatibus". | Inglese, EM ו-DBI |
+| 104 | מאומת | DBI: "Nel 1516 o 1517". Comanducci: "tra il 1516 e il 1517". Sasso: "fra il 1514 e il 1517". | Inglese, DBI; [Comanducci, EM](https://www.treccani.it/enciclopedia/orti-oricellari_(Enciclopedia-machiavelliana)/); Sasso, EM |
+| 105 | מאומת | "4 febbraio 1483"; "lungo via della Scala"; "popolo di S. Lucia d'Ognissanti", ליד הארנו והחומה המערבית; מפגשים מ-1502; סוף ב-1522. (הערה: "popolo" הוא קהילה או פרוכיה, יותר מ"רובע"). | Comanducci, EM |
+| 106 | מאומת | הכתיבה הייתה לבקשת "amici degli Orti", וההקדשה לבואונדלמונטי ול-"Cosimino" רוצ׳לאי. | Comanducci, EM |
+| 107 | מאומת | "perhaps read by Machiavelli around 1516 to a select literary circle at Florence which met in the Rucellai garden", עמ' 56. | [Rubinstein](https://warwick.ac.uk/fac/arts/ren/ugstudy/syllabus-t1-2022-23/term2/rubinstein_-_italian_political_thought_14501530_the_cambridge_history_of_political_thought_14501700.pdf) |
+| 108 | מאומת, תיקון קל | ששו: "se non i primi diciotto capitoli dell'attuale primo libro, la loro materia"; הכתיבה מיד אחרי הפיטורים: "potrebbe". גילברט (הערה 26, עמ' 47; "draft of a separate treatise on republics") וברון (הערה 24, עמ' 44; "no part of the Discorsi was written in 1513") מאומתים. מנספילד וטרקוב: "the period 1513–17, or perhaps 1513–19". נדרמן: "commencing perhaps in 1514 or 1515 and completed in 1518 or 1519". | Sasso, EM; Rubinstein; [Mansfield ו-Tarcov](https://ia802802.us.archive.org/31/items/machiavellidiscourseschi.epub/Machiavelli%20%20-%20Discourses%20[chi.epub].pdf); [SEP](https://plato.stanford.edu/entries/machiavelli/) |
+| 109 | מאומת, תיקון קל | DBI כותב "Il più stringente riferimento cronologico interno". אין שם "המאוחר". נוסח מקיאוולי: "pochi giorni sono, il Papa ed i Fiorentini insieme non arebbono avuta difficultà in vincere Francesco Maria... nella guerra di Urbino". הוא מדבר על המלחמה, ולא על "כיבוש בידי לורנצו". | Inglese, DBI; [ויקיטקסט, ב 10](https://raw.githubusercontent.com/awatson1978/discourses-on-rome/main/corpus/raw/discorsi_it/2_10.json) |
+| 110 | מאומת | "in una data certamente anteriore al 1519". Marcelli: "l'8 ottobre 1495", ‏"2 novembre 1519". Inglese: "il 1°[?] nov. 1519". | Sasso, EM; [Marcelli, EM](https://www.treccani.it/enciclopedia/cosimo-cosimino-rucellai_(Enciclopedia-machiavelliana)/); Inglese, DBI |
+| 111 | מאומת | "A partire dalla primavera del 1516, R. fu l'animatore delle riunioni"; "Probabilmente durante quel viaggio R. contrasse la malattia" (עם טריסינו, 1515); "figura tra gli interlocutori" ב"אמנות המלחמה". | Marcelli, EM |
+| 112 | מאומת, תיקון קל | "nacque a Firenze il 5 aprile 1491"; "Corpus Domini, 19 giugno 1522"; "con la fuga, insieme con Luigi Alamanni"; ההקדשה של "קסטרוצ׳ו"; "assistettero alla morte di Machiavelli"; "nel novembre 1527", "peste". על ההכרזה כמורדים: הם נקראו להתייצב, אחרת יוכרזו "ribelli", ועל ראשם הוכרז פרס. | ["Buondelmonti", EM](https://www.treccani.it/enciclopedia/zanobi-buondelmonti_(Enciclopedia-machiavelliana)/) |
+| 113 | מאומת | "stampati a Roma, da Antonio Blado, il 18 ottobre 1531" (לפי ההקדשה של העורך לג׳ובאני גאדי); "a Firenze, da Bernardo Giunti, il 10 novembre dello stesso anno". | Sasso, EM (קריאה החל מתו 100000) |
+| 114 | מאומת | 22 בפברואר 1512 (Formisano), ו-7 בנובמבר 1512 (Inglese). שני האירועים באותה שנה. | Formisano; Inglese |
+| 115 | מאומת | GeoNames ‏43.77925, 11.24626 ופליאדס 413138 ‏43.76979, 11.25564 (precise) תואמים לטענה. המרחק ביניהם 1.3 ק"מ. | cities.json; `pleiades.py Florentia` |
+| 116 | מאומת, תיקון קל | ויקיפדיה: 43.6826639, 11.1975028, כלומר 4 מ' מהנקודה שבטענה. ‏Sant'Andrea: ‏43.68278, 11.19722. הכפר לא נמצא ב-GeoNames (מאומת). סן קשאנו: 2.74 ק"מ מהבית, בכיוון 202° (דרום-דרום-מערב). המרחק מפירנצה של GeoNames: 11.43 ק"מ, בכיוון 200° (דרום-דרום-מערב, ולא "דרום-מערב"). מפליאדס: 10.75 ק"מ. | [ויקיפדיה, House](https://en.wikipedia.org/wiki/House_of_Machiavelli); [ויקיפדיה, Sant'Andrea](https://en.wikipedia.org/wiki/Sant%27Andrea_in_Percussina); חישוב |
+| 117 | מאומת | "Firenze, Via della Scala 85"; "43.7768 - 11.2423". המרחק מ-GeoNames: 0.42 ק"מ. מפליאדס: 1.32 ק"מ. | [Museo Galileo](https://brunelleschi.imss.fi.it/itineraries/place/OrtiOricellari.html); חישוב |
+| 118 | מאומת | GeoNames ‏37.23457, ‎-6.89471. | cities.json |
+| 119 | מאומת | GeoNames ‏28.09163, ‎-17.11331. | cities.json |
+| 120 | מאומת | GeoNames ‏28.10178, ‎-15.41573. ביומן אין שם של נמל: "quedóse en aquella costa de gran Canaria", ובהמשך "tomó el Almirante a Canaria (o a Tenerife), y adobaron muy bien la Pinta". | cities.json; [היומן, biblioteca-antologica](https://www.biblioteca-antologica.org/es/wp-content/uploads/2018/03/COL%C3%93N-Cristobal-Los-cuatro-viajes-del-almirante-1.pdf) |
+| 121 | מאומת | GeoNames ‏24.05179, ‎-74.53138 (BS). בוויקיפדיה: 24.05139, ‎-74.52972, כלומר 0.17 ק"מ. "located on San Salvador Island". | cities.json; [ויקיפדיה](https://en.wikipedia.org/wiki/Cockburn_Town,_Bahamas) |
+| 122 | מאומת | "23.083° N, 73.750° W" (‏23°05′N 73°45′W, מעוגל לדקה). המרחק מקוקברן טאון: 134 ק"מ, בכיוון 143° (דרום-מזרח). | [ויקיפדיה](https://en.wikipedia.org/wiki/Samana_Cay); חישוב |
+| 123 | מאומת | GeoNames: ליסבון ‏38.72509, ‎-9.1498; ‏Restelo ‏38.69955, ‎-9.21406 (6.3 ק"מ מערב-דרום-מערב). פליאדס 256338: ‏38.70716, ‎-9.13550 (2.35 ק"מ). | cities.json; pleiades.py |
+| 124 | מאומת | GeoNames ‏37.38283, ‎-5.97317. פליאדס 256210: ‏37.38266, ‎-5.99629 (2.0 ק"מ). | cities.json; pleiades.py |
+| 125 | לא ניתן לבדיקה כאן (בחלקו) | ברצלונה מאומתת (GeoNames ‏41.38879, 2.15899; ‏Barcino בפליאדס, 0.9 ק"מ). רומא "לפי הקובץ הקיים באתר": אסור לי לפתוח את הקובץ. לידיעה: GeoNames ‏Rome ‏41.89193, 12.51133 נמצא 1.6 ק"מ מזרחית לפליאדס 423025 ‏Roma (‏41.88987, 12.49169, rough). | cities.json; pleiades.py |
+| 126 | מאומת | GeoNames ‏48.28429, 6.94921. | cities.json |
+| 127 | מאומת | GeoNames ‏44.40478, 8.94439. פליאדס ‏Genua ‏44.40623, 8.93155 (1.0 ק"מ). | cities.json; pleiades.py |
+| 128 | מאומת | ולדוליד ‏41.65541, ‎-4.72353; טורדסיאס ‏41.50202, ‎-5.00146. | cities.json |
+| 129 | מאומת | דקאר ‏14.6937, ‎-17.44406. פורמיזאנו: "nell'attuale isola di Gorée (baia di Dakar)". מרקהם: ‏Bezeguiche/Beseghir, שוספוצ׳י מזהה עם כף ורדה. נקודת ייחוס בלבד, כפי שנכתב. | cities.json; Formisano; Markham |
+| 130 | מאומת | ריו ‏-22.90642, ‎-43.18223; קננאיה ‏-25.01472, ‎-47.92667. | cities.json |
+| 131 | מאומת (כפי שנוסח) | וילה דו פורטו אכן לא נמצאת בקובץ. הצעה לתיק `-geo`: קפלת נוסה סניורה דוש אנז׳וש, ‏37.0059361, ‎-25.1537389 (ויקיפדיה). שם, לפי המסורת, קולומבוס שלח את אנשיו למיסה בפברואר 1493. בוויקיפדיה אין לזה מקור. | cities.json; [ויקיפדיה](https://en.wikipedia.org/wiki/Hermitage_of_Nossa_Senhora_dos_Anjos_(Vila_do_Porto)); [visitazores](https://www.visitazores.com/en/explore/baia-dos-anjos) |
+| 132 | דורש תיקון | יש זיהויים מוצעים: מפרץ סמאנה (אירווינג, מוריסון) או מפרץ רינקון (פוסון 1987). המקום משוער ושנוי במחלוקת, ולא "לא ידוע". | [ויקיפדיה, Bay of Arrows](https://en.wikipedia.org/wiki/Bay_of_Arrows) |
+| 133 | דורש תיקון (השלמה) | En Bas Saline הוא "the most likely candidate for La Navidad", "about 12 kilometers east of present day Cap Haitian". קואורדינטת ויקיפדיה (ליד קרקול) רחוקה 20.6 ק"מ מקאפ-האיטיין, ולכן היא לא עקבית עם המקור הזה. | [Florida Museum](https://www.floridamuseum.ufl.edu/histarch/research/haiti/en-bas-saline/); [ויקיפדיה](https://en.wikipedia.org/wiki/La_Navidad); cities.json; חישוב |
+| 134 | דורש תיקון | "הכתר מממן את רוב המסע" אינו בבריטניקה, וטענה 29 מראה את ההפך. בריטניקה: "Columbus supplied more than a third of the sum contributed by the king and queen". בטורדסיאס הארצות הן "the said King and Queen of Castile, Leon, etc.". על האיים הקנריים, ביומן: "las islas de Canaria de Vuestras Altezas". | [Britannica, The first voyage](https://www.britannica.com/biography/Christopher-Columbus/The-first-voyage); [Avalon](https://avalon.law.yale.edu/15th_century/mod001.asp); היומן, פרולוג |
+| 135 | מאומת, תיקון קל | DBI מזכיר את רומא (‏"E. Silber, 15 giugno 1493") ואת "l'edizione fiorentina del 26 ott. 1493". הוא לא קורא לפלורנטינית "השנייה". | [Curcio ו-Farenga, DBI](https://www.treccani.it/enciclopedia/giuliano-dati_(Dizionario-Biografico)/) |
+| 136 | דורש תיקון | סודריני עומד בראש פירנצה רק מ-22 בספטמבר 1502, ולא בכל הצעד (1499–1504). | Severi, EM |
+| 137 | מאומת | הטענה עקבית עם 84 ו-86. מרקהם: "St. Dié in Lorraine". | Markham; Formisano |
+| 138 | מאומת | Severi: "a Prato, nell'agosto del 1512... Firenze dovette trattare la resa accettando il ritorno dei Medici". בריטניקה: "returned with his Medici kin in September 1512". לאו העשירי: 11 במרץ 1513. | Severi; [Britannica, Giuliano](https://www.britannica.com/biography/Giuliano-de-Medici-duc-de-Nemours); Britannica, Leo X |
+| 139 | דורש תיקון | היומן כן מתאר את הדרך בכיוון ובמרחק. 3 באוגוסט: "hacia el Sur sesenta millas... después al Sudueste y al Sur cuarta del Surueste, que era el camino para las Canarias". 4 באוגוסט: "al Sudueste cuarta del Sur". 6 באוגוסט: "veintinueve leguas". | היומן, biblioteca-antologica |
+| 140 | מאומת, תיקון קל | עקבי עם טענות 35–37. ב-11 באוקטובר: "Navegó al Güesudueste", ואחר כך "Después del sol puesto, navegó a su primer camino al Güeste". את החזרה למערב לפני הנחיתה צריך להוסיף. | [היומן, UAB](https://ddd.uab.cat/pub/1611/19882963n1/19882963n1a5/diario.pdf) |
+| 141 | מאומת | נכון כפי שנוסח. התחנות מתועדות בטענות 50–53, והדרך לא נבדקה, ולכן סומנה משוערת. | על פי הטענות |
+| 142 | מאומת | מרקהם: "The dates and figures seldom agree in the two letters". ראו גם טענה 73: החוף רק עד כ-26–32 מעלות דרום. במכתב לסודריני גם סיירה ליאונה והאיים האזוריים בדרך חזרה. | Markham |
+| 143 | מאומת | הסיווג כקשת מתאים לכלל 4. המכתבים נשלחו מליסבון (Formisano; Markham). | Formisano; Markham |
+| 144 | מאומת | נכון כפי שנוסח. גם אני לא מצאתי מקור לדרך. שתי נקודות, בלי קו. | – |
