@@ -970,6 +970,10 @@ L.tileLayer('tf/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZ
   bounds:L.latLngBounds([43.55,10.9],[43.95,11.5]), keepBuffer:2,
   errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
   attribution:'תבליט פירנצה: SRTM (CGIAR-CSI)'}).addTo(map);
+L.tileLayer('tv/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZoom:13, maxNativeZoom:12,
+  bounds:L.latLngBounds([45.15,12.1],[45.65,12.75]), keepBuffer:2,
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
+  attribution:'תבליט הלגונה של ונציה: SRTM (CGIAR-CSI) · מים: ASTER WBD'}).addTo(map);
 map.createPane('riv'); map.getPane('riv').style.zIndex = 380; map.getPane('riv').style.pointerEvents = 'none';
 const rivLayer = L.layerGroup();
 const rivLines = Object.keys(RIVERS).map(k=>L.polyline(RIVERS[k],{pane:'riv', color:'#4E7FB4', weight:2.4, opacity:.95, interactive:false, lineCap:'round', lineJoin:'round', smoothFactor:1.2}).addTo(rivLayer));
