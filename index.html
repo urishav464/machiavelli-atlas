@@ -831,9 +831,11 @@ body.drawer-open .drawer-back{opacity:1;pointer-events:auto}
 .ic-x{position:absolute;left:8px;top:6px;width:32px;height:32px;border:0;background:none;font-size:22px;line-height:1;color:var(--ink-2)}
 .pin.tap span{text-decoration:underline dotted 1px;text-underline-offset:3px}
 .pin.minor.s-r span{right:auto;left:10px}.pin.minor.s-b span{right:auto;left:0;transform:translateX(-50%);top:8px}.pin.minor.s-t span{right:auto;left:0;transform:translateX(-50%);top:-28px}
+.pin.clab span{right:9px;top:-10px;font-size:12.5px}.pin.clab.sm span{font-size:11.5px;font-weight:700;right:7px;top:-9px}
+.pin.clab.s-r span{right:auto;left:9px}.pin.clab.s-b span{right:auto;left:0;transform:translateX(-50%);top:6px}.pin.clab.s-t span{right:auto;left:0;transform:translateX(-50%);top:-25px}
 .zlabel{position:absolute;left:0;top:0;transform:translate(-50%,-50%);white-space:nowrap;direction:rtl;font:800 13px var(--font-body);color:#6A4A06;text-shadow:0 0 3px #fff,0 0 3px #fff,0 0 6px #fff}
 .zlabel.tapz{cursor:pointer;text-decoration:underline dotted 1px;text-underline-offset:3px}
-.zlabel.s-b{transform:translate(-50%,14px)}.zlabel.s-r{transform:translate(14px,-50%)}.zlabel.s-t{transform:translate(-50%,calc(-100% - 14px))}
+.zlabel.s-b{transform:translate(-50%,14px)}.zlabel.s-r{transform:translate(14px,-50%)}.zlabel.s-l{transform:translate(calc(-100% - 14px),-50%)}.zlabel.s-t{transform:translate(-50%,calc(-100% - 14px))}
 .sw-zone{background:rgba(201,162,74,.25);border:1.5px dashed #8A5A0B;border-radius:50%!important}
 .llabel.tapl{pointer-events:auto;cursor:pointer;text-decoration:underline dotted 1px;text-underline-offset:3px}
 .tip{font-size:13px;color:var(--ink-2);margin:-4px 0 10px}
@@ -1029,8 +1031,9 @@ function applyMap(){
   const st = STORIES[state.story].steps[state.step], mp = st.map, color = getComputedStyle(document.documentElement).getPropertyValue(STORIES[state.story].color.slice(4,-1)).trim();
   Object.entries(PLACES).forEach(([id,p])=>{ const el=pinEl(id); if(!el) return;
     const shown = (mp.show||[]).includes(id);
-    el.classList.toggle('hide', !shown && !p.main);
-    el.classList.toggle('dim', !shown && p.main);
+    const other = C.hideOther && p.s!==state.story;
+    el.classList.toggle('hide', !shown && (!p.main || other));
+    el.classList.toggle('dim', !shown && p.main && !other);
   });
   if(mp.route){
     const pts = mp.route.map(i=>PLACES[i].ll);
@@ -1041,7 +1044,7 @@ function applyMap(){
   drawRealm(mp, color);
   (mp.labels||[]).forEach(([ll,t,cls])=>L.marker(ll,{icon:L.divIcon({className:'pinwrap', html:`<div class="geo ${cls}">${t}</div>`, iconSize:[0,0]}), interactive:false, keyboard:false}).addTo(overlay));
   badge.hidden = false; badge.textContent = st.year;
-  if(mp.bounds){ fly(a=>map.flyToBounds(L.latLngBounds(mp.bounds),{padding:[8,8], duration:a?1.3:0, animate:a})); }
+  if(mp.bounds){ const pd=mp.pad||[8,8]; fly(a=>map.flyToBounds(L.latLngBounds(mp.bounds),{paddingTopLeft:[8,pd[0]], paddingBottomRight:[8,pd[1]], duration:a?1.3:0, animate:a})); }
   else if(mp.fit){ const b=L.latLngBounds(mp.fit.map(i=>PLACES[i].ll)); fly(a=>map.flyToBounds(b,{paddingTopLeft:[120,56], paddingBottomRight:[40,56], maxZoom:mp.maxZoom||8, duration:a?1.2:0, animate:a})); }
   else { fly(a=>map.flyTo(PLACES[mp.center].ll, mp.zoom, {duration:a?1.2:0, animate:a})); }
 }
@@ -1071,6 +1074,8 @@ const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'
   voyage:{c:'#1F5C70', dash:'7 6', w:2.8, arrow:true, lbl:'מסע בים, הקו משוער'},
   news:{c:'#8A5A0B', dash:'2 6', w:2.6, arrow:true, lbl:'מכתב או ידיעה (קשר, לא דרך)'},
   sale:{c:'#9A3B1E', dash:'2 6', w:2.8, arrow:true, lbl:'מכירה או העברה של פסל (קשר, לא דרך)'} };
+const CITYC = {core:['#234377','#fff'], gain:['#7FA3D6','#234377'], ally:['#E4AC31','#8A6410'], enemy:['#7A1F14','#fff'], rival:['#A8321F','#fff'],
+  neutral:['#8C8270','#fff'], vassal:['#fff','#234377'], pu:['#fff','#234377'], crack:['#E07A3A','#8A3A10'], razed:['#9A9A9A','#555'], gone:['#9A9A9A','#555'], disp:['#B79A5E','#5C4520'], trad:['#7FA3D6','#234377']};
 function smoothPts(pts, it=3){ if(pts.length<3) return pts; let p=pts; for(let r=0;r<it;r++){ const o=[p[0]]; for(let i=0;i<p.length-1;i++){ const a=p[i], b=p[i+1]; o.push([.75*a[0]+.25*b[0], .75*a[1]+.25*b[1]], [.25*a[0]+.75*b[0], .25*a[1]+.75*b[1]]); } o.push(p[p.length-1]); p=o; } return p; }
 function arcPts(a,b,bend){ const m=[(a[0]+b[0])/2,(a[1]+b[1])/2], d=[b[0]-a[0], b[1]-a[1]], c=[m[0]-d[1]*bend, m[1]+d[0]*bend], o=[]; for(let i=0;i<=32;i++){ const t=i/32, u=1-t; o.push([u*u*a[0]+2*u*t*c[0]+t*t*b[0], u*u*a[1]+2*u*t*c[1]+t*t*b[1]]); } return o; }
 function alongPath(P,f){ const seg=[]; let tot=0; for(let i=1;i<P.length;i++){ const d=Math.hypot(P[i][0]-P[i-1][0],P[i][1]-P[i-1][1]); seg.push(d); tot+=d; } let t=tot*f; for(let i=0;i<seg.length;i++){ if(t<=seg[i]){ const r=seg[i]?t/seg[i]:0; return [P[i][0]+(P[i+1][0]-P[i][0])*r, P[i][1]+(P[i+1][1]-P[i][1])*r]; } t-=seg[i]; } return P[P.length-1]; }
@@ -1092,10 +1097,13 @@ function drawRealm(mp, color){
     if(ln.lbl){ const m=alongPath(P, ln.la==null?.5:ln.la);
       const lm=L.marker(m,{icon:L.divIcon({className:'pinwrap', html:`<div class="llabel${ln.info?' tapl':''}" style="--lc:${k.c}${ln.lo?`;margin-left:${ln.lo[0]}px;margin-top:${ln.lo[1]}px`:''}">${ln.lbl}</div>`, iconSize:[0,0]}), interactive:!!ln.info, keyboard:false}).addTo(overlay);
       if(ln.info) lm.on('click', open); } });
+  (mp.cities||[]).forEach(([la,lo,n,id,k,sd,sm])=>{ used.add('p:'+k); const c=CITYC[k]||CITYC.neutral;
+    const cm=L.circleMarker([la,lo],{radius:sm?4.5:6.5, color:c[1], weight:sm?1.5:2, fillColor:c[0], fillOpacity:1, interactive:!!id}).addTo(overlay); if(id) cm.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); });
+    if(sd!=='n'){ const lm=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor tap clab${sm?' sm':''}${sd?' s-'+sd:''}"><span>${n}</span></div>`, iconSize:[0,0]}), interactive:!!id, keyboard:false}).addTo(overlay); if(id) lm.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); } });
   (mp.zones||[]).forEach(([la,lo,r,n,id,sd])=>{ used.add('z:'); L.circle([la,lo],{radius:r, color:'#8A5A0B', weight:2, dashArray:'5 5', fillColor:'#C9A24A', fillOpacity:.18, interactive:!!id}).addTo(overlay).on('click',ev=>{ if(!id) return; L.DomEvent.stopPropagation(ev); placeInfo(id); });
     const zm=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="zlabel${id?' tapz':''}${sd?' s-'+sd:''}">${n}</div>`, iconSize:[0,0]}), interactive:!!id, keyboard:false}).addTo(overlay); if(id) zm.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); });
   (mp.pins||[]).forEach(([la,lo,n,id,sd])=>{ const m=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor tap${sd?' s-'+sd:''}" style="--c:#2B3242"><b></b><span>${n}</span></div>`, iconSize:[0,0]}), keyboard:false}).addTo(overlay); if(id) m.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); });
-  const items=[]; used.forEach(u=>{ const [t,k]=u.split(':'); if(t==='z') items.push(`<span><i class="sw sw-zone"></i>מקום משוער (לא נקודה מדויקת)</span>`); else if(t==='p') items.push(`<span><i class="sw sw-${k}"></i>${KIND[k].lbl}</span>`);
+  const items=[]; used.forEach(u=>{ const [t,k]=u.split(':'); if(t==='z') items.push(`<span><i class="sw sw-zone"></i>מקום משוער (לא נקודה מדויקת)</span>`); else if(t==='p') items.push(`<span><i class="sw sw-${k}"></i>${(mp.lgT&&mp.lgT[k])||KIND[k].lbl}</span>`);
     else items.push(`<span><i class="ln" style="border-top:3px ${LINE[k].dash?'dashed':'solid'} ${LINE[k].c}"></i>${LINE[k].lbl}</span>`); });
   setLegend(items);
 }
@@ -1178,7 +1186,7 @@ function renderArgument(){
   <ol class="ladder">${LADDER.map((r,i)=>`
     <li class="rung"><span class="n">${i+1}</span><div class="box">
       <span class="role ${r.role[1]}">${r.role[0]}</span><span class="pg">${r.pg}</span>
-      <h3>${r.h}</h3><q>"${r.q}"</q>
+      <h3>${r.h}</h3><q>"${r.q}"${r.tr?' <small>(תרגום חופשי)</small>':''}</q>
       ${r.at?`<button class="go" data-goto="${r.at.join(',')}">לסיפור במפה ←</button>`:''}
     </div></li>`).join('')}</ol>
   ${C.question?`<div class="question"><b>שאלה לחברותא</b>${C.question}</div>`:''}

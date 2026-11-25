@@ -21,6 +21,7 @@ for (const n of S.AVAIL) {
     Object.keys(m.say || {}).forEach(id => { if (!(m.ents || {})[id]) miss.push(['say-not-in-ents', si, k, id]); });
     (m.pins || []).forEach(p => { if (p[3] && !D.PINFO[p[3]]) miss.push(['PINFO', si, k, p[3]]); });
     (m.zones || []).forEach(z => { if (z[4] && !D.PINFO[z[4]]) miss.push(['PINFO', si, k, z[4]]); });
+    (m.cities || []).forEach(c => { if (c[3] && !D.PINFO[c[3]]) miss.push(['PINFO', si, k, c[3]]); if (!S.KIND[c[4]]) miss.push(['city-role', si, k, c[4]]); });
     (m.lines || []).forEach(l => { if (!S.LINE[l.k]) miss.push(['LINE', l.k]); if (!l.info) miss.push(['line-without-card', si, k, l.lbl || '']); });
     (m.lg || []).forEach(x => { if (!S.KIND[x]) miss.push(['KIND', x]); });
     (m.show || []).forEach(id => { if (!D.PLACES[id]) miss.push(['PLACE', id]); });
