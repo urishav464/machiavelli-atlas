@@ -937,7 +937,7 @@ const ROLE = {core:'הממלכה', vassal:'משועבד', ally:'בעל ברית'
 /* ---------- chapters: data files ch/NN.js call ATLAS.add(n, {...}) ---------- */
 const CH = {};
 const ATLAS = {add:(n, d)=>{ CH[n] = d; }};
-const DRAFT = [];            // chapters still being built: visible only with ?draft in the address
+const DRAFT = [1];            // chapters still being built: visible only with ?draft in the address
 const AVAIL = [0, 19].concat(/[?&]draft/.test(location.search) ? DRAFT : []);   // chapters that have a data file
 const DEFAULT_CH = 19;
 let C = null, PLACES = {}, STORIES = [], PEOPLE = [], LADDER = [], GEOM = {}, ENT = {}, PINFO = {};
@@ -955,25 +955,28 @@ const map = L.map('map',{zoomControl:false, zoomSnap:0.25, zoomDelta:0.5, minZoo
   maxBounds:L.latLngBounds([-45,-100],[66,60]), maxBoundsViscosity:0.9, worldCopyJump:false});
 /* low-res world under the tiles (tools/terrain/world.py): only shows where t/ has no tiles, e.g. the Atlantic */
 map.createPane('world'); map.getPane('world').style.zIndex = 150;
-L.imageOverlay('base/world.jpg', [[-45,-100],[66,60]], {pane:'world', interactive:false, attribution:'מחוץ לאגן הים התיכון: NASA Blue Marble (דרך three.js)'}).addTo(map);
+L.imageOverlay('base/world.jpg', [[-45,-100],[66,60]], {pane:'world', interactive:false, attribution:'מפת העולם: NASA Blue Marble (three.js)'}).addTo(map);
 L.control.zoom({position:'bottomleft', zoomInTitle:'הגדלה', zoomOutTitle:'הקטנה'}).addTo(map);
 map.attributionControl.setPrefix(false);
 L.tileLayer('t/{z}/{x}/{y}.jpg',{tileSize:512, zoomOffset:-1, minZoom:3, maxZoom:13, maxNativeZoom:8,
   bounds:L.latLngBounds([26.6,-6.9],[51.9,47.9]), keepBuffer:4,
   errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
-  attribution:'תבליט וקרקעית הים: NASA Blue Marble · FreeTiler'}).addTo(map);
+  attribution:'NASA Blue Marble · FreeTiler · תבליט: SRTM (CGIAR-CSI) · מים: ASTER WBD'}).addTo(map);
 L.tileLayer('tl/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZoom:13, maxNativeZoom:12,
   bounds:L.latLngBounds([41.42,11.85],[42.42,13.15]), keepBuffer:2,
-  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
-  attribution:'תבליט לטיום: SRTM (CGIAR-CSI) · אגמים: ASTER WBD'}).addTo(map);
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='}).addTo(map);
 L.tileLayer('tf/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZoom:13, maxNativeZoom:12,
   bounds:L.latLngBounds([43.55,10.9],[43.95,11.5]), keepBuffer:2,
-  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
-  attribution:'תבליט פירנצה: SRTM (CGIAR-CSI)'}).addTo(map);
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='}).addTo(map);
 L.tileLayer('tv/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZoom:13, maxNativeZoom:12,
   bounds:L.latLngBounds([45.15,12.1],[45.65,12.75]), keepBuffer:2,
-  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==',
-  attribution:'תבליט הלגונה של ונציה: SRTM (CGIAR-CSI) · מים: ASTER WBD'}).addTo(map);
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='}).addTo(map);
+L.tileLayer('td/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZoom:13, maxNativeZoom:12,
+  bounds:L.latLngBounds([42.4,17.35],[43.05,18.6]), keepBuffer:2,
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='}).addTo(map);
+L.tileLayer('ta/{z}/{x}/{y}.webp',{tileSize:1024, zoomOffset:-2, minZoom:9, maxZoom:13, maxNativeZoom:12,
+  bounds:L.latLngBounds([31.0,29.7],[31.4,30.3]), keepBuffer:2,
+  errorTileUrl:'data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=='}).addTo(map);
 map.createPane('riv'); map.getPane('riv').style.zIndex = 380; map.getPane('riv').style.pointerEvents = 'none';
 const rivLayer = L.layerGroup();
 const rivLines = Object.keys(RIVERS).map(k=>L.polyline(RIVERS[k],{pane:'riv', color:'#4E7FB4', weight:2.4, opacity:.95, interactive:false, lineCap:'round', lineJoin:'round', smoothFactor:1.2}).addTo(rivLayer));
@@ -1077,7 +1080,10 @@ const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'
   journey:{c:'#3D6B2A', dash:'2 7', w:3.2, arrow:true, lbl:'השליחות של 1500, דרך משוערת'},
   voyage:{c:'#1F5C70', dash:'7 6', w:2.8, arrow:true, lbl:'מסע בים, הקו משוער'},
   news:{c:'#8A5A0B', dash:'2 6', w:2.6, arrow:true, lbl:'מכתב או ידיעה (קשר, לא דרך)'},
-  sale:{c:'#9A3B1E', dash:'2 6', w:2.8, arrow:true, lbl:'מכירה או העברה של פסל (קשר, לא דרך)'} };
+  sale:{c:'#9A3B1E', dash:'2 6', w:2.8, arrow:true, lbl:'מכירה או העברה של פסל (קשר, לא דרך)'},
+  link:{c:'#3D6B2A', dash:'2 7', w:3, arrow:true, lbl:'אדם עובר ממקום למקום (קשר, לא דרך)'},
+  mole:{c:'#6B5532', dash:null, w:4, arrow:false, lbl:'סוללה (המהלך המדויק משוער)'},
+  canal:{c:'#1F5C70', dash:'4 5', w:2.6, arrow:false, lbl:'תעלה (קשר, לא מהלך מדויק)'} };
 const CITYC = {core:['#234377','#fff'], gain:['#7FA3D6','#234377'], ally:['#E4AC31','#8A6410'], enemy:['#7A1F14','#fff'], rival:['#A8321F','#fff'],
   neutral:['#8C8270','#fff'], vassal:['#fff','#234377'], pu:['#fff','#234377'], crack:['#E07A3A','#8A3A10'], razed:['#9A9A9A','#555'], gone:['#9A9A9A','#555'], disp:['#B79A5E','#5C4520'], trad:['#7FA3D6','#234377']};
 function smoothPts(pts, it=3){ if(pts.length<3) return pts; let p=pts; for(let r=0;r<it;r++){ const o=[p[0]]; for(let i=0;i<p.length-1;i++){ const a=p[i], b=p[i+1]; o.push([.75*a[0]+.25*b[0], .75*a[1]+.25*b[1]], [.25*a[0]+.75*b[0], .25*a[1]+.75*b[1]]); } o.push(p[p.length-1]); p=o; } return p; }
