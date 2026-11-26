@@ -784,6 +784,10 @@ blockquote cite{display:block;font-family:var(--font-body);font-style:normal;fon
 .rung .pg{font-size:12.5px;color:var(--olive)}
 .rung h3{font-size:16.5px;margin:4px 0 4px}
 .rung q{display:block;font-family:var(--font-quote);font-size:16px;quotes:none}
+.it{display:block;direction:ltr;text-align:left;unicode-bidi:isolate;font-style:italic}
+.rung q .it{font-size:14px;color:var(--ink-2);margin-bottom:4px}
+.pre.q{display:block;border-radius:10px;padding:6px 10px;font-size:13.5px}
+.pre.q .it{font-weight:500;color:var(--ink-2);margin-bottom:4px}
 .rung .go{margin-top:6px;border:0;background:none;color:var(--navy);font-weight:700;padding:0;font-size:14px}
 .question{border:2px solid var(--gold);background:#FFF9EA;border-radius:var(--r-lg);padding:14px 16px;margin-top:6px}
 .question b{display:block;color:#6A4A06;font-size:13px}
@@ -1151,6 +1155,9 @@ map.on('click', e=>{
 const state = {tab:'stories', story:null, step:0};
 const view = document.getElementById('view');
 const esc = s => String(s);
+// '"Italian words": Hebrew rendering (…)' → the Italian on its own left-to-right line, the Hebrew under it.
+// Without this, the browser's bidi algorithm scrambles the quote marks of a mixed Italian–Hebrew line.
+function itq(s){ const m=String(s).match(/^"([^"]*[A-Za-zÀ-ÿ][^"]*)":\s*([\s\S]*)$/); return m ? `<span class="it" dir="ltr">"${m[1]}"</span><span class="he">${m[2]}</span>` : null; }
 
 function renderStories(){
   if(state.story===null){
@@ -1172,7 +1179,7 @@ function renderStories(){
     <article class="step" style="--c:${s.color}">
       <span class="yr">${st.year}</span>
       <h3>${st.title}</h3>
-      ${st.quote?`<blockquote>"${st.quote}"<cite>${st.page}</cite></blockquote>`:`<div class="pre">${st.pre||'רקע: מה היה לפני'}</div>`}
+      ${st.quote?`<blockquote>"${st.quote}"<cite>${st.page}</cite></blockquote>`:(st.pre && itq(st.pre) ? `<div class="pre q">${itq(st.pre)}</div>` : `<div class="pre">${st.pre||'רקע: מה היה לפני'}</div>`)}
       <p>${st.text}</p>
       ${st.realm?`<div class="realm"><b>${st.realmT||'מצב הממלכה'}</b>${st.realm.map(([k,l,t])=>`<div class="rrow r-${k}"><span class="rk">${l}</span><span>${t}</span></div>`).join('')}</div>`:''}
       ${st.thread?`<div class="thread">חוט לפרק אחר · ${st.thread}</div>`:''}
@@ -1198,7 +1205,7 @@ function renderArgument(){
   <ol class="ladder">${LADDER.map((r,i)=>`
     <li class="rung"><span class="n">${i+1}</span><div class="box">
       <span class="role ${r.role[1]}">${r.role[0]}</span><span class="pg">${r.pg}</span>
-      <h3>${r.h}</h3><q>"${r.q}"${r.tr?' <small>(תרגום חופשי)</small>':''}</q>
+      <h3>${r.h}</h3><q>${itq(r.q) || (/^"/.test(r.q) ? r.q : '"'+r.q+'"')}${r.tr?' <small>(תרגום חופשי)</small>':''}</q>
       ${r.at?`<button class="go" data-goto="${r.at.join(',')}">לסיפור במפה ←</button>`:''}
     </div></li>`).join('')}</ol>
   ${C.question?`<div class="question"><b>שאלה לחברותא</b>${C.question}</div>`:''}
