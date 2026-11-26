@@ -938,7 +938,7 @@ const ROLE = {core:'הממלכה', vassal:'משועבד', ally:'בעל ברית'
 const CH = {};
 const ATLAS = {add:(n, d)=>{ CH[n] = d; }};
 const DRAFT = [];            // chapters still being built: visible only with ?draft in the address
-const AVAIL = [0, 1, 19].concat(/[?&]draft/.test(location.search) ? DRAFT : []);   // chapters that have a data file
+const AVAIL = [0, 1, 2, 19].concat(/[?&]draft/.test(location.search) ? DRAFT : []);   // chapters that have a data file
 const DEFAULT_CH = 19;
 let C = null, PLACES = {}, STORIES = [], PEOPLE = [], LADDER = [], GEOM = {}, ENT = {}, PINFO = {};
 
