@@ -1079,6 +1079,7 @@ const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'
   ow:{c:'#1C3A6E', dash:null, w:3, arrow:true, lbl:'מסע עות׳מאני: התחנות מתועדות'}, ow2:{c:'#1C3A6E', dash:'7 6', w:2.8, arrow:true, lbl:'מסע עות׳מאני, דרך משוערת'},
   journey:{c:'#3D6B2A', dash:'2 7', w:3.2, arrow:true, lbl:'השליחות של 1500, דרך משוערת'},
   voyage:{c:'#1F5C70', dash:'7 6', w:2.8, arrow:true, lbl:'מסע בים, הקו משוער'},
+  army:{c:'#5E3A8C', dash:null, w:3, arrow:true, lbl:'מסע צבא'}, army2:{c:'#5E3A8C', dash:'7 6', w:2.8, arrow:true, lbl:'מסע צבא, דרך משוערת'},
   news:{c:'#8A5A0B', dash:'2 6', w:2.6, arrow:true, lbl:'מכתב או ידיעה (קשר, לא דרך)'},
   sale:{c:'#9A3B1E', dash:'2 6', w:2.8, arrow:true, lbl:'מכירה או העברה של פסל (קשר, לא דרך)'},
   link:{c:'#3D6B2A', dash:'2 7', w:3, arrow:true, lbl:'אדם עובר ממקום למקום (קשר, לא דרך)'},
@@ -1115,7 +1116,7 @@ function drawRealm(mp, color){
     const zm=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="zlabel${id?' tapz':''}${sd?' s-'+sd:''}">${n}</div>`, iconSize:[0,0]}), interactive:!!id, keyboard:false}).addTo(overlay); if(id) zm.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); });
   (mp.pins||[]).forEach(([la,lo,n,id,sd])=>{ const m=L.marker([la,lo],{icon:L.divIcon({className:'pinwrap', html:`<div class="pin minor tap${sd?' s-'+sd:''}" style="--c:#2B3242"><b></b><span>${n}</span></div>`, iconSize:[0,0]}), keyboard:false}).addTo(overlay); if(id) m.on('click',ev=>{ L.DomEvent.stopPropagation(ev); placeInfo(id); }); });
   const items=[]; used.forEach(u=>{ const [t,k]=u.split(':'); if(t==='z') items.push(`<span><i class="sw sw-zone"></i>מקום משוער (לא נקודה מדויקת)</span>`); else if(t==='p') items.push(`<span><i class="sw sw-${k}"></i>${(mp.lgT&&mp.lgT[k])||KIND[k].lbl}</span>`);
-    else items.push(`<span><i class="ln" style="border-top:3px ${LINE[k].dash?'dashed':'solid'} ${LINE[k].c}"></i>${LINE[k].lbl}</span>`); });
+    else items.push(`<span><i class="ln" style="border-top:3px ${LINE[k].dash?'dashed':'solid'} ${LINE[k].c}"></i>${(mp.lgL&&mp.lgL[k])||LINE[k].lbl}</span>`); });
   setLegend(items);
 }
 let legendOpen = window.matchMedia('(min-width:900px)').matches;
