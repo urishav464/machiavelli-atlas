@@ -941,7 +941,7 @@ const ROLE = {core:'הממלכה', vassal:'משועבד', ally:'בעל ברית'
 /* ---------- chapters: data files ch/NN.js call ATLAS.add(n, {...}) ---------- */
 const CH = {};
 const ATLAS = {add:(n, d)=>{ CH[n] = d; }};
-const DRAFT = [];            // chapters still being built: visible only with ?draft in the address
+const DRAFT = [3];            // chapters still being built: visible only with ?draft in the address
 const AVAIL = [0, 1, 2, 19].concat(/[?&]draft/.test(location.search) ? DRAFT : []);   // chapters that have a data file
 const DEFAULT_CH = 19;
 let C = null, PLACES = {}, STORIES = [], PEOPLE = [], LADDER = [], GEOM = {}, ENT = {}, PINFO = {};
@@ -1076,7 +1076,7 @@ const KIND = {
   disp:{lbl:'שנוי במחלוקת'}
 };
 const LINE = { ally:{c:'#B07F12', dash:'8 6', w:2.5, arrow:false, lbl:'ברית'}, trade:{c:'#183F7A', dash:'2 6', w:2.5, arrow:true, lbl:'מסחר'},
-  flight:{c:'#3B4458', dash:'1 6', w:2.5, arrow:true, lbl:'בריחה'}, war:{c:'#A11F12', dash:null, w:3, arrow:true, lbl:'מסע מלחמה'}, war2:{c:'#A11F12', dash:'6 6', w:2.5, arrow:true, lbl:''},
+  flight:{c:'#2D5F8F', dash:'2 6', w:3, arrow:true, lbl:'בריחה'}, war:{c:'#A11F12', dash:null, w:3, arrow:true, lbl:'מסע מלחמה'}, war2:{c:'#A11F12', dash:'6 6', w:2.5, arrow:true, lbl:''},
   rwar:{c:'#1C3A6E', dash:null, w:3, arrow:true, lbl:'מסע רומי'}, rwar2:{c:'#1C3A6E', dash:'7 6', w:2.8, arrow:true, lbl:'מסע רומי, דרך משוערת'},
   raid:{c:'#A11F12', dash:null, w:3, arrow:true, lbl:'פשיטת אויב'}, raid2:{c:'#A11F12', dash:'7 6', w:2.8, arrow:true, lbl:'מסע אויב, דרך משוערת'},
   move:{c:'#4A4436', dash:'1 6', w:3, arrow:true, lbl:'העברת תושבים'},
