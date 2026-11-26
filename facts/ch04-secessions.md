@@ -1,6 +1,6 @@
 # תיק עובדות: "הפרישות" (אטלס הדיונים, פרק 4, סיפור א)
 
-**סטטוס:** טיוטה, לפני בדיקה עצמאית (26.11.2026).
+**סטטוס:** עבר בדיקה עצמאית כפולה (26.11.2026). בודק א (טענות 1–192): 181 נכונות, 11 תוקנו. בודק ב (טענות 193–354): 143 נכונות, 19 תוקנו. אף טענה לא שגויה, ואף טענה לא נשארה לא מאומתת. הציטוט של גיצ'ארדיני אומת מילה במילה מול קובץ Liber Liber (עד אחד בלבד). הקווים נבדקו בתיק המשלים `facts/ch04-geo.md`. מה שנכנס למפה הוא הנוסח שבסעיף "תיקונים לפי הבדיקה" בסוף, ודוחות הבודקים בנספחים.
 
 **היקף:** דיונים א 4, "Che la disunione della Plebe e del Senato romano fece libera e potente quella republica". לפי אפיון האטלס הפרק בעמ' 15–17 במהדורת שלם, והסיפור הזה בעמ' 16 (עמ' לפי האפיון; את הספר אין לי). הסיפור עוקב אחרי ה"דרכים" (modi) של העם הרומי שמקיאוולי מונה: לצאת מהעיר ("partirsi tutta la plebe di Roma"), ולא למסור את השם לגיוס ("non voleva dare il nome per andare alla guerra"). בכל פעם: לאן הלך הפלבס, מי היו השכנים, ואיזה חוק יצא מזה ("le buone leggi, da quelli tumulti").
 
@@ -765,3 +765,761 @@
 - G. Bradley, "Mobility and Secession in the Early Roman Republic", Antichthon 51 (2017), 149–171: [תקציר](https://www.cambridge.org/core/journals/antichthon/article/abs/mobility-and-secession-in-the-early-roman-republic/F224515D6F8FA19C070029777DA528C5).
 - [Lex Hortensia (ויקיפדיה)](https://en.wikipedia.org/wiki/Lex_Hortensia); [Quintus Hortensius (dictator) (ויקיפדיה)](https://en.wikipedia.org/wiki/Quintus_Hortensius_(dictator)).
 - תיקים שנבדקו באטלס: `facts/ch02-rome.md`, `facts/ch02-geo.md`, `facts/ch03-secession.md`, `facts/ch03-geo.md`, `facts/ch03-tarquins.md`, `facts/ch00-livy-geo.md`.
+
+---
+
+## תיקונים לפי הבדיקה (הגרסה שנכנסת למפה)
+
+הנוסח המדויק של כל תיקון, בלשון הבודקים, מובא כאן. כל טענה שלא מופיעה כאן אושרה כפי שהיא.
+
+### בודק א (טענות 1–192)
+
+| הכרעה | מספר | הטענות |
+|---|---|---|
+| נכון | 181 | כל השאר. בארבע מהן (3, 7, 148, 149) יש חלק שלא ניתן לבדיקה כאן |
+| נכון חלקית | 11 | 2, 14, 26, 43, 46, 50, 78, 121, 134, 166, 174 |
+| שגוי | 0 | |
+| לא אומת | 0 | |
+
+**לא ניתן לבדיקה כאן:** נוסח שלם ועמודיו (טענות 3 ו-7, וההיקף "עמ' 15–17" בפתיח). את האיטלקית בדקתי. גם ההפניות לתיקים אחרים של האטלס ("כמו ch03-secession, טענה N", ‏`facts/ch02-geo.md`, ‏`facts/ch03-geo.md`) לא נבדקו, כי אסור לי לפתוח אותם. בדקתי רק מה שהטענה עצמה אומרת, מול המקור.
+
+#### התיקונים (בלשון התיק)
+
+**טענה 2 (התקופה שמקיאוולי מכריז עליה).** "ממות הטרקווינים" היא 495, ולא 509. ליוויוס 2.21.4–5: "Ap. Claudius deinde et P. Servilius consules facti. insignis hic annus est nuntio Tarquinii mortis. mortuus Cumis". מקיאוולי משתמש באותו מועד בד א 3: "come prima ei furono morti i Tarquinii, e che ai Nobili fu la paura fuggita" (`1-2.txt`).
+> **נוסח מתוקן:** "כלומר הפרק מכריז על תקופה קצרה מאוד: ממות טרקוויניוס בקומאי (ליוויוס 2.21.5, בשנת אפיוס קלאודיוס ופובליוס סרוויליוס, 495) ועד יצירת הטריבונים (494). כמו בד א 3: 'come prima ei furono morti i Tarquinii'. אבל הטיעון שלו מגיע עד הגרכים (טענה 5). [מקור; היסק]"
+
+**טענה 14.** "Roma" מופיעה בפרק 7 פעמים, והיא שם של מקום. ספרתי את המילים באות גדולה בפרק: Roma ‏7, Senato ‏3, Tribuni ‏2, Tarquinii ‏2, Plebe ‏2, Tullio ‏1, Gracchi ‏1, Popolo ‏1, Nobili ‏1.
+> **נוסח מתוקן:** "בפרק אין שנה, ואין שום פרישה מסוימת. שם המקום היחיד הוא 'Roma'. שמות האנשים היחידים הם 'Tarquinii', 'Gracchi' ו-'Tullio'. 'Monte Sacro', 'Aventino' ו-'Gianicolo' לא מופיעים בו. [מקור; בדיקה בחיפוש בקובץ]"
+
+**טענה 26.** הציטוט מדויק. אבל ליוויוס מדבר על שתי פעמים: "semel plebi, iterum legionibus". ההפניה לשני מקומות בשנת 449 הופכת את שתי הפעמים לפעם אחת. Foster: "as in their fathers' day the plebs had been, and, on a second occasion, the legions".
+> **נוסח מתוקן:** "...(7.41.2). ליוויוס מונה שתי פעמים ('semel ... iterum'). ייתכן ש'פעם אחת לפלבס' היא 494, ו'פעם שנייה ללגיונות' היא 449. החנינה המפורשת היחידה שליוויוס מספר עליה היא של 449 (3.54.5: 'ne cui fraudi esset secessio militum plebisque'; 3.54.14). [מקור; הזיהוי: היסק]"
+
+**טענה 43.** החשבון לא מסתדר. ולריוס והורטיוס הם 449 במניין המקובל, ודיודורוס שם אותם בשנת דיפילוס, 442/441. ההפרש הוא שבע שנים. גם הדקמווירים השניים: 450 במניין המקובל, ואצל דיודורוס בשנת ליסניאס, 443/442. שוב שבע. שש יוצא רק אם משווים את מות וירגיניה (449) לשנת ליסניאס. השנים של הארכונים נכונות: ויקיפדיה "443–442 | Lysanias", "442–441 | Diphilus". גם דיוניסיוס 11.62.1 שם את דיפילוס באולימפיאדה 84.3, כלומר 442/441.
+> **נוסח מתוקן:** "**דיודורוס מאחר בשבע שנים:** את הדקמווירים השניים (450 במניין המקובל) ואת וירגיניה הוא שם בשנת הארכון 'Λυσανίου' (12.24.1), ואת ולריוס והורטיוס (449) בשנת 'Διφίλου' (12.26.1). ברשימת הארכונים המקובלת ליסניאס הוא 443/442 ודיפילוס 442/441 (ויקיפדיה; וגם ד"ה 11.62.1: דיפילוס באולימפיאדה 84.3). [מקור; מחקר; היסק]"
+
+**טענה 46.** "לא שרד זוג קונסולים לשנה הזו" מטעה. הקונסולים של 287 ידועים מהפאסטי. Smith, ‏Dictionary of Greek and Roman Biography: "C. Nautius Rutilus, consul B. C. 287 with M. Claudius Marcellus. (Fasti.)". מה שחסר הוא מקור עתיק שקושר את הפרישה ואת הדיקטטורה של הורטנסיוס לשנה מסוימת.
+> **נוסח מתוקן:** "**287:** אף מקור עתיק שקראתי לא קושר את הפרישה לג'ניקולום או את הדיקטטורה של הורטנסיוס לשנה או לזוג קונסולים. הפריוכה של ספר 11 לא נותנת שנה (טענה 35). (זוג הקונסולים של 287 עצמו ידוע מהפאסטי: מרקוס קלאודיוס מרקלוס וגאיוס נאוטיוס רוטילוס, לפי Smith.) השנה 287 היא של המחקר: Koptev ... ; ויקיפדיה ... [מחקר]"
+
+**טענה 50.** ההמון לא "גירש את הלקטורים". הוא פגע בהם, ואת הקונסולים דחקו מהפורום לבית הסנאט: "violatis lictoribus, fascibus fractis e foro in curiam conpelluntur" (2.55.9). בנוסף, אצל פלורוס ב-Perseus המילים "fracti consulis fasces" פותחות את 1.17.22.3.
+> **נוסח מתוקן:** "...ההמון פגע בלקטורים ושבר את האלומות, והקונסולים נדחקו מהפורום אל בית הסנאט: 'violatis lictoribus, fascibus fractis e foro in curiam conpelluntur' (2.55.4–9). פלורוס: '...' (1.17.22.2–3)."
+
+**טענה 78.** אלה לא "האחים". ליוויוס: "fratrem Icili filiumque Numitori" (3.46.5), כלומר אחיו של איקיליוס ובנו של נומיטוריוס.
+> **נוסח מתוקן:** "**השליחים יוצאים:** אחיו של איקיליוס ובנו של נומיטוריוס ('fratrem Icili filiumque Numitori') נשלחו..."
+
+**טענה 121.** את המשפט לא אמרו דווקא ולריוס והורטיוס. ליוויוס 3.52.5: "plures iam quam Horatius ac Valerius vociferabantur", ומשם הנאום (3.52.5–9).
+> **נוסח מתוקן:** "**בסנאט צועקים כבר רבים, ולא רק הורטיוס וולריוס** ('plures iam quam Horatius ac Valerius vociferabantur', 3.52.5): 'atqui aut plebs non est habenda, aut habendi sunt tribuni plebis...' (3.52.8)."
+
+**טענה 134.** חסרה מילה. ליוויוס 3.55.7: "qui tribunis plebis, aedilibus, iudicibus decemviris nocuisset".
+> **נוסח מתוקן:** "...וקבעו שמי שפוגע בטריבונים, באדילים ובשופטים העשרה ('iudicibus decemviris')..."
+
+**טענה 166.** את המשפטים אומרים הקונסולים: "eodem tempore et consules senatum in tribunum ... incitabat. negabant consules iam ultra ferri posse furores tribunicios" (4.2.1). גם 4.2.3 ו-4.2.13 ממשיכים את הדיבור העקיף שלהם.
+> **נוסח מתוקן:** "**הקונסולים מסיתים את הסנאט:** ..." (במקום "האבות מתלוננים"). אותו תיקון בטענה 167 ("ועוד", מפי הקונסולים).
+
+**טענה 174.** הדיון לא היה בסנאט. ליוויוס 4.6.6: "consules, cum per senatum intercedentibus tribunis nihil agi posset, consilia principum domi habebant". גם דיוניסיוס מתאר מועצה בבית: "ἐν τῷ κατʼ οἰκίαν συνεδρίῳ" (ד"ה 11.60.5).
+> **נוסח מתוקן:** "בסנאט לא היה אפשר לעשות דבר, כי הטריבונים הטילו וטו, ולכן הקונסולים התייעצו עם ראשי האבות בבית ('consilia principum domi habebant', 4.6.6). שם גאיוס קלאודיוס הציע לחמש את הקונסולים נגד הטריבונים, והקווינקטים התנגדו... (4.6.7)."
+
+#### הערות שלא דורשות תיקון, אבל כדאי להוסיף
+
+- **טענה 17 ו-19:** בד א 57 (`1-13.txt`) יש עוד מקום: "come fece la plebe romana, quando, dopo la morte di Virginia, si partì da Roma, e per salvarsi feciono infra loro venti Tribuni". גם שם אין שם של מקום. זה מחזק את "עשרים" של טענה 19. וגם הפועל "si partì da Roma" הוא בדיוק "partirsi tutta la plebe di Roma" של ד א 4.
+- **טענה 22:** בנוסח הלטיני של מקיאוולי, "libertatis et honoris ... in incorrupto iudicio", יש הבדל קטן מליוויוס 4.6.11 ב-Perseus: "eventus eorum comitiorum docuit alios animos in contentione libertatis dignitatisque, alios secundum deposita certamina incorrupto iudicio esse". ההפניה נכונה.
+- **טענה 21:** מיד אחרי זה, ב-7.41.4, ליוויוס מזכיר "lex quoque sacrata militaris", חוק שמגיע עם קללה, ולכן גם עם עונש. אבל הנושא שלו הוא מחיקת שם מרשימת הגיוס, ולא הזכרת ההתקוממות. לכן "ליוויוס לא מזכיר עונש [על הזכרת ההתקוממות]" נשאר נכון.
+- **טענה 8 (תרגום חופשי):** המשמעות של "non che altro" היא "אפילו", "לכל הפחות". הצעה: "דברים שמפחידים אפילו את מי שרק קורא עליהם".
+- **טענה 59–60:** החיפוש שלי מצא בדיוק את אותם מקומות. הרשימה "הכרזות דומות" חלקית. חסרים בה 3.3.8, ‏3.5.13, ‏7.1.4 ("iustitio simile otium"), ‏10.4.2, ‏10.21.3 ו-10.21.6. יש גם תמונה הפוכה: בטוסקולום ב-381 החנויות פתוחות כסימן לשלום, "tabernis apertis" (6.25.9).
+- **טענה 83:** ליוויוס לא ממקם את המחנה החדש מ-3.42.7 ("decemvirosque ab arce Tusculi degressos in castris militem habere"). "מחוץ לטוסקולום" הוא היסק.
+- **פתיח התיק (שורה 27):** שם הריפו הוא `cltk/latin_text_latin_library`, ולא `cltk/lat_text_latin_library`.
+
+### בודק ב (טענות 193–354)
+
+| הכרעה | מספר |
+|---|---|
+| נכון | 143 |
+| נכון חלקית (צריך תיקון) | 19 |
+| שגוי | 0 |
+| לא אומת | 0 (חלקים של טענות שלא אומתו מסומנים בטבלה) |
+| **סה"כ** | **162** |
+
+#### תיקון אחד שחוזר בכמה טענות (ניסוח, לא עובדה)
+
+- **"השמנים":** בטענות 194, 214, 243, 249, 253, 269, 270 ו-310 העם נקרא "השמנים". בעברית זה נקרא "the fat ones". באותו תיק עצמו כתוב "ההיסטוריה הסמניטית" (אפיאנוס), ובפרויקט הסיכום של פרק 15 נקרא "הסמניטים". **התיקון:** "הסמניטים" בכל המקומות.
+
+#### הטענות שצריך לתקן, והנוסח המתוקן
+
+**199** (שם שגוי של הקונסול). הקונסול הוא "C. Marcius Rutilus" (7.38.8), ולא "מרקוס". נוסח מתוקן:
+> גאיוס מרקיוס רוטילוס הפיץ שמועה שחילות המצב יחרפו באותן ערים גם בשנה הבאה ("rumorem dissipat in iisdem oppidis et anno post praesidia hibernatura", 7.38.9). "eo laxamento cogitationibus dato quievit in praesentia seditio" ("וכשניתנה כך הקלה למחשבות, ההתקוממות נרגעה לעת עתה") (7.38.10). זה מה שמקיאוולי מספר בד ג 6, אבל אצלו ההודעה היא החלטה של הסנאט: "pubblicò come il Senato aveva raffermo le stanze alle legioni capovane". [מסורת]
+
+**227** (אין במקור "לא היו נאומים"). ליוויוס כותב "nec ab ducibus mentionem concordiae ortam" (7.42.5). נוסח מתוקן:
+> בגרסה הזו לא המפקדים העלו את הפיוס ("nec ab ducibus mentionem concordiae ortam"). כשהצבאות יצאו למערכה, החיילים התחילו לברך, ללחוץ ידיים ולהתחבק בבכי, והקונסולים, כשראו שהחיילים לא רוצים להילחם, נאלצו ("coactos") להביא את הפיוס לסנאט (7.42.5–6). ליוויוס מסכם: "adeo nihil praeterquam seditionem fuisse eamque conpositam inter antiquos rerum auctores constat" (7.42.7). [מקור]
+
+**232** (המגדל לא נמצא במרכז היישוב). נוסח מתוקן:
+> **זיהוי אחר ללאוטולאי:** אתר התיירות הרשמי של איטליה ממקם את מגדל פורטלה "At kilometre 112.300 on the Appian Way, in the territory of Monte San Biagio", וקושר אותו לקרב של 315: "In 315 BC the Romans defeated the Samnites here, in a battle recorded by Livy, who called this place Lautulae" ([italia.it](https://www.italia.it/en/lazio/monte-san-biagio/portella-tower)). המגדל לא נמצא במרכז היישוב. לפי komoot (קואורדינטות של מפה, בקירוב) הוא בערך ב-41.344, 13.338, כ-1.6 ק"מ דרום-מערבית למרכז מונטה סן ביאג'ו, וכ-6.5 ק"מ מנקודת פליאדס, בכיוון 70. (מרכז מונטה סן ביאג'ו ב-GeoNames: 41.3536, 13.35184, כלומר 8.0 ק"מ בכיוון 66.) (חישוב שלי.) זה לא מקור מחקרי. [מחלוקת; משוער]
+
+**233** (התיאור של השטח לא נכון לכל התיבה). נוסח מתוקן:
+> ב-SRTM, בין 41.30 ל-41.33 צפון ובין 13.31 ל-13.40 מזרח, הקרקע נמוכה (בערך מ-3- עד 20 מטר, כולל אגם פונדי). בפינה הצפון-מערבית של התיבה (13.29–13.31 מזרח, 41.31–41.33 צפון) הקרקע כבר עולה ל-100–540 מטר. הרים של יותר מ-300 מטר צמודים לרצועה רק ממערב לקו 13.34 בערך (41.34–41.36 צפון). מזרחה משם, מישור פונדי נמשך צפונה עד 41.37–41.38. כלומר "inter mare ac montis" מתאים בעיקר לקטע שבין 13.29 ל-13.35, ולא לכל הרצועה עד פונדי. איפה בדיוק לאוטולאי, המקור לא אומר. [היסק; משוער]
+
+**251** (לא "בתחילת השנה"). 7.38.1 עוד שייך ל-343. הקונסולים של 343 חוגגים ניצחון ב-7.38.3, והקונסול החדש של 342 מופיע רק ב-7.38.8. נוסח מתוקן:
+> ובסוף 343, אחרי הניצחון על הסמניטים, "huius certaminis fortuna ... Latinos iam exercitibus conparatis ab Romano in Paelignum vertit bellum" ("תוצאת המאבק הזה הפנתה את המלחמה של הלטינים, שכבר הכינו צבאות, מהרומאים אל הפליגנים") (7.38.1). [מסורת]
+
+**254** (ההפניה). המשפט על המושבה נמצא ב-8.21.10, ולא ב-8.21.11. נוסח מתוקן:
+> מושבה של 300 איש נשלחה לשם רק ב-329: "eodem anno Anxur trecenti in coloniam missi sunt" (8.21.10), "bina iugera agri acceperunt" (8.21.11).
+
+**259** (המיקום אצל פומפוניוס). הטקסט: "Deinde cum esset in civitate lex duodecim tabularum et ius civile, essent et legis actiones". נוסח מתוקן לסוף הטענה:
+> פומפוניוס שם את זה אחרי שנים עשר הלוחות, ה-ius civile וה-legis actiones, כלומר אחרי הקטע על גנאיוס פלביוס וסקסטוס איליוס (1.2.2.7), ובלי שנה.
+
+**262** (שמות החוקרים). בוויקיפדיה ההבדל בין שלושת החוקים מבוסס על Abbott 1963, עמ' 52 (הערה 4). Develin 1978 מצוטט שם רק על הדמיון בין החוקים, ו-Lintott לא מצוטט בפסקה הזו בכלל (רק בפתיחה). נוסח מתוקן:
+> ויקיפדיה (בשם Abbott 1963, עמ' 52; ועל הדמיון בין החוקים, Develin 1978) מסבירה את ההבדל: ... את Abbott ואת Develin לא קראתי. [מחקר; דרך ויקיפדיה]
+
+**264** (הייחוס למקרוביוס). נוסח מתוקן:
+> ויקיפדיה מייחסת להורטנסיוס עוד חוק: "Another law, passed about the same time, which declared the nundinae (market days) to be dies fasti, is also attributed to him" ([Quintus Hortensius (dictator)](https://en.wikipedia.org/wiki/Quintus_Hortensius_(dictator))). היא לא קושרת את המשפט הזה למקור מסוים, אבל ברשימת המקורות שלה מופיע "Macrobius, Saturnalia i. 16". המילון של Smith (באתר LacusCurtius) כותב "according to Granius Licinianus (ap. Macr. l.c.), this change was introduced at a later time by the Lex Hortensia, 286 B.C." ([Nundinae](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/SMIGRA*/Nundinae.html)). את מקרוביוס עצמו לא ראיתי. [לא נבדק]
+
+**269** (התקציר לא מסודר לפי הזמן). הפריוכה כותבת "Res praeterea ... continet" ("הספר מכיל גם"). נוסח מתוקן: במקום "לפני הפרישה ... ואחרי הפרישה" צריך לכתוב "בתקציר, לפני הקטע על הפרישה ... ואחריו". הסדר בתקציר הוא לא סדר של שנים (כמו בטענה 271).
+
+**278** (ציטוט לא מילולי). המשפט אצל Koptev (עמ' 838): "Recently G. Forsythe has revived an old theory of Ed. Meyer that the secession of 287, which occurred within a generation of the first Roman annalistic writers, was the only authentic, historical secession." נוסח מתוקן לחלק הראשון:
+> **Koptev, על 287:** "Recently G. Forsythe has revived an old theory of Ed. Meyer that the secession of 287 ... was the only authentic, historical secession" (עמ' 838).
+
+שאר הטענה נכון. ("an account of the foundation of new colonies or tribes", עמ' 841, מתייחס לפרישה של 287: "behind the secession of 287 is an account of the foundation of new colonies or tribes". על העמוד של המשפט על הורטנסיוס ראו בטבלה.)
+
+**279** (הציטוט קטוע, וזה משנה את המשמעות). המשפט המלא (עמ' 838): "the original events of 342 concerned the admission of a large group of the plebeians (from the Latins who had received Roman citizenship) to participate in the election of the high magistracy". נוסח מתוקן:
+> ... וחושב שבמקור, אירועי 342 היו על קבלה של קבוצה גדולה של פלבאים (לטינים שקיבלו אזרחות רומית) להשתתפות בבחירות למשרות העליונות ("the original events of 342 concerned the admission of a large group of the plebeians (from the Latins who had received Roman citizenship) to participate in the election of the high magistracy", עמ' 838) ...
+
+**283** (ולאיוס לא מזכיר פרישות). נוסח מתוקן למשפט האחרון:
+> כלומר ולאיוס רואה את מחלוקות האזרחים שלפני 133 כמחלוקות שנהגו להירפא בתנאים ("condicionibus sanari solitae"). הוא לא מזכיר פרישות. הקישור לפרישות הוא היסק. [מקור; הקישור: היסק]
+
+**326** ו-**335** ("מת בכלא" מסתיר התאבדות). ליוויוס: אפיוס "in carcerem est coniectus" (3.57.6), "priusquam prodicta dies adesset, Appius mortem sibi conscivit" (3.58.6); אופיוס "ductus in vincula est et ante iudicii diem finem ibi vitae fecit" (3.58.9). נוסח מתוקן:
+> 326: אפיוס קלאודיוס: הדקמוויר (3.44–3.49). הושלך לכלא (3.57.6), והתאבד לפני יום המשפט (3.58.6; סיפור ב). [מסורת]
+> 335: ... ואפיוס ואופיוס שמו קץ לחייהם בכלא, לפני המשפט (3.58.6, 3.58.9). ...
+
+**334** ("הסיבה" מוגזם אצל ליוויוס). אצל ליוויוס הריבית היא רק אחת מטענות החיילים, לצד התענוגות של קפואה (7.38.5–7). נוסח מתוקן למשפט השני:
+> אצל המקורות החובות הם סיבה ב-342: אצל ליוויוס הם אחת מטענות החיילים ("tabem crescentis in dies faenoris", 7.38.7), לצד התענוגות של קפואה (7.38.5); אצל דיוניסיוס רוב חיל המצב "ἀνεστίων καὶ καταχρέων" (15.3.3); ואצל אפיאנוס החיילים "τὴν δὲ αἰτίαν ἐς τὰ χρέα φερόντων τὰ ἐν Ῥώμῃ" (1.1). וב-287: "propter aes alienum" (Per. 11).
+
+**338** (מי אומר). את המשפט אומרים הקונסולים, בסנאט, בדיבור עקיף: "negabant consules ... maximum Romae praemium seditionum esse" (4.2.1–3). נוסח מתוקן:
+> **הקונסולים של 445 רואים את זה הפוך:** בסנאט הם אמרו ש-"maximum Romae praemium seditionum esse" ("ברומא הפרס הגדול ביותר הוא על התקוממויות") (4.2.1–3). מה שבעיני מקיאוולי הוא התרופה, בעיניהם הוא המחלה. [מקור; היסק]
+
+**352** (חסר מומצא). בקובץ אין שום חסר בין "con la industria," לבין "con le girandole". הנוסח המלא, מילה במילה, וזה המשפט האחרון של הפרק:
+> "Fu eccellentissima la disciplina militare, e la virtú sua sostenne tutti gli altri difetti del governo, e' quali importano manco in una cittá che si regge in sulle arme, che in quelle che si governano con la industria, con le girandole e con le arte della pace." (תרגום חופשי: "... מאשר בערים שמתנהלות בחריצות, בתחבולות ובאומנויות השלום".)
+
+צריך למחוק את "[...]" ואת "את האמצע לא ראיתי".
+
+**353** (גיצ'ארדיני לא אומר ש"הסדר עבד"). הוא קורא לשאר הסדרים "difetti del governo". נוסח מתוקן:
+> **מה גיצ'ארדיני אומר, בקצרה:** הוא לא מכחיש שרומא נעשתה חופשית וחזקה, אבל הופך את הסיבה. לא חוסר האחדות ("Non fu adunche la disunione tra la plebe ed el senato che facessi Roma libera e potente"), אלא שהפטריקים העדיפו להיכנע לרצון הפלבס, והמשמעת הצבאית, שמידתה הטובה "sostenne tutti gli altri difetti del governo". זה הפוך ממקיאוולי, שכותב שהמהומות היו "prima causa del tenere libera Roma" (טענה 3). [מקור; היסק]
+
+#### הערות שלא דורשות תיקון, אבל חשובות להכרעות
+
+- **304 / 238 (אבן המיל השמינית):** החישוב נכון. אבל בפליאדס יש עוגנים שסותרים זה את זה. Casal Rotondo (422869, "at the sixth mile") רחוק 8.81 ק"מ משער קפנה, ושני מילין מעבר לו נותנים 11.77 ק"מ, כלומר 0.2 ק"מ לפני הנקודה המוצעת. מצד שני, Berretta del Prete (119213387, "at the ninth mile") רחוק רק 0.34 ק"מ מהנקודה המוצעת. אי הוודאות היא בערך מיל אחד. לפי כלל 3 עדיף לסמן אזור מקווקו, ולא נקודה.
+- **302 (לאוטולאי):** הנקודה של פליאדס נמצאת על מדרון, בגובה 333 מטר, ו-ToposText נותן לה "Low". לפי כלל 3: אזור מקווקו.
+- **236:** אצל אפיאנוס כתוב "ἐν τοῖς ὄρεσι τοῖς Ἀλβανῶν", בלשון רבים, כלומר הרי אלבה בכלל, ולא דווקא הפסגה של מונטה קאבו.
+- **197:** בדיוניסיוס 15.3.6 כתוב "ἔλεγον" ("אמרו"), ולא "חשבו". ואת זה אומרים העניים ובעלי החובות שבחיל המצב.
+- **274:** בדקתי עכשיו מהדורה אחרת. ב-The Latin Library (`cicero/amic.txt`) כתוב "inter constantem et severum et gravem". את התג [לא נבדק] אפשר להחליף בהפניה הזו.
+- **220:** גם ב-The Latin Library (`livy/liv.7.txt`) כתוב "ne quis, ubi tribunus militum fuisset, postea ordinum ductor esset". זה הנוסח ש-Foster מתרגם, ולכן המחלוקת בנוסח מאומתת.
+- **336:** בספרים ששרדו מצאתי עוד סגירת חנויות אחת, לא כמחאה: 23.25.1, "tabernis clausis", מפחד, אחרי תבוסה (216).
+- **350:** הנוסח הרצוף אומת מילה במילה (ראו בטבלה). את ההערה "[הנוסח הרצוף הורכב מכמה תשובות של הכלי]" אפשר להוריד.
+
+### הכרעות שעודכנו בעקבות הבדיקה והבנייה
+
+- **שישה צעדים, כמו בהצעה** (449 בשניים, 445, 342 בשניים, 287). בכל הצעדים `noMain`: הנקודה הראשית של הסיפור (ההר הקדוש) מופיעה רק בתצוגת הפתיחה.
+- **הציטוטים של שלם:** "אותם דברים שהיו הסיבה הראשית לכך שרומא נשמרה חופשייה" (עמ' 15) הוא ה-`quote` של צעד 2 (ההר הקדוש, 449), ו"חוקים וסדרים לטובת החירות הציבורית" (עמ' 16) של צעד 6 (חוק הורטנסיוס, 287). שני הסיפורים האחרים משתמשים באיטלקית ובתרגום חופשי, כדי שכל שורה של שלם תופיע פעם אחת.
+- **ה-`pre` של צעדי 342:** "ogni città debbe avere i suoi modi" (342א), ו-"come dice Tullio ... uomo degno di fede" (342ב, הנאום של ולריוס קורבוס).
+- **342, התפקידים:** קפואה `vassal` ("נכנעה לרומא", 7.31.4) במקום `ally`; הסמניטים `neutral` ("שקטים השנה", 7.39.1); הלטינים `crack` ("ברית רעועה", 7.42.8); נורבה וסטיה `ally` עם הכיתוב "מושבות של רומא" (ליוויוס קורא להן "colonias Romanas", 7.42.8); טוסקולום `core` (עירייה עם זכות הצבעה מ-381, טענה 102).
+- **שם העם:** "הסמניטים", ולא "השמנים" (בודק ב).
+- **לאוטולאי:** עיגול של 3 ק"מ, כמו בהצעה. הכרטיס: הזיהוי עם מגדל פורטלה, "על דרך אפיה, כ-6.5 ק"מ מזרחה" (בודק ב, 232).
+- **אבן המיל השמינית:** עיגול של 800 מטר, עם הכיתוב הקצר "המיל השמיני?", כדי שייכנס במסך. בודק ב העיר שבפליאדס יש אי-ודאות של כמיל, ולכן עיגול ולא נקודה.
+- **תוויות:** בלי תווית לקו מארץ הסבינים ולקו של הדיקטטור (המקרא נותן את הסוג), כדי שלא יעלו על "ארטום", "טיבר" ו"אבן המיל".
+- **בכרטיסים הוחלו:** אפיוס ואופיוס התאבדו בכלא (326, 335); "הפרס הגדול על התקוממויות" נאמר בידי הקונסולים (166, 338); החובות הם תלונה אחת אצל ליוויוס, לצד העושר של קפואה (334); Koptev מספר ש-Forsythe החיה את התאוריה של מאייר (278).
+- **גיצ'ארדיני:** שלב "הניגוד" בלשונית "הטיעון", עם המשפט על החולה והתרופה (טענה 350).
+
+---
+
+# נספח א: דוח הבודק העצמאי, חלק א (טענות 1–192)
+
+## בדיקה עצמאית, חלק א: "הפרישות" (פרק 4), טענות 1–192
+
+**הבודק:** סוכן בדיקה עצמאי (26.11.2026). קראתי רק את קובץ הטענות (`.check/ch04-secessions-claims.md`, חלקים א–ו). לא ראיתי טיוטה, נימוקים או `index.html`. טענות 193–354 בודק בודק אחר.
+
+---
+
+### 1. סיכום
+
+| הכרעה | מספר | הטענות |
+|---|---|---|
+| נכון | 181 | כל השאר. בארבע מהן (3, 7, 148, 149) יש חלק שלא ניתן לבדיקה כאן |
+| נכון חלקית | 11 | 2, 14, 26, 43, 46, 50, 78, 121, 134, 166, 174 |
+| שגוי | 0 | |
+| לא אומת | 0 | |
+
+**לא ניתן לבדיקה כאן:** נוסח שלם ועמודיו (טענות 3 ו-7, וההיקף "עמ' 15–17" בפתיח). את האיטלקית בדקתי. גם ההפניות לתיקים אחרים של האטלס ("כמו ch03-secession, טענה N", ‏`facts/ch02-geo.md`, ‏`facts/ch03-geo.md`) לא נבדקו, כי אסור לי לפתוח אותם. בדקתי רק מה שהטענה עצמה אומרת, מול המקור.
+
+#### התיקונים (בלשון התיק)
+
+**טענה 2 (התקופה שמקיאוולי מכריז עליה).** "ממות הטרקווינים" היא 495, ולא 509. ליוויוס 2.21.4–5: "Ap. Claudius deinde et P. Servilius consules facti. insignis hic annus est nuntio Tarquinii mortis. mortuus Cumis". מקיאוולי משתמש באותו מועד בד א 3: "come prima ei furono morti i Tarquinii, e che ai Nobili fu la paura fuggita" (`1-2.txt`).
+> **נוסח מתוקן:** "כלומר הפרק מכריז על תקופה קצרה מאוד: ממות טרקוויניוס בקומאי (ליוויוס 2.21.5, בשנת אפיוס קלאודיוס ופובליוס סרוויליוס, 495) ועד יצירת הטריבונים (494). כמו בד א 3: 'come prima ei furono morti i Tarquinii'. אבל הטיעון שלו מגיע עד הגרכים (טענה 5). [מקור; היסק]"
+
+**טענה 14.** "Roma" מופיעה בפרק 7 פעמים, והיא שם של מקום. ספרתי את המילים באות גדולה בפרק: Roma ‏7, Senato ‏3, Tribuni ‏2, Tarquinii ‏2, Plebe ‏2, Tullio ‏1, Gracchi ‏1, Popolo ‏1, Nobili ‏1.
+> **נוסח מתוקן:** "בפרק אין שנה, ואין שום פרישה מסוימת. שם המקום היחיד הוא 'Roma'. שמות האנשים היחידים הם 'Tarquinii', 'Gracchi' ו-'Tullio'. 'Monte Sacro', 'Aventino' ו-'Gianicolo' לא מופיעים בו. [מקור; בדיקה בחיפוש בקובץ]"
+
+**טענה 26.** הציטוט מדויק. אבל ליוויוס מדבר על שתי פעמים: "semel plebi, iterum legionibus". ההפניה לשני מקומות בשנת 449 הופכת את שתי הפעמים לפעם אחת. Foster: "as in their fathers' day the plebs had been, and, on a second occasion, the legions".
+> **נוסח מתוקן:** "...(7.41.2). ליוויוס מונה שתי פעמים ('semel ... iterum'). ייתכן ש'פעם אחת לפלבס' היא 494, ו'פעם שנייה ללגיונות' היא 449. החנינה המפורשת היחידה שליוויוס מספר עליה היא של 449 (3.54.5: 'ne cui fraudi esset secessio militum plebisque'; 3.54.14). [מקור; הזיהוי: היסק]"
+
+**טענה 43.** החשבון לא מסתדר. ולריוס והורטיוס הם 449 במניין המקובל, ודיודורוס שם אותם בשנת דיפילוס, 442/441. ההפרש הוא שבע שנים. גם הדקמווירים השניים: 450 במניין המקובל, ואצל דיודורוס בשנת ליסניאס, 443/442. שוב שבע. שש יוצא רק אם משווים את מות וירגיניה (449) לשנת ליסניאס. השנים של הארכונים נכונות: ויקיפדיה "443–442 | Lysanias", "442–441 | Diphilus". גם דיוניסיוס 11.62.1 שם את דיפילוס באולימפיאדה 84.3, כלומר 442/441.
+> **נוסח מתוקן:** "**דיודורוס מאחר בשבע שנים:** את הדקמווירים השניים (450 במניין המקובל) ואת וירגיניה הוא שם בשנת הארכון 'Λυσανίου' (12.24.1), ואת ולריוס והורטיוס (449) בשנת 'Διφίλου' (12.26.1). ברשימת הארכונים המקובלת ליסניאס הוא 443/442 ודיפילוס 442/441 (ויקיפדיה; וגם ד"ה 11.62.1: דיפילוס באולימפיאדה 84.3). [מקור; מחקר; היסק]"
+
+**טענה 46.** "לא שרד זוג קונסולים לשנה הזו" מטעה. הקונסולים של 287 ידועים מהפאסטי. Smith, ‏Dictionary of Greek and Roman Biography: "C. Nautius Rutilus, consul B. C. 287 with M. Claudius Marcellus. (Fasti.)". מה שחסר הוא מקור עתיק שקושר את הפרישה ואת הדיקטטורה של הורטנסיוס לשנה מסוימת.
+> **נוסח מתוקן:** "**287:** אף מקור עתיק שקראתי לא קושר את הפרישה לג'ניקולום או את הדיקטטורה של הורטנסיוס לשנה או לזוג קונסולים. הפריוכה של ספר 11 לא נותנת שנה (טענה 35). (זוג הקונסולים של 287 עצמו ידוע מהפאסטי: מרקוס קלאודיוס מרקלוס וגאיוס נאוטיוס רוטילוס, לפי Smith.) השנה 287 היא של המחקר: Koptev ... ; ויקיפדיה ... [מחקר]"
+
+**טענה 50.** ההמון לא "גירש את הלקטורים". הוא פגע בהם, ואת הקונסולים דחקו מהפורום לבית הסנאט: "violatis lictoribus, fascibus fractis e foro in curiam conpelluntur" (2.55.9). בנוסף, אצל פלורוס ב-Perseus המילים "fracti consulis fasces" פותחות את 1.17.22.3.
+> **נוסח מתוקן:** "...ההמון פגע בלקטורים ושבר את האלומות, והקונסולים נדחקו מהפורום אל בית הסנאט: 'violatis lictoribus, fascibus fractis e foro in curiam conpelluntur' (2.55.4–9). פלורוס: '...' (1.17.22.2–3)."
+
+**טענה 78.** אלה לא "האחים". ליוויוס: "fratrem Icili filiumque Numitori" (3.46.5), כלומר אחיו של איקיליוס ובנו של נומיטוריוס.
+> **נוסח מתוקן:** "**השליחים יוצאים:** אחיו של איקיליוס ובנו של נומיטוריוס ('fratrem Icili filiumque Numitori') נשלחו..."
+
+**טענה 121.** את המשפט לא אמרו דווקא ולריוס והורטיוס. ליוויוס 3.52.5: "plures iam quam Horatius ac Valerius vociferabantur", ומשם הנאום (3.52.5–9).
+> **נוסח מתוקן:** "**בסנאט צועקים כבר רבים, ולא רק הורטיוס וולריוס** ('plures iam quam Horatius ac Valerius vociferabantur', 3.52.5): 'atqui aut plebs non est habenda, aut habendi sunt tribuni plebis...' (3.52.8)."
+
+**טענה 134.** חסרה מילה. ליוויוס 3.55.7: "qui tribunis plebis, aedilibus, iudicibus decemviris nocuisset".
+> **נוסח מתוקן:** "...וקבעו שמי שפוגע בטריבונים, באדילים ובשופטים העשרה ('iudicibus decemviris')..."
+
+**טענה 166.** את המשפטים אומרים הקונסולים: "eodem tempore et consules senatum in tribunum ... incitabat. negabant consules iam ultra ferri posse furores tribunicios" (4.2.1). גם 4.2.3 ו-4.2.13 ממשיכים את הדיבור העקיף שלהם.
+> **נוסח מתוקן:** "**הקונסולים מסיתים את הסנאט:** ..." (במקום "האבות מתלוננים"). אותו תיקון בטענה 167 ("ועוד", מפי הקונסולים).
+
+**טענה 174.** הדיון לא היה בסנאט. ליוויוס 4.6.6: "consules, cum per senatum intercedentibus tribunis nihil agi posset, consilia principum domi habebant". גם דיוניסיוס מתאר מועצה בבית: "ἐν τῷ κατʼ οἰκίαν συνεδρίῳ" (ד"ה 11.60.5).
+> **נוסח מתוקן:** "בסנאט לא היה אפשר לעשות דבר, כי הטריבונים הטילו וטו, ולכן הקונסולים התייעצו עם ראשי האבות בבית ('consilia principum domi habebant', 4.6.6). שם גאיוס קלאודיוס הציע לחמש את הקונסולים נגד הטריבונים, והקווינקטים התנגדו... (4.6.7)."
+
+#### הערות שלא דורשות תיקון, אבל כדאי להוסיף
+
+- **טענה 17 ו-19:** בד א 57 (`1-13.txt`) יש עוד מקום: "come fece la plebe romana, quando, dopo la morte di Virginia, si partì da Roma, e per salvarsi feciono infra loro venti Tribuni". גם שם אין שם של מקום. זה מחזק את "עשרים" של טענה 19. וגם הפועל "si partì da Roma" הוא בדיוק "partirsi tutta la plebe di Roma" של ד א 4.
+- **טענה 22:** בנוסח הלטיני של מקיאוולי, "libertatis et honoris ... in incorrupto iudicio", יש הבדל קטן מליוויוס 4.6.11 ב-Perseus: "eventus eorum comitiorum docuit alios animos in contentione libertatis dignitatisque, alios secundum deposita certamina incorrupto iudicio esse". ההפניה נכונה.
+- **טענה 21:** מיד אחרי זה, ב-7.41.4, ליוויוס מזכיר "lex quoque sacrata militaris", חוק שמגיע עם קללה, ולכן גם עם עונש. אבל הנושא שלו הוא מחיקת שם מרשימת הגיוס, ולא הזכרת ההתקוממות. לכן "ליוויוס לא מזכיר עונש [על הזכרת ההתקוממות]" נשאר נכון.
+- **טענה 8 (תרגום חופשי):** המשמעות של "non che altro" היא "אפילו", "לכל הפחות". הצעה: "דברים שמפחידים אפילו את מי שרק קורא עליהם".
+- **טענה 59–60:** החיפוש שלי מצא בדיוק את אותם מקומות. הרשימה "הכרזות דומות" חלקית. חסרים בה 3.3.8, ‏3.5.13, ‏7.1.4 ("iustitio simile otium"), ‏10.4.2, ‏10.21.3 ו-10.21.6. יש גם תמונה הפוכה: בטוסקולום ב-381 החנויות פתוחות כסימן לשלום, "tabernis apertis" (6.25.9).
+- **טענה 83:** ליוויוס לא ממקם את המחנה החדש מ-3.42.7 ("decemvirosque ab arce Tusculi degressos in castris militem habere"). "מחוץ לטוסקולום" הוא היסק.
+- **פתיח התיק (שורה 27):** שם הריפו הוא `cltk/latin_text_latin_library`, ולא `cltk/lat_text_latin_library`.
+
+---
+
+### 2. שיטה ומגבלות
+
+**מה נפתח בפועל (מקומית):**
+- **מקיאוולי:** `~/.atlas-cache/src/machiavelli/1-2.txt` (ד א 3–4), ‏`1-10.txt` (ד א 40, 44), ‏`1-11.txt` (ד א 47), ‏`1-13.txt` (ד א 57), ‏`2-8.txt` (ד ב 20), ‏`2-10.txt` (ד ב 26), ‏`3-2.txt`/`3-3.txt` (ד ג 6). חיפשתי מילים בכל הקבצים (`0-1`, `1-*`, `2-*`, `3-*`, `discorsi_1_2.txt`).
+- **ליוויוס:** הלטינית `phi0914.phi001.perseus-lat2.xml`, ספרים 2–10, מחולצת עם `extract.py`. ‏Foster ‏(`perseus-eng1`) לספר 7, כדי לבדוק את המספור. חיפשתי בעצמי את "tabern-" ואת "iustiti-" בספרים 2–10.
+- **דיוניסיוס:** `tlg0081.tlg001.perseus-grc2.xml`, ספרים 5–11 ו-15, ביוונית. חיפשתי את "ἐργαστηρ-" בספרים 5–11 (בלי טעמים), ואת "γαμ-" ב-11.50–11.63.
+- **דיודורוס:** `tlg0060.tlg001.perseus-grc4.xml`, ספר 12.
+- **קיקרו, "על המדינה":** `phi0474.phi043.perseus-lat2.xml`. את הספר והסעיף בדקתי לפי סימני ה-XML.
+- **סלוסטיוס, "קטילינה":** `phi0631.phi001.perseus-lat3.xml`, ‏33.3 לפי ה-milestone.
+- **פלורוס:** `phi1242.phi001.perseus-lat1.xml`, במספור book.topic.chapter.section של Perseus.
+- **פליניוס:** `phi0978.phi001.perseus-lat2.xml`, ספר 16. הקטע על הורטנסיוס נמצא ב-16.10 במספור של Perseus (בדקתי רק בשביל טענה 184).
+- **מהמראה של The Latin Library ב-GitHub** ‏(`raw.githubusercontent.com/cltk/latin_text_latin_library/master/`): ‏`ampelius.txt`, ‏`asconius.txt` (סימני העמודים של Clark: ‏(76), (77), (78)), ‏`justinian/digest1.txt` (כותרות "Dig. 1.2.2.20", "Dig. 1.2.2.24"), ‏`augustine/civ3.txt` (הכותרות [XVII] ו-[XVIII]), ‏`livy/liv.per11.txt`.
+- **פליאדס:** `pleiades-places.csv`. את המרחקים ואת הכיוונים חישבתי בעצמי (haversine, רדיוס 6371.0088 ק"מ, אזימוט מהקפיטול). את שער קפנה לטענה 106 לקחתי מפליאדס 27164982 ‏(41.884, 12.491, precise).
+- **GeoNames** (`cities.json`): מונטה פורציו קטונה ו-ארדאה.
+- **הנהרות של האתר** (`tools/terrain/latium-rivers.json`): הגדה של ההר הקדוש, והמרחק של פידנאי ושל ארטום מהטיבר.
+
+**מה נפתח ברשת:**
+- Koptev 2018, ‏PDF: [dspace.spbu.ru](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf). הנתונים: Vestnik SPbU History 63.3, עמ' 823–844. את הציטוטים ואת העמודים (825, 834) החזיר כלי ה-WebFetch, שמסכם את הדף בעזרת מודל. המשפטים שנבדקו חזרו מילה במילה. רק את ההמשך על דואיליוס בעמ' 834 הכלי ניסח במילים שלו.
+- [Eponymous archon, ויקיפדיה](https://en.wikipedia.org/wiki/Eponymous_archon): ‏"443–442 | Lysanias", ‏"442–441 | Diphilus".
+- [Lex Hortensia, ויקיפדיה](https://en.wikipedia.org/wiki/Lex_Hortensia): ‏"In the annalistic tradition, around the year 287 BC".
+- [ToposText, Ampelius](https://topostext.org/work/746): הקטע הוא "§ 25 [Secessions of the Plebs]". מקור שני, בלתי תלוי, למספר הפרק: Koptev, ‏"Ampelius (Mem. 25)".
+- [Smith, Dictionary, ע"ע Rutilus, Nautius 8](https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/R.rutilus_nautius_8): ‏"consul B. C. 287 with M. Claudius Marcellus. (Fasti.)". מקור אחד בלבד, ורק לטענה 46.
+
+**מגבלות:**
+- את מהדורת שלם אין לי, ולכן העמודים והנוסח העברי לא נבדקו.
+- את `facts/ch02-geo.md`, ‏`facts/ch03-geo.md` ו-`facts/ch03-secession.md` אסור לי לפתוח. לכן לא בדקתי שההפניות אליהם נכונות. בדקתי רק את התוכן של כל טענה מול המקור העתיק או מול פליאדס.
+- ב-Perseus יש כפילויות OCR בטקסט (למשל "tur tum", "baud haud"). התיק כותב בציטוטים את הקריאה הנכונה, וכך גם בדקתי.
+
+---
+
+### 3. טבלה
+
+| # | הכרעה | מה המקור אומר (מילים מדויקות) / מה לא בסדר | המקור שנבדק |
+|---|---|---|---|
+| 1 | נכון | "# 4 Che la disunione della Plebe e del Senato romano fece libera e potente quella republica." | `machiavelli/1-2.txt` |
+| 2 | נכון חלקית | הציטוט נכון. "morte de' Tarquinii" היא 495: "insignis hic annus est nuntio Tarquinii mortis. mortuus Cumis". ‏509–494 שגוי (ראו סיכום) | `1-2.txt` (ד א 3–4); ליוויוס 2.21.4–5 |
+| 3 | נכון (שלם: לא ניתן לבדיקה כאן) | "Io dico che coloro che dannono i tumulti intra i Nobili e la Plebe, mi pare che biasimino quelle cose che furono prima causa del tenere libera Roma" | `1-2.txt` |
+| 4 | נכון | "e come tutte le leggi che si fanno in favore della libertà, nascano dalla disunione loro, come facilmente si può vedere essere seguito in Roma". ‏"loro" הם "due umori diversi, quello del popolo, e quello de' grandi" | `1-2.txt` |
+| 5 | נכון | "perché da' Tarquinii ai Gracchi, che furano più di trecento anni, i tumulti di Roma rade volte partorivano esilio e radissime sangue." | `1-2.txt` |
+| 6 | נכון | "perché li buoni esempli nascano dalla buona educazione, la buona educazione, dalle buone leggi; e le buone leggi, da quelli tumulti che molti inconsideratamente dannano" | `1-2.txt` |
+| 7 | נכון (שלם: לא ניתן לבדיקה כאן) | "...ma leggi e ordini in beneficio della publica libertà." | `1-2.txt` |
+| 8 | נכון | המילים מדויקות. הערת תרגום: "non che altro" פירושו "אפילו" (ראו סיכום) | `1-2.txt` |
+| 9 | נכון | "dico come ogni città debbe avere i suoi modi con i quali il popolo possa sfogare l'ambizione sua..." | `1-2.txt` |
+| 10 | נכון | "...o e' non voleva dare il nome per andare alla guerra, tanto che a placarlo bisognava in qualche parte sodisfarli." | `1-2.txt` |
+| 11 | נכון | "E i desiderii de' popoli liberi rade volte sono perniziosi alla libertà..." | `1-2.txt` |
+| 12 | נכון | "...e li popoli, come dice Tullio, benché siano ignoranti, sono capaci della verità..." (את חלק ט, הזיהוי אצל קיקרו, לא בדקתי, כי הוא מחוץ לטווח שלי) | `1-2.txt` |
+| 13 | נכון | "E se i tumulti furano cagione della creazione de' Tribuni, meritano somma laude, perché, oltre al dare la parte sua all'amministrazione popolare, furano constituiti per guardia della libertà romana" | `1-2.txt` |
+| 14 | נכון חלקית | "Roma" מופיעה 7 פעמים. זה שם מקום (ראו סיכום). את שאר הטענה אישרתי: אין שנה, אין פרישה מסוימת, ואין Monte Sacro, ‏Aventino או Gianicolo | `1-2.txt`, ספירת מילים |
+| 15 | נכון | "il padre Virginio, per liberarla, l'ammazzò: donde seguirono i tumulti di Roma e degli eserciti: i quali riduttisi insieme con il rimanente della plebe romana, se ne andarono nel Monte Sacro, dove stettero tanto che i Dieci deposono il magistrato" | `1-10.txt` (ד א 40) |
+| 16 | נכון | "Era la plebe romana, per lo accidente di Virginia, ridotta armata nel Monte Sacro. Mandò il Senato suoi ambasciadori a dimandare con quale autorità gli avevano abbandonati i loro capitani" | `1-10.txt` (ד א 44) |
+| 17 | נכון | אין תוצאות ל-Aventin, ‏Gianicol, ‏Ianicul, ‏Ortensi, ‏Hortens, ‏Canulei. "Monte Sacro" מופיע רק ב-`1-10.txt`, פעמיים. תוספת: ד א 57, "si partì da Roma", בלי מקום | כל קובצי `machiavelli/` |
+| 18 | נכון | ליוויוס 3.50.13 "Aventinum insidunt"; ‏3.50.15 "cuius iussu castra deseruissent ... qui armati Aventinum obsedissent"; ‏3.50.16 "ut L. Valerium et M. Horatium ad se mitterent"; ‏3.52.1 "in Sacrum montem ex Aventino transit". מקיאוולי: "Mandò il Senato suoi ambasciadori ... e ridottosi nel Monte" | `1-10.txt`; ליוויוס ספר 3 |
+| 19 | נכון | מקיאוולי: "per suo ordine si creò venti Tribuni militari". ליוויוס 3.51.6 "ita decem numero tribunos militares creant"; ‏3.51.9 "pari potestate eundem numerum ab suis creandum curat"; ‏3.51.10 "viginti tribunis militum" | `1-10.txt`; ליוויוס 3.51 |
+| 20 | נכון | ד ב 20: "pensarono di prendere l'armi ed insignorirsi di quel paese"; ד ג 6: "commissono a Rutilio nuovo Consolo che vi provvedesse" (בהמשך הפרק "Delle congiure"); ד ב 26: "essendone di questa congiura nata una sedizione, la quale fu poi da Valerio Corvino quietata" | `2-8.txt`, ‏`3-2.txt`/`3-3.txt`, ‏`2-10.txt` |
+| 21 | נכון | ד ב 26: "ordinarono pene gravissime a coloro che rimproverassero mai a alcuni di quegli soldati tale sedizione". ליוויוס 7.41.3: "oravit etiam bona venia Quirites, ne quis eam rem ioco seriove cuiquam exprobraret" (אצל Foster זה 7.41.4). אין עונש | `2-10.txt`; ליוויוס 7.41 (לטינית ו-Foster) |
+| 22 | נכון | "fu contenta che si creassi quattro Tribuni con potestà consolare ... furono dal Popolo romano creati tutti nobili", ‏"Quorum comitiorum eventus docuit...". הערה: הנוסח אצל ליוויוס 4.6.11 שונה מעט (ראו סיכום) | `1-11.txt`; ליוויוס 4.6.11 |
+| 23 | נכון | ‏4.7.1 "A. Sempronius Atratinus, L. Atilius, T. Caecilius"; ‏4.7.2 "tribunos militum tres"; וגם 4.6.9 "tribunis consulari potestate tribus creandis". ד"ה 11.60.5 "τρεῖς μὲν ἐκ τῶν πατρικίων, τρεῖς δʼ ἐκ τῶν δημοτικῶν"; ‏11.61.3: שלושה פטריקים | ליוויוס 4.6–4.7; ד"ה 11.60–61 |
+| 24 | נכון | אין "Ortensio" ואין "Ianiculo" בשום קובץ | כל קובצי `machiavelli/` |
+| 25 | נכון | ‏7.40.11 "non illi, qui in Sacrum montem secesserunt, non hi, qui postea Aventinum insederunt". הדובר: 7.40.3 "Corvinus ... is ad conloquium processit" | ליוויוס 7.40 |
+| 26 | נכון חלקית | ‏7.41.2 "quod apud patres semel plebi, iterum legionibus cautum sit, ne fraudi secessio esset". אלה שתי פעמים, והתיק מייחס את שתיהן לשנת 449 (ראו סיכום) | ליוויוס 7.41.2; ‏3.54.5; ‏3.54.14; ‏Foster 7.41.2 |
+| 27 | נכון | ‏7.40.2 "ultimaque rabies secessio ab suis habebatur"; ‏7.41.3 "ne cui militum fraudi secessio esset" | ליוויוס 7.40–41 |
+| 28 | נכון | ‏6.42.11 "prope secessionem plebis res terribilesque alias minas civilium certaminum venit" | ליוויוס 6.42 |
+| 29 | נכון | ‏6.19.1 "senatus de secessione in domum privatam plebis, forte etiam in arce positam". השנה: הטריבונים הצבאיים מ-6.18.1 (Camillus quintum), כלומר 384 | ליוויוס 6.18–19 |
+| 30 | נכון | ‏8.18.12 "memoria ex annalibus repetita in secessionibus quondam plebis clavum ab dictatore fixum" | ליוויוס 8.18 |
+| 31 | נכון | ‏2.58.3 "vastaverant agros, ut, si qua secessio plebis fieret, ad se receptum haberet". השנה: 2.58.1 "tum primum tributis comitiis creati tribuni" (471) | ליוויוס 2.58 |
+| 32 | נכון | ‏1.17.23.1 "Prima discordia ... in sacrum montem plebs armata secessit"; ‏1.17.24.3 "ab Aventino monte detraxit"; ‏1.17.25.1 "qui tumultus in monte Ianiculo duce Canuleio tribuno plebis exarsit ... Quartam honorum cupido" | פלורוס, Perseus |
+| 33 | נכון | "Secessiones plebis a patribus fuerunt quattuor: prima ... in <sacrum> montem ...; secunda ... in Aventino monte ...; tertia propter matrimonia ... quam Canuleius concitavit in monte Ianiculo; quarta secessio in foro propter magistratus ut plebei consules fierent, quam Sulpicius Stolo concitavit". ToposText: ‏"§ 25" | `ampelius.txt`; [ToposText](https://topostext.org/work/746); Koptev עמ' 825 |
+| 34 | נכון | הרביעית אצל פלורוס היא "honorum cupido", ואצל אמפליוס היא "Sulpicius Stolo". אין 342 ואין 287 | שם |
+| 35 | נכון | "Plebs propter aes alienum post graves et longas seditiones ad ultimum secessit in Ianiculum, unde a Q. Hortensio dictatore deducta est; isque in ipso magistratu decessit." | `livy/liv.per11.txt` |
+| 36 | נכון | "post longas et graues Romae seditiones, quibus ad ultimum plebs in Ianiculum hostili diremptione secesserat" (בפרק [XVII]) | `augustine/civ3.txt` |
+| 37 | נכון | "Quibus saeuitiis et maxime faenore oppressa plebes ... armata montem sacrum atque Auentinum insedit, tumque tribunos plebis et alia iura sibi parauit. Discordiarum et certaminis utrimque finis fuit secundum bellum Punicum." | `augustine/civ3.txt` [XVII] |
+| 38 | נכון | ‏33.3 "saepe ipsa plebs, aut dominandi studio permota aut superbia magistratuum, armata a patribus secessit." | סלוסטיוס, Perseus lat3 |
+| 39 | נכון | ‏1.62 "tum secessiones plebei"; ‏2.58 "plebs montem sacrum prius, deinde Aventinum occupavit"; ‏2.63 "primum montem sacrum, sicut erat in simili causa antea factum, deinde Aventinum armatos insedisse" | קיקרו, "על המדינה", Perseus |
+| 40 | נכון | "Dig. 1.2.2.20 ... cum plebs a patribus secessisset anno fere septimo decimo post reges exactos, tribunos sibi in monte sacro creavit" | `justinian/digest1.txt` |
+| 41 | נכון | עמ' 825: "Livy (6.19.1; 7.40.2; 7.41.2–3) also mentions the secessions of 385 and 342"; ‏"In Florus and Ampelius, the Janiculum was the location of the plebeians in 445"; ‏"Most of the preserved evidence depicts the early secessions of 494 and 449 and, to a lesser degree, the last one of 287" (המשפט המלא) | [Koptev PDF](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf) |
+| 42 | נכון | ‏3.55.1 "consules creati L. Valerius, M. Horatius"; ד"ה 11.45.1 "Λεύκιος Οὐαλέριος Ποτῖτος καὶ Μάρκος Ὁράτιος Βαρβᾶτος". גם ד"ה 11.1.1 שם את סוף הדקמווירים בשנת "ἄρχοντος Ἀθήνησι Φιλίσκου" | ליוויוס 3.55; ד"ה 11 |
+| 43 | נכון חלקית | ‏12.24.1 "ἐπʼ ἄρχοντος δʼ Ἀθήνησι Λυσανίου"; ‏12.26.1 "ἐπʼ ἄρχοντος δʼ Ἀθήνησι Διφίλου ... Μάρκον Ὁράτιον καὶ Λεύκιον Οὐαλέριον". ההפרש הוא שבע שנים, לא שש (ראו סיכום) | דיודורוס 12, grc4; [ויקיפדיה](https://en.wikipedia.org/wiki/Eponymous_archon); ד"ה 11.62.1 |
+| 44 | נכון | ‏4.1.1 "hos secuti M. Genucius et C. Curtius consules"; ד"ה 11.53.1 "Μάρκου δὲ Γενυκίου καὶ Γαΐου Κοιντίου" | ליוויוס 4.1; ד"ה 11.53 |
+| 45 | נכון | ‏7.38.8 "novus consul C. Marcius Rutilus, cui Campania sorte provincia evenerat, Q. Servilio collega ad urbem relicto"; ד"ה 15.3.1 "Κοίντου Σερουιλίου τὸ τρίτον ὑπατεύοντος καὶ Γαίου Μαρκίου Ῥουτίλου" | ליוויוס 7.38; ד"ה 15 |
+| 46 | נכון חלקית | הציטוטים מ-Koptev (עמ' 825) ומוויקיפדיה מדויקים. "לא שרד זוג קונסולים" מטעה: Smith: ‏"consul B. C. 287 with M. Claudius Marcellus. (Fasti.)" (ראו סיכום) | [Koptev](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf); [Lex Hortensia](https://en.wikipedia.org/wiki/Lex_Hortensia); [Smith](https://cts.perseids.org/read/pdlrefwk/viaf88890045/003/perseus-eng1/R.rutilus_nautius_8) |
+| 47 | נכון | ‏2.24.2 "alius alium confirmare, ne nomina darent"; ‏2.27.10 "dilectuque decreto nemo nomen dedit" (שנת 495, לפי 2.21.5) | ליוויוס 2 |
+| 48 | נכון | ‏2.43.3 "redibatque non sua sponte plebi mos detractandi militiam, sed Sp. Licinius tribunus plebis ... susceperat rem militarem impediendam" (הקונסולים: 2.43.1 "K. Fabius et Sp. Furius", ‏481) | ליוויוס 2.43 |
+| 49 | נכון | ‏2.44.1 "Ti. Pontificius fuit. is ... dilectum paulisper inpediit" (השנה של 2.43.11 "M. Fabium consulem", ‏480) | ליוויוס 2.43–44 |
+| 50 | נכון חלקית | ‏2.54.1–3 ו-2.56.1: השנים נכונות. ‏2.55.4: הציטוט נכון. אבל 2.55.9: "violatis lictoribus, fascibus fractis e foro in curiam conpelluntur". לא "גירשו את הלקטורים". פלורוס: "fracti consulis fasces" נמצא ב-1.17.22.3 (ראו סיכום) | ליוויוס 2.54–56; פלורוס |
+| 51 | נכון | ‏3.11.2 "quemcumque lictor iussu consulis prendisset, tribunus mitti iubebat" (הקונסולים: 3.10.6 "P. Volumnius, Ser. Sulpicius", ‏461) | ליוויוס 3.10–11 |
+| 52 | נכון | ‏3.25.9 "tribuni suo more impedire dilectum" (הקונסולים: 3.25.1 "L. Minucius inde et C. Nautius", ‏458) | ליוויוס 3.25 |
+| 53 | נכון | ‏3.38.10 "quem ad modum patres vocati non coeant in senatum, sic plebs abnuat dilectum"; ‏3.41.7 "iuniores, cum sine provocatione imperium esset, ad nomina respondent" | ליוויוס 3.38; ‏3.41 |
+| 54 | נכון | ‏3.57.9 "favore plebis non iuniores modo, sed emeritis etiam stipendiis pars magna voluntariorum ad nomina danda praesto fuere" | ליוויוס 3.57 |
+| 55 | נכון | ‏3.66.3 "persuaserant iis duces ... biennio ante dilectum indictum haberi non potuisse abnuente iam plebe imperium" (הקונסולים: 3.66.1, ‏446) | ליוויוס 3.66 |
+| 56 | נכון | ‏4.1.6 "numquam eos se vivo dilectum habituros, antequam ea, quae promulgata ab se collegisque essent, plebes scivisset"; ‏4.5.6 "nemo est nomen daturus, nemo arma capturus, nemo dimicaturus pro superbis dominis" | ליוויוס 4.1; ‏4.5 |
+| 57 | נכון | ‏4.53.1 "M. Aemilio, C. Valerio Potito consulibus"; ‏4.53.2 "dilectum habentem Valerium consulem M. Menenius tribunus plebis, legis agrariae lator, cum inpediret"; ‏4.55.4 "nec dilectum consules nec comitia, quae petebant, tribuni expediebant" (השנה: 4.54.1, ‏409) | ליוויוס 4.53–55 |
+| 58 | נכון | ‏6.27.10 "neque iuniores nomina dabant"; ‏7.4.3 "partim virgis caesis, qui ad nomina non respondissent" (השנה: 7.4.1 "Q. Servilio Ahala L. Genucio consulibus", ‏362) | ליוויוס 6.27; ‏7.4 |
+| 59 | נכון | בחיפוש שלי עלו רק 3.27.2, ‏4.31.9 ו-9.7.7 (חנויות סגורות), ו-6.25.9 (חנויות פתוחות). אין מחאה | ליוויוס 2–10, חיפוש |
+| 60 | נכון | ‏3.27.2 "iustitium edicit, claudi tabernas tota urbe iubet"; ‏4.31.9 "iustitium in foro tabernaeque clausae". כל שמונה ההפניות קיימות. הרשימה חלקית (ראו סיכום) | ליוויוס, חיפוש |
+| 61 | נכון | ‏9.7.7–8 "tabernae circa forum clausae, iustitiumque in foro sua sponte coeptum prius quam indictum" | ליוויוס 9.7 |
+| 62 | נכון | ‏3.52.4–5 "cum vasta Romae omnia insueta solitudo fecisset, in foro praeter paucos seniorum nemo esset" | ליוויוס 3.52 |
+| 63 | נכון | ‏3.48.5 "prope Cloacinae ad tabernas, quibus nunc novis est nomen, atque ibi ab lanio cultro arrepto"; ד"ה 11.37.5 "ὡς ἦν ἐγγὺς ἐργαστηρίου μαγειρικοῦ"; דיודורוס 12.24.4 "παρὰ κρεοπώλιον" | ליוויוס; ד"ה; דיודורוס |
+| 64 | נכון | ‏"ἐργαστηρ-" עלה בדיוק ב-9.60.5, ‏11.37.5 ו-11.39.7 | ד"ה 5–11, חיפוש |
+| 65 | נכון | ‏3.38.1 "idus Maiae venere. nullis subrogatis magistratibus privati pro decemviris ... prodeunt. id vero regnum haud dubie videri." | ליוויוס 3.38 |
+| 66 | נכון | ‏3.38.3 "Sabini magna manu incursionem in agrum Romanum fecere ... recepto ad Eretum ... agmine castra locant spem in discordia Romana ponentes" | ליוויוס 3.38 |
+| 67 | נכון | ‏3.38.5 "aequi alia ex parte castra in Algido locant depopulanturque inde excursionibus Tusculanum agrum. legati ea ab Tusculo praesidium orantes nuntiant." | ליוויוס 3.38 |
+| 68 | נכון | ‏11.3.2–3 "ἐν Ἠρήτῳ ... τετταράκοντα καὶ ἑκατὸν σταδίους πλησίον οὖσα Τιβέρεως ποταμοῦ"; ‏"ἐν Ἀλγιδῷ πόλει τίθενται τὸν χάρακα" | ד"ה 11.3 |
+| 69 | נכון | ‏3.41.9 "huic bellum in Sabinis M'. Rabuleio et Q. Poetelio additis collegis mandatum"; ‏3.41.10 "M. Cornelius in Algidum missus cum L. Minucio et T. Antonio et K. Duillio et M. Sergio. Sp. Oppium Ap. Claudio adiutorem ad urbem tuendam" | ליוויוס 3.41 |
+| 70 | נכון | ‏11.23.1 "δύο μὲν τάγματα κατέλιπον ἐν τῇ πόλει ... τρία δὲ ἔχοντες ἐξῆγον ἐπὶ Σαβίνους"; ‏11.23.2 "πέντε δὲ τὰ λοιπὰ τάγματα ... ἐπὶ τὸν πρὸς Αἰκανοὺς πόλεμον ... Λατίνων τε καὶ ἄλλων συμμάχων ἐπικουρικὸν οὐκ ἔλαττον τοῦ πολιτικοῦ πλήθους" | ד"ה 11.23 |
+| 71 | נכון | ‏3.42.3, כמו בציטוט | ליוויוס 3.42 |
+| 72 | נכון | ‏3.42.5 "castra quoque amissa erant ... Tusculum se, fide misericordiaque victurus hospitum, quae tamen non fefellerunt, contulerat"; ד"ה 11.23.5 "εἰς πόλιν Τύσκλον ἀφικνοῦντο" | ליוויוס; ד"ה |
+| 73 | נכון | ‏3.42.7 "decemvirosque ab arce Tusculi degressos in castris militem habere; castra alia a Fidenis in Sabinum agrum transferri" | ליוויוס 3.42 |
+| 74 | נכון | ‏3.43.2 "L. Siccium in Sabinis ... tribunorum creandorum secessionisque mentiones ... prospeculatum ad locum castris capiendum mittunt"; ד"ה 11.25.3 "ἐπὶ τὸν ἐν Κρουστομερείᾳ χάρακα"; ‏11.27.7 "τὸ μὲν δὴ περὶ Κρουστομέρειαν καὶ Φιδήνην στράτευμα" | ליוויוס 3.43; ד"ה 11 |
+| 75 | נכון | ‏3.45.8 "si tribunicium auxilium et provocationem plebi Romanae, duas arces libertatis tuendae, ademistis" (הדובר איקיליוס, 3.45.5–6) | ליוויוס 3.45 |
+| 76 | נכון | ‏3.44.2 "pater virginis, L. Verginius, honestum ordinem in Algido ducebat" | ליוויוס 3.44 |
+| 77 | נכון | "Decimus quidam Verginius" ("על המדינה" 2.63) | קיקרו |
+| 78 | נכון חלקית | ‏3.46.5 "fratrem Icili filiumque Numitori". אחיו של איקיליוס ובנו של נומיטוריוס, ולא "האחים" (ראו סיכום). את השאר אישרתי: "pergere inde recta ad portam"; ‏3.46.6 "citatisque equis nuntium ad patrem perferunt" | ליוויוס 3.46 |
+| 79 | נכון | ‏3.46.9 "collegisque in castra scribit, ne Verginio commeatum dent"; ‏3.46.10 "iam commeatu sumpto profectus Verginius prima vigilia erat" | ליוויוס 3.46 |
+| 80 | נכון | ‏3.48.6 "ferro quacumque ibat viam facere, donec multitudine etiam prosequentium tuente ad portam perrexit". אין שם של שער | ליוויוס 3.48 |
+| 81 | נכון | ‏11.37.7 "διεκπαισάμενος δὲ τὰς πύλας ἀνέβη τὸν ἵππον ... Ἰκιλίου τε καὶ Νομιτωρίου ... ὥστε τοὺς σύμπαντας ἀμφὶ τετρακοσίους γενέσθαι" | ד"ה 11.37 |
+| 82 | נכון | ד"ה 11.40.1 "περὶ λύχνων ἁφὰς ἐπὶ τὸν πρὸς Ἀλγιδῷ χάρακα"; דיודורוס 12.24.4 "πρὸς τὸ στρατόπεδον τὸ ἐν τῷ Ἀλγίδῳ καλουμένῳ τότε ὑπάρχον"; הדיגסטה 1.2.2.24 "de algido, ubi tunc belli gerendi causa legiones erant" | ד"ה; דיודורוס; `digest1.txt` |
+| 83 | נכון | ‏3.50.1 "in castra, quae tum in monte Vecilio erant". "מחוץ לטוסקולום" הוא היסק (ראו סיכום) | ליוויוס 3.50; ‏3.42.7 |
+| 84 | נכון | ‏3.50.3 "agmine prope quadringentorum hominum veniens, qui ab urbe ... comites ei se dederant" | ליוויוס 3.50 |
+| 85 | נכון | ‏3.50.10 "nec illius dolori nec suae libertati se defuturos"; ‏3.50.11 "ut ad arma conclamaretur vellerentque signa et Romam proficiscerentur" | ליוויוס 3.50 |
+| 86 | נכון | ‏3.50.13, כמו בציטוט | ליוויוס 3.50 |
+| 87 | נכון | ‏11.43.2 "ὅ τε γὰρ ὅρκος ὁ στρατιωτικός ... τοῖς στρατηγοῖς ἀκολουθεῖν κελεύει"; ‏11.43.3 "ἡ δὲ τῶν δέκα ἀνδρῶν ἐξουσία παράνομος ἦν ὑπερβαλοῦσα τὸν ἐνιαύσιον χρόνον" | ד"ה 11.43 |
+| 88 | נכון | ‏11.43.5 "διʼ ὅλης ἡμέρας ἐπιπορευθέντες ἑσπέρας καταλαβούσης παρῆσαν εἰς τὴν πόλιν ... διεξιόντες γὰρ τοὺς στενωποὺς ἐβόων, ὅτι φίλοι τʼ εἰσὶ" | ד"ה 11.43 |
+| 89 | נכון | ‏11.43.6 "ἔστι δὲ τῶν ἐμπεριεχομένων ἐν τῇ Ῥώμῃ λόφων οὗτος ἐπιτηδειότατος ἐνστρατοπεδεύεσθαι ... περί τε τὸ τῆς Ἀρτέμιδος ἱερὸν τίθενται τὰ ὅπλα ... χιλιάρχους δέκα ... ὧν ἡγεμὼν ἦν Μάρκος Ὄππιος" | ד"ה 11.43 |
+| 90 | נכון | ‏12.24.5 "μετὰ τῶν ὅπλων νυκτὸς εἰς τὴν Ῥώμην εἰσέπεσον. οὗτοι μὲν οὖν κατελάβοντο λόφον τὸν ὀνομαζόμενον Ἀουεντῖνον" | דיודורוס 12.24 |
+| 91 | נכון | ‏3.50.15, כמו בציטוט (ובהמשך: "belloque averso ab hostibus patriam suam cepissent") | ליוויוס 3.50 |
+| 92 | נכון | ‏3.50.16 "non defuit, quod responderetur; deerat, qui daret responsum". מקיאוולי: "E Tito Livio dice, che e' non mancava loro materia a rispondere, ma mancava loro chi facesse la risposta" | ליוויוס; `1-10.txt` |
+| 93 | נכון | ‏3.51.2 "placere decem creari, qui summae rei praeessent, militarique honore tribunos militum appellari"; ‏3.51.3–5: הוא מסרב | ליוויוס 3.51 |
+| 94 | נכון | ‏3.51.6–7 "neque in Sabinis quievit exercitus. ibi quoque auctore Icilio Numitorioque secessio ab decemviris facta est" | ליוויוס 3.51 |
+| 95 | נכון | ‏3.51.10, כמו בציטוט | ליוויוס 3.51 |
+| 96 | נכון | ‏11.44.1 "ἀπὸ τῆς ἐν Φιδήνῃ στρατιᾶς οἱ κράτιστοι τῶν τριῶν ταγμάτων λοχαγοὶ πολλὴν δύναμιν ἐπαγόμενοι"; ‏11.44.2 "δέκα χιλίαρχοι καθʼ ὁδὸν ἀποδειχθέντες ... Μάρκον Ὄππιον καὶ Σέξτον Μάλιον" | ד"ה 11.44 |
+| 97 | נכון | ‏11.44.4 "ἧκον οἱ ἐκ τῆς ἐν Φιδήνῃ στρατιᾶς ἡγεμόνες ἀγανακτοῦντες ἐπὶ τῷ καταλελεῖφθαι τοὺς χάρακας ὑπὸ τῶν στρατιωτῶν ἀμφοτέρους" | ד"ה 11.44 |
+| 98 | נכון | ‏347036492 Capitolinus Mons, ‏41.89258, 12.48222, ‏precise | פליאדס |
+| 99 | נכון | ‏422830, ‏41.72306, 12.76944, ‏precise, ‏"...known today as Monte Artemisio". חישוב: 30.36 ק"מ, כיוון 128 | פליאדס; חישוב |
+| 100 | נכון | ‏422829, ‏41.77434, 12.79494, ‏precise. חישוב: 29.05 ק"מ, כיוון 117 | פליאדס; חישוב |
+| 101 | נכון | אין "Vecil-" בפליאדס. "Corbione" מופיעה בליוויוס ב-2.39.4, ‏3.28.10, ‏3.30.2, ‏3.30.8, ‏3.66.6 ו-3.69.9, ולא ב-3.38–3.57. פליאדס 438722: "its precise location is no longer secure" (אבל בשדה הדיוק כתוב precise) | פליאדס; ליוויוס |
+| 102 | נכון | ‏423108, ‏41.79808, 12.70721, ‏precise, ‏"After 381 B.C., Tusculum became the first 'municipium cum suffragio'". חישוב: 21.40 ק"מ, כיוון 119. ממונטה פורציו קטונה ב-GeoNames ‏(41.81585, 12.71432): ‏2.06 ק"מ | פליאדס; GeoNames |
+| 103 | נכון | ‏413121, ‏42.10113, 12.62605, ‏"a settlement of the Sabines". חישוב: 26.06 ק"מ, כיוון 27. ‏140 כפול 185 מטר הם 25.9 ק"מ. הנקודה רחוקה 1.8 ק"מ מהטיבר של האתר | פליאדס; ד"ה 11.3.2; `latium-rivers.json` |
+| 104 | נכון | פידנאי: 10.32 ק"מ, כיוון 15. קרוסטומריום: 14.73 ק"מ, כיוון 22, ‏"at the headwaters of the Allia River, very close to the territory of the Sabines". ביניהן 4.66 ק"מ. נקודת האמצע (41.99857, 12.53275): ‏12.5 ק"מ | פליאדס; חישוב |
+| 105 | נכון | ‏268637493, ‏41.90732, 12.49868, ‏precise, ‏"At the Porta Collina the Via Salaria and the Via Nomentana divided. Some remains of the gate were identified in 1872 on the Via Venti Settembre" | פליאדס |
+| 106 | נכון | ‏3.50.13 "eunt agmine ad urbem"; ד"ה 11.43.5 "διʼ ὅλης ἡμέρας". אין דרך ואין שער. חישוב: מהר אלגידוס לשער קפנה (פליאדס 27164982: ‏41.884, 12.491) ‏29.2 ק"מ | ליוויוס; ד"ה; פליאדס |
+| 107 | נכון | ‏3.51.10 "porta Collina urbem intravere". פידנאי רחוקה 0.77 ק"מ מהטיבר של האתר. "דרך סלריה" היא היסק, כמו שהתיק אומר | ליוויוס; `latium-rivers.json` |
+| 108 | נכון | ‏3.46.6 "citatisque equis"; ד"ה 11.37.7 "ἀνέβη τὸν ἵππον". אין תיאור של הדרך | ליוויוס; ד"ה |
+| 109 | נכון | ‏11.44.5 "Λεύκιος δὲ Οὐαλέριος %2 %2 %2 %2 %2 %2 ἀλλʼ ὑπὲρ τῶν Ῥωμαϊκῶν νόμων, οὓς ἐν ταῖς δώδεκα δέλτοις..." | ד"ה 11.44 |
+| 110 | נכון | ‏3.38.3; ד"ה 11.3.2; ‏3.42.3 "fusi et ab Sabinis ad Eretum" | ליוויוס; ד"ה |
+| 111 | נכון | ‏3.38.5; ‏3.42.5 "castra quoque amissa erant" | ליוויוס |
+| 112 | נכון | ‏3.38.5 "legati ... ab Tusculo praesidium orantes"; ‏3.42.5 "fide misericordiaque victurus hospitum, quae tamen non fefellerunt" | ליוויוס |
+| 113 | נכון | ד"ה 11.23.2 "συνεστρατεύετο δʼ αὐτοῖς Λατίνων τε καὶ ἄλλων συμμάχων". ב-3.41–3.42 של ליוויוס אין לטינים | ד"ה; ליוויוס |
+| 114 | נכון | ‏3.52.7 "quid, si hostes ad urbem veniant, facturi estis?". ב-3.50–3.56 אין התקפה. במלחמות מדובר רק ב-3.57.8 ("Aequos Volscosque summa vi bellum apparare") | ליוויוס 3.50–57 |
+| 115 | נכון | ‏3.51.12 "illi negabant se aliter ituros, quam si decemviri deponerent insignia"; ‏3.51.13 "non ante quam perlatis legibus ... deposituros imperium" | ליוויוס 3.51 |
+| 116 | נכון | ‏3.52.1–2, כמו בציטוט ("qui tribunus plebis fuerat") | ליוויוס 3.52 |
+| 117 | נכון | ‏3.52.2 "admoniturum Sacrum montem constantiae plebis" | ליוויוס 3.52 |
+| 118 | נכון | ‏3.52.2–3 "via Nomentana, cui tum Ficulensi nomen fuit, profecti castra in monte Sacro locavere modestiam patrum suorum nihil violando imitati" | ליוויוס 3.52 |
+| 119 | נכון | ‏3.52.3–4 "secuta exercitum plebs nullo, qui per aetatem ire posset, retractante. prosecuntur coniuges liberique" | ליוויוס 3.52 |
+| 120 | נכון | ‏3.52.4–5 | ליוויוס 3.52 |
+| 121 | נכון חלקית | הציטוט מ-3.52.8 נכון, אבל הדוברים הם "plures iam quam Horatius ac Valerius" (3.52.5) (ראו סיכום) | ליוויוס 3.52.5–9 |
+| 122 | נכון | ‏3.52.10 "victi consensu decemviri futuros se ... in potestate patrum adfirmant"; ‏3.52.11 "nec suo sanguine ad supplicia patrum plebem adsuefaciant" | ליוויוס 3.52 |
+| 123 | נכון | ‏3.53.2 "gaudio ingenti plebis in castra accipiuntur, quippe liberatores haud dubie et motus initio et exitu rei" | ליוויוס 3.53 |
+| 124 | נכון | ‏3.53.3 "Icilius pro multitudine verba facit"; ‏3.53.4, כמו בציטוט | ליוויוס 3.53 |
+| 125 | נכון | ‏3.53.5 "dedi quippe eos aequum censebant vivosque igni concrematuros minabantur" | ליוויוס 3.53 |
+| 126 | נכון | ‏3.53.8–9 (הדוברים: "legati ad ea", ‏3.53.5) | ליוויוס 3.53 |
+| 127 | נכון | ‏3.54.5, כמו בציטוט | ליוויוס 3.54 |
+| 128 | נכון | ‏3.54.8–9 "in Aventinum ite, unde profecti estis! ibi felici loco, ubi prima initia inchoastis libertatis vestrae"; ‏2.32.3 (פיסו) | ליוויוס 3.54; ‏2.32 |
+| 129 | נכון | ‏3.54.10 "armati per urbem silentio in Aventinum perveniunt"; ‏3.54.11 "ibi extemplo pontifice maximo comitia habente tribunos plebis creaverunt" | ליוויוס 3.54 |
+| 130 | נכון | ‏3.54.11–13: ‏Verginium, Icilium, Numitorium ("avunculum Vergini"), ‏"C. Sicinium, progeniem eius, quem primum tribunum plebis creatum in Sacro monte proditum memoriae est", ‏Duillium, ועוד חמישה: Titinius, Pomponius, Apronius, Villius, Oppius | ליוויוס 3.54 |
+| 131 | נכון | ‏3.54.14–15, כמו בציטוט | ליוויוס 3.54 |
+| 132 | נכון | ‏3.55.3, כמו בציטוט | ליוויוס 3.55 |
+| 133 | נכון | ‏3.55.4 "de provocatione, unicum praesidium libertatis ... non restituunt modo, sed etiam in posterum muniunt"; ‏3.55.5, כמו בציטוט | ליוויוס 3.55 |
+| 134 | נכון חלקית | ‏3.55.7 "qui tribunis plebis, aedilibus, iudicibus decemviris nocuisset". חסרה המילה "decemviris" (ראו סיכום) | ליוויוס 3.55 |
+| 135 | נכון | ‏3.55.13 "ut senatus consulta in aedem Cereris ad aediles plebis deferrentur, quae antea arbitrio consulum supprimebantur vitiabanturque"; ‏3.55.14 "tergo ac capite puniretur" | ליוויוס 3.55 |
+| 136 | נכון | ‏3.57.10 "leges decemvirales, quibus tabulis duodecim est nomen, in aes incisas in publico proposuerunt" | ליוויוס 3.57 |
+| 137 | נכון | ‏11.45.1 "τὸν κελεύοντα τοὺς ὑπὸ τοῦ δήμου τεθέντας ἐν ταῖς φυλετικαῖς ἐκκλησίαις νόμους ἅπασι κεῖσθαι Ῥωμαίοις ἐξ ἴσου"; ‏11.45.2 "θάνατος καὶ δήμευσις τῆς οὐσίας" | ד"ה 11.45 |
+| 138 | נכון | ‏12.25.2 "δέκα ... δημάρχους μεγίστας ἔχοντας ἐξουσίας τῶν κατὰ τὴν πόλιν ἀρχόντων ... οἱονεὶ φύλακας τῆς τῶν πολιτῶν ἐλευθερίας ... ἐξουσίας οὔσης τῷ δήμῳ καὶ ἀμφοτέρους τοὺς ὑπάτους ἐκ τοῦ πλήθους αἱρεῖσθαι"; ‏12.25.3 "ζῶντας κατακαυθῆναι" | דיודורוס 12.25 |
+| 139 | נכון | ‏"furano constituiti per guardia della libertà romana" מול "φύλακας τῆς τῶν πολιτῶν ἐλευθερίας". ההקבלה היא היסק | `1-2.txt`; דיודורוס |
+| 140 | נכון | ליוויוס 3.50.13, ‏3.52.1–3 ו-3.54.10; קיקרו 2.63, כמו בציטוט | ליוויוס; קיקרו |
+| 141 | נכון | דיודורוס 12.24.5; הדיגסטה 1.2.2.24 "signa in aventinum transtulerunt, omnisque plebs urbana mox eodem se contulit"; פלורוס 1.17.24.3; אמפליוס "in Aventino monte"; ד"ה 11.43.6–11.44.4, ואחריו החסר ב-11.44.5 | שם |
+| 142 | נכון | "Tum interposita fide per tris legatos amplissimos viros Romam armati revertuntur. In Aventino consederunt; inde armati in Capitolium venerunt; decem tr.pl. per pontificem, quod magistratus nullus erat, creaverunt." הקטע נמצא בין הסימנים (77) ו-(78) | `asconius.txt` |
+| 143 | נכון | "Legati tres quorum nomina non ponit hi fuerunt: Sp.Tarpeius, C. Iulius, P. Sulpicius, omnes consulares; pontifex max. fuit M. Papirius." ליוויוס 3.50.15; ‏3.53.1; ‏3.54.5 "Q. Furius pontifex maximus" | `asconius.txt`; ליוויוס |
+| 144 | נכון | עמ' 834: "According to Cicero, the armed soldiers first occupied the Sacred Mount and then the Aventine Hill (Rep. 2.63)". ההמשך על דואיליוס אומת (בניסוח של הכלי) | [Koptev PDF](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf) |
+| 145 | נכון | ‏865014139, ‏41.88333, 12.48333, ‏"Until the reign of the emperor Claudius, the hill lay outside the pomerium". חישוב: 1.03 ק"מ, כיוון 175. מהשער הקוליני 2.95 ק"מ, כיוון 205 | פליאדס; חישוב |
+| 146 | נכון | ‏3.31.1 "de Aventino publicando lata lex est" (הקונסולים "M. Valerius, Sp. Verginius", ‏456); ‏3.32.7 "modo ne lex Icilia de Aventino aliaeque sacratae leges abrogarentur"; ד"ה 10.32.4–5 "ἐν στήλῃ χαλκῇ γεγραμμένος, ἣν ἀνέθεσαν ἐν τῷ Αὐεντίνῳ κομίσαντες εἰς τὸ τῆς Ἀρτέμιδος ἱερόν" | ליוויוס; ד"ה 10 |
+| 147 | נכון | חיפשתי בפליאדס "Diana" ו-"Artemis" בכותרות, ו-"Diana" בתיאורים בתחום של רומא. יש רק "Temple of Diana at Nemi" | פליאדס |
+| 148 | נכון (ההכרעה באטלס: לא ניתן לבדיקה כאן) | ‏423029, ‏41.93326, 12.53447, ‏precise, התיאור כמו בציטוט. הנקודה 41.9410, 12.5345 נמצאת על הגדה הימנית (הצפונית-מזרחית) של האניו, לפי `latium-rivers.json` (באורך 12.5345 הנהר עובר ב-41.9288). היא 0.53 ק"מ מהנהר ו-0.86 ק"מ צפונית לנקודה של פליאדס | פליאדס; `latium-rivers.json` |
+| 149 | נכון (חלק מהנקודות: לא ניתן לבדיקה כאן) | השער הנומנטני 187832462 ‏(41.90860, 12.50208), ‏"built between 270 and 273 AD". סנט אנייזה 423035 ‏(41.92295, 12.51803). פונטה נומנטנו 50864838 ‏(41.93360, 12.53249), באמצע בין שני הקצות שבתיק. את (41.9345, 12.5355) ואת המרכז מ-ch03-geo לא בדקתי | פליאדס |
+| 150 | נכון | ‏699256589, ‏rough, ‏(41.94071, 12.55135), ‏"The ancient road connecting Rome and Nomentum". ‏422922, ‏(41.99671, 12.61913), ‏"situated between Rome and Nomentum" | פליאדס |
+| 151 | נכון | ‏674507252, ‏41.89256, 12.48544, התיאור כמו בציטוט. חישוב: 0.27 ק"מ, כיוון 90.5 | פליאדס; ליוויוס 3.48.5 |
+| 152 | נכון | אין "Prata Flaminia". ‏158081395, ‏rough, ‏41.89252, 12.47857. חישוב: 0.30 ק"מ, כיוון 269. ליוויוס 3.54.15: "quem nunc circum Flaminium appellant" | פליאדס; ליוויוס |
+| 153 | נכון | כמו בטענה 98; אסקוניוס "in Capitolium venerunt" | פליאדס |
+| 154 | נכון | ‏3.51.10 "mediaque urbe agmine in Aventinum pergunt" | ליוויוס |
+| 155 | נכון | ‏3.52.1–3 | ליוויוס |
+| 156 | נכון | ‏3.54.10 "armati per urbem silentio in Aventinum perveniunt". אין דרך | ליוויוס |
+| 157 | נכון | ‏2.32.2 "in Sacrum montem secessisse — trans Anienem amnem est, tria ab urbe milia passuum". אין דרך | ליוויוס 2.32 |
+| 158 | נכון | ‏2.32.2–3, כמו בציטוט; ‏2.33.1 "ut plebi sui magistratus essent sacrosancti" | ליוויוס 2.32–33 |
+| 159 | נכון | ‏3.54.12, כמו בציטוט | ליוויוס 3.54 |
+| 160 | נכון | ‏3.57.9 "Horatio Sabini, Valerio Aequi evenere" | ליוויוס 3.57 |
+| 161 | נכון | ‏4.1.1, כמו בציטוט | ליוויוס 4.1 |
+| 162 | נכון | ‏4.1.2 "ut rogationem novem tribuni promulgarent, ut populo potestas esset, seu de plebe seu de patribus vellet, consules faciendi" | ליוויוס 4.1 |
+| 163 | נכון | ‏4.1.4, כמו בציטוט | ליוויוס 4.1 |
+| 164 | נכון | ‏4.1.5 "ut inter strepitum tot bellorum conticiscerent actiones tribuniciae, dilectus haberi ... iubent" | ליוויוס 4.1 |
+| 165 | נכון | ‏4.1.6 | ליוויוס 4.1 |
+| 166 | נכון חלקית | הציטוטים נכונים, אבל הדוברים הם הקונסולים: "negabant consules" (4.2.1) (ראו סיכום) | ליוויוס 4.2 |
+| 167 | נכון | ‏4.2.13 "sed audeat Canuleius in senatu proloqui se, nisi suas leges tamquam victoris patres accipi sinant, dilectum haberi prohibiturum? quid esse aliud quam minari se proditurum patriam". זה עדיין דיבור עקיף של הקונסולים (ראו טענה 166) | ליוויוס 4.2 |
+| 168 | נכון | ‏4.4.5 "quid est aliud quam exilium intra eadem moenia"; ‏4.4.10 "qua dirimatis societatem civilem duasque ex una civitates faciatis" | ליוויוס 4.4 |
+| 169 | נכון | ‏4.5.2 "an, ut quaeque rogatio promulgata erit, vos dilectum pro poena decernetis"; ‏4.5.3 "quantum istae minae adversus plebis consensum valerent, bis iam experti essetis" | ליוויוס 4.5 |
+| 170 | נכון | ‏4.5.6, כמו בציטוט; ד א 4 "non voleva dare il nome per andare alla guerra" | ליוויוס 4.5; `1-2.txt` |
+| 171 | נכון | ‏4.6.3–4, כמו בציטוט | ליוויוס 4.6 |
+| 172 | נכון | ‏2.63 "quae postea plebei scito Canuleio abrogata est" | קיקרו |
+| 173 | נכון | ‏4.6.5 "accensi alii tribuni ... crescente in dies fama belli dilectum inpediunt" | ליוויוס 4.6 |
+| 174 | נכון חלקית | ‏4.6.6 "consilia principum domi habebant": המועצה הייתה בבית, ולא בסנאט. ציטוט הקווינקטים מ-4.6.7 נכון (ראו סיכום) | ליוויוס 4.6; ד"ה 11.60.5 |
+| 175 | נכון | ‏4.6.8, כמו בציטוט | ליוויוס 4.6 |
+| 176 | נכון | ‏4.6.11 "tribunos enim omnes patricios creavit populus, contentus eo, quod ratio habita plebeiorum esset"; ‏4.6.12, כמו בציטוט | ליוויוס 4.6 |
+| 177 | נכון | ‏11.53.1 "ἐκτὸς ἑνὸς Γαΐου Φουρνίου πάντες οἱ λοιποὶ"; ‏11.57.2 "παρελθὼν εἷς ἐξ αὐτῶν Γάϊος Κανολήιος". ב-11.50–11.63 אין "γαμ-" | ד"ה 11 |
+| 178 | נכון | ‏11.54.1 "μέλλουσιν ἐλαύνειν ἐπʼ αὐτοὺς Αἰκανοί τε καὶ Οὐολοῦσκοι"; ‏11.54.2 "Οὐιεντανοὶ παρασκευάζεσθαι πρὸς ἀπόστασιν, Ἀρδεᾶται τʼ αὐτῶν οὐκέτι ἦσαν ὑπήκοοι ... ἐν τῷ παρελθόντι ἐνιαυτῷ" | ד"ה 11.54 |
+| 179 | נכון | ‏11.54.3, כמו בציטוט | ד"ה 11.54 |
+| 180 | נכון | ‏11.61.2 "ἢ καταλείψοντες τὴν πόλιν ὡς πρότερον, ἢ διὰ τῶν ὅπλων αὐτὸ ληψόμενοι, ἐπειδὴ τὸ συγχώρημα ἔλαβον, ἀπέστησαν εὐθὺς τῆς ἐπιθυμίας" | ד"ה 11.61 |
+| 181 | נכון | ‏11.61.3 "Αὖλον Σεμπρώνιον Ἀτρατῖνον καὶ Λεύκιον Ἀτίλιον Λοῦσκον καὶ Τίτον Κλύλιον Σικελόν". הכתיב היווני הוא Κλύλιος | ד"ה 11.61 |
+| 182 | נכון | פלורוס 1.17.25.1; אמפליוס "quam Canuleius concitavit in monte Ianiculo" | פלורוס; `ampelius.txt` |
+| 183 | נכון | ב-4.1–4.6 אין "secess-" ואין "Ianicul-". ד"ה 11.53–11.61: רק האיום ב-11.61.2 | ליוויוס 4; ד"ה 11 |
+| 184 | נכון | הפריוכה של ספר 11: "secessit in Ianiculum". פליניוס (16.10 במספור של Perseus): "Q. Hortensius dictator, cum plebes secessisset in Ianiculum, legem in aesculeto tulit". ההעברה ל-445 היא היסק, כמו שהתיק אומר | `liv.per11.txt`; פליניוס |
+| 185 | נכון | ‏422843, ‏41.60939, 12.54703, ‏"an ancient settlement of the Rutuli in Latium". חישוב: 31.95 ק"מ, כיוון 170. מארדאה ב-GeoNames ‏(41.60742, 12.54158): ‏0.50 ק"מ | פליאדס; GeoNames |
+| 186 | נכון | ‏423116, ‏42.02134, 12.39052, ‏"located north-northwest of Rome". חישוב: 16.20 ק"מ, כיוון 332 | פליאדס |
+| 187 | נכון | ‏438872, ‏rough, ‏41.45483, 13.18137, ‏"Its location is now uncertain." | פליאדס |
+| 188 | נכון | ‏430827518 Janiculum, ‏41.88333, 12.46667, ‏precise | פליאדס |
+| 189 | נכון | ‏4.1.4 "descisse"; ד"ה 11.54.2; ‏4.7.4 "in foedere atque amicitia mansuros restituto agro"; ‏4.7.10 "cum Ardeatibus foedus renovatum est"; ‏3.71.2 "Aricini atque Ardeates de ambiguo agro"; ‏3.72.6 "iudicaverunt agrum publicum populi Romani esse" | ליוויוס 3.71–72; ‏4.1; ‏4.7; ד"ה |
+| 190 | נכון | ‏4.1.4 "Veientes depopulatos extrema agri Romani"; ד"ה 11.54.2 | ליוויוס; ד"ה |
+| 191 | נכון | ‏4.1.4 "Volscos Aequosque ob communitam Verruginem fremere"; ד"ה 11.54.1 | ליוויוס; ד"ה |
+| 192 | נכון | ‏4.7.12 "et foris, cum tot terrores a finitimis ostentati essent, et domi otium fuit". גם 4.7.1 "concordia domi pacem etiam foris praebuit" | ליוויוס 4.7 |
+
+---
+
+# נספח ב: דוח הבודק העצמאי, חלק ב (טענות 193–354)
+
+## בדיקה עצמאית, חלק ב: "הפרישות" (פרק 4), טענות 193–354
+
+**הבודק:** בודק עצמאי (חלק ב). לא ראיתי טיוטות, נימוקים, `index.html` או קבצים אחרים ב-`facts/`. הקלט היחיד: `.check/ch04-secessions-claims.md`.
+**תאריך:** 26.11.2026.
+**היקף:** טענות 193–354 (חלקים ז–טו). טענות 1–192 בודק אחר. כשטענה בטווח נשענת על טענה מחוץ לו, בדקתי רק את מה שהטענה עצמה אומרת.
+
+---
+
+### 1. סיכום
+
+| הכרעה | מספר |
+|---|---|
+| נכון | 143 |
+| נכון חלקית (צריך תיקון) | 19 |
+| שגוי | 0 |
+| לא אומת | 0 (חלקים של טענות שלא אומתו מסומנים בטבלה) |
+| **סה"כ** | **162** |
+
+#### תיקון אחד שחוזר בכמה טענות (ניסוח, לא עובדה)
+
+- **"השמנים":** בטענות 194, 214, 243, 249, 253, 269, 270 ו-310 העם נקרא "השמנים". בעברית זה נקרא "the fat ones". באותו תיק עצמו כתוב "ההיסטוריה הסמניטית" (אפיאנוס), ובפרויקט הסיכום של פרק 15 נקרא "הסמניטים". **התיקון:** "הסמניטים" בכל המקומות.
+
+#### הטענות שצריך לתקן, והנוסח המתוקן
+
+**199** (שם שגוי של הקונסול). הקונסול הוא "C. Marcius Rutilus" (7.38.8), ולא "מרקוס". נוסח מתוקן:
+> גאיוס מרקיוס רוטילוס הפיץ שמועה שחילות המצב יחרפו באותן ערים גם בשנה הבאה ("rumorem dissipat in iisdem oppidis et anno post praesidia hibernatura", 7.38.9). "eo laxamento cogitationibus dato quievit in praesentia seditio" ("וכשניתנה כך הקלה למחשבות, ההתקוממות נרגעה לעת עתה") (7.38.10). זה מה שמקיאוולי מספר בד ג 6, אבל אצלו ההודעה היא החלטה של הסנאט: "pubblicò come il Senato aveva raffermo le stanze alle legioni capovane". [מסורת]
+
+**227** (אין במקור "לא היו נאומים"). ליוויוס כותב "nec ab ducibus mentionem concordiae ortam" (7.42.5). נוסח מתוקן:
+> בגרסה הזו לא המפקדים העלו את הפיוס ("nec ab ducibus mentionem concordiae ortam"). כשהצבאות יצאו למערכה, החיילים התחילו לברך, ללחוץ ידיים ולהתחבק בבכי, והקונסולים, כשראו שהחיילים לא רוצים להילחם, נאלצו ("coactos") להביא את הפיוס לסנאט (7.42.5–6). ליוויוס מסכם: "adeo nihil praeterquam seditionem fuisse eamque conpositam inter antiquos rerum auctores constat" (7.42.7). [מקור]
+
+**232** (המגדל לא נמצא במרכז היישוב). נוסח מתוקן:
+> **זיהוי אחר ללאוטולאי:** אתר התיירות הרשמי של איטליה ממקם את מגדל פורטלה "At kilometre 112.300 on the Appian Way, in the territory of Monte San Biagio", וקושר אותו לקרב של 315: "In 315 BC the Romans defeated the Samnites here, in a battle recorded by Livy, who called this place Lautulae" ([italia.it](https://www.italia.it/en/lazio/monte-san-biagio/portella-tower)). המגדל לא נמצא במרכז היישוב. לפי komoot (קואורדינטות של מפה, בקירוב) הוא בערך ב-41.344, 13.338, כ-1.6 ק"מ דרום-מערבית למרכז מונטה סן ביאג'ו, וכ-6.5 ק"מ מנקודת פליאדס, בכיוון 70. (מרכז מונטה סן ביאג'ו ב-GeoNames: 41.3536, 13.35184, כלומר 8.0 ק"מ בכיוון 66.) (חישוב שלי.) זה לא מקור מחקרי. [מחלוקת; משוער]
+
+**233** (התיאור של השטח לא נכון לכל התיבה). נוסח מתוקן:
+> ב-SRTM, בין 41.30 ל-41.33 צפון ובין 13.31 ל-13.40 מזרח, הקרקע נמוכה (בערך מ-3- עד 20 מטר, כולל אגם פונדי). בפינה הצפון-מערבית של התיבה (13.29–13.31 מזרח, 41.31–41.33 צפון) הקרקע כבר עולה ל-100–540 מטר. הרים של יותר מ-300 מטר צמודים לרצועה רק ממערב לקו 13.34 בערך (41.34–41.36 צפון). מזרחה משם, מישור פונדי נמשך צפונה עד 41.37–41.38. כלומר "inter mare ac montis" מתאים בעיקר לקטע שבין 13.29 ל-13.35, ולא לכל הרצועה עד פונדי. איפה בדיוק לאוטולאי, המקור לא אומר. [היסק; משוער]
+
+**251** (לא "בתחילת השנה"). 7.38.1 עוד שייך ל-343. הקונסולים של 343 חוגגים ניצחון ב-7.38.3, והקונסול החדש של 342 מופיע רק ב-7.38.8. נוסח מתוקן:
+> ובסוף 343, אחרי הניצחון על הסמניטים, "huius certaminis fortuna ... Latinos iam exercitibus conparatis ab Romano in Paelignum vertit bellum" ("תוצאת המאבק הזה הפנתה את המלחמה של הלטינים, שכבר הכינו צבאות, מהרומאים אל הפליגנים") (7.38.1). [מסורת]
+
+**254** (ההפניה). המשפט על המושבה נמצא ב-8.21.10, ולא ב-8.21.11. נוסח מתוקן:
+> מושבה של 300 איש נשלחה לשם רק ב-329: "eodem anno Anxur trecenti in coloniam missi sunt" (8.21.10), "bina iugera agri acceperunt" (8.21.11).
+
+**259** (המיקום אצל פומפוניוס). הטקסט: "Deinde cum esset in civitate lex duodecim tabularum et ius civile, essent et legis actiones". נוסח מתוקן לסוף הטענה:
+> פומפוניוס שם את זה אחרי שנים עשר הלוחות, ה-ius civile וה-legis actiones, כלומר אחרי הקטע על גנאיוס פלביוס וסקסטוס איליוס (1.2.2.7), ובלי שנה.
+
+**262** (שמות החוקרים). בוויקיפדיה ההבדל בין שלושת החוקים מבוסס על Abbott 1963, עמ' 52 (הערה 4). Develin 1978 מצוטט שם רק על הדמיון בין החוקים, ו-Lintott לא מצוטט בפסקה הזו בכלל (רק בפתיחה). נוסח מתוקן:
+> ויקיפדיה (בשם Abbott 1963, עמ' 52; ועל הדמיון בין החוקים, Develin 1978) מסבירה את ההבדל: ... את Abbott ואת Develin לא קראתי. [מחקר; דרך ויקיפדיה]
+
+**264** (הייחוס למקרוביוס). נוסח מתוקן:
+> ויקיפדיה מייחסת להורטנסיוס עוד חוק: "Another law, passed about the same time, which declared the nundinae (market days) to be dies fasti, is also attributed to him" ([Quintus Hortensius (dictator)](https://en.wikipedia.org/wiki/Quintus_Hortensius_(dictator))). היא לא קושרת את המשפט הזה למקור מסוים, אבל ברשימת המקורות שלה מופיע "Macrobius, Saturnalia i. 16". המילון של Smith (באתר LacusCurtius) כותב "according to Granius Licinianus (ap. Macr. l.c.), this change was introduced at a later time by the Lex Hortensia, 286 B.C." ([Nundinae](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/SMIGRA*/Nundinae.html)). את מקרוביוס עצמו לא ראיתי. [לא נבדק]
+
+**269** (התקציר לא מסודר לפי הזמן). הפריוכה כותבת "Res praeterea ... continet" ("הספר מכיל גם"). נוסח מתוקן: במקום "לפני הפרישה ... ואחרי הפרישה" צריך לכתוב "בתקציר, לפני הקטע על הפרישה ... ואחריו". הסדר בתקציר הוא לא סדר של שנים (כמו בטענה 271).
+
+**278** (ציטוט לא מילולי). המשפט אצל Koptev (עמ' 838): "Recently G. Forsythe has revived an old theory of Ed. Meyer that the secession of 287, which occurred within a generation of the first Roman annalistic writers, was the only authentic, historical secession." נוסח מתוקן לחלק הראשון:
+> **Koptev, על 287:** "Recently G. Forsythe has revived an old theory of Ed. Meyer that the secession of 287 ... was the only authentic, historical secession" (עמ' 838).
+
+שאר הטענה נכון. ("an account of the foundation of new colonies or tribes", עמ' 841, מתייחס לפרישה של 287: "behind the secession of 287 is an account of the foundation of new colonies or tribes". על העמוד של המשפט על הורטנסיוס ראו בטבלה.)
+
+**279** (הציטוט קטוע, וזה משנה את המשמעות). המשפט המלא (עמ' 838): "the original events of 342 concerned the admission of a large group of the plebeians (from the Latins who had received Roman citizenship) to participate in the election of the high magistracy". נוסח מתוקן:
+> ... וחושב שבמקור, אירועי 342 היו על קבלה של קבוצה גדולה של פלבאים (לטינים שקיבלו אזרחות רומית) להשתתפות בבחירות למשרות העליונות ("the original events of 342 concerned the admission of a large group of the plebeians (from the Latins who had received Roman citizenship) to participate in the election of the high magistracy", עמ' 838) ...
+
+**283** (ולאיוס לא מזכיר פרישות). נוסח מתוקן למשפט האחרון:
+> כלומר ולאיוס רואה את מחלוקות האזרחים שלפני 133 כמחלוקות שנהגו להירפא בתנאים ("condicionibus sanari solitae"). הוא לא מזכיר פרישות. הקישור לפרישות הוא היסק. [מקור; הקישור: היסק]
+
+**326** ו-**335** ("מת בכלא" מסתיר התאבדות). ליוויוס: אפיוס "in carcerem est coniectus" (3.57.6), "priusquam prodicta dies adesset, Appius mortem sibi conscivit" (3.58.6); אופיוס "ductus in vincula est et ante iudicii diem finem ibi vitae fecit" (3.58.9). נוסח מתוקן:
+> 326: אפיוס קלאודיוס: הדקמוויר (3.44–3.49). הושלך לכלא (3.57.6), והתאבד לפני יום המשפט (3.58.6; סיפור ב). [מסורת]
+> 335: ... ואפיוס ואופיוס שמו קץ לחייהם בכלא, לפני המשפט (3.58.6, 3.58.9). ...
+
+**334** ("הסיבה" מוגזם אצל ליוויוס). אצל ליוויוס הריבית היא רק אחת מטענות החיילים, לצד התענוגות של קפואה (7.38.5–7). נוסח מתוקן למשפט השני:
+> אצל המקורות החובות הם סיבה ב-342: אצל ליוויוס הם אחת מטענות החיילים ("tabem crescentis in dies faenoris", 7.38.7), לצד התענוגות של קפואה (7.38.5); אצל דיוניסיוס רוב חיל המצב "ἀνεστίων καὶ καταχρέων" (15.3.3); ואצל אפיאנוס החיילים "τὴν δὲ αἰτίαν ἐς τὰ χρέα φερόντων τὰ ἐν Ῥώμῃ" (1.1). וב-287: "propter aes alienum" (Per. 11).
+
+**338** (מי אומר). את המשפט אומרים הקונסולים, בסנאט, בדיבור עקיף: "negabant consules ... maximum Romae praemium seditionum esse" (4.2.1–3). נוסח מתוקן:
+> **הקונסולים של 445 רואים את זה הפוך:** בסנאט הם אמרו ש-"maximum Romae praemium seditionum esse" ("ברומא הפרס הגדול ביותר הוא על התקוממויות") (4.2.1–3). מה שבעיני מקיאוולי הוא התרופה, בעיניהם הוא המחלה. [מקור; היסק]
+
+**352** (חסר מומצא). בקובץ אין שום חסר בין "con la industria," לבין "con le girandole". הנוסח המלא, מילה במילה, וזה המשפט האחרון של הפרק:
+> "Fu eccellentissima la disciplina militare, e la virtú sua sostenne tutti gli altri difetti del governo, e' quali importano manco in una cittá che si regge in sulle arme, che in quelle che si governano con la industria, con le girandole e con le arte della pace." (תרגום חופשי: "... מאשר בערים שמתנהלות בחריצות, בתחבולות ובאומנויות השלום".)
+
+צריך למחוק את "[...]" ואת "את האמצע לא ראיתי".
+
+**353** (גיצ'ארדיני לא אומר ש"הסדר עבד"). הוא קורא לשאר הסדרים "difetti del governo". נוסח מתוקן:
+> **מה גיצ'ארדיני אומר, בקצרה:** הוא לא מכחיש שרומא נעשתה חופשית וחזקה, אבל הופך את הסיבה. לא חוסר האחדות ("Non fu adunche la disunione tra la plebe ed el senato che facessi Roma libera e potente"), אלא שהפטריקים העדיפו להיכנע לרצון הפלבס, והמשמעת הצבאית, שמידתה הטובה "sostenne tutti gli altri difetti del governo". זה הפוך ממקיאוולי, שכותב שהמהומות היו "prima causa del tenere libera Roma" (טענה 3). [מקור; היסק]
+
+#### הערות שלא דורשות תיקון, אבל חשובות להכרעות
+
+- **304 / 238 (אבן המיל השמינית):** החישוב נכון. אבל בפליאדס יש עוגנים שסותרים זה את זה. Casal Rotondo (422869, "at the sixth mile") רחוק 8.81 ק"מ משער קפנה, ושני מילין מעבר לו נותנים 11.77 ק"מ, כלומר 0.2 ק"מ לפני הנקודה המוצעת. מצד שני, Berretta del Prete (119213387, "at the ninth mile") רחוק רק 0.34 ק"מ מהנקודה המוצעת. אי הוודאות היא בערך מיל אחד. לפי כלל 3 עדיף לסמן אזור מקווקו, ולא נקודה.
+- **302 (לאוטולאי):** הנקודה של פליאדס נמצאת על מדרון, בגובה 333 מטר, ו-ToposText נותן לה "Low". לפי כלל 3: אזור מקווקו.
+- **236:** אצל אפיאנוס כתוב "ἐν τοῖς ὄρεσι τοῖς Ἀλβανῶν", בלשון רבים, כלומר הרי אלבה בכלל, ולא דווקא הפסגה של מונטה קאבו.
+- **197:** בדיוניסיוס 15.3.6 כתוב "ἔλεγον" ("אמרו"), ולא "חשבו". ואת זה אומרים העניים ובעלי החובות שבחיל המצב.
+- **274:** בדקתי עכשיו מהדורה אחרת. ב-The Latin Library (`cicero/amic.txt`) כתוב "inter constantem et severum et gravem". את התג [לא נבדק] אפשר להחליף בהפניה הזו.
+- **220:** גם ב-The Latin Library (`livy/liv.7.txt`) כתוב "ne quis, ubi tribunus militum fuisset, postea ordinum ductor esset". זה הנוסח ש-Foster מתרגם, ולכן המחלוקת בנוסח מאומתת.
+- **336:** בספרים ששרדו מצאתי עוד סגירת חנויות אחת, לא כמחאה: 23.25.1, "tabernis clausis", מפחד, אחרי תבוסה (216).
+- **350:** הנוסח הרצוף אומת מילה במילה (ראו בטבלה). את ההערה "[הנוסח הרצוף הורכב מכמה תשובות של הכלי]" אפשר להוריד.
+
+---
+
+### 2. שיטה ומגבלות
+
+#### מה נפתח בפועל
+
+**מקורות מקומיים** (חילצתי בעצמי עם `extract.py` לתיקיית עבודה משלי):
+- **ל** = ליוויוס בלטינית, Weissenborn–Müller ([Perseus lat2](https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0914/phi001/phi0914.phi001.perseus-lat2.xml)), ספרים 1–10 ו-21–45.
+- **פ** = Foster ([Perseus eng1](https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0914/phi001/phi0914.phi001.perseus-eng1.xml)).
+- **ד"ה** = דיוניסיוס, ספרים 11 ו-15 ([Perseus grc2](https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0081/tlg001/tlg0081.tlg001.perseus-grc2.xml)).
+- **אפ** = אפיאנוס, "הסמניטית", יוונית ו-White ([Perseus grc2](https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0551/tlg004/tlg0551.tlg004.perseus-grc2.xml), [eng2](https://github.com/PerseusDL/canonical-greekLit/blob/master/data/tlg0551/tlg004/tlg0551.tlg004.perseus-eng2.xml)).
+- פליניוס ([phi0978.phi001 lat2](https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0978/phi001)): הקטע נמצא בספר 16, פרק 10 של Perseus, וזה §37 במספור המקובל.
+- גליוס ([phi1254.phi001 lat2](https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi1254/phi001)).
+- קיקרו, "על הידידות" ([phi0474.phi052 lat2](https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi0474/phi052)).
+- טקיטוס, "אנאלים" ([phi1351.phi005 lat2](https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi1351/phi005)).
+- **LL** = המראה של The Latin Library ב-GitHub ([cltk/lat_text_latin_library](https://github.com/cltk/lat_text_latin_library)). הורדתי בעצמי: `livy/liv.per11.txt`, `livy/liv.per12.txt`, `gaius1.txt`, `justinian/digest1.txt`, `augustine/civ3.txt`, `vell2.txt`, `cicero/amic.txt`, `livy/liv.7.txt`.
+- **מק'** = מקיאוולי באיטלקית, `~/.atlas-cache/src/machiavelli/`: `1-2.txt` (ד א 4), `1-10.txt`, `1-11.txt`, `2-8.txt` (ד ב 20), `2-10.txt` (ד ב 26), `3-3.txt` (המשך ד ג 6, שמתחיל ב-`3-2.txt`).
+- **פל** = פליאדס, `pleiades-places.csv` ([isawnyu/pleiades.datasets](https://github.com/isawnyu/pleiades.datasets)). **GN** = GeoNames, `cities.json` ([lutangar/cities.json](https://github.com/lutangar/cities.json)). **SRTM** = `srtm_39_04.tif`. **נהרות** = `tools/terrain/latium-rivers.json`.
+- **חישובים:** haversine (R = 6371.0088 ק"מ), אזימוט מהנקודה הראשונה, ונקודת יעד לפי אזימוט ומרחק. מיל = 1.4785 ק"מ, כמו בתיק. גובה SRTM נדגם בתא של 3 שניות קשת.
+
+**מקורות ברשת** (WebSearch, ואחריו WebFetch):
+- גיצ'ארדיני, קובץ Liber Liber ([PDF](https://linux.studenti.polito.it/static_resources/liberliber/biblioteca/g/guicciardini/considerazioni_intorno_ai_discorsi_del_machiavelli_sopra_etc/pdf/consid_p.pdf)). בדף הפתיחה: "TRATTO DA: Opere ... VIII: Scritti politici e Ricordi", בעריכת Roberto Palmarocchi, Scrittori d'Italia, Laterza, בארי 1933. הכלי מחזיר לכל היותר 120 תווים בכל ציטוט. לכן קראתי את הפרק ברצף של קטעים חופפים, בשש פניות, וחיברתי אותם בעצמי. החיבור זהה תו בתו לטענות 349–351 (בדקתי ב-diff). שאלתי גם שלוש שאלות ביקורת על מילים בודדות ("e molto utile" ולא "e fu molto utile"; "ed el senato"; "le disunione"), והתשובות תאמו.
+- [Treccani, Pagnotta](https://www.treccani.it/enciclopedia/marco-tullio-cicerone_(Enciclopedia-machiavelliana)/); [Koptev, PDF](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf) (ארבע פניות); [Bradley, תקציר](https://www.cambridge.org/core/journals/antichthon/article/abs/mobility-and-secession-in-the-early-roman-republic/F224515D6F8FA19C070029777DA528C5).
+- ויקיפדיה: [Lex Hortensia](https://en.wikipedia.org/wiki/Lex_Hortensia) (כולל רשימת ההערות), [Quintus Hortensius (dictator)](https://en.wikipedia.org/wiki/Quintus_Hortensius_(dictator)), [Appius Claudius Caecus](https://en.wikipedia.org/wiki/Appius_Claudius_Caecus).
+- Smith, "Nundinae" ([LacusCurtius](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/SMIGRA*/Nundinae.html)).
+- [ToposText, Lautulae](https://topostext.org/place/413133LLau); [italia.it, Torre di Portella](https://www.italia.it/en/lazio/monte-san-biagio/portella-tower); [komoot 1440146](https://www.komoot.com/highlight/1440146); [turismoroma, Mausoleo di Menenio Agrippa](https://www.turismoroma.it/it/luoghi/mausoleo-di-menenio-agrippa).
+
+#### מה נחסם או לא נבדק
+
+- **גיצ'ארדיני במהדורה שנייה:** הסריקה של מהדורת Palmarocchi בוויקיטקסט (BEIC 1844634, דפים 58, 233, 254) החזירה url_not_found. ב-IntraText (ITA1151) הדף שהחיפוש החזיר הוא ספר 2, פרק 14 בלבד. ל-repo ב-GitHub עם מהדורה דו-לשונית (davidmcdougall/conversation-with-machiavelli) אין גישה בסשן הזה. לכן ציטוט גיצ'ארדיני אומת מול עד אחד בלבד: קובץ Liber Liber של מהדורת Palmarocchi. זה אותו קובץ שהחוקר השתמש בו, אבל את הטקסט קראתי וחיברתי בעצמי.
+- **מקרוביוס, "סטורנליה" 1.16:** במראה של The Latin Library לא מצאתי את הקובץ (404 בכמה נתיבים). הדף הלטיני ב-LacusCurtius נחסם (לא ניתנה הרשאה). **לא אומת.**
+- **Heidelberg** (Papers of the British School at Rome 1907, על לאוטולאי): חסום בהגנה מבוטים. **geocaching.com:** דורש התחברות.
+- **מהדורת שלם:** אין לנו את הספר. עמודים וניסוחים עבריים של שלם: לא ניתן לבדיקה כאן. בדקתי רק את האיטלקית.
+- **הפניות לתיקים אחרים באטלס** (ch00-livy-geo, ch03-secession, ch03-tarquins): אסור לי לפתוח אותם. לא ניתן לבדיקה כאן. בדקתי רק את מה שהטענה עצמה אומרת.
+- **מספור הסעיפים בטקסיטוס** (6.16.1–2): ב-Perseus אין סעיפים, ולכן מספרי הסעיפים לא נבדקו. הטקסט עצמו אומת.
+- **עמוד המשפט על הורטנסיוס אצל Koptev:** בפנייה אחת הכלי ענה 839. בפנייה שנייה, מדויקת יותר, הוא ענה שסימן העמוד שלפני המשפט הוא 840 ושאחריו 841. אני מקבל 840, כמו בתיק, עם מעט ספק.
+
+---
+
+### 3. טבלה
+
+| מס' | הכרעה | מה המקור אומר (מילים מדויקות) / מה לא בסדר | המקור שנבדק |
+|---|---|---|---|
+| 193 | נכון | "itaque populum Campanum urbemque Capuam, agros, delubra deum, divina humanaque omnia in vestram, patres conscripti, populique Romani dicionem dedimus". 343 = "M. Valerius Corvus tertium, A. Cornelius Cossus" (7.28.10). | ל 7.31.4, 7.28.10 |
+| 194 | נכון | הציטוט מילה במילה. ניסוח: "השמנים" ← "הסמניטים" (ראו סיכום). | ל 7.38.3–4 |
+| 195 | נכון | "iam tum ... ademissent". ב-Perseus כתוב "tur tum" ו-"ear eam" (כפילויות OCR), והקריאה בתיק נכונה. | ל 7.38.5 |
+| 196 | נכון | "an aequum esse, dediticios suos illa fertilitate atque amoenitate perfrui, se militando fessos in pestilenti atque arido circa urbem solo luctari aut in urbe insidentem tabem crescentis in dies faenoris pati?" התיק משמיט את ההשוואה לקמפנים, אבל לא מעוות. | ל 7.38.7 |
+| 197 | נכון | 15.3.2: "ὕπατον Μάρκον Οὐαλέριον ... καταλιπεῖν". 15.3.3: "τὸ πλεῖον μέρος ἀνεστίων καὶ καταχρέων". 15.3.4: "ταῖς οἰκίαις ἀναλαμβάνοντες". 15.3.6: "οὐδʼ εἰ πάντες νόμοι τε καὶ ἄρχοντες τὰς ἐσχάτας τιμωρίας ἀπειλοῖεν ... ἔλεγον". הערה: "אמרו" ולא "חשבו". | ד"ה 15.3.2–6 |
+| 198 | נכון | "αὐτοὶ πενόμενοι καὶ τὰ χρέα δεδιότες τὰ ἐν Ῥώμῃ ... τοὺς ξένους ἑαυτῶν ἀνελόντες ἕκαστοι τὴν περιουσίαν κατασχεῖν καὶ τὰς γυναῖκας ἐς γάμον προσαγαγέσθαι". | אפ 1.1 |
+| 199 | נכון חלקית | השם שגוי: "novus consul C. Marcius Rutilus" (7.38.8), גאיוס מרקיוס, לא "מרקוס". השמועה: "rumorem dissipat in iisdem oppidis et anno post praesidia hibernatura" (7.38.9), "eo laxamento ... quievit in praesentia seditio" (7.38.10). ד ג 6: "pubblicò come il Senato aveva raffermo le stanze alle legioni capovane". התיקון בסיכום. | ל 7.38.8–10; מק' `3-3.txt` |
+| 200 | נכון | "aliis emerita dicendo stipendia esse, alios graves iam aetate aut viribus parum validos. quidam in commeatus mittebantur ... per speciem etiam militarium usuum"; "consul alter Romae praetorque alias ex aliis fingendo moras retinebat". | ל 7.39.1–3 |
+| 201 | נכון | "nec ferme alium, quam qui in Campania hibernassent, praecipueque ex his seditionis auctores mitti viderunt ... iam quaestiones, iam indicia, iam occulta singulorum supplicia". | ל 7.39.4–5 |
+| 202 | נכון | "cohors una, cum haud procul Anxure esset, ad Lautulas saltu angusto inter mare ac montis consedit ad excipiendos, quos consul aliis atque aliis, ut ante dictum est, causis mittebat" (ב-Perseus: "colors cohors"). | ל 7.39.7 |
+| 203 | נכון | "περὶ Ταρρακίναν πόλιν ἐν ἐπιτηδείοις χωρίοις παρʼ αὐτὴν τὴν ὁδὸν στρατοπεδεύονται"; "ὡς δὲ ἅπαξ οὗτοι τὰς παρόδους κατελάβοντο, πολλοὶ προσῄεσαν αὐτοῖς ὁσημέραι ... τὰ δεσμωτήρια ἁπάντων, ὅσα κατὰ τοὺς ἀγροὺς ἦν, ἐλύετο"; הקטע נגמר ב-"συνέρρει ... εσξορ." | ד"ה 15.3.14–15 |
+| 204 | נכון | "περὶ Ταρρακίνην ἀφίστανταί τε τοῦ χιλιάρχου, καὶ τοὺς ἐπὶ τῶν ἔργων ἐν τοῖς ἀγροῖς δεδεμένους ἐκλύσαντες ... ἤλαυνον ἐς Ῥώμην ὁμοῦ δισμύριοι γεγονότες". אצל ליוויוס רק "iam valida admodum numero manus" (7.39.8), בלי מספר. | אפ 1.1; ל 7.39.8 |
+| 205 | נכון | פל 433143 "Tarracina(e)/Anxur". ליוויוס "haud procul Anxure", דיוניסיוס "περὶ Ταρρακίναν", אפיאנוס "περὶ Ταρρακίνην". | פל; ל; ד"ה; אפ |
+| 206 | נכון | "πολλαὶ δʼ εἰσὶ δυσχωρίαι κατὰ τὴν ἐκ Ῥώμης εἰς Καμπανίαν ἄγουσαν ὁδὸν ὄρεσί τε καὶ τέλμασι καὶ θαλάτταις καὶ ποταμοῖς ναυσιπόροις διακλειόμεναι, ἃς οὐ ῥᾴδιον ἦν διελθεῖν ὑπὸ τῶν πολεμίων προκαταληφθείσας". ההקשר הוא 340: "λέγει Μάλλιος" (15.4.6). | ד"ה 15.4.1, 15.4.6 |
+| 207 | נכון | מילה במילה. | ל 7.39.8 |
+| 208 | נכון | "T. Quinctium in Tusculano agrum colere, urbis honorumque inmemorem"; "patriciae hic vir gentis erat ... pes alter ex vulnere claudus"; "silentio noctis ... in castra pertraxerunt"; הציטוט מ-7.39.14 מדויק. | ל 7.39.11–14 |
+| 209 | נכון | מילה במילה. | ל 7.39.16 |
+| 210 | נכון | "censura clara eo anno Ap. Claudi ... nomen Appi est, quod viam munivit et aquam in urbem duxit". השנה 312: "censor in 312 BC" ([Wikipedia](https://en.wikipedia.org/wiki/Appius_Claudius_Caecus)). | ל 9.29.5–6 |
+| 211 | נכון | "issentque confestim ad urbem, ni venire contra exercitum dictatoremque adversus se M. Valerium Corvum dictum audissent et magistrum equitum L. Aemilium Mamercinum". | ל 7.39.17 |
+| 212 | נכון | מילה במילה (ב-Perseus: "primurn primum", "arnna arma"). | ל 7.40.1 |
+| 213 | נכון | מילה במילה. ההקבלה מסומנת כהיסק. | ל 7.40.2 |
+| 214 | נכון | מילה במילה ("hune hunc" ב-Perseus). ניסוח: "השמנים". | ל 7.40.6 |
+| 215 | נכון | מילה במילה. ב-ד א 4 כתוב "uomo degno di fede". | ל 7.40.7; מק' `1-2.txt` |
+| 216 | נכון | "T. Quinctius plenus lacrimarum ad suos versus 'me quoque' inquit, 'milites, si quis usus mei est, meliorem pacis quam belli habetis ducem'"; "in potestate dictatoris milites fore dixit". | ל 7.40.14–15, 7.41.1 |
+| 217 | נכון | "ἔτι δʼ αὐτῶν ὁδὸν ἡμέρας μιᾶς ἀπεχόντων ὑπήντα Κορουῖνος, καὶ παραστρατοπεδεύσας ἐν τοῖς ὄρεσι τοῖς Ἀλβανῶν ἠρεμεί ... τὴν δὲ αἰτίαν ἐς τὰ χρέα φερόντων τὰ ἐν Ῥώμῃ". | אפ 1.1 |
+| 218 | נכון | "dictator equo citato ad urbem revectus auctoribus patribus tulit ad populum in luco Petelino, ne cui militum fraudi secessio esset". | ל 7.41.3 |
+| 219 | נכון | מילה במילה. | ל 7.41.4 |
+| 220 | נכון | ב-Perseus: "ne quis, ubi ordinum ductor fuisset, postea tribunus militum esset". Foster (סעיף 7.41.5 אצלו): "no one might later command a century in the legion where he had been a military tribune". ב-LL `liv.7.txt`: "ne quis, ubi tribunus militum fuisset, postea ordinum ductor esset", כלומר קריאה אחרת באמת. 7.41.5: "alternis prope annis et tribunus militum et primus centurio". | ל; פ; LL |
+| 221 | נכון | "aeque inpotens postulatum fuit, ut de stipendio equitum ... aera demerentur, quod adversati coniurationi fuissent". | ל 7.41.7–8 |
+| 222 | נכון | מילה במילה. | ל 7.42.1–2 |
+| 223 | נכון | "quae si omnia concessa sunt plebi, apparet haud parvas vires defectionem habuisse" ("baud haud" ב-Perseus). | ל 7.42.2 |
+| 224 | נכון | "τὰς μὲν τῶν χρεῶν ἀποκοπὰς ἐψηφίσατο πᾶσι Ῥωμαίοις, τοῖς δὲ τότε ἐχθροῖς καὶ ἄδειαν". אצל ליוויוס אין מחיקת חובות. יש רק האיסור על ריבית, "apud quosdam" (7.42.1). | אפ 1.1; ל 7.42 |
+| 225 | נכון | "sane vetus urbi faenebre malum et seditionum discordiarumque creberrima causa ... dein rogatione tribunicia ad semuncias redactum, postremo vetita versura". אין שם ואין שנה. מספרי הסעיפים לא נבדקו (ב-Perseus אין סעיפים). | טקיטוס, אנאלים 6.16 |
+| 226 | נכון | מילה במילה. Foster: "dismayed into arming", כלומר "נבהל ולקח נשק" סביר. | ל 7.42.3–5; פ |
+| 227 | נכון חלקית | "לא היו נאומים" לא כתוב במקור. כתוב: "nec ab ducibus mentionem concordiae ortam, sed repente, cum in aciem armati exercitus processissent, salutationem factam". הציטוט מ-7.42.7 נכון. התיקון בסיכום. | ל 7.42.5–7 |
+| 228 | נכון | פל 432754: 41.0860925, 14.250207, precise. מסנטה מריה קפואה וטרה (GN 41.08156, 14.25342): 0.57 ק"מ. מהקפיטול: 172.41 ק"מ, כיוון 120.8. | פל; GN; חישוב |
+| 229 | נכון | פל 433133: "Suessula was an important ancient city of Campania". מקפואה: 16.40 ק"מ, כיוון 130.6. | פל; חישוב |
+| 230 | נכון | פל 433143: 41.291169, 13.24885, precise. מטרצ'ינה (GN 41.29174, 13.24359): 0.44 ק"מ. | פל; GN |
+| 231 | נכון | פל 432903: 41.324, 13.264, precise, "Lautulae is a narrow pass (saltus) located above Terracina in Latium". מטאראקינה: 3.86 ק"מ, כיוון 19.1. SRTM: 333 מטר. ToposText: 41.324000, 13.264000, "Low (20250606)", Pleiades 432903. | פל; SRTM; [ToposText](https://topostext.org/place/413133LLau) |
+| 232 | נכון חלקית | הדף קושר את המקום ל-Lautulae: "In 315 BC the Romans defeated the Samnites here, in a battle recorded by Livy, who called this place Lautulae". אבל המגדל "At kilometre 112.300 on the Appian Way, in the territory of Monte San Biagio", ולא במרכז היישוב. המרחק 8.0 ק"מ / כיוון 66 נכון למרכז היישוב (GN). לפי komoot (41.34425, 13.337641, בקירוב) המגדל נמצא 6.55 ק"מ מנקודת פליאדס, בכיוון 70. התיקון בסיכום. | [italia.it](https://www.italia.it/en/lazio/monte-san-biagio/portella-tower); [komoot](https://www.komoot.com/highlight/1440146); GN; חישוב |
+| 233 | נכון חלקית | SRTM בתיבה 41.30–41.33 × 13.29–13.40 (ברשת של 0.0025): 46 מתוך 585 תאים גבוהים מ-20 מטר, עד 544 מטר, כולם בפינה 13.29–13.31 / 41.31–41.33. צפונה לתיבה, ממזרח ל-13.35, בשורות 41.34–41.37 הגובה 0–60 מטר (מישור פונדי). הרים של יותר מ-300 מטר צמודים רק ממערב ל-13.34 בערך. התיקון בסיכום. | SRTM |
+| 234 | נכון | פל 371030888, rough, בלי קואורדינטות: "This region lay between the lacus Albanus, Bovillae, and Aricia. The Roman Via Appia passed through it." | פל |
+| 235 | נכון | פל 422824: 41.7444846, 12.6496787, precise; התיאור מדויק. מקסטל גנדולפו (GN 41.74875, 12.64975): 0.47 ק"מ. "ch00-livy-geo, טענה 15": לא ניתן לבדיקה כאן. | פל; GN |
+| 236 | נכון | פל 422826: 41.7521724, 12.710094, precise. הערה: אצל אפיאנוס כתוב "ὄρεσι" ברבים (הרי אלבה). | פל; אפ 1.1 |
+| 237 | נכון | "in Tusculano agrum colere". | ל 7.39.11 |
+| 238 | נכון | אומת: מקדש 422950 (41.8392364, 12.535834), "A temple located at the fourth mile of the Via Appia"; בוביליי 422852; שער אפיה 661181629; שער קפנה 27164982 (41.884, 12.491). ההערכה הראשונה: 41.79821, 12.58126. השנייה: 41.80080, 12.57958. ההפרש: 0.32 ק"מ. לנקודה 41.7995, 12.5804: 11.96 ק"מ משער קפנה (8.09 מילין), 13.16 ק"מ מהקפיטול, כיוון 141.8. ראו בסיכום את ההערה על העוגנים שסותרים זה את זה. | פל; חישוב |
+| 239 | נכון | אבן המיל הרביעית: 0.35 ק"מ מהמקדש (משני החישובים). בוביליי: 11.35 מילין משער קפנה. | חישוב |
+| 240 | נכון | לאלבה לונגה: 8.39 ק"מ, כיוון 136.8. לטוסקולום: 10.51 ק"מ. מלאוטולאי: 77.66 ק"מ. | חישוב |
+| 241 | נכון | "ita prodicta die in Petelinum lucum extra portam Flumentanam, unde conspectus in Capitolium non esset, concilium populi indictum est". פל 502889801, rough: "It is now unlocated". פל 456113: "Petelina (mountains)", "to which Plutarch has Spartacus reposition". אין בפליאדס חורשה פטלינית. | ל 6.20.11; פל |
+| 242 | נכון | נורבה: "became a Latin colony ca. 492 B.C.". סטיה: "became a Latin colony in 382 B.C.". פריברנום: "A Volscian center". מסצה 0.30 ק"מ, מנורמה 1.04 ק"מ, מפריוורנו 2.32 ק"מ. | פל; GN |
+| 243 | נכון | 433078 "Samnium (region)": 41.5834, 14.6204. 442765 "Samnites": 41.1467, 15.0839. ניסוח: "השמנים". | פל |
+| 244 | נכון | 7.39.2–3 (נשלחו, ועוכבו ברומא); "παρʼ αὐτὴν τὴν ὁδὸν". אין תיאור של הדרך. | ל; ד"ה 15.3.14 |
+| 245 | נכון | "inconpositi itaque praedantes in agrum Albanum perveniunt". | ל 7.39.8 |
+| 246 | נכון | "in castra pertraxerunt". | ל 7.39.14 |
+| 247 | נכון | "ad lapidem octavum viae, quae nunc Appia est". | ל 7.39.16 |
+| 248 | נכון | "venire contra exercitum". אין דרך. | ל 7.39.17 |
+| 249 | נכון | "consul educto in aestiva milite, dum quietos Samnites habebat". ב-7.39–42 אין קרב. ניסוח: "השמנים". | ל 7.39.1 |
+| 250 | נכון | 7.31.4 (נכנעו); "Campanorum deinde Suessulanorumque auditae legationes" (7.38.4); "dediticios suos" (7.38.7). | ל |
+| 251 | נכון חלקית | הציטוט נכון, אבל הוא לא "בתחילת השנה": 7.38.1 שייך ל-343 (הקונסולים של 343 חוגגים ב-7.38.3; "novus consul" ב-7.38.8). הציטוט מ-7.42.8 נכון. התיקון בסיכום. | ל 7.38.1–8, 7.42.8 |
+| 252 | נכון | "Privernates etiam Norbam atque Setiam, finitimas colonias Romanas, incursione subita depopulati sunt". | ל 7.42.8 |
+| 253 | נכון | 7.42.7–8 מילה במילה. הפאליסקים: "cum in indutiis essent, foedus petere" (7.38.1). קרתגו: "cum coronae aureae dono ... fuit pondo viginti quinque" (7.38.2). הערה: השניים האחרונים שייכים ל-343. ניסוח: "השמנים". | ל |
+| 254 | נכון חלקית | 4.59.3–9 (כיבוש: "Anxur fuit, quae nunc Tarracinae sunt"); 5.8.2 ("neglectum Anxuri praesidium ... oppressum est"); 5.13.1 ("Anxur in Volscis brevi receptum est"); 5.16.2 ("ad Anxur, ubi praesidium obsidebatur"). המושבה: "eodem anno Anxur trecenti in coloniam missi sunt" נמצא ב-**8.21.10**, ולא ב-8.21.11. השנה: הקונסולים "L. Aemilius Mamercinus et C. Plautius" (8.20.3). פל: "a Roman citizen colony was established there in 329 B.C.". | ל; פל |
+| 255 | נכון | Per. 11: "Plebs propter aes alienum post graves et longas seditiones ad ultimum secessit in Ianiculum, unde a Q. Hortensio dictatore deducta est; isque in ipso magistratu decessit." אין חוק. | LL `liv.per11.txt` |
+| 256 | נכון | "Q. Hortensius dictator, cum plebes secessisset in Ianiculum, legem in aesculeto tulit, ut quod ea iussisset omnes Quirites teneret." (ב-Perseus: ספר 16, פרק 10, כלומר §37.) | פליניוס 16.37 |
+| 257 | נכון | מילה במילה ("acceptaaccept" ב-Perseus = "accepta"). | גליוס 15.27.4 |
+| 258 | נכון | מילה במילה. | LL `gaius1.txt` (1.3) |
+| 259 | נכון חלקית | הציטוט נכון. אבל המיקום הוא לא "מיד אחרי שנים עשר הלוחות": "Deinde cum esset in civitate lex duodecim tabularum et ius civile, essent et legis actiones", ואחרי 1.2.2.7 (פלביוס ואיליוס). התיקון בסיכום. | LL `digest1.txt` |
+| 260 | נכון | "dictator crearetur Hortensius, qui plebe reuocata in eodem magistratu exspirauit, quod nulli dictatori ante contigerat". בקובץ באמת יש כפילות ("quod plebe reuocata in eodem magistratu exspirauit"). זה בפרק [XVII]. | LL `civ3.txt` |
+| 261 | נכון | "ut, quod tributim plebes iussisset, populum teneret" (3.55.3); "unam, ut plebi scita omnes Quirites tenerent" (8.12.15). | ל |
+| 262 | נכון חלקית | התוכן תואם לוויקיפדיה, אבל השמות לא: על ההבדל מצוטט Abbott 1963 עמ' 52 (הערה 4); Develin (הערה 2) רק על הדמיון; Lintott (הערה 1) רק בפתיחה. התיקון בסיכום. | [Lex Hortensia](https://en.wikipedia.org/wiki/Lex_Hortensia) |
+| 263 | נכון | "with the proximate cause being the call to arms to fight against the Lucanians"; "However, there is considerable reason to doubt this story" (Maddox 1983). | [Lex Hortensia](https://en.wikipedia.org/wiki/Lex_Hortensia) |
+| 264 | נכון חלקית | בוויקיפדיה: "Another law ... which declared the nundinae (market days) to be dies fasti, is also attributed to him", בלי הפניה מפורשת. "Macrobius, Saturnalia i. 16" מופיע רק ברשימת המקורות. אצל Smith: "according to Granius Licinianus (ap. Macr. l.c.) ... Lex Hortensia, 286 B.C.". את מקרוביוס עצמו: לא אומת (404 ב-LL; הדף ב-LacusCurtius נחסם). | [Wikipedia](https://en.wikipedia.org/wiki/Quintus_Hortensius_(dictator)); [Smith](https://penelope.uchicago.edu/Thayer/E/Roman/Texts/secondary/SMIGRA*/Nundinae.html) |
+| 265 | נכון | פל 430827518: 41.88333, 12.46667, precise; התיאור מדויק. מהקפיטול: 1.65 ק"מ, כיוון 231.4. "ch03-tarquins": לא ניתן לבדיקה כאן. | פל; חישוב |
+| 266 | נכון | SRTM בנקודה: 46 מטר. מהטיבר: 0.46 ק"מ. ב-41.888, 12.4565: 98 מטר, וזו הנקודה הגבוהה ביותר ברשת של 0.0005 בתיבה 41.875–41.895 × 12.445–12.47. הערה: הנקודה לא יושבת על רשת של 0.0025 (שם המקסימום 93 מטר ב-41.890, 12.4625). פל 732617291, Porta Aurelia, "at the summit of the Ianiculum": 86 מטר. | SRTM; נהרות; פל |
+| 267 | נכון | בפליאדס אין "aesculet". פליניוס לא אומר איפה. | פל; פליניוס |
+| 268 | נכון | Per. 11, פליניוס ואוגוסטינוס לא מתארים דרך. | LL; פליניוס |
+| 269 | נכון חלקית | הציטוטים נכונים: "Pacem petentibus Samnitibus foedus quarto renovatum est"; "Curius Dentatus cos. Samnitibus caesis et Sabinis, qui rebellaverant, victis et in deditionem acceptis"; "Coloniae deductae sunt Castrum Sena Hadria"; "Res praeterea contra Vulsinienses gestas continet...". אבל "לפני / אחרי הפרישה" הוא הסדר בתקציר, לא בזמן. התיקון בסיכום. ניסוח: "השמנים". | LL `liv.per11.txt` |
+| 270 | נכון | "Cum legati Romanorum a Gallis Senonibus interfecti essent"; "Cum a Tarentinis classis Romana direpta esset"; "Samnites defecerunt"; "Pyrrhus ... in Italiam uenit". ניסוח: "השמנים". | LL `liv.per12.txt` |
+| 271 | נכון | היסק סביר (ראו 269). | — |
+| 272 | נכון | המחבר Fausto Pagnotta (2014). מובא "Li popoli, come dice Tullio, benché siano ignoranti, sono capaci della verità", ונאמר שהוא "richiama il paragrafo 95 del Laelius de amicitia": "Contio, quae ex imperitissimis constat, tamen iudicare solet". | [Treccani](https://www.treccani.it/enciclopedia/marco-tullio-cicerone_(Enciclopedia-machiavelliana)/) |
+| 273 | נכון | מילה במילה, כולל "et inter constantem et verum et gravem" (Falconer). | קיקרו, על הידידות 95 |
+| 274 | נכון | ב-LL: "et inter constantem et severum et gravem". מהדורה מודפסת לא נבדקה. | LL `cicero/amic.txt` |
+| 275 | נכון | "quibus blanditiis C. Papirius nuper influebat in auris contionis, cum ferret legem de tribunis plebis reficiendis! dissuasimus nos, sed nihil de me, de Scipione dicam libentius. quanta illi, di immortales, fuit gravitas, quanta in oratione maiestas! ... itaque lex popularis suffragiis populi repudiata est." הערה: הדובר הוא לאליוס, וגם הוא דיבר נגד ("dissuasimus nos"). | קיקרו, על הידידות 96 |
+| 276 | נכון | "ex imperitissimis". | שם |
+| 277 | נכון | (1) עמ' 823, בתקציר האנגלי; (2) עמ' 825. שתיהן מילה במילה. על "דעת מיעוט": המאמר עצמו כותב "The secessio plebis has been considered in scholarship a revolutionary movement of the people" (עמ' 823), ולכן התג סביר. כדאי להפנות למשפט הזה. | [Koptev](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf) |
+| 278 | נכון חלקית | "Forsythe revived Meyer's view" לא כתוב מילה במילה. כתוב: "Recently G. Forsythe has revived an old theory of Ed. Meyer that the secession of 287, which occurred within a generation of the first Roman annalistic writers, was the only authentic, historical secession" (עמ' 838). המשפט על הורטנסיוס מילה במילה (עמ' 840, ראו מגבלות). "an account of the foundation of new colonies or tribes" מילה במילה (עמ' 841), על 287. | Koptev |
+| 279 | נכון חלקית | "from Campania to Rome" ו-"at the foot of the Alban Mount": מילה במילה, עמ' 836. "has nothing to do with the real lex sacrata of 342": מילה במילה, עמ' 837. אבל הציטוט מעמ' 838 קטוע: "...the admission of a large group of the plebeians (from the Latins who had received Roman citizenship) to participate in the election of the high magistracy". התיקון בסיכום. | Koptev |
+| 280 | נכון | Guy Bradley, Antichthon 51 (2017), 149–171. "is often regarded as little more than a military strike"; "it was a genuine threat to abandon the community"; "can be seen as 'paused migrations'". | [Bradley](https://www.cambridge.org/core/journals/antichthon/article/abs/mobility-and-secession-in-the-early-roman-republic/F224515D6F8FA19C070029777DA528C5) |
+| 281 | נכון | פל 268637493: "Some remains of the gate were identified in 1872". פל 674507252: "The foundation of the sacellum is extant". | פל |
+| 282 | נכון | פל 457581182: "The so-called mausoleum of Menenius Agrippa". turismoroma: "risale al I-II secolo d.C.", "accostato a Menenio Agrippa". את "לא מצאתי ממצא" אי אפשר לאמת כטענה שלילית. "ch03-secession": לא ניתן לבדיקה כאן. | פל; [turismoroma](https://www.turismoroma.it/it/luoghi/mausoleo-di-menenio-agrippa) |
+| 283 | נכון חלקית | הציטוט נכון, ובקובץ באמת כתוב "sanan". אבל ולאיוס כותב על "discordiae civium", ולא על פרישות. התיקון בסיכום. | LL `vell2.txt` |
+| 284 | נכון | פל 347036492: 41.8925778, 12.4822154, precise. | פל |
+| 285 | נכון | פל 422830: 41.72306, 12.76944, precise. | פל |
+| 286 | נכון | פל 423108: 41.79808, 12.70721, precise. | פל |
+| 287 | נכון | פל 413121: 42.101134, 12.626047, precise. | פל |
+| 288 | נכון | פל 422923: 41.982053, 12.515431; פל 422914: 42.0150826, 12.550061; שתיהן precise. | פל |
+| 289 | נכון | פל 268637493: 41.9073248, 12.4986786, precise. | פל |
+| 290 | נכון | פל 865014139: 41.883333, 12.483333, precise. | פל |
+| 291 | נכון | העיגול כפי שהוצע. לעיון: המרכז 41.9410, 12.5345 רחוק 0.86 ק"מ מ-פל 423029 "Sacer Mons" (41.933261, 12.534473), ו-0.73 ק"מ מהמאוזוליאום 457581182. טענה 148 לא בטווח שלי. | פל; חישוב |
+| 292 | נכון | פל 674507252: 41.892558, 12.485444, precise. | פל |
+| 293 | נכון | פל 158081395: 41.892522, 12.478573, rough. | פל |
+| 294 | נכון | פל 422843: 41.609389, 12.547028, precise. | פל |
+| 295 | נכון | פל 423116: 42.021338, 12.390519, precise. | פל |
+| 296 | נכון | פל 438872, rough: "Its location is now uncertain". | פל |
+| 297 | נכון | אין "Vecili" בפליאדס. | פל |
+| 298 | נכון | אין בפליאדס מקדש של דיאנה באוונטינוס. | פל |
+| 299 | נכון | ראו 228. | פל |
+| 300 | נכון | ראו 229. | פל |
+| 301 | נכון | ראו 230. | פל |
+| 302 | נכון | ראו 231. לפי כלל 3, עדיף אזור מקווקו. | פל; ToposText |
+| 303 | נכון | הקואורדינטות כמו בפליאדס 422824. | פל |
+| 304 | נכון | ראו 238. ההערכה, לא נקודה מזוהה. | חישוב |
+| 305 | נכון | ראו 242. | פל |
+| 306 | נכון | ראו 241. | פל |
+| 307 | נכון | ראו 265–266. | פל; SRTM |
+| 308 | נכון | ראו 267. | פל |
+| 309 | נכון | פל 502866838: 41.891616, 12.487194, precise. מהקפיטול: 0.43 ק"מ, כיוון 104.5. | פל; חישוב |
+| 310 | נכון | 413291 Sabini, rough; 422822 Aequi, rough; 433208 Volsci (precise בפליאדס); 422958 הוא "Latium Vetus (region)", rough (אזור, לא העם); 433078 "Samnium (region)". הקואורדינטות מתאימות. ניסוח: "שמנים". | פל |
+| 311 | נכון | "eunt agmine ad urbem et Aventinum insidunt" (3.50.13); "διʼ ὅλης ἡμέρας" (ד"ה 11.43.5). אין דרך ואין שער. | ל; ד"ה |
+| 312 | נכון | "porta Collina urbem intravere" (3.51.10). הדרך דרך פידנאי היא היסק, ומסומנת כמשוערת. | ל 3.51.10 |
+| 313 | נכון | "mediaque urbe agmine in Aventinum pergunt". | ל 3.51.10 |
+| 314 | נכון | "agmine prope quadringentorum hominum" (3.50.3). אין תיאור של הדרך. | ל |
+| 315 | נכון | "via Nomentana, cui tum Ficulensi nomen fuit, profecti castra in monte Sacro locavere". | ל 3.52.2–3 |
+| 316 | נכון | ראו 244–245. | ל |
+| 317 | נכון | ראו 246. | ל |
+| 318 | נכון | ראו 247. | ל |
+| 319 | נכון | ראו 248. | ל |
+| 320 | נכון | ראו 268. | — |
+| 321 | נכון | "L. Verginius, honestum ordinem in Algido ducebat" (3.44.2); "omnium primum L. Verginium" נבחר לטריבון (3.54.11). | ל |
+| 322 | נכון | "prope Cloacinae ad tabernas" (3.48.5). | ל |
+| 323 | נכון | "desponderat filiam L. Icilio tribunicio" (3.44.2–3); "auctore Icilio Numitorioque" (3.51.7); "Icilius pro multitudine verba facit" (3.53.3). | ל |
+| 324 | נכון | "per M. Duillium, qui tribunus plebis fuerat ... in Sacrum montem ex Aventino transit". | ל 3.52.1 |
+| 325 | נכון | "tum Valerius Horatiusque missi ad plebem" (3.53.1); "consules creati L. Valerius, M. Horatius" (3.55.1). | ל |
+| 326 | נכון חלקית | "מת בכלא" מסתיר התאבדות: "in carcerem est coniectus" (3.57.6); "Appius mortem sibi conscivit" (3.58.6). התיקון בסיכום. | ל |
+| 327 | נכון | 4.1.6; "nemo est nomen daturus" (4.5.6). | ל |
+| 328 | נכון | "C. Marcius Rutilus, cui Campania sorte provincia evenerat" (7.38.8). אצל אפיאנוס: "Μάμερκος". | ל; אפ |
+| 329 | נכון | 7.39.11–15; 7.40.13–19. | ל |
+| 330 | נכון | 7.39.17; הנאום ב-7.40.4–14. | ל |
+| 331 | נכון | "invenio apud quosdam L. Genucium tribunum plebis". | ל 7.42.1 |
+| 332 | נכון | "Salonius obtestatus patres conscriptos, ne suum honorem pluris quam concordiam civitatis aestimarent, perpulit, ut id quoque ferretur". | ל 7.41.5–7 |
+| 333 | נכון | Per. 11; פליניוס 16.37; אוגוסטינוס 3.17; Koptev, עמ' 840. | LL; פליניוס; Koptev |
+| 334 | נכון חלקית | ב-ד א 4 אין "debit-", "usur-" או "prest-", ויש רק "oppressi". אבל אצל ליוויוס הריבית היא אחת מכמה טענות ("tabem crescentis in dies faenoris", 7.38.7), לצד "instrumento omnium voluptatium" (7.38.5). "הסיבה" מוגזם. התיקון בסיכום. | מק' `1-2.txt`; ל; ד"ה; אפ; LL |
+| 335 | נכון חלקית | 3.48.5 ו-3.43.2–6 נכונים. "vivosque igni concrematuros minabantur" (3.53.5). אבל "מתו בכלא" מסתיר התאבדות: "Appius mortem sibi conscivit" (3.58.6); "ante iudicii diem finem ibi vitae fecit" (3.58.9). התיקון בסיכום. | ל |
+| 336 | נכון | בכל ספרי ליוויוס ששרדו לא מצאתי סגירה כמחאה. הסגירות: 3.27.2 ו-4.31.9 (פקודה); 9.7.7 (אבל); 23.25.1 ("tabernis clausis", מפחד). | ל, כל הספרים |
+| 337 | נכון | "iuniores, cum sine provocatione imperium esset, ad nomina respondent". | ל 3.41.7 |
+| 338 | נכון חלקית | מי שאומר את זה הם הקונסולים, בסנאט, בדיבור עקיף: "negabant consules ... cuius rei praemium sit in civitate ... maximum Romae praemium seditionum esse". לא "האבות". התיקון בסיכום. | ל 4.2.1–3 |
+| 339 | נכון | ד א 40: "se ne andarono nel Monte Sacro"; ד א 44: "ridotta armata nel Monte Sacro. Mandò il Senato suoi ambasciadori..."; אצל ליוויוס השליחים הולכים לאוונטינוס (3.50.15). | מק' `1-10.txt`; ל |
+| 340 | נכון | ד ב 20: "pensarono di prendere l'armi ed insignorirsi di quel paese"; ד ג 6: "congiurarono ... di opprimere i Capovani"; ליוויוס: "secessio" (7.40.2; 7.41.3). | מק' `2-8.txt`, `3-3.txt`; ל |
+| 341 | נכון | ד ב 26: "ordinarono pene gravissime a coloro che rimproverassero mai a alcuni di quegli soldati tale sedizione"; ליוויוס: "oravit etiam bona venia Quirites, ne quis eam rem ioco seriove cuiquam exprobraret". | מק' `2-10.txt`; ל 7.41.3 |
+| 342 | נכון | ד א 47: "quattro Tribuni con potestà consolare". ליוויוס: "A. Sempronius Atratinus, L. Atilius, T. Caecilius" (4.7.1), "tribunos militum tres" (4.7.2). ד"ה: "τρεῖς μὲν ἐκ τῶν πατρικίων, τρεῖς δʼ ἐκ τῶν δημοτικῶν" (11.60.5), ונבחרו שלושה פטריקים (11.61.3). | מק' `1-11.txt`; ל; ד"ה |
+| 343 | נכון | 7.42.7 מילה במילה. | ל |
+| 344 | נכון | "εἰ μὴ Μάμερκος, ἕτερος Ῥωμαίων στρατηγός, ἐπὶ Σαυνίτας ὁδεύων"; 7.38.8; "magistrum equitum L. Aemilium Mamercinum" (7.39.17). | אפ; ל |
+| 345 | נכון | ראו 261. ההסקה מסומנת כהיסק. | ל; פליניוס; גליוס; LL |
+| 346 | נכון | "ne nomina darent" (2.24.2); "nemo nomen dedit" (2.27.10); "ad nomina danda" (3.57.9); "nemo est nomen daturus" (4.5.6). | ל |
+| 347 | נכון | הנאום ב-7.40.4–14, "nullius superbae in vos legis ... auctor" (7.40.7). ב-ד א 4 אין ולריוס. | ל; מק' `1-2.txt` |
+| 348 | נכון | "CAPITOLO IV / [Che la disunione della plebe e del senato romano fece libera e potente quella republica.]". | [Liber Liber PDF](https://linux.studenti.polito.it/static_resources/liberliber/biblioteca/g/guicciardini/considerazioni_intorno_ai_discorsi_del_machiavelli_sopra_etc/pdf/consid_p.pdf) |
+| 349 | נכון | "Io ho altra volta scritto piú largamente, però ora me ne passerò con brevitá; ma dico in conclusione che la causa delle disunione di Roma tra patrizi e plebei fu dallo essere divisi gli ordini della cittá, cioè che una parte fussino patrizi..." (זהה לטענה, ואחריה ההמשך). | Liber Liber |
+| 350 | נכון | אומת ברצף, מחמישה קטעים חופפים, זהה תו בתו (545 תווים). לפני המשפט: "non si può a giudicio mio laudare in loro né la autoritá di proporre nuove legge né di intercedere." | Liber Liber |
+| 351 | נכון | "Questo disordine fu dalla origine di Roma, perché nel principio suo vi fu la distinzione tra patrizi e plebei; ma sotto ...". הוא בא מיד אחרי "applicato.". | Liber Liber |
+| 352 | נכון חלקית | אין חסר: "... che in quelle che si governano con la industria, con le girandole e con le arte della pace." (בין "industria," ל-"girandole" יש רק "con le"). זה המשפט האחרון בפרק, ואחריו "CAPITOLO V". התיקון בסיכום. | Liber Liber |
+| 353 | נכון חלקית | ההיפוך נכון ("Non fu adunche la disunione..."; "molto utile ... che e' patrizi piú presto cedessino"; "Fu eccellentissima la disciplina militare"). אבל "מקבל שהסדר עבד" לא נכון, כי הוא כותב "sostenne tutti gli altri difetti del governo". התיקון בסיכום. | Liber Liber |
+| 354 | נכון | לפי AGENTS.md, כלל 6 ("מונחים לפי תרגום שלם: מידה טובה"). את שלם עצמו: לא ניתן לבדיקה כאן. הערה: אצל גיצ'ארדיני "la virtú sua" היא של המשמעת הצבאית. | AGENTS.md |

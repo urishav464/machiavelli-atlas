@@ -6,6 +6,9 @@ from skimage.graph import route_through_array
 dem_path = sys.argv[1]; st = [tuple(map(float, a.split(','))) for a in sys.argv[2:]]
 tfw = [float(x) for x in open(dem_path[:-4] + '.tfw').read().split()]
 res, x0, y0 = tfw[0], tfw[4], tfw[5]
+# the .tfw origin is the CENTRE of the upper-left pixel; move it to the corner, so that int() picks the right pixel
+# (found by the chapter-4 geo check: heights were read from the north-west neighbour)
+x0, y0 = x0 - res / 2, y0 + res / 2
 Z = tifffile.imread(dem_path).astype(float); Z[Z < -1000] = np.nan
 lat0, lat1 = min(p[0] for p in st) - .08, max(p[0] for p in st) + .08
 lon0, lon1 = min(p[1] for p in st) - .08, max(p[1] for p in st) + .08
