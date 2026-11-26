@@ -315,7 +315,7 @@
 
 182. פלורוס: "qui tumultus in monte Ianiculo duce Canuleio tribuno plebis exarsit" ("המהומה הזו פרצה על הג'ניקולום, בהנהגת הטריבון קנוליוס") (1.17.25.1). אמפליוס: "quam Canuleius concitavit in monte Ianiculo" (25). [מחלוקת]
 183. ליוויוס (4.1–4.6) ודיוניסיוס (11.53–11.61) לא מספרים על יציאה מהעיר ב-445. אצלם הכלי הוא הסירוב לגיוס, ואצל דיוניסיוס גם איום לעזוב (טענה 180). [מחלוקת]
-184. הג'ניקולום הוא המקום של 287 בפריוכה ובפליניוס (טענות 35, 228). ייתכן שפלורוס ואמפליוס העבירו אותו ל-445. אין לי מקור לזה. [היסק]
+184. הג'ניקולום הוא המקום של 287 בפריוכה ובפליניוס (טענות 35, 256). ייתכן שפלורוס ואמפליוס העבירו אותו ל-445. אין לי מקור לזה. [היסק]
 
 ### המקומות של צעד 3
 
@@ -331,4 +331,144 @@
 191. **הוולסקים והאיקווים: אויב מאיים.** "fremere" על ורוגו (4.1.4); אצל דיוניסיוס עומדים לתקוף את בעלי הברית (11.54.1). [מסורת]
 192. ליוויוס, על 444: "et foris, cum tot terrores a finitimis ostentati essent, et domi otium fuit" ("ובחוץ, אף שהשכנים הראו כל כך הרבה איומים, ובבית, היה שקט") (4.7.12). כלומר המלחמות של 445 לא פרצו. [מסורת]
 
-<!-- PART3 -->
+## חלק ז: צעד 4. 342: מקפואה עד אבן המיל השמינית
+
+### הרקע: חיל מצב בקמפניה
+
+193. ב-343 נכנעו אנשי קפואה לרומא: "populum Campanum urbemque Capuam, agros, delubra deum, divina humanaque omnia in vestram, patres conscripti, populique Romani dicionem dedimus" ("את העם הקמפני ואת העיר קפואה, את השדות, את מקדשי האלים, את כל דבר אלוהי ואנושי, מסרנו לשלטונכם, אבות הסנאט, ולשלטון העם הרומי") (7.31.4). [מסורת]
+194. אחרי הניצחונות של 343 על השמנים, "Campanorum deinde Suessulanorumque auditae legationes, precantibusque datum, ut praesidium eo in hiberna mitteretur, quo Samnitium excursiones arcerentur" ("אחר כך נשמעו שליחויות של קפואה ושל סואסולה, ולבקשתם נשלח לשם חיל מצב לחורף, כדי לעצור את הפשיטות של השמנים") (7.38.4). [מסורת]
+195. **הקשר:** "iam tum minime salubris militari disciplinae Capua instrumento omnium voluptatium delenitos militum animos avertit a memoria patriae inibanturque consilia in hibernis eodem scelere adimendae Campanis Capuae, per quod illi eam antiquis cultoribus ademissent" ("כבר אז קפואה, שלא הייתה בריאה כלל למשמעת הצבאית, ריככה בכל התענוגות את לב החיילים והשכיחה מהם את המולדת. במחנות החורף נרקמו תוכניות לקחת מהקמפנים את קפואה, באותו פשע שבו הם עצמם לקחו אותה מתושביה הקודמים") (7.38.5). [מסורת]
+196. **החובות:** החיילים שאלו אם צודק שהם יתייגעו "in pestilenti atque arido circa urbem solo ... aut in urbe insidentem tabem crescentis in dies faenoris pati" ("באדמה החולנית והיבשה שסביב רומא... או לסבול בעיר את הרקב של הריבית שגדלה מיום ליום") (7.38.7). [מסורת]
+197. **דיוניסיוס:** את חיל המצב השאיר הקונסול מרקוס ולריוס (ד"ה 15.3.2), ובו "τὸ πλεῖον μέρος ἀνεστίων καὶ καταχρέων" ("רובם בלי בית ושקועים בחובות") (15.3.3). הקמפנים אירחו אותם בבתיהם (15.3.4). והקושרים חשבו: "οὐδʼ εἰ πάντες νόμοι τε καὶ ἄρχοντες τὰς ἐσχάτας τιμωρίας ἀπειλοῖεν" ("אפילו אם כל החוקים והשליטים יאיימו בעונשים הקשים ביותר") לא יעזבו (15.3.6). [מסורת]
+198. **אפיאנוס:** החיילים "αὐτοὶ πενόμενοι καὶ τὰ χρέα δεδιότες τὰ ἐν Ῥώμῃ" ("בעצמם עניים, ופוחדים מהחובות שברומא") תכננו להרוג את המארחים, לקחת את רכושם ולשאת את נשותיהם (אפיאנוס, "הסמניטית" 1.1). [מסורת]
+
+### הקונסול מפרק את הצבא
+
+199. מרקוס רוטילוס הפיץ שמועה שחיל המצב יחרוף שם גם בשנה הבאה, "eo laxamento cogitationibus dato quievit in praesentia seditio" ("וכשניתנה כך הקלה למחשבות, ההתקוממות נרגעה לעת עתה") (7.38.9–10). זה מה שמקיאוולי מספר בד ג 6 (טענה 20). [מסורת]
+200. אחר כך שלח את המפריעים הביתה, בתואנות של שירות שהושלם, גיל, חופשה או משימות (7.39.1–2). הקונסול השני והפראטור עיכבו אותם ברומא (7.39.3). [מסורת]
+201. כשראו שרק מי שחרף בקמפניה, ובעיקר יוזמי ההתקוממות, נשלחים, הבינו שהתוכנית התגלתה, ופחדו "iam quaestiones, iam indicia, iam occulta singulorum supplicia" ("מחקירות, מהלשנות, מעונשים בסתר על יחידים") (7.39.4–5). [מסורת]
+
+### לאוטולאי
+
+202. "cohors una, cum haud procul Anxure esset, ad Lautulas saltu angusto inter mare ac montis consedit ad excipiendos, quos consul aliis atque aliis ... causis mittebat" ("גדוד אחד, כשהיה לא רחוק מאנקסור, חנה בלאוטולאי, במעבר צר בין הים להרים, כדי לקלוט את מי שהקונסול שלח בתואנה זו או אחרת") (7.39.7). [מסורת]
+203. דיוניסיוס: המשוחררים "περὶ Ταρρακίναν πόλιν ἐν ἐπιτηδείοις χωρίοις παρʼ αὐτὴν τὴν ὁδὸν στρατοπεδεύονται" ("חונים ליד העיר טאראקינה, במקומות נוחים, ליד הדרך עצמה") (ד"ה 15.3.14). כשתפסו "τὰς παρόδους" ("את המעברים"), הצטרפו אליהם רבים כל יום, והם שברו את בתי הכלא שבשדות (15.3.15). כאן הקטע של דיוניסיוס נקטע. [מסורת]
+204. אפיאנוס: "περὶ Ταρρακίνην ἀφίστανταί τε τοῦ χιλιάρχου, καὶ τοὺς ἐπὶ τῶν ἔργων ἐν τοῖς ἀγροῖς δεδεμένους ἐκλύσαντες" ("ליד טאראקינה עזבו את הטריבון, שחררו את מי שעבדו כבולים בשדות"), חימשו אותם, ו-"ἤλαυνον ἐς Ῥώμην ὁμοῦ δισμύριοι γεγονότες" ("צעדו לרומא, יחד כעשרים אלף") (אפיאנוס, "הסמניטית" 1.1). ליוויוס לא נותן מספר. [מסורת]
+205. אנקסור וטאראקינה הן אותה עיר (פליאדס 433143, "Tarracina(e)/Anxur"). שלושת המקורות ממקמים את ההתחלה שם. [ממצא; היסק]
+206. דיוניסיוס, על הדרך מרומא לקמפניה (בהקשר של 340, שנתיים אחר כך): "πολλαὶ δʼ εἰσὶ δυσχωρίαι κατὰ τὴν ἐκ Ῥώμης εἰς Καμπανίαν ἄγουσαν ὁδὸν ὄρεσί τε καὶ τέλμασι καὶ θαλάτταις καὶ ποταμοῖς ναυσιπόροις διακλειόμεναι" ("יש הרבה מקומות קשים לאורך הדרך שמובילה מרומא לקמפניה, סגורים בהרים, בביצות, בים ובנהרות שאפשר לשוט בהם") (ד"ה 15.4.1). כלומר היה מקום שבו גדוד קטן יכול לסגור את הדרך. [מקור; הקשר ל-342: היסק]
+
+### מאלבה עד אבן המיל השמינית
+
+207. "iam valida admodum numero manus erat, nec quicquam ad iusti exercitus formam praeter ducem deerat. inconpositi itaque praedantes in agrum Albanum perveniunt et sub iugo Albae Longae castra vallo cingunt." ("עכשיו זה כבר היה כוח גדול מאוד, ולא חסר לו דבר כדי להיות צבא של ממש, חוץ ממפקד. בלי סדר, ובוזזים, הגיעו לשטח האלבני, והקיפו מחנה בסוללה מתחת לרכס של אלבה לונגה.") (7.39.8). [מסורת]
+208. **קווינקטיוס:** הם שמעו ש-"T. Quinctium in Tusculano agrum colere, urbis honorumque inmemorem" ("טיטוס קווינקטיוס עובד את אדמתו בשטח טוסקולום, ושכח את העיר ואת המשרות"). הוא פטריקי, צולע מפצע, שבחר לחיות בכפר (7.39.11–12). בלילה גררו אותו מהחווה למחנה, "aut imperium atque honorem aut, ubi restitaret, mortem" ("או פיקוד וכבוד, או, אם יסרב, מוות") (7.39.14). [מסורת]
+209. **הצעידה:** "suo magis inde impetu quam consilio ducis convulsis signis infesto agmine ad lapidem octavum viae, quae nunc Appia est, perveniunt" ("יותר בדחף שלהם מאשר בעצת המפקד, עקרו את הדגלים, ובטור מאיים הגיעו לאבן המיל השמינית של הדרך שהיום היא דרך אפיה") (7.39.16). [מסורת]
+210. **"שהיום היא":** את הדרך הזו סלל אפיוס קלאודיוס כצנזור, "quod viam munivit" ("שסלל דרך") (9.29.5–6), כלומר שלושים שנה אחרי 342 (במניין המקובל 312). ליוויוס עצמו מסמן את האנכרוניזם. [מקור; השנה: היסק]
+211. **הדיקטטור:** הם היו ממשיכים לעיר, "ni venire contra exercitum dictatoremque adversus se M. Valerium Corvum dictum audissent et magistrum equitum L. Aemilium Mamercinum" ("אילולא שמעו שבא נגדם צבא, ושמרקוס ולריוס קורבוס מונה לדיקטטור נגדם, ולוקיוס אמיליוס ממרקינוס לראש הפרשים") (7.39.17). [מסורת]
+
+### הפגישה
+
+212. "ubi primum in conspectum ventum est et arma signaque agnovere, extemplo omnibus memoria patriae iras permulsit" ("כשבאו זה מול זה וזיהו את הנשק ואת הדגלים, מיד הזיכרון של המולדת ריכך אצל כולם את הכעס") (7.40.1). [מסורת]
+213. **דם אזרחים:** "nondum erant tam fortes ad sanguinem civilem nec praeter externa noverant bella, ultimaque rabies secessio ab suis habebatur" ("עוד לא היו אמיצים כל כך לדם אזרחים, ולא הכירו מלחמות חוץ מאלה שבחוץ. והטירוף הקיצוני ביותר נחשב פרישה מבני עמם") (7.40.2). זה המשפט שהכי קרוב, אצל ליוויוס, ל-"radissime sangue" של מקיאוולי (טענה 5). [מקור; ההקבלה: היסק]
+214. ולריוס, בנאום: "si meminisse vultis non vos in Samnio nec in Volscis, sed in Romano solo castra habere, si illos colles, quos cernitis, patriae vestrae esse" ("אם תרצו לזכור שאתם מחנים לא בארץ השמנים ולא אצל הוולסקים, אלא על אדמה רומית, ושהגבעות שאתם רואים הן של מולדתכם") (7.40.6). [מסורת]
+215. ולריוס: "ego sum M. Valerius Corvus, milites, cuius vos nobilitatem beneficiis erga vos, non iniuriis sensistis, nullius superbae in vos legis, nullius crudelis senatus consulti auctor" ("אני מרקוס ולריוס קורבוס, חיילים, שאת אצילותו הרגשתם בטובות שעשה לכם, ולא בעוולות. לא יזמתי שום חוק יהיר נגדכם ושום החלטת סנאט אכזרית") (7.40.7). כאן "uomo degno di fede" של מקיאוולי (טענה 12) מתאים לסיפור. [מקור; ההקבלה: היסק]
+216. קווינקטיוס, בדמעות, אמר לחייליו שקיבלו "meliorem pacis quam belli ... ducem" ("מפקד טוב יותר לשלום מאשר למלחמה") (7.40.15), והם מסרו את עצמם לדיקטטור (7.41.1). [מסורת]
+217. **אפיאנוס, מקום אחר:** "ἔτι δʼ αὐτῶν ὁδὸν ἡμέρας μιᾶς ἀπεχόντων ὑπήντα Κορουῖνος, καὶ παραστρατοπεδεύσας ἐν τοῖς ὄρεσι τοῖς Ἀλβανῶν ἠρεμεί" ("כשהיו עוד במרחק יום הליכה, בא לקראתם קורווינוס, הקים מחנה לידם בהרי אלבה, ושקט"). החיילים התערבבו בסתר ובכו, "τὴν δὲ αἰτίαν ἐς τὰ χρέα φερόντων τὰ ἐν Ῥώμῃ" ("והאשימו את החובות שברומא") (אפיאנוס, "הסמניטית" 1.1). אצל אפיאנוס הפגישה בהרי אלבה, ולא באבן השמינית. [מחלוקת]
+
+### מה יצא מזה
+
+218. **חנינה:** הדיקטטור חזר לעיר בדהרה, "auctoribus patribus tulit ad populum in luco Petelino, ne cui militum fraudi secessio esset" ("ובאישור האבות הציע לעם, בחורשה הפטלינית, שהפרישה לא תיחשב לפשע לאף חייל") (7.41.3). [מסורת]
+219. **החוק הצבאי המקודש:** "lex quoque sacrata militaris lata est, ne cuius militis scripti nomen nisi ipso volente deleretur" ("הועבר גם חוק צבאי מקודש: ששמו של חייל שנרשם לא יימחק בלי הסכמתו") (7.41.4). [מסורת]
+220. **התוספת, ובעיה בנוסח:** בנוסח של Perseus: "additumque legi, ne quis, ubi ordinum ductor fuisset, postea tribunus militum esset" ("ונוסף לחוק, שמי שהיה מפקד שורה [קנטוריון] לא יהיה אחר כך טריבון צבאי") (7.41.4). Foster מתרגם הפוך: "no one might later command a century in the legion where he had been a military tribune". ההקשר: פובליוס סלוניוס היה "alternis prope annis et tribunus militum et primus centurio" ("כמעט כל שנה לסירוגין טריבון צבאי וקנטוריון ראשון"), והחיילים שנאו אותו (7.41.5–6). [מקור; מחלוקת בנוסח]
+221. גם הדרישה להוריד את שכר הפרשים, כי התנגדו לקשר, נקראת אצל ליוויוס "aeque inpotens postulatum" ("דרישה פרועה באותה מידה") (7.41.7–8). [מסורת]
+222. **החוקים של גנוקיוס, "אצל כמה סופרים":** "praeter haec invenio apud quosdam L. Genucium tribunum plebis tulisse ad plebem, ne faenerare liceret; item aliis plebi scitis cautum, ne quis eundem magistratum intra decem annos caperet neu duos magistratus uno anno gereret utique liceret consules ambos plebeios creari" ("מלבד אלה אני מוצא אצל כמה, שהטריבון לוקיוס גנוקיוס הציע לפלבס שיהיה אסור להלוות בריבית; ובהחלטות פלבס אחרות נקבע שאיש לא יחזיק באותה משרה בתוך עשר שנים, ולא בשתי משרות בשנה אחת, ושמותר לבחור את שני הקונסולים מהפלבס") (7.42.1–2). [מסורת; מחלוקת]
+223. ליוויוס מסיק: "quae si omnia concessa sunt plebi, apparet haud parvas vires defectionem habuisse" ("אם כל אלה ניתנו לפלבס, ברור שלמרד היה כוח לא קטן") (7.42.2). [מקור]
+224. **אפיאנוס, תוצאה אחרת:** הסנאט "τὰς μὲν τῶν χρεῶν ἀποκοπὰς ἐψηφίσατο πᾶσι Ῥωμαίοις, τοῖς δὲ τότε ἐχθροῖς καὶ ἄδειαν" ("הצביע על מחיקת חובות לכל הרומאים, ועל חסינות למי שהיו אז אויבים") (אפיאנוס, "הסמניטית" 1.1). אצל ליוויוס אין מחיקת חובות. [מחלוקת]
+225. **טקיטוס, על הריבית:** "sane vetus urbi faenebre malum et seditionum discordiarumque creberrima causa ... dein rogatione tribunicia ad semuncias redactum, postremo vetita versura" ("אכן, הריבית היא רעה ישנה בעיר, והסיבה השכיחה ביותר להתקוממויות ולמחלוקות... אחר כך, בהצעת טריבון, הופחתה לחצי אונקיה, ולבסוף נאסרה ההלוואה") ("אנאלים" 6.16.1–2). טקיטוס לא נוקב בשם גנוקיוס ולא בשנה. [מקור; הקשר לגנוקיוס: היסק]
+
+### ליוויוס עצמו לא בטוח
+
+226. "aliis annalibus proditum est neque dictatorem Valerium dictum, sed per consules omnem rem actam, neque antequam Romam veniretur, sed Romae eam multitudinem coniuratorum ad arma consternatam esse; nec in T. Quincti villam, sed in aedis C. Manli nocte impetum factum eumque a coniuratis conprehensum, ut dux fieret; inde ad quartum lapidem profectos loco munito consedisse" ("בדברי ימים אחרים נמסר שוולריוס לא מונה לדיקטטור, אלא שהכול נעשה בידי הקונסולים; שההמון של הקושרים נבהל ולקח נשק לא לפני שהגיע לרומא, אלא ברומא; שלא פרצו לחווה של טיטוס קווינקטיוס, אלא לבית של גאיוס מנליוס בלילה, ותפסו אותו כדי שיהיה מפקד; ושמשם יצאו לאבן המיל הרביעית וחנו במקום מבוצר") (7.42.3–5). [מחלוקת]
+227. בגרסה הזו לא היו נאומים: החיילים, כשעמדו במערך, התחילו לברך, ללחוץ ידיים ולהתחבק בבכי, והקונסולים הביאו את הפיוס לסנאט (7.42.5–6). ליוויוס מסכם: "adeo nihil praeterquam seditionem fuisse eamque conpositam inter antiquos rerum auctores constat" ("עד כדי כך, בין הסופרים הקדומים מוסכם רק שהייתה התקוממות ושהיא יושבה") (7.42.7). [מקור]
+
+### המקומות של צעד 4
+
+228. **קפואה:** פליאדס 432754, 41.08609, 14.25021, precise. 0.57 ק"מ מסנטה מריה קפואה וטרה ב-GeoNames. 172.4 ק"מ מהקפיטול, בכיוון 121 (חישוב שלי). [ממצא]
+229. **סואסולה:** פליאדס 433133, 40.99008, 14.39862, precise: "an important ancient city of Campania". 16.4 ק"מ מקפואה, בכיוון 131 (חישוב שלי). [ממצא]
+230. **טאראקינה/אנקסור:** פליאדס 433143, 41.29117, 13.24885, precise. 0.44 ק"מ מטרצ'ינה ב-GeoNames (חישוב שלי). [ממצא]
+231. **לאוטולאי:** פליאדס 432903, 41.324, 13.264, precise: "a narrow pass (saltus) located above Terracina in Latium". 3.9 ק"מ מטאראקינה, בכיוון 19. גובה SRTM בנקודה: 333 מטר (חישוב שלי). ToposText נותן את אותן קואורדינטות, אבל עם "confidence: Low" ([ToposText, Lautulae](https://topostext.org/place/413133LLau)). [ממצא; משוער]
+232. **זיהוי אחר ללאוטולאי:** אתר התיירות הרשמי של איטליה קושר את מגדל פורטלה, ליד מונטה סן ביאג'ו, על דרך אפיה, ל-"Lautulae" ([italia.it, Torre di Portella](https://www.italia.it/en/lazio/monte-san-biagio/portella-tower)). מונטה סן ביאג'ו ב-GeoNames: 41.3536, 13.35184, כלומר 8.0 ק"מ מנקודת פליאדס, בכיוון 66 (חישוב שלי). זה לא מקור מחקרי. [מחלוקת; משוער]
+233. ב-SRTM, בין 41.30 ל-41.33 צפון ובין 13.29 ל-13.40 מזרח, הקרקע נמוכה (0–20 מטר), וצפונה ממנה עולים הרים (מעל 300 מטר). כלומר "inter mare ac montis" מתאים לכל הרצועה שבין טאראקינה לפונדי. איפה בדיוק, המקור לא אומר. [היסק; משוער]
+234. **השטח האלבני:** פליאדס 371030888, rough, בלי קואורדינטות: "This region lay between the lacus Albanus, Bovillae, and Aricia. The Roman Via Appia passed through it." [משוער]
+235. **אלבה לונגה:** פליאדס 422824, 41.74448, 12.64968, precise: "Conflict with Rome caused Alba's destruction in the seventh century B.C. ... The ancient city is probably to be located at and around the site of modern Castel Gandolfo". 0.47 ק"מ מקסטל גנדולפו ב-GeoNames. באטלס כבר הוכרע עיגול ברדיוס 2 ק"מ סביב הנקודה (ch00-livy-geo, טענה 15). כלומר ב-342 העיר לא קיימת, ו-"sub iugo Albae Longae" הוא תיאור של מקום. [ממצא; משוער]
+236. **הר אלבנוס:** פליאדס 422826, 41.75217, 12.71009, precise. רק לכרטיס של אפיאנוס ("ἐν τοῖς ὄρεσι τοῖς Ἀλβανῶν"). [ממצא]
+237. **טוסקולום:** טענה 102. בשטח שלה גר קווינקטיוס (7.39.11). [ממצא]
+238. **אבן המיל השמינית בדרך אפיה:** אין לה נקודה בפליאדס. חישבתי: פליאדס 422950, "A temple located at the fourth mile of the Via Appia" (41.83924, 12.53583). ממנה ארבעה מילין נוספים בכיוון בוביליי (פליאדס 422852, 41.76587, 12.61701; כיוון 140) נותנים 41.7982, 12.5813. ומשער אפיה (פליאדס 661181629, 41.87348, 12.50153) שבעה מילין באותו כיוון נותנים 41.8008, 12.5796. בין שתי ההערכות 0.32 ק"מ. אני מציע 41.7995, 12.5804: 11.96 ק"מ (8.1 מילין) משער קפנה (פליאדס 27164982, 41.884, 12.491), ו-13.2 ק"מ מהקפיטול, בכיוון 142. (חישוב שלי.) [היסק; משוער]
+239. בדיקה: לפי אותו חישוב, אבן המיל הרביעית יוצאת 0.35 ק"מ מהמקדש של פליאדס, ובוביליי 11.3 מילין משער קפנה. [היסק]
+240. מאבן המיל השמינית לאלבה לונגה 8.4 ק"מ, בכיוון 137 מהאבן (כלומר דרום-מזרח); לטוסקולום 10.5 ק"מ. מלאוטולאי לאבן 77.7 ק"מ. (חישוב שלי.) [היסק]
+241. **החורשה הפטלינית:** ליוויוס, על 384: "in Petelinum lucum extra portam Flumentanam, unde conspectus in Capitolium non esset" ("לחורשה הפטלינית, מחוץ לשער הפלומנטני, משם אי אפשר לראות את הקפיטול") (6.20.11). השער הפלומנטני: פליאדס 502889801, rough: "It is now unlocated". בפליאדס אין חורשה בשם הזה ליד רומא (Petelina 456113 הוא הרים אחרים, שקשורים לספרטקוס). [מיקום לא ידוע]
+242. **נורבה:** פליאדס 422987, 41.59161, 12.96029, precise: "became a Latin colony ca. 492 B.C.". **סטיה:** פליאדס 423068, 41.49841, 13.05922, precise: "became a Latin colony in 382 B.C.". **פריברנום:** פליאדס 433052, 41.49077, 13.18513, precise: "A Volscian center". סטיה 0.30 ק"מ מסצה ב-GeoNames; נורבה 1.04 ק"מ מנורמה; פריברנום 2.32 ק"מ מפריוורנו (חישוב שלי). [ממצא]
+243. **השמנים:** פליאדס 433078 ("Samnium (region)", 41.58341, 14.62040) ו-442765 ("Samnites", 41.14675, 15.08394). תווית בלבד. [ממצא; משוער]
+
+### הדרכים של צעד 4
+
+244. **מקמפניה ללאוטולאי:** המשוחררים נשלחו לכיוון רומא (7.39.2–3), והגדוד בלאוטולאי חיכה להם (7.39.7). המקור לא מתאר את הדרך. דיוניסיוס כותב שהמחנה היה "ליד הדרך עצמה" (15.3.14). [מקור; הדרך: משוער]
+245. **מלאוטולאי לשטח האלבני:** "praedantes in agrum Albanum perveniunt" (7.39.8). אין תיאור. דרך אפיה עוד לא הייתה (טענה 210). [מקור; הדרך: משוער]
+246. **מטוסקולום למחנה (קווינקטיוס):** "in castra pertraxerunt" (7.39.14). אין תיאור. קשת. [משוער]
+247. **מהמחנה לאבן השמינית:** המקור נוקב בדרך ובמיל ("ad lapidem octavum viae, quae nunc Appia est", 7.39.16), אבל לא בנקודת הירידה מהגבעות. [מקור; החלק העליון: משוער]
+248. **מרומא לאבן השמינית (הדיקטטור):** "venire contra exercitum" (7.39.17). המקור לא אומר באיזו דרך. כיוון שהפגישה הייתה ליד האבן, הדרך מרומא לשם היא היסק. [משוער]
+
+### השכנים בצעד 4
+
+249. **השמנים: אויב, בשקט.** "consul ... dum quietos Samnites habebat" ("כל עוד השמנים היו שקטים") (7.39.1). ב-342 אין קרב. [מסורת]
+250. **קפואה וסואסולה: בעלות ברית תחת חסות.** קפואה נכנעה ב-343 (7.31.4), ושתיהן ביקשו חיל מצב (7.38.4). [מסורת]
+251. **הלטינים: ברית רעועה.** "praeter Latinorum infidum iam diu foedus" ("מלבד החוזה עם הלטינים, שכבר מזמן לא היה נאמן") (7.42.8). ובתחילת השנה הלטינים "iam exercitibus conparatis ab Romano in Paelignum vertit bellum" ("כבר הכינו צבאות, והפנו את המלחמה מהרומאים אל הפליגנים") (7.38.1). [מסורת]
+252. **פריברנום: אויב.** "Privernates etiam Norbam atque Setiam, finitimas colonias Romanas, incursione subita depopulati sunt" ("אנשי פריברנום פשטו פתאום על נורבה ועל סטיה, המושבות הרומיות השכנות") (7.42.8). [מסורת]
+253. **עוד:** "huius fama seditionis et susceptum cum Samnitibus grave bellum aliquot populos ab Romana societate avertit" ("השמועה על ההתקוממות הזו, והמלחמה הקשה עם השמנים, הרחיקו כמה עמים מהברית עם רומא") (7.42.7–8). הפאליסקים ביקשו חוזה (7.38.1), וקרתגו שלחה כתר זהב של 25 ליטרות לקפיטול (7.38.2). [מסורת]
+254. **טאראקינה:** נכבשה ב-406 (4.59), אבדה ב-402 (5.8.2), חזרה ב-397 ("Anxur in Volscis brevi receptum est", 5.13.1), והייתה בה מושבה רק ב-329 (8.21.11). שב-342 היא הייתה בידי רומא זה היסק שלי. [מקור; היסק]
+
+## חלק ח: צעד 5. 287: הג'ניקולום
+
+### המקורות ששרדו
+
+255. **ליוויוס אבד:** לספרים 11–20 נשארו רק התקצירים. הפריוכה של ספר 11 (טענה 35): בגלל החובות, אחרי התקוממויות ארוכות, הפלבס פרש בפעם האחרונה לג'ניקולום, והדיקטטור קווינטוס הורטנסיוס הוריד אותו משם ומת במשרה. בתקציר אין חוק. [מקור]
+256. **פליניוס:** "Q. Hortensius dictator, cum plebes secessisset in Ianiculum, legem in aesculeto tulit, ut quod ea iussisset omnes Quirites teneret" ("הדיקטטור קווינטוס הורטנסיוס, כשהפלבס פרש לג'ניקולום, העביר חוק בחורשת האלונים, שמה שהוא [הפלבס] יחליט יחייב את כל הקוויריטים") ("תולדות הטבע" 16.37). [מקור]
+257. **גליוס,** מצטט את לאליוס פליקס: "Ita ne leges quidem proprie, sed plebisscita appellantur quae tribunis plebis ferentibus accepta sunt, quibus rogationibus ante patricii non tenebantur, donec Q. Hortensius dictator legem tulit, ut eo iure quod plebs statuisset omnes Quirites tenerentur." ("לכן מה שהתקבל בהצעת טריבונים של הפלבס נקרא לא חוקים, אלא החלטות פלבס. הפטריקים לא היו מחויבים להן, עד שהדיקטטור קווינטוס הורטנסיוס העביר חוק, שכל הקוויריטים יהיו מחויבים למה שהפלבס קבע.") ("לילות אטיים" 15.27.4). [מקור]
+258. **גאיוס:** "unde olim patricii dicebant plebiscitis se non teneri, quia sine auctoritate eorum facta essent; sed postea lex Hortensia lata est, qua cautum est, ut plebiscita universum populum tenerent: Itaque eo modo legibus exaequata sunt." ("לכן פעם הפטריקים אמרו שהחלטות הפלבס לא מחייבות אותם, כי נעשו בלי אישורם. אבל אחר כך הועבר חוק הורטנסיוס, שקבע שהחלטות הפלבס יחייבו את כל העם, וכך הושוו לחוקים.") ("מוסדות" 1.3). [מקור]
+259. **פומפוניוס:** "evenit, ut plebs in discordiam cum patribus perveniret et secederet sibique iura constitueret, quae iura plebi scita vocantur. mox cum revocata est plebs, quia multae discordiae nascebantur de his plebis scitis, pro legibus placuit et ea observari lege hortensia" ("קרה שהפלבס הגיע למחלוקת עם האבות, פרש, וקבע לעצמו דינים, שנקראים החלטות פלבס. אחר כך, כשהפלבס הוחזר, כי מהחלטות הפלבס האלה נולדו מחלוקות רבות, הוחלט בחוק הורטנסיוס לשמור גם עליהן כמו על חוקים") (הדיגסטה 1.2.2.8). פומפוניוס שם את זה מיד אחרי שנים עשר הלוחות, בלי שנה. [מקור]
+260. **אוגוסטינוס:** "dictator crearetur Hortensius, qui plebe reuocata in eodem magistratu exspirauit, quod nulli dictatori ante contigerat" ("מונה הורטנסיוס לדיקטטור, ואחרי שהחזיר את הפלבס מת באותה משרה, מה שלא קרה לשום דיקטטור לפניו") ("עיר האלוהים" 3.17). בקובץ של The Latin Library חלק מהמשפט מופיע פעמיים; ציטטתי אותו פעם אחת. [מקור]
+261. **אותו חוק שלוש פעמים:** ב-449, "ut, quod tributim plebes iussisset, populum teneret" (3.55.3; טענה 132); ב-339, פובליליוס פילו, "ut plebi scita omnes Quirites tenerent" (8.12.15); וב-287, הורטנסיוס (טענות 256–258). [מקור]
+262. ויקיפדיה (בשם Lintott ו-Develin) מסבירה את ההבדל: חוק ולריוס והורטיוס דרש אישור של הסנאט אחרי ההצבעה, חוק פובליליוס אישור לפני ההצבעה, וחוק הורטנסיוס ביטל את תפקיד הסנאט ([Lex Hortensia](https://en.wikipedia.org/wiki/Lex_Hortensia)). את Lintott ואת Develin לא קראתי. [מחקר; דרך ויקיפדיה]
+263. ויקיפדיה גם כותבת שהגורם המיידי היה קריאה למלחמה נגד הלוקנים, ושיש "considerable reason to doubt this story" (שם). את זה לא מצאתי באף מקור עתיק שקראתי. [לא נבדק]
+264. ויקיפדיה מייחסת להורטנסיוס עוד חוק, שעשה את ימי השוק (nundinae) לימי משפט, לפי מקרוביוס, "סטורנליה" 1.16 ([Quintus Hortensius (dictator)](https://en.wikipedia.org/wiki/Quintus_Hortensius_(dictator))). את מקרוביוס לא מצאתי במראות. [לא נבדק]
+
+### המקומות של צעד 5
+
+265. **הג'ניקולום:** פליאדס 430827518, 41.88333, 12.46667, precise (מעוגל): "located outside the ancient city of Rome, to the west of the Tiber River ... From an early stage, the Janiculum was connected to the city by fortifications and a bridge over the Tiber". 1.65 ק"מ מהקפיטול, בכיוון 231. (כמו ch03-tarquins, טענה 192.) [ממצא]
+266. **הנקודה של פליאדס נמצאת על המורד, לא על הרכס:** גובה SRTM בנקודה 46 מטר, ו-0.47 ק"מ מהטיבר של `latium-rivers.json`. הרכס (מעל 75 מטר) משתרע בערך בין 41.877 ל-41.892 צפון ובין 12.450 ל-12.4665 מזרח, והנקודה הגבוהה בתיבה היא 98 מטר ב-41.888, 12.4565. (חישוב שלי מ-SRTM, ברשת של 0.0025 מעלות.) [היסק]
+267. **חורשת האלונים (aesculetum):** אין בפליאדס, ופליניוס לא אומר איפה היא (טענה 256). [מיקום לא ידוע]
+268. **אין תיאור של הדרך:** אף מקור לא אומר איך הפלבס הגיע לג'ניקולום. [מקור]
+
+### השכנים בצעד 5 (מהפריוכות בלבד)
+
+269. הפריוכה של ספר 11, לפני הפרישה: השמנים ביקשו שלום, "foedus quarto renovatum est" ("החוזה חודש בפעם הרביעית"); קוריוס דנטטוס ניצח את השמנים ואת הסבינים, "qui rebellaverant" ("שמרדו"), וקיבל את כניעתם; נוסדו המושבות "Castrum Sena Hadria". ואחרי הפרישה: "Res praeterea contra Vulsinienses gestas continet, item adversus Lucanos, contra quos auxilium Thurinis ferre placuerat" ("הספר מכיל גם את המלחמות נגד וולסיניי, וגם נגד הלוקנים, שנגדם הוחלט לעזור לאנשי תורי"). [מקור]
+270. הפריוכה של ספר 12: הגאלים הסנונים הרגו שליחים רומאים; טרנטום תקפה צי רומי; השמנים מרדו; פירוס בא לאיטליה (Per. 12). [מקור]
+271. התקצירים לא נותנים סדר שנים מדויק. לכן בצעד 5 השכנים הם רק בטקסט, לא על המפה. [היסק]
+
+## חלק ט: "come dice Tullio"
+
+272. **הזיהוי:** האנציקלופדיה המקיאווליאנית של טרקאני (Fausto Pagnotta, 2014) מביאה את ד א 4 ("Li popoli, come dice Tullio, benché siano ignoranti, sono capaci della verità"), וכותבת שהמשפט מהדהד את "על הידידות" 95: "Contio, quae ex imperitissimis constat, tamen iudicare solet" ([Treccani, "Cicerone, Marco Tullio", Enciclopedia machiavelliana](https://www.treccani.it/enciclopedia/marco-tullio-cicerone_(Enciclopedia-machiavelliana)/)). את הדף קראתי דרך WebFetch, ולא את הספר המודפס. [מחקר]
+273. **הלטינית:** "secerni autem blandus amicus a vero et internosci tam potest adhibita diligentia, quam omnia fucata et simulata a sinceris atque veris. contio, quae ex imperitissimis constat, tamen iudicare solet, quid intersit inter popularem, id est assentatorem et levem civem, et inter constantem et verum et gravem." ("אפשר להבחין בין חבר מחניף לחבר אמיתי, בתשומת לב, כמו שמבחינים בין כל מה שצבוע ומזויף לבין מה שכן ואמיתי. אספת העם, אף שהיא מורכבת מהבורים ביותר, נוהגת בכל זאת לשפוט מה ההבדל בין אדם עממי, כלומר אזרח מחניף וקל דעת, לבין אזרח יציב, אמיתי ורציני.") (קיקרו, "על הידידות" 95, לפי Perseus). [מקור]
+274. במהדורות אחרות כתוב "constantem et severum et gravem" ("יציב, קפדן ורציני"). את זה לא בדקתי במהדורה מודפסת. [לא נבדק]
+275. **ההמשך אצל קיקרו (96) הוא בדיוק התרופה של מקיאוולי:** גאיוס פפיריוס הציע לאפשר בחירה חוזרת של טריבונים, בחנופה לאספה. סקיפיו דיבר נגד, "quanta illi, di immortales, fuit gravitas, quanta in oratione maiestas!" ("כמה, אלים בני אלמוות, הייתה בו רצינות, כמה הוד היה בנאומו!"), ו-"itaque lex popularis suffragiis populi repudiata est" ("וכך החוק העממי נדחה בהצבעת העם") ("על הידידות" 96). כלומר "uomo degno di fede" שאומר את האמת, והעם "facilmente cedano". [מקור; ההקבלה: היסק]
+276. מקיאוולי כותב "benché siano ignoranti" ("אף שהם בורים"), וקיקרו "ex imperitissimis" ("מהבורים ביותר", או "מחסרי הניסיון ביותר"). ההבדל במילה, לא במשמעות. [מקור; היסק]
+
+## חלק י: מחקר וארכאולוגיה
+
+277. **Koptev, על הפרישות בכלל:** לדבריו "the idea of secessio may have originated in the later republican historiography" (עמ' 823), ו-"only the first secession looks like the withdrawal of a large mass of plebeians from Rome" (עמ' 825) (Koptev 2018, [PDF](https://dspace.spbu.ru/bitstream/11701/14917/1/10-Koptev.pdf)). [מחקר; דעת מיעוט]
+278. **Koptev, על 287:** "Forsythe revived Meyer's view" שהפרישה של 287 "was the only authentic, historical secession" (עמ' 838). Koptev עצמו חושב ש-"It is more likely that (the name of) the dictator Q. Hortensius was an invention by an annalistic writer" (עמ' 840), ושמאחורי 287 עומד "an account of the foundation of new colonies or tribes" (עמ' 841). כלומר יש חוקרים שרואים ב-287 את הפרישה ההיסטורית היחידה, ויש שמפקפקים אפילו בשם הדיקטטור. [מחקר; מחלוקת]
+279. **Koptev, על 342:** הוא מתאר את הצעידה "from Campania to Rome", עם מחנה "at the foot of the Alban Mount" (עמ' 836), וחושב ש-"the original events of 342 concerned the admission of a large group of the plebeians" (עמ' 838), ושהחוק הצבאי המקודש של ליוויוס "has nothing to do with the real lex sacrata of 342" (עמ' 837). [מחקר]
+280. **Bradley:** הפרישה "is often regarded as little more than a military strike", אבל לדבריו "it was a genuine threat to abandon the community", ואפשר לראות את הפרישות כ-"paused migrations" (G. Bradley, "Mobility and Secession in the Early Roman Republic", Antichthon 51, 2017, עמ' 149–171; [תקציר](https://www.cambridge.org/core/journals/antichthon/article/abs/mobility-and-secession-in-the-early-roman-republic/F224515D6F8FA19C070029777DA528C5)). קראתי רק את התקציר. [מחקר]
+281. **ממצאים:** שרידי השער הקוליני זוהו ב-1872 (פליאדס 268637493, טענה 105), והיסוד של המקדש של קלואקינה קיים (פליאדס 674507252, טענה 151). אלה נקודות מזוהות, לא עדות לאירועים. [ממצא]
+282. **לא מצאתי** ממצא ארכאולוגי שקשור ישירות לפרישות של 449, 342 או 287, לא על האוונטינוס, לא על ההר הקדוש ולא על הג'ניקולום. הקבר "של מננוס אגריפה" ליד ההר הקדוש מאוחר. (כמו ch03-secession, טענה 269.) [ממצא; היסק]
+283. **ולאיוס, על הסוף של השיטה:** אחרי מות טיבריוס גרכוס, "Hoc initium in urbe Roma civilis sanguinis gladiorumque impunitatis fuit. Inde ... discordiaeque civium antea condicionibus sanari solitae ferro diiudicatae" ("זו הייתה ההתחלה ברומא של דם אזרחים ושל חרבות בלי עונש. מכאן... המחלוקות בין האזרחים, שקודם נהגו להירפא בתנאים, הוכרעו בברזל") (ולאיוס פטרקולוס 2.3.3; מהמראה של The Latin Library, `vell2.txt`, שבו כתוב "sanan" בטעות). כלומר גם ולאיוס רואה את הפרישות כמחלוקות שנגמרו בהסכם. [מקור]
+
+<!-- PART4 -->
